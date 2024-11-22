@@ -1,0 +1,1342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apna Policy</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Ribeye&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@100..900&display=swap" rel="stylesheet" />
+  
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./style.css" />
+  
+  
+  </head>
+  
+<body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-none d-lg-flex" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>General Insurance</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>Life Insurance</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>Knowledge Base</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><span>Become a Posp Partner</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><span>Contact us</span></a>
+                    </li>
+                </ul>
+                <button class="main-btn ms-4">Sign up</button>
+            </div>
+            <div class="offcanvas offcanvas-end offcanvas-glass d-lg-none" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <a href="#" class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./images/logo.png"
+                            alt="" /></a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                General Insurance
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Life Insurance
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Knowledge Base
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Become a Posp Partner</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- end navabr -->
+
+    <!-- head -->
+
+    <div class="container-fluid general px-5 ">
+       <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6 col-md-6">
+                <div class="section-title text-left mb-5">
+                    <h1 class="renew-title">
+                        Buy or Renew <br> <span>Group
+                            Term Insurance</span> Online
+                    </h1>
+                    <p class="">
+                        Group term insurance provides coverage for a defined group of people, typically
+                        offered through employers. It offers financial protection to employees and their
+                        families in the event of death, providing a lump-sum benefit to beneficiaries.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="health-img">
+                    <img src="./images/group-term.svg" class="img-fluid w-100 py-4" alt="Image" />
+                </div>
+            </div>
+        </div>
+       </div>
+    </div>
+    <!-- end -->
+
+
+
+    <!--    What is group term-->
+    <div class="container  mt-3">
+        <div class="row  align-items-center">
+            <div class="section-title text-center ">
+                <h2 class=" text-center">
+                    What is <span> Group Term Insurance?</span>
+                </h2>
+            </div>
+ 
+            <p class="posp-para text-center">
+                Group Term Insurance is a specialized form of life insurance that extends coverage to a defined group of
+                individuals under a single master contract. This type
+                of insurance is commonly provided by employers or workers as a valuable employee benefit, offering life
+                insurance protection to members of the group.
+                Unlike individual life insurance policies, Group Term Insurance streamlines the process by eliminating
+                the need for individual underwriting or medical
+                examinations for each member. Coverage is extended to all eligible members of the group without the
+                hassle of separate application processes, making it a
+                convenient and accessible option for employees..
+            </p>
+        </div>
+    </div>
+
+    <!-- end -->
+
+
+
+
+
+    <!-- What is the Process of a Group Insurance Plan? -->
+
+    <div class="container py-3">
+        <div class="row g-3 align-items-center">
+            <div class="section-title ">
+                <h2 class="text-center">
+                    What is <span>the Process</span> of a Group Insurance Plan?
+                </h2>
+
+            </div>
+            <p class="posp-para text-center ">A Group Insurance Plan operates by extending insurance coverage under a
+                single master policy. Typically sponsored by employers or organizations, these
+                plans are designed to provide insurance benefits to their employees or workers. Here’s a detailed
+                breakdown of how a group insurance plan works:</p>
+
+            <div class="container">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-interval="2000">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Formation of Group</h2>
+                                        <p class="posp-para"> The group is established based on
+                                            pecific eligibility criteria set by the
+                                            insurance provider and the sponsoring
+                                            entity. This could include employees of
+                                            a company, members of an association,
+                                            or participants in a specific program. </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Policy Issuance</h2>
+                                        <p class="posp-para">The sponsoring entity, such as an
+                                            employer, initiates contact with the
+                                            insurance provider to purchase the
+                                            group insurance policy. Upon approval,
+                                            the insurance company issues a
+                                            master policy that extends coverage to
+                                            all eligible members of the group.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Coverage Offereds</h2>
+                                        <p class="posp-para">The master policy outlines the terms
+                                            and conditions of coverage provided to
+                                            the group members. It includes details
+                                            about the types of insurance coverage
+                                            offered, such as life insurance, health
+                                            insurance, disability insurance, and
+                                            more.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Formation of Group</h2>
+                                        <p class="posp-para"> The group is established based on
+                                            pecific eligibility criteria set by the
+                                            insurance provider and the sponsoring
+                                            entity. This could include employees of
+                                            a company, members of an association,
+                                            or participants in a specific program. </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Policy Issuance</h2>
+                                        <p class="posp-para">The sponsoring entity, such as an
+                                            employer, initiates contact with the
+                                            insurance provider to purchase the
+                                            group insurance policy. Upon approval,
+                                            the insurance company issues a
+                                            master policy that extends coverage to
+                                            all eligible members of the group.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Coverage Offereds</h2>
+                                        <p class="posp-para">The master policy outlines the terms
+                                            and conditions of coverage provided to
+                                            the group members. It includes details
+                                            about the types of insurance coverage
+                                            offered, such as life insurance, health
+                                            insurance, disability insurance, and
+                                            more.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Formation of Group</h2>
+                                        <p class="posp-para"> The group is established based on
+                                            pecific eligibility criteria set by the
+                                            insurance provider and the sponsoring
+                                            entity. This could include employees of
+                                            a company, members of an association,
+                                            or participants in a specific program. </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Policy Issuance</h2>
+                                        <p class="posp-para">The sponsoring entity, such as an
+                                            employer, initiates contact with the
+                                            insurance provider to purchase the
+                                            group insurance policy. Upon approval,
+                                            the insurance company issues a
+                                            master policy that extends coverage to
+                                            all eligible members of the group.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Coverage Offereds</h2>
+                                        <p class="posp-para">The master policy outlines the terms
+                                            and conditions of coverage provided to
+                                            the group members. It includes details
+                                            about the types of insurance coverage
+                                            offered, such as life insurance, health
+                                            insurance, disability insurance, and
+                                            more.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+
+
+
+
+
+
+    <!-- How to Choose Individual Health Insurance Plans in India? -->
+
+   
+        <div class="container py-3">
+            <div class="row  align-items-center">
+                <div class="section-title">
+                    <h2 class=" text-center">
+                       For Whom is   <span>Group Insurance </span>  Available?
+                    </h2>
+                </div>
+                <p class="posp-para text-center">Eligibility for Group Term Insurance is determined by specific criteria established
+                    by the insurance provider and the sponsoring
+                    entity, typically an employer or organization offering the group insurance plan. The following main
+                    groups are typically eligible for
+                    group term insurance:</p>
+            </div>
+
+            <div class="container ">
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered custom-table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Features</th>
+                                <th scope="col">Benefits</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><b>Employees of a Company</b></td>
+                                <td>
+                                    Group term insurance is commonly provided as an employee benefit, extending coverage
+                                    to all
+                                    regular full-time employees. Part time employees may also qualify for coverage based
+                                    on the
+                                    policy terms.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Members of Associations or Organizations</b></td>
+                                <td>
+                                    Professional associations, trade unions, alumni groups, and other organizations may
+                                    offer group
+                                    insurance plans to their members, making them eligible for coverage.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Participants in Affinity Groups</b></td>
+                                <td>
+                                    Certain affinity groups or affinity marketing programs may provide group insurance
+                                    benefits to
+                                    members who share a common interest or affiliation, such as hobbies or interests.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Dependents</b></td>
+                                <td>
+                                    Some group insurance plans extend coverage to the employees’ dependents, including
+                                    their
+                                    spouse and children, offering additional protection for the family unit.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Voluntary Coverage</b></td>
+                                <td>
+                                    In addition to employer-sponsored insurance plans, some insurance providers offer
+                                    voluntary
+                                    group term insurance plans where individuals can opt to join the group and obtain
+                                    coverage
+                                    independently.
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><b>Membership Tenure</b></td>
+                                <td>
+                                    Some group insurance plans may have minimum membership tenure requirements. For
+                                    example, employees may need to complete a probationary period before becoming
+                                    eligible for
+                                    coverage.
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><b>Age Limits</b></td>
+                                <td>
+                                    Age eligibility criteria may vary depending on the policy and the sponsoring entity.
+                                    Some group
+                                    term insurance plans may have specific age limits for eligibility.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Participation Requirements</b></td>
+                                <td>
+                                    Insurance companies may set a minimum number of members required for a group to be
+                                    eligible for coverage. This is to ensure that the group size is large enough to
+                                    spread the risk
+                                    adequately.
+                                </td>
+                            </tr>
+
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+  
+
+    <!-- end -->
+
+
+
+
+
+    <!-- What are a Group Terms Insurance’s Basic Features?-->
+    
+        
+            <div class="container ">
+                <div class="row  align-items-center">
+                    <div class="section-title text-center ">
+                        <h2 class="text-center">
+                            What are a Group Terms Insurance’s <span> Basic Features?</span>
+                        </h2>
+                    </div>
+                    <p class="posp-para">Group Term Insurance is a comprehensive insurance solution tailored for
+                        organizations and their members, offering several key features to employees or
+                        workers ensuring financial security and peace of mind. Here are the essential features that make
+                        Group Term Insurance a valuable choice, whether bought
+                        online or offline:</p>
+                        
+                            <div class="row justify-content-center">
+                                <div class="col-md-4 mb-4">
+                                    <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                                        <div class="inner-text text-center">
+                                            <p class="head mb-4 text-center">Contribution Options</p>
+                                            <p class="para">
+                                                Group term insurance offers two plan options: Contributory Plan and Non-Contributory Plan. In the contributory plan, members contribute a nominal amount towards the premium, easing the financial burden on employees. Alternatively, in the non-contributory plan, the entire premium is covered by the master policyholder.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                                        <div class="inner-text text-center">
+                                            <p class="head mb-4 text-center">Comprehensive Coverage</p>
+                                            <p class="para">
+                                                Under a master contract purchased by the employer or group head, group term insurance automatically covers all members under a single policy. The premium is calculated based on the number of members and coverage amount, adapting to the group size.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                                        <div class="inner-text text-center">
+                                            <p class="head mb-4 text-center">Minimum Membership Requirement</p>
+                                            <p class="para">
+                                                To initiate a group term insurance plan, a minimum number of members are typically required, often around 50 or 75% of the total members, though this may vary among insurance providers.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                                        <div class="inner-text text-center">
+                                            <p class="head mb-4 text-center">Flexible Policy Management</p>
+                                            <p class="para">
+                                                Group term insurance allows for easy addition or removal of insured members without stringent formalities or limitations, providing flexibility in managing the policy as the group’s composition changes.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                                        <div class="inner-text text-center">
+                                            <p class="head mb-4 text-center">Death Benefit Assurance</p>
+                                            <p class="para">
+                                                The sum assured, calculated based on members’ annual incomes and ages, serves as a predetermined benefit. In the event of a member’s death, the nominee receives the sum assured as a death benefit, providing financial security to the insured member’s family.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                                        <div class="inner-text text-center">
+                                            <p class="head mb-4 text-center">Additional Riders</p>
+                                            <p class="para">
+                                                Group term insurance offers riders such as Critical Illness Rider and Accidental Death & Disablement Rider, providing supplementary coverage for specific situations and enhancing the overall protection offered by the policy.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                                        <div class="inner-text text-center">
+                                            <p class="head mb-4 text-center">No Medical Tests Required</p>
+                                            <p class="para">
+                                                As all members are covered under a collective scheme, individual medical tests or underwriting are not necessary, streamlining the enrollment process and ensuring accessibility to coverage for all eligible members.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                                        <div class="inner-text text-center">
+                                            <p class="head mb-4 text-center">Coverage Options</p>
+                                            <p class="para">
+                                                Group term insurance presents two main insurance options: Group Term Life Coverage, renewable annually without additional evidence to the insurer, and Group Permanent Life Coverage, providing lifetime coverage with customizable divisions and clauses to suit the insured individual’s needs.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                                        <div class="inner-text text-center">
+                                            <p class="head mb-4 text-center">Riders and Add-Ons</p>
+                                            <p class="para">
+                                                Policyholders can enhance their life insurance coverage with riders or add-ons. Riders provide additional benefits, such as critical illness coverage, accidental death benefit, or disability coverage.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                                        <div class="inner-text text-center">
+                                            <p class="head mb-4 text-center">Wealth Accumulation (for Permanent Life Insurance)</p>
+                                            <p class="para">
+                                                Permanent life insurance policies, such as whole life or universal life, accumulate cash value over time. Policyholders can access the cash value through loans or withdrawals for financial needs.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                                        <div class="inner-text text-center">
+                                            <p class="head mb-4 text-center">Peace of Mind</p>
+                                            <p class="para">
+                                                Knowing that their loved ones will be financially protected and taken care of in case of an unfortunate event brings peace of mind to the policyholder.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        
+                </div>
+            </div>
+      
+   
+
+    <!-- end -->
+
+
+
+
+
+
+
+
+    <!-- Why Aapka Policywala for Your Group Term Insurance? -->
+    <div class="container-fluid group  my-5">
+      <div class="container py-4">
+        <div class="row  align-items-center">
+            <div class="section-title text-center ">
+                <h2 class=" text-center">
+                    Why Aapka Policywala for Your <span>Group Term Insurance?</span>
+                </h2>
+                <p class="posp-para">At Aapka Policywala, we guarantee a seamless and hassle-free online corporate
+                    health insurance purchase experience. We offer unparalleled service and benefits that make us the
+                    top choice for your group term insurance buying and renewal requirements, including:</p>
+            </div>
+
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="content-card card-custom-3" data-wow-delay="0.3s">
+                            <div class="inner-text text-center">
+                                <img src="./images/Streamlined Online Process.svg" class="py-3" alt="">
+                                <p class="head  text-center">Contribution Options</p>
+                                <p class="para">
+                                    Group term insurance offers two plan
+                                    options: Contributory Plan and Non-
+                                    Contributory Plan. In the contributory plan,
+                                    members contribute a nominal amount
+                                    towards the premium, easing the financial
+                                    burden on employees. Alternatively, in the
+                                    non-contributory plan, the entire premium
+                                    is covered by the master policyholder.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="content-card card-custom-3" data-wow-delay="0.3s">
+                            <div class="inner-text text-center">
+                                <img src="./images/Competitive Prices.svg" class="py-3" alt="">
+                                <p class="head  text-center">Comprehensive Coverage</p>
+                                <p class="para">
+                                    Under a master contract purchased by
+                                    the employer or group head, group term
+                                    insurance automatically covers all
+                                    members under a single policy. The
+                                    premium is calculated based on the
+                                    number of members and coverage
+                                    amount, adapting to the group size.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="content-card card-custom-3" data-wow-delay="0.3s">
+                            <div class="inner-text text-center">
+                                <img src="./images/Understand Coverage Types.svg" class="py-3" alt="">
+                                <p class="head text-center">Minimum Membership Requirement</p>
+                                <p class="para">
+                                    To initiate a group term insurance plan, a
+                                    minimum number of members are
+                                    typically required, often around 50 or 75%
+                                    of the total members, though this may
+                                    vary among insurance providers.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="content-card card-custom-3" data-wow-delay="0.3s">
+                            <div class="inner-text text-center">
+                                <img src="./images/Customer Support.svg" class="py-3" alt="">
+                                <p class="head mb-4 text-center">Flexible Policy Management</p>
+                                <p class="para">
+                                    Group term insurance allows for easy
+                                    addition or removal of insured members
+                                    without stringent formalities or
+                                    limitations, providing flexibility in
+                                    managing the policy as the group’s
+                                    composition changes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- Why is a Group Term Insurance Plan Necessary?-->
+    <div class="container p-5 ">
+        <div class="row  align-items-center">
+            <div class="section-title text-center ">
+                <h2 class="mb-3 text-center">
+                    Why is a Group <span>Term Insurance</span> Plan Necessary?
+                </h2>
+                <p class="posp-para">A Group Term Insurance plan is indispensable for several reasons, delivering significant benefits to both employers and employees alike. Let’s delve into the
+                    key reasons why a Group Term Insurance Plan is crucial:</p>
+            </div>
+
+            <p class="posp-para">
+               <b> Financial Security for Employees:</b> Group Term Insurance offers invaluable financial protection to employees and their families in the unfortunate event of 
+                the employee’s demise. By ensuring that the family members are not left financially vulnerable, this insurance plan helps them maintain their standard of
+                living and meet essential expenses such as education, loans, and daily living costs.
+            </p>
+            <p class="posp-para">
+              <b>  Employee Retention and Motivation:</b> Providing Group Term Insurance as an employee benefit fosters a sense of security and well-being among employees,
+                ultimately enhancing job satisfaction and increasing their loyalty towards the organization. It demonstrates the employer’s commitment to the welfare of 
+                their workforce, thereby boosting motivation levels and improving employee retention rates.
+            </p>
+            <p class="posp-para">
+               <b> Cost-Effective: </b>Group Term Insurance emerges as a cost-effective solution for employers to extend life coverage to a large number of employees. The 
+                premium is distributed across all members, making it considerably more affordable compared to individual life insurance policies, thus optimizing the 
+                organization’s budget allocation for employee benefits.
+            </p>
+            <p class="posp-para">
+             <b>   Simplified Enrollment Process:</b> Group Term Insurance plan, employees typically bypass the rigorous individual medical underwriting process, eliminating
+                the need for medical tests. This streamlined enrollment process ensures ease and expediency in obtaining coverage, contributing to a hassle-free experience 
+                for employees.
+            </p>
+            <p class="posp-para">
+               <b> Flexible Coverage Options:</b>Group Term Insurance offers employers the flexibility to tailor the plan according to the specific needs of their employees. 
+                Additional benefits such as critical illness riders or accidental death coverage can be seamlessly incorporated based on the organization’s requirements, 
+                thus providing comprehensive coverage tailored to individual preferences.
+            </p>
+            <p class="posp-para">
+              <b>  Tax Benefits:</b> Employers stand to benefit from tax advantages on the premiums paid towards the Group Term Insurance plan, as these contributions are
+                considered business expenses. This translates into reduced tax liabilities for the organization, optimizing financial resources while simultaneously 
+                safeguarding employee interests.
+            </p>
+            <p class="posp-para">
+             <b>   Continuous Financial Protection During Employment: </b>Group Term Insurance ensures continuous financial protection for employees throughout their tenure
+with the organization. By providing a safety net for employees’ families during their employment, this insurance plan instills a sense of security and stability,
+further enhancing employee satisfaction and organizational loyalty.
+            </p>
+        </div>
+    </div>
+
+    <!-- end -->
+
+
+
+
+
+
+
+
+ <!-- Documents Needed For Group Term Insurance -->
+
+
+    <div class="container py-3">
+        <div class="row g-3 align-items-center">
+            <div class="section-title mb-">
+                <h2 class=" text-left">
+                    <span>Documents Needed</span> For Group Term Insurance
+                </h2>
+               
+            </div>
+            <p class="posp-para text-left">The specific documents required for Group Term Insurance claims may vary slig    htly based on the insurance company’s policies and the nature of the claim.
+                However, here are the commonly required documents for processing a group term insurance claim:</p>
+        </div>
+
+
+        <div class="container ">
+            <div class="table-responsive">
+                <table class="custom-table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Documents</th>
+                            <th>Requirement</th>
+                            
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td><b>Death Certificate</b></td>
+                            <td>The original death certificate of the insured member issued by the appropriate government 
+                                authorityis essential to establish the cause and date of deathaccurately.</td>
+                            
+                        </tr>
+                        <tr>
+                            <td><b>Policy Document (Master Policy)</b></td>
+                            <td>The master policy serves as the primary document outlining the terms and conditions of the 
+                                group term insurance coverage. It acts as conclusive proof that the deceased member was 
+                                covered under the policy.</td>
+                            
+                        </tr>
+
+
+                        <tr>
+                            <td><b>Beneficiary’s Identification and Address Proof</b></td>
+
+                            <td> The beneficiary’s valid identification and address proof are necessary to verify their 
+                                relationship with the insured member and ensure proper disbursement of the claim amount.</td>
+                           
+                        </tr>
+                        <tr>
+                            <td><b>Employer’s Certification</b></td>
+                            <td>In the case of employer-sponsored group term insurance, an employer’s certificate verifying 
+                                the deceased member’s employment status and coverage details may be required to validate 
+                                the claim.</td>
+                            
+
+                        </tr>
+                        <tr>
+                            <td><b>Medical Records (if applicable)</b> </td>
+                            <td>Medical records or hospitalization documents may be necessary if the claim is related to 
+                                accidental death or critical illness, providing additional context and verification..</td>
+                            
+                        </tr>
+                        <tr>
+                            <td><b>Post-Mortem Report (if applicable)</b></td>
+                            <td>In cases of unnatural or accidental death, a post-mortem report may be required to ascertain 
+                                the cause of death accurately, supporting the validity of the claim.</td>
+                           
+                        </tr>
+
+                        <tr>
+                            <td><b>Police FIR and Investigation Report (if applicable)</b></td>
+                            <td>For accidental or suspicious deaths, the police First Information Report (FIR) and investigation 
+                                report may be necessary to provide essential details and validate the circumstances 
+                                surrounding the claim.</td>
+                           
+                        </tr>
+                        <tr>
+                            <td><b>Bank Details of the Beneficiary</b></td>
+                            <td>The beneficiary’s bank account details are crucial for facilitating the direct transfer of the 
+                                claim amount, ensuring timely and secure disbursement to the rightful recipient.</td>
+                           
+
+                        </tr>
+                       
+
+
+                    </tbody>
+
+
+
+                </table>
+
+            </div>
+            
+        </div>
+        <p class="posp-para">Want to look at some personal insurance plans as well? Check out 1 crore term insurance, guaranteed return plans, and pension plans that are helping millions
+            of Indians live stress-free lives and make provisions for their loved ones.</p>
+    </div>
+
+
+
+<!-- end -->
+
+
+
+
+
+
+
+
+
+
+
+
+ <!--Steps To Buy Car Insurance Online -->
+
+ <div class="container ">
+    <div class="section-title">
+        <h2 class="mb-4 text-left">
+            What is the Group Term Insurance <span>Claim Process?</span>
+        </h2>
+    </div>
+    <p class="posp-para text-left">Aapka Policywala understands that filing a claim can be a daunting task. That’s why we’ve streamlined the process to ensure a seamless and efficient 
+        settlement. Here’s a step-by-step guide tailored for our valued customers:</p>
+
+
+    <div class="row number-cards py-3 py-5">
+
+        <!-- Repeat this block for each card -->
+        <div class="col-lg-4 col-md-6 custom-card-wrapper ">
+            <div class="number">1</div>
+            <div class="custom-card-v13 ">
+             
+                <h2 class="pt-5">Intimation of Claim</h2>
+                <p>The initial step in the claims process 
+                    involves promptly informing the insurance 
+                    company of the unfortunate event leading 
+                    to a claim. Whether initiated by the 
+                    employer or the policyholder (master 
+                    policyholder), immediate notification 
+                    upon the insured member’s death is 
+                    crucial. This intimation should 
+                    comprehensively detail all relevant 
+                    information, including the policy number, 
+                    date, and cause of death, along with the 
+                    beneficiary’s pertinent details.</p>
+            </div>
+        </div>
+        <!-- Repeat the above block and increment the number for each card (2, 3, 4, etc.) -->
+        <div class="col-lg-4 col-md-6 custom-card-wrapper">
+            <div class="number">2</div>
+            <div class="custom-card-v13">
+               
+                <h2 class="pt-5">Claim Documentation</h2>
+                <p>Upon notification, the insurance company 
+                    furnishes a list of documents essential for 
+                    claim processing. The beneficiary or the 
+                    employer, acting on behalf of the insured 
+                    member, is responsible for furnishing the 
+                    necessary paperwork. Typically, these 
+                    documents include the original death 
+                    certificate of the insured member, a duly 
+                    filled claim form, the master policy 
+                    document, the beneficiary’s photo 
+                    identification and address proof.</p>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 custom-card-wrapper">
+            <div class="number">3</div>
+
+            <div class="custom-card-v13">
+                <h2 class="pt-5">Verification and Investigation</h2>
+                <p>Upon receipt of the claim documents, the 
+                    insurance company undertakes a thorough 
+                    verification process to ascertain the 
+                    claim’s authenticity. In cases where the 
+                    cause of death is unclear or the claim 
+                    amount is substantial, an investigation 
+                    may be conducted to validate the claim’s 
+                    legitimacy.</p>
+            </div>
+        </div>
+        <!-- Continue this pattern to create up to 12 cards -->
+        <!-- Example for the 4th card -->
+        <div class="col-lg-4 col-md-6 custom-card-wrapper">
+            <div class="number">4</div>
+
+            <div class="custom-card-v13">
+                <h2 class="pt-5">Claim Settlement</h2>
+                <p>Upon completion of the verification 
+                    process and validation of all requisite 
+                    documentation, the insurance company 
+                    proceeds with the claim settlement. If 
+                    the claim meets all policy terms and 
+                    conditions and is deemed valid, the 
+                    claim amount is disbursed to the 
+                    beneficiary in a timely manner.
+                    </p>
+            </div>
+        </div>
+        <!-- Add more cards as needed -->
+        <!-- Example for the 5th card -->
+        <div class="col-lg-4 col-md-6 custom-card-wrapper">
+            <div class="number">5</div>
+
+            <div class="custom-card-v13">
+                <h2 class="pt-5">Payment to Beneficiary</h2>
+                <p>The claim proceeds are typically 
+                    disbursed to the designated beneficiary 
+                    as outlined in the policy. Depending on 
+                    the insurer’s practices, beneficiaries may 
+                    receive the claim amount through various 
+                    modes such as direct bank transfer or 
+                    issuance of a demand draft.</p>
+            </div>
+        </div>
+        <!-- Example for the 6th card -->
+        <div class="col-lg-4 col-md-6 custom-card-wrapper">
+            <div class="number">6</div>
+
+            <div class="custom-card-v13">
+                <h2 class="pt-5">Dispute Resolution</h2>
+                <p>In case of any dispute or disagreement 
+                    regarding the claim settlement, the 
+                    beneficiary or the policyholder can raise 
+                    the concern with the insurance company’s 
+                    grievance redressal department. Most 
+                    insurers have dedicated customer service 
+                    teams to address policyholders’ concerns 
+                    promptly.</p>
+            </div>
+        </div>
+       
+    </div>
+    
+</div>
+
+<!-- end -->
+
+
+
+
+
+
+
+
+
+
+
+  <!--=============================== testimonials ====================================-->
+
+  <div class="container align-items-center mt-3 px-5">
+    <div class="row">
+      <div class="section-title text-center ">
+        <img src="./main-page-img/slider-top.svg" class="testimonial-top-img pb-2" alt="" />
+        <h1 class="mb-1">Client love us & we love them</h1>
+        <p>Trusted by over 4,000 clients worldwide</p>
+      </div>
+    </div>
+  </div>
+  <div class="testimonial-container mb-5 overflow-hidden">
+    <div class="swiper-box"></div>
+    <div class="swiper-container mySwiper2 pb-5">
+      <div class="swiper-wrapper my-2 my-md-0">
+        <div class="swiper-slide">
+          <div class="d-flex align-items-center text-start swiper-slide-content ">
+            <img class="quote-image me-3" src="./main-page-img/slider-image.png" alt="Nathalie Grossman" />
+            <div class="content-div">
+              <img class="slider-mark" src="./main-page-img/slider-mark.png" alt="" />
+              <p class="mt-3">
+                We help our clients succeed by creating brand identities,
+                digital experiences, material that communicate clearly,
+                achieve marketing goals!
+              </p>
+              <div class="testimonial-author">Nathalie Grossman</div>
+              <div class="testimonial-role">CEO of Advisor Fue</div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="d-flex align-items-center text-start swiper-slide-content ">
+            <img class="quote-image me-3" src="./main-page-img/slider-image-1.png" alt="Nathalie Grossman" />
+            <div class="content-div">
+              <img class="slider-mark" src="./main-page-img/slider-mark.png" alt="" />
+              <p class="mt-3">
+                We help our clients succeed by creating brand identities,
+                digital experiences, material that communicate clearly,
+                achieve marketing goals!
+              </p>
+              <div class="testimonial-author">Nathalie Grossman</div>
+              <div class="testimonial-role">CEO of Advisor Fue</div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="d-flex align-items-center text-start swiper-slide-content ">
+            <img class="quote-image me-3" src="./main-page-img/slider-image.png" alt="Nathalie Grossman" />
+            <div class="content-div">
+              <img class="slider-mark" src="./main-page-img/slider-mark.png" alt="" />
+              <p class="mt-3">
+                We help our clients succeed by creating brand identities,
+                digital experiences, material that communicate clearly,
+                achieve marketing goals!
+              </p>
+              <div class="testimonial-author">Nathalie Grossman</div>
+              <div class="testimonial-role">CEO of Advisor Fue</div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="d-flex align-items-center text-start swiper-slide-content ">
+            <img class="quote-image me-3" src="./main-page-img/slider-image-1.png" alt="Nathalie Grossman" />
+            <div class="content-div">
+              <img class="slider-mark" src="./main-page-img/slider-mark.png" alt="" />
+              <p class="mt-3">
+                We help our clients succeed by creating brand identities,
+                digital experiences, material that communicate clearly,
+                achieve marketing goals!
+              </p>
+              <div class="testimonial-author">Nathalie Grossman</div>
+              <div class="testimonial-role">CEO of Advisor Fue</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Repeat similar blocks for other slides -->
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+      <!-- Add Navigation -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </div>
+
+  <!-- end -->
+
+      <!-- get or renew -->
+ <!-- contact us section -->
+
+ <div class="container-fluid contact-us px-2 mt-2 mb-0">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="bg-contact ">
+            <div class="d-flex">
+              <div class="help-heading">
+                <p class="head text-left">Got questions? We'd love to Answer</p>
+                <p class="para text-left">
+                  With access to offerings from over 25 insurance providers in
+                  India, finding the most cost-effective insurance plans has
+                  With access to ........
+                </p>
+  
+                <div class="pt-2">
+                  <a href="tel:+91123456789" class="d-flex call-bg  ">
+                    <img src="./main-page-img/call.png" alt="" />
+                    <p>+91 123456789</p>
+                  </a>
+                  <a href="mailto:Mail@aapkapolicywala.com" class="d-flex call-bg ">
+                    <img src="./main-page-img/mail.png" alt="" />
+                    <p>Mail@aapkapolicywala.com</p>
+                  </a>
+                </div>
+              </div>
+              <div class="d-none d-lg-block help-pc">
+                <img src="./main-page-img/help-pic.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- end -->
+  
+  <!-- end -->
+  
+  <!-- =====================information Strip======================== -->
+  
+  <div class="container-fluid information-strip">
+    <div class="container">
+      <div class="row justify-content-center my-auto sm-g-0 information-strip-inner text-center">
+        <div class="col-lg col-6 col-md-4 text-center mb-3 mb-md-0"> <!-- Added margin bottom for spacing -->
+          <p class="strip-head">24</p>
+          <p class="strip-para">YEARS</p>
+        </div>
+        <div class="col-lg col-6 col-md-4 text-center mb-3 mb-md-0">
+          <p class="strip-head">30Lakh+</p>
+          <p class="strip-para">CUSTOMERS</p>
+        </div>
+        <div class="col-lg col-6 col-md-4 text-center mb-3 mb-md-0">
+          <p class="strip-head">1100+</p>
+          <p class="strip-para">Cities</p>
+        </div>
+        <div class="col-lg col-6 col-md-4 text-center mb-3 mb-md-0">
+          <p class="strip-head">4200+</p>
+          <p class="strip-para">Outlets</p>
+        </div>
+        <div class="col-lg col-6 col-md-4 text-center mb-0 mb-md-0">
+          <p class="strip-head">3,27,301Cr+</p>
+          <p class="strip-para">CUSTOMER ASSETS</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+    <!-- Footer -->
+  
+   <footer class="footer-st">
+    <!-- Disclaimer Section -->
+    <div class="footer-top-outer-st">
+      <div class="disclaimer-st">
+        <p class="disclaimer-text">
+          <b>Disclaimer:</b> Insurance is the subject matter of solicitation. Visitors are hereby informed
+          that their information submitted on the website may be shared with insurers. The product information
+          for comparison displayed on this website is of the insurers with whom our company has an agreement.
+          Product information is authentic and solely based on the information received from the Insurer.
+        </p>
+      </div>
+  
+      <!-- Footer Top Section -->
+      <div class="footer-top">
+        <div class="footer-container-st">
+          <!-- Contact Info -->
+          <div class="footer-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>Booth No. 13, Anaj Mandi, <br> Bhattu Mandi, Bhattu Kalan, <br> Fatehbad, Haryana - 125053</p>
+          </div>
+          <div class="divider"></div>
+          <div class="footer-item">
+            <i class="fas fa-phone"></i>
+            <p>+91 8390008390</p>
+          </div>
+          <div class="divider"></div>
+          <div class="footer-item">
+            <i class="fas fa-envelope"></i>
+            <p>info@aapkapolicywala.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Link Section -->
+    <div class="container ">
+      <div class="row footer-menu-st">
+        <!-- Motor Insurance -->
+        <div class="column">
+          <h6 class="title-st">Motor Insurance</h6>
+          <p><a href="#">Car Insurance</a></p>
+          <p><a href="#">Two Wheeler</a></p>
+          <p><a href="#">Goods Carrying</a></p>
+          <p><a href="#">Passenger Carrying</a></p>
+          <p><a href="#">Misc-D Insurance</a></p>
+        </div>
+  
+        <!-- Life Insurance -->
+        <div class="column">
+          <h6 class="title-st">Life Insurance</h6>
+          <p><a href="#">Group Term Insurance</a></p>
+          <p><a href="#">Term Life Insurance</a></p>
+          <p><a href="#">1 Crore Term Insurance</a></p>
+        </div>
+  
+        <!-- Resources -->
+        <div class="column">
+          <h6 class="title-st">Resources</h6>
+          <p><a href="#">POSP Partner</a></p>
+          <p><a href="#">Tutorial</a></p>
+          <p><a href="#">Video Tutorial</a></p>
+          <p><a href="#">Article</a></p>
+        </div>
+  
+        <!-- About Us -->
+        <div class="column">
+          <h6 class="title-st">About Us</h6>
+          <p><a href="#">Terms of Service</a></p>
+          <p><a href="#">Privacy Policy</a></p>
+          <p><a href="#">Solicitation Process</a></p>
+          <p><a href="#">Our History</a></p>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Social Icons -->
+    <div class="social-section">
+      <img src="./images/logo-dark.png" alt="Logo">
+      <div class="social-icons-st">
+        <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+        <a href="#"><i class="fab fa-linkedin fa-lg"></i></a>
+        <a href="#"><i class="fab fa-pinterest fa-lg"></i></a>
+        <a href="#"><i class="fab fa-youtube fa-lg"></i></a>
+        <a href="#"><i class="fab fa-facebook-f fa-lg"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+      </div>
+    </div>
+  
+    <!-- Copyright -->
+    <div class="copyright">
+      <p class="head">
+        Aapka Policywala Insurance <span class="highlight">Broking Services</span> Pvt. Ltd.
+      </p>
+      <p>
+        IRDAI Registration Code: IRDAI / DB1058 / 2023 | IRDAI Registration No.: 933 | Category: Direct (Life &
+        General) | License Valid: 19.01.2024 - 18.01.2027 <br>
+        Principal Officer: Pardeep Kumar | Registered Office : BOOTH NO. 13, ANAJ MANDI, BHATTU MANDI, BHATTU
+        KALAN, FATEHABAD, HR, IN, 125053 | <br>
+        Corporate Address : DSS-121-G-Floor Commercial UE-ll - Hisar - Haryana Pin Code- 125005 | Email Us:
+        info@aapkapolicywala.com | Call Us: +91 8390008390
+      </p>
+      <p>
+        @Copyright 2024 Aapkapolicywala Insurance Broking Services Pvt. Ltd.
+      </p>
+    </div>
+  </footer>
+  
+ <!-- Swiper JS -->
+ <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+   integrity="sha384-oBqDVmMz4fnFO9gybBogGz9qQJbXUjXT1ZtAn1Ry5zVSrK7SwppV8xv8Q5XlWJ9Q"
+   crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+   integrity="sha384-pprn3073KE6tl6ERvA6knXKa2QKN8R6bJ5L3VGsBzHrtvPpBfRvH+8abtTE1Pi6jizo"
+   crossorigin="anonymous"></script>
+ <script type="text/javascript" src="./js.js"></script>
+ <!-- =================================javascript text animation link ===================== -->
+ <!--==================================== Swiper JS =====================================-->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+ <script src="./swiper.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,1624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apna Policy</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Ribeye&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@100..900&display=swap" rel="stylesheet">
+
+
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+
+
+
+</head>
+
+<body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-none d-lg-flex" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>General Insurance</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>Life Insurance</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>Knowledge Base</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><span>Become a Posp Partner</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><span>Contact us</span></a>
+                    </li>
+                </ul>
+                <button class="main-btn ms-4">Sign up</button>
+            </div>
+            <div class="offcanvas offcanvas-end offcanvas-glass d-lg-none" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <a href="#" class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./images/logo.png"
+                            alt="" /></a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                General Insurance
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Life Insurance
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Knowledge Base
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Become a Posp Partner</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- end navabr -->
+
+    <!-- head -->
+
+    <div class="container-fluid general px-5 my-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 col-md-6">
+                    <div class="section-title text-left mb-5">
+                        <h1 class="renew-title">
+                            <span> Term Life Insurance: </span>
+                            Protecting Your Loved Ones
+                        </h1>
+                        <p class="">
+                            Term life insurance provides coverage for a specific period, offering financial protection
+                            to your family in the event of your untimely death, ensuring their financial stability and
+                            peace of mind.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="health-img">
+                        <img src="./images/term-insurance.png" class="img-fluid w-100 py-4" alt="Image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+
+
+
+    <!-- What is Term Insurance?-->
+    <div class="container px-5 my-3">
+        <div class="row g-2 align-items-center">
+            <div class="section-title text-center">
+                <h1 class="text-center">
+                    What is <span>Term Insurance?</span>
+                </h1>
+            </div>
+
+            <p class="posp-para">
+                Term insurance is a type of life insurance policy that provides financial coverage for a specific
+                period, known as the “term.” During this term, if the life assured
+                passes away due to any unfortunate event, the designated beneficiary will receive the financial
+                protection provided by the policy. The term insurance plan
+                offers life insurance coverage against a fixed premium paid by the insured for the specified duration.
+                <br> <br>
+                One of the significant advantages of a term insurance plan is that it offers high life coverage at
+                affordable premiums compared to other life insurance
+                policies. For instance, a premium as low as Rs. 411 per month can provide a coverage of Rs. 1 Crore.
+                This makes term insurance an excellent choice for
+                those seeking substantial protection for their loved ones at a reasonable cost. Additionally, term
+                insurance can serve as a financial tool to fulfill future needs,
+                such as funding a child’s education or marriage.
+                <br> <br>
+                It is essential to note that if the life insured survives the entire policy term, the coverage at the
+                earlier rate of premiums is not guaranteed upon expiration. The
+                policyholder can opt for extended coverage with different payment conditions, if available, or choose to
+                forgo the coverage entirely. Term insurance plans
+                bought from a reputed online insurance provider like Aapka Policywala provide a valuable safety net for
+                individuals and their families, ensuring financial security
+                during the policy term and peace of mind for the future.
+            </p>
+        </div>
+    </div>
+
+    <!-- end -->
+
+
+
+    <!--Why Purchase a Term Plan? -->
+
+    <div class="container py-3">
+        <div class="row g-3 align-items-center">
+            <div class="section-title ">
+                <h1 class="text-left">
+                    <span> Why Purchase</span> a Term Plan?
+                </h1>
+
+            </div>
+            <p class="posp-para text-left ">A Group Insurance Plan operates by extending insurance coverage under a
+                single master policy. Typically sponsored by employers or organizations, these
+                plans are designed to provide insurance benefits to their employees or workers. Here’s a detailed
+                breakdown of how a group insurance plan works:</p>
+
+            <div class="container-fluid my-2">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-interval="2000">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Protection To Your Family</h2>
+                                        <p class="posp-para"> A term insurance plan provides financial
+                                            support to your family members in the
+                                            event of your untimely demise. It ensures
+                                            that they can meet their daily expenses
+                                            and maintain their standard of living
+                                            even when you are not around.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Secure Your Children’s Future</h2>
+                                        <p class="posp-para">With a term insurance policy, you can
+                                            financially plan for your child’s
+                                            significant life events, such as higher
+                                            education or marriage. The death
+                                            benefit can be utilized to fund their
+                                            aspirations and secure their future.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Safeguard Your Valuable Possessions</h2>
+                                        <p class="posp-para">The term insurance payout can help your
+                                            family members manage or repay any
+                                            outstanding loans, such as home loans
+                                            or car loans, allowing them to retain
+                                            valuable assets like a house or a car
+                                            without financial burden.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Protection Against Critical Illnesses</h2>
+                                        <p class="posp-para">Some term insurance plans offer critical
+                                            illness coverage, providing financial
+                                            protection against life-threatening
+                                            illnesses like cancer or heart attack. The
+                                            policyholder receives a lump sum
+                                            amount on the diagnosis of a covered
+                                            critical illness, ensuring that medical
+                                            expenses are adequately covered.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Flexibility in Plans</h2>
+                                        <p class="posp-para">Term insurance plans are highly flexible,
+                                            allowing you to choose from various
+                                            options, such as online or offline
+                                            purchase, and customize the plan as
+                                            per your specific needs and financial
+                                            goals.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Massive Coverage, Low Premiums</h2>
+                                        <p class="posp-para">Term insurance offers substantial life
+                                            coverage at affordable premiums, making
+                                            it accessible to a wide range of people.
+                                            Online purchase further reduces the
+                                            premium costs as it eliminates agent
+                                            commissions.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Riders Benefit</h2>
+                                        <p class="posp-para"> Additional benefits, known as riders,
+                                            can be added to the term insurance
+                                            policy at a nominal extra cost. These
+                                            riders provide additional coverages
+                                            such as accidental coverage, critical
+                                            illness coverage, or return of premium,
+                                            enhancing the overall protection of the
+                                            policy.</p>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+
+
+
+
+
+    <!--Benefits of Term Insurance-->
+
+
+    <div class="container py-3">
+        <div class="row g-5 align-items-center">
+            <div class="section-title ">
+                <h1 class=" text-center">
+                    <span>Benefits</span> of Term Insurance
+                </h1>
+            </div>
+
+        </div>
+
+
+        <div class="container-fluid my-2">
+            <div class="table-responsive">
+                <table class="custom-table">
+                    <thead>
+                        <tr>
+
+                            <th>Documents</th>
+                            <th>Requirement</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td><b>Financial Security</b></td>
+                            <td>The primary benefit of term insurance is providing financial security to the
+                                insured’s family in case of
+                                their untimely demise. The policy’s death benefit ensures that the designated
+                                beneficiaries receive a
+                                lump sum amount, offering financial stability to meet daily expenses, outstanding
+                                debts, and future
+                                financial goals.</td>
+                        </tr>
+                        <tr>
+                            <td><b>Affordable Premiums</b></td>
+                            <td>Term insurance offers substantial life coverage at lower premiums compared to other
+                                types of life
+                                insurance policies. This affordability allows individuals to secure higher coverage
+                                without burdening
+                                their budget.</td>
+                        </tr>
+
+
+                        <tr>
+                            <td><b>Flexibility</b></td>
+
+                            <td> Term plans are highly flexible, allowing policyholders to choose the policy term,
+                                sum assured, and
+                                premium payment frequency based on their financial needs and life stage.</td>
+                        </tr>
+                        <tr>
+                            <td><b>Customizable Coverage</b></td>
+                            <td>Term insurance can be tailored to suit individual requirements. Additional riders or
+                                add-ons can be
+                                included to enhance the policy’s scope, such as critical illness coverage,
+                                accidental death benefit, or
+                                waiver of premium.</td>
+
+                        </tr>
+                        <tr>
+                            <td><b>Income Replacement</b> </td>
+                            <td>For individuals with dependents, a term plan acts as an income replacement tool,
+                                ensuring that the
+                                family’s financial needs are met even if the primary earner is no longer around.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>Tax Benefits</b></td>
+                            <td>Premiums paid towards term insurance are eligible for tax deductions under Section
+                                80C of the Income
+                                Tax Act, providing additional savings on income tax.</td>
+                        </tr>
+
+                        <tr>
+                            <td><b>No Maturity Value</b></td>
+                            <td>Term insurance policies do not have any maturity value, making them pure protection
+                                plans. This
+                                means that if the policyholder survives the policy term, there is no payout, and the
+                                premiums paid are
+                                not returned.</td>
+                        </tr>
+                        <tr>
+                            <td><b>High Coverage Amount</b></td>
+                            <td>Term insurance allows individuals to avail substantial coverage, enabling them to
+                                secure the financial
+                                future of their loved ones adequately.</td>
+
+                        </tr>
+                        <tr>
+                            <td><b>Ease of Purchase</b></td>
+                            <td>Term plans can be easily purchased online, saving time and effort. Online purchase
+                                also often results
+                                in lower premiums due to reduced administrative costs.</td>
+
+                        </tr>
+
+
+
+                        <tr>
+                            <td><b>Peace of Mind</b></td>
+                            <td>Owning a term insurance policy provides peace of mind, knowing that one’s family
+                                will be financially
+                                protected in times of need, ensuring a secure and worry-free future.</td>
+                        </tr>
+
+
+
+                    </tbody>
+
+
+
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- end -->
+
+
+
+
+
+    <!--Types of Term Insurance Plans-->
+
+
+    <div class="container py-3">
+        <div class="row g-3 align-items-center">
+            <div class="section-title ">
+                <h1 class="mb-2 text-left">
+                    <span>Types</span> of Term Insurance Plans
+                </h1>
+
+            </div>
+        </div>
+
+        <div class="container-fluid my-2">
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered custom-table">
+                    <thead>
+                        <tr>
+
+                            <th scope="col">Features</th>
+                            <th scope="col">Benefits</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+
+                            <td><b>Level Term Insurance</b></td>
+                            <td>
+                                This is the most straightforward type of term insurance, where the sum assured
+                                remains
+                                constant throughout the policy term. In case of the insured’s demise during the
+                                policy period, the
+                                designated beneficiaries receive the fixed death benefit.
+                            </td>
+                        </tr>
+
+                        <tr>
+
+                            <td><b>Decreasing Term Insurance</b></td>
+                            <td>
+                                  In this type of plan, the sum assured decreases over time at a predefined rate.
+                                Decreasing term
+                                insurance is often chosen to cover specific liabilities like home loans, where the
+                                outstanding
+                                loan amount decreases over time. It provides a more affordable option for coverage.
+                            </td>
+                        </tr>
+
+                        <tr>
+
+                            <td><b>Increasing Term Insurance</b></td>
+                            <td>
+                                Unlike decreasing term insurance, increasing term insurance offers a rising sum
+                                assured over
+                                the policy term. This helps counter inflation and ensures that the policy’s coverage
+                                keeps pace
+                                with the increasing cost of living.
+                            </td>
+                        </tr>
+
+                        <tr>
+
+                            <td><b>Convertible Term Insurance</b></td>
+                            <td>
+                                Convertible term plans offer the flexibility to convert the term policy into a
+                                permanent life
+                                insurance policy, such as whole life or endowment insurance, without the need for a
+                                medical
+                                examination. This allows the policyholder to adapt to changing financial needs and
+                                goals.
+                            </td>
+                        </tr>
+
+                        <tr>
+
+                            <td><b>Term Insurance with Return of Premium (TROP)</b></td>
+                            <td>
+                                TROP plans provide the option to receive the total premium paid during the policy
+                                term as a
+                                maturity benefit if the insured survives the policy period. If the insured dies
+                                during the term, the
+                                death benefit is paid to the beneficiaries as per the policy terms.
+                            </td>
+                        </tr>
+                        <tr>
+
+                            <td><b>Term Insurance with Riders</b></td>
+                            <td>
+                                Policyholders can enhance their term insurance coverage by adding riders or
+                                additional benefits.
+                                Common riders include critical illness cover, accidental death benefit, waiver of
+                                premium, and
+                                disability cover.
+                            </td>
+                        </tr>
+                        <tr>
+
+                            <td><b>Joint Term Insurance</b></td>
+                            <td>
+                                This type of term plan covers multiple individuals under a single policy, usually
+                                spouses or
+                                business partners. The death benefit is paid when either of the insured persons
+                                passes away.
+                            </td>
+                        </tr>
+                        <tr>
+
+                            <td><b>Group Term Insurance</b></td>
+                            <td>
+                                Group term plans are designed to cover a group of people, such as employees of a
+                                company or
+                                members of an organization. These policies offer cost-effective coverage to a large
+                                number of
+                                individuals under a single master policy.
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- end -->
+
+
+    <!--Govt Term Insurance Schemes-->
+    <div class="container px-5 my-3">
+        <div class="row g-2 align-items-center">
+            <div class="section-title text-center ">
+                <h1 class=" mb-3 text-center">
+                    Govt <span>Term Insurance</span> Schemes
+                </h1>
+
+            </div>
+            <p class="posp-para">In order to protect its residents and to provide for the future of the insured’s
+                dependents or family members in the terrible event of his untimely passing,
+                the government of India has also developed various term insurance programmes.</p>
+
+            <div class="">
+                <p class="posp-para">
+                    <b> Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY):</b> Launched by the Government of India,
+                    PMJJBY is a life insurance scheme for individuals between
+                    the ages of 18 and 50 years. It provides a renewable one-year term insurance coverage with a sum
+                    assured of Rs. 2 lakhs. The premium for PMJJBY is
+                    subsidized and affordable, making it accessible to low-income individuals.
+                </p>
+                <p class="posp-para">
+                    <b> Pradhan Mantri Suraksha Bima Yojana (PMSBY):</b> PMSBY is another government-backed insurance
+                    scheme aimed at providing accidental death and
+                    disability coverage. It offers a one-year term insurance cover with a sum assured of Rs. 2 lakhs for
+                    accidental death and permanent total disability.
+                    The premium is minimal, making it accessible to a large number of people.
+                </p>
+
+                <p class="posp-para">
+                    <b>Aam Aadmi Bima Yojana (AABY):</b> AABY is a social security scheme targeted at rural landless
+                    households. It offers life insurance and disability coverage
+                    to the primary breadwinner of the family. The scheme also includes natural death coverage along with
+                    partial disability coverage.
+                </p>
+                <p class="posp-para">
+                    <b> Rashtriya Swasthya Bima Yojana (RSBY):</b> While not a pure term insurance scheme, RSBY is a
+                    government-sponsored health insurance program that
+                    provides health coverage to below-poverty-line families. It offers a predefined health insurance
+                    cover for hospitalization expenses.
+                </p>
+
+
+            </div>
+            <p class="posp-para">Consider buying one of these government term insurance schemes or go for group term
+                insurance, 1 crore term insurance, or guaranteed return plans
+                from Aapka Policywala. </p>
+        </div>
+
+    </div>
+
+    <!-- end -->
+
+
+
+
+    <!--What is a Term Insurance Premium Calculator?-->
+    <div class="container p-5 my-3">
+        <div class="row g-2 align-items-center">
+            <div class="section-title text-center ">
+                <h1 class=" text-center">
+                    What is a <span>Term Insurance Premium</span> Calculator?
+                </h1>
+
+            </div>
+            <p class="posp-para">A Term Insurance Premium Calculator is an online tool provided by insurance companies
+                or financial websites to help individuals estimate the premium amount
+                they would need to pay for a term insurance policy. It assists users in understanding the cost
+                associated with the coverage they desire. The calculator takes into
+                account various factors such as age, sum assured, policy term, and other relevant details to provide an
+                accurate premium estimate.
+                <br> <br>
+                To use the term insurance premium calculator, individuals typically need to input specific information
+                about themselves, such as age, gender, smoking habits,
+                policy term, and the desired sum assured. Once all the necessary details are entered, the calculator
+                processes the information and generates the estimated
+                premium amount.
+                <br> <br>
+                The term insurance premium calculator is a valuable tool for potential policyholders as it helps them:
+            </p>
+
+            <div class="">
+                <p class="posp-para">
+                    <b> Plan Budget:</b> It allows users to adjust the sum assured and policy term to see how it impacts
+                    the premium amount. This helps in planning and budgeting for
+                    insurance needs effectively.
+                </p>
+                <p class="posp-para">
+                    <b> Compare Plans:</b> By using the calculator, individuals can compare premium quotes from
+                    different insurance providers and make an informed decision about
+                    the most suitable policy.
+                </p>
+
+                <p class="posp-para">
+                    <b>Instant Estimates: The calculator provides instant premium estimates, saving time and effort in
+                        getting quotes from various sources.</b> The calculator provides instant premium estimates,
+                    saving time and effort in getting quotes from various sources.
+                </p>
+                <p class="posp-para">
+                    <b> Customize Coverage:</b> Users can customize the sum assured and policy term according to their
+                    specific financial goals and protection needs.
+                </p>
+                <p class="posp-para"><b>Simplify the Buying Process:</b> Having a clear idea of the premium amount and
+                    coverage helps in the decision-making process when buying a term insurance
+                    policy.</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- end -->
+
+
+
+
+    <!--Factors That Influence the Cost of Term Insurance-->
+
+
+    <div class="container py-3">
+        <div class="row g-2 align-items-center">
+            <div class="section-title text-center mb-2">
+                <h1 class=" text-center">
+                    Factors That Influence the Cost of <span>Term Insurance</span>
+                </h1>
+            </div>
+            <p class="posp-para">The premium for a term insurance policy is determined based on various factors
+                that assess the risk associated with providing life coverage to the insured.
+                Some of the key factors that affect term insurance premiums include:</p>
+            <div class="d-flex flex-wrap justify-content-center">
+                <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                    <div class="inner-text text-left">
+                        <p class="head mb-4 text-left">Age</p>
+                        <p class="para">
+                            Age is a significant factor in determining
+                            the premium. Younger individuals typically
+                            pay lower premiums as they are
+                            considered less prone to health risks
+                            compared to older individuals.
+                        </p>
+                    </div>
+                </div>
+                <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                    <div class="inner-text text-left">
+                        <p class="head mb-4 text-left">Sum Assured</p>
+                        <p class="para">
+                            The sum assured or the coverage amount
+                            chosen by the policyholder directly affects
+                            the premium. Higher coverage amounts
+                            lead to higher premiums.
+                        </p>
+                    </div>
+                </div>
+                <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                    <div class="inner-text text-left">
+                        <p class="head mb-4 text-left">Policy Term</p>
+                        <p class="para">
+                            The duration of the term insurance policy
+                            also influences the premium. Longer
+                            policy terms often result in higher
+                            premiums due to the extended coverage
+                            period.
+                        </p>
+                    </div>
+                </div>
+                <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                    <div class="inner-text text-left">
+                        <p class="head mb-4 text-left">Health Condition</p>
+                        <p class="para">
+                            The health condition of the insured plays
+                            a crucial role in determining the premium.
+                            Individuals with pre-existing medical
+                            conditions or unhealthy lifestyles may
+                            have higher premiums as they pose
+                            higher risks.
+                        </p>
+                    </div>
+                </div>
+                <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                    <div class="inner-text text-left">
+                        <p class="head mb-4 text-left">Lifestyle Habits</p>
+                        <p class="para">
+                            Habits such as smoking, alcohol
+                            consumption, or engagement in
+                            hazardous activities can impact the
+                            premium. Insurers may charge higher
+                            premiums for individuals with risky
+                            habits.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                    <div class="inner-text text-left">
+                        <p class="head mb-4 text-left">Occupation</p>
+                        <p class="para">
+                            The nature of the insured’s occupation
+                            can influence the premium amount. Risky
+                            or hazardous professions may lead to
+                            higher premiums.
+                        </p>
+                    </div>
+                </div>
+                <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                    <div class="inner-text text-left">
+                        <p class="head mb-4 text-left">Gender</p>
+                        <p class="para">
+                            On average, women tend to have lower
+                            term insurance premiums compared to
+                            men due to statistical differences in life
+                            expectancy.
+                        </p>
+                    </div>
+                </div>
+                <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                    <div class="inner-text text-left">
+                        <p class="head mb-4 text-left">Family Medical History</p>
+                        <p class="para">
+                            A family history of certain medical
+                            conditions may impact the premium as it
+                            may increase the risk for the insured.
+                        </p>
+                    </div>
+                </div>
+                <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                    <div class="inner-text text-left">
+                        <p class="head mb-4 text-left">Riders and Add-ons</p>
+                        <p class="para">
+                            Opting for additional riders or add-on
+                            benefits to enhance the policy coverage
+                            will increase the premium amount.
+                        </p>
+                    </div>
+                </div>
+                <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                    <div class="inner-text text-left">
+                        <p class="head mb-4 text-left">Policy Features</p>
+                        <p class="para">
+                            The type of term insurance policy and its
+                            features, such as level term or increasing
+                            vterm, also affect the premium.
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- end -->
+
+
+
+    <!--Who Should Buy Term Insurance? -->
+    <div class="container-fluid group p-5 my-5">
+       <div class="container">
+        <div class="row g-3 align-items-center">
+            <div class="section-title text-center ">
+                <h1 class="mb-3 text-center">
+                    Who Should Buy <span>Term Insurance?</span>
+                </h1>
+                <p class="posp-para">Term insurance is a valuable financial product that provides essential protection
+                    to individuals and their families. It is an ideal choice for various groups of people, including:
+                </p>
+            </div>
+
+            <div class="container-fluid my-2">
+                <div class="row g-5 justify-content-center align-items-center">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content-card card-custom-4" data-wow-delay="0.3s">
+                            <div class="inner-text text-center">
+                                <img src="./images/group-1.png" class="py-3" alt="">
+                                <p class="head mb-4 text-center">Breadwinners</p>
+                                <p class="para">
+                                    Anyone who is the primary earning
+                                    member of their family should consider
+                                    purchasing term insurance. It ensures
+                                    that in the unfortunate event of their
+                                    demise, their family will receive financial
+                                    support to meet daily expenses, pay off
+                                    debts, and maintain their standard
+                                    of living.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content-card card-custom-4" data-wow-delay="0.3s">
+                            <div class="inner-text text-center">
+                                <img src="./images/brand-images/maruti.png" class="py-3" alt="">
+                                <p class="head mb-4 text-center">Parents</p>
+                                <p class="para">
+                                    Parents with dependent children should
+                                    have term insurance coverage to secure
+                                    their children’s future in case of any
+                                    unforeseen circumstances. The policy
+                                    proceeds can be used to fund their
+                                    education, marriage, and other important
+                                    life events.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content-card card-custom-4" data-wow-delay="0.3s">
+                            <div class="inner-text text-center">
+                                <img src="./images/brand-images/maruti.png" class="py-3" alt="">
+                                <p class="head mb-4 text-center">Young and Healthy Individuals</p>
+                                <p class="para">
+                                    Young and healthy individuals can avail
+                                    term insurance at relatively lower
+                                    premiums. Buying term insurance early
+                                    in life ensures long-term coverage and
+                                    cost-effectiveness.
+
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content-card card-custom-4" data-wow-delay="0.3s">
+                            <div class="inner-text text-center">
+                                <img src="./images/group-2.png" class="py-3" alt="">
+                                <p class="head mb-4 text-center">Married Couples</p>
+                                <p class="para">
+                                    Married couples should consider term
+                                    insurance to protect each other financially.
+                                    In the event of the death of one spouse,
+                                    the surviving spouse can utilize the policy
+                                    proceeds to maintain their lifestyle and
+                                    achieve financial goals.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content-card card-custom-4" data-wow-delay="0.3s">
+                            <div class="inner-text text-center">
+                                <img src="./images/group-2.png" class="py-3" alt="">
+                                <p class="head mb-4 text-center">Debt-Holders</p>
+                                <p class="para">
+                                    Individuals with significant financial
+                                    liabilities, such as home loans, car loans,
+                                    or personal loans, should buy term
+                                    insurance to ensure that their family does
+                                    not face the burden of repaying these
+                                    debts in case of their demise.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content-card card-custom-4" data-wow-delay="0.3s">
+                            <div class="inner-text text-center">
+                                <img src="./images/group-2.png" class="py-3" alt="">
+                                <p class="head mb-4 text-center">Business Owners</p>
+                                <p class="para">
+                                    Business owners should consider term
+                                    insurance to safeguard their businesses
+                                    and protect their family’s financial
+                                    interests. It can be used to cover
+                                    business loans and ensure the continuity
+                                    of the business in case of the owner’s
+                                    untimely death.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content-card card-custom-4" data-wow-delay="0.3s">
+                            <div class="inner-text text-center">
+                                <img src="./images/group-2.png" class="py-3" alt="">
+                                <p class="head mb-4 text-center">Single Parents</p>
+                                <p class="para">
+                                    Single parents are the sole providers for
+                                    their children and need to secure their
+                                    children’s future. Term insurance offers a
+                                    cost-effective way to ensure financial
+                                    stability for their dependents.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content-card card-custom-4" data-wow-delay="0.3s">
+                            <div class="inner-text text-center">
+                                <img src="./images/group-2.png" class="py-3" alt="">
+                                <p class="head mb-4 text-center">Retirees</p>
+                                <p class="para">
+                                    Though term insurance is more commonly
+                                    purchased by younger individuals, some
+                                    term policies can be extended into
+                                    retirement years. Retirees who have
+                                    financial dependents or outstanding debts
+                                    may find value in having term insurance
+                                    coverage during their retirement phase.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+       </div>
+    </div>
+    <!-- end -->
+
+
+
+
+
+    <!--Steps To Buy Term Insurance -->
+
+    <div class="container py-5">
+        <div class="section-title">
+            <h1 class="mb-4 text-center">
+                Steps To Buy <span>Term Insurance</span>
+            </h1>
+        </div>
+        <p class="posp-para text-left">Buying a term insurance plan is a straightforward process, and it can be done
+            both online and offline. Here’s a step-by-step guide on how to purchase a term
+            insurance plan:</p>
+
+        <p><b>Online Process:</b></p>
+        <div class="row number-cards g-5 py-5">
+
+            <!-- Repeat this block for each card -->
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">1</div>
+                <div class="custom-card-v11">
+
+                    <p><b>Research</b></p>
+                    <p>Start by researching different insurance
+                        companies and their term insurance plans.
+                        Compare the features, coverage, and
+                        premiums to find the plan that best suits
+                        your needs.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">2</div>
+                <div class="custom-card-v11">
+                    <p><b>Visit the Website</b></p>
+                    <p>Once you have selected a suitable
+                        insurance company, visit their official
+                        website..</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">3</div>
+
+                <div class="custom-card-v11">
+                    <p><b>Choose the Plan</b></p>
+                    <p>Browse through the various term
+                        insurance plans offered by the company
+                        and choose the one that meets your
+                        requirements.</p>
+                </div>
+            </div>
+            <!-- Continue this pattern to create up to 12 cards -->
+            <!-- Example for the 4th card -->
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">4</div>
+
+                <div class="custom-card-v11">
+                    <p><b>Calculate Premium</b></p>
+                    <p>Use the term insurance premium calculator
+                        available on the website to calculate the
+                        premium amount based on your age,
+                        coverage amount, and other relevant
+                        details.</p>
+                </div>
+            </div>
+            <!-- Add more cards as needed -->
+            <!-- Example for the 5th card -->
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">5</div>
+
+                <div class="custom-card-v11">
+                    <p><b>Fill in Details</b></p>
+                    <p>Fill in your personal information, contact
+                        details, and other necessary information
+                        as prompted on the website.</p>
+                </div>
+            </div>
+            <!-- Example for the 6th card -->
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">6</div>
+
+                <div class="custom-card-v11">
+                    <p><b>Select Riders</b></p>
+                    <p>F If you want to enhance your coverage
+                        with additional riders, choose the relevant
+                        ones from the options available.</p>
+                </div>
+            </div>
+            <!-- Continue until the 12th card -->
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">7</div>
+
+                <div class="custom-card-v11">
+                    <p><b>Provide Medical Information</b></p>
+                    <p>Answer the health-related questions
+                        honestly. In some cases, you may need to
+                        undergo a medical examination,
+                        depending on the sum assured and your
+                        age.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">8</div>
+
+                <div class="custom-card-v11">
+                    <p><b>Review and Pay</b></p>
+                    <p>Review all the details entered and proceed
+                        to make the premium payment online
+                        through various payment modes available.
+
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">9</div>
+
+                <div class="custom-card-v11">
+                    <p><b>Receive Policy Documen</b></p>
+                    <p>After successful payment, you will receive
+                        the policy document and other relevant
+                        details on your registered email ID.</p>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <!-- end -->
+
+
+
+
+
+    <!--Steps To Buy Term Insurance -->
+
+    <div class="container py-3">
+
+        <p class="posp-para text-left">Offline Process:</p>
+
+
+        <div class="row number-cards g-5 py-5">
+
+            <!-- Repeat this block for each card -->
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">1</div>
+                <div class="custom-card-v11">
+
+                    <p><b>Visit the Branch</b></p>
+                    <p>Visit the nearest branch of the insurance
+                        company that offers the term insurance
+                        plan you wish to buy.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">2</div>
+                <div class="custom-card-v11">
+                    <p><b>Meet the Agent</b></p>
+                    <p>Meet with a company representative or
+                        insurance agent who will guide you
+                        through the process and assist in
+                        selecting the appropriate plan.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">3</div>
+
+                <div class="custom-card-v11">
+                    <p><b>Provide Information</b></p>
+                    <p>Fill out the necessary forms with accurate
+                        personal and medical information as
+                        required.</p>
+                </div>
+            </div>
+            <!-- Continue this pattern to create up to 12 cards -->
+            <!-- Example for the 4th card -->
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">4</div>
+
+                <div class="custom-card-v11">
+                    <p><b>Medical Examination</b></p>
+                    <p>Depending on the sum assured and your
+                        age, you may need to undergo a medical
+                        examination as part of the underwriting
+                        process.</p>
+                </div>
+            </div>
+            <!-- Add more cards as needed -->
+            <!-- Example for the 5th card -->
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">5</div>
+
+                <div class="custom-card-v11">
+                    <p><b>Payment</b></p>
+                    <p>Make the premium payment through the
+                        available payment options at the branch.</p>
+                </div>
+            </div>
+            <!-- Example for the 6th card -->
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">6</div>
+
+                <div class="custom-card-v11">
+                    <p><b>Receive Policy Document</b></p>
+                    <p>Once the premium is paid, you will receive
+                        the policy document and other relevant
+                        information.</p>
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+    <!-- end -->
+
+
+
+
+
+    <!--How Do I Make a Term Insurance Policy Claim?-->
+    <div class="container p-5 my-3">
+        <div class="row g-2 align-items-center">
+            <div class="section-title text-center ">
+                <h1 class=" text-center">
+                    How Do I Make a <span>Term Insurance Policy Claim?</span>
+                </h1>
+
+            </div>
+            <p class="posp-para">To claim for a term insurance policy, follow these steps:</p>
+
+            <div class="">
+                <p class="posp-para">
+                    <b> Inform the Insurer:</b> In the event of the policyholder’s death or any other claimable event,
+                    inform the insurance company as soon as possible.
+                    Contact their customer service or claims department to initiate the claim process.
+                </p>
+                <p class="posp-para">
+                    <b>Provide Necessary Documents:</b> The insurer will require certain documents to process the claim.
+                    These may include the original policy document, death
+                    certificate (in case of death claim), medical records, and any other relevant documents as per the
+                    claim event.
+                </p>
+
+                <p class="posp-para">
+                    <b>Claim Form Submission:</b> Complete the claim form provided by the insurance company. You can get
+                    the form from their website or visit their branch.Ensure
+                    that you provide accurate and complete information in the form.
+                </p>
+                <p class="posp-para">
+                    <b> Medical Records and Investigation (if applicable):</b> If the claim event is related to a
+                    critical illness or disability, the insurer may request medical records or
+                    conduct an investigation to verify the claim.
+                </p>
+                <p class="posp-para">
+                    <b> Nominee Details:</b> If the policy has a nominee, ensure that the nominee’s details are provided
+                    correctly. The nominee is the person who will receive the claim
+                    amount.
+                </p>
+                <p class="posp-para">
+                    <b> Settlement Process: </b>The insurance company will evaluate the claim and verify all the
+                    submitted documents. If everything is in order and the claim is genuine,
+                    they will process the claim settlement.
+                </p>
+                <p class="posp-para">
+                    <b> Claim Amount Disbursement: </b>Once the claim is approved, the insurance company will disburse
+                    the claim amount to the nominee or the beneficiary as per the
+                    policy terms.
+                </p>
+                <p class="posp-para">
+                    <b> Claim Settlement Timeframe: </b>The claim settlement process typically takes a few weeks,
+                    depending on the complexity of the case and the submission of all
+                    required documents.
+                </p>
+                <p class="posp-para">
+                    <b> Disputed Claims:</b> In case of a dispute or rejection of the claim, the policyholder or the
+                    nominee can approach the insurance company’s grievance redressal
+                    department. If the issue remains unresolved, they can escalate the matter to the Insurance
+                    Regulatory and Development Authority of India (IRDAI).
+                </p>
+                <p class="posp-para">
+                    <b> To ensure a smooth claim settlement process:</b>
+                <ul>
+                    <li>Keep the policy document and other relevant documents easily accessible to the nominee or
+                        beneficiary.</li>
+                    <li>Keep the insurer informed about any changes in your contact information or address.</li>
+                    <li>Pay the premiums regularly to keep the policy in force.</li>
+                    <li>Disclose all relevant information honestly at the time of purchasing the policy to avoid claim
+                        rejection due to non-disclosure.</li>
+                </ul>
+                </p>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- end -->
+
+
+    <!--Documents Necessary For The Settlement Of Claims-->
+
+    
+        <div class="container py-5 my-3">
+            <div class="row g-3 align-items-center">
+                <div class="section-title mb-">
+                    <h1 class="mb-2 text-left">
+                        <span> Documents Necessary</span> For The Settlement Of Claims
+                    </h1>
+                </div>
+                <p class="posp-para text-left">The required documents for the claim settlement process of a term
+                    insurance policy may vary depending on the specific claim event (e.g., death claim, critical
+                    illness claim) and the insurance company’s policies. However, here is a general list of documents
+                    that are typically required:</p>
+            </div>
+
+
+            <div class="container-fluid  ">
+                <div class="table-responsive">
+                    <table class="custom-table">
+                        <thead>
+                            <tr>
+
+                                <th>Documents</th>
+                                <th>Requirement</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td><b>Death Claim</b></td>
+                                <td>
+                                    <ul>
+                                        <li>Original policy document.</li>
+                                        <li>Death certificate of the insured issued by the municipal corporation or
+                                            local authorities.</li>
+                                        <li>Claimant’s statement providing details of the insured’s death, cause of
+                                            death, date, and place.</li>
+                                        <li>Medical records (if applicable) related to the illness or treatment leading
+                                            to death.</li>
+                                        <li>FIR or police report (in case of accidental death or unnatural cause).</li>
+                                        <li>Post-mortem report (if applicable).</li>
+                                        <li>Identity proof of the claimant (nominee or beneficiary) with photographs.
+                                        </li>
+                                        <li>Address proof of the claimant.</li>
+                                        <li>Bank account details of the claimant for claim amount transfer.</li>
+                                        <li>Any other documents as required by the insurance company.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Critical Illness Claim</b></td>
+                                <td>
+                                    <ul>
+                                        <li>Original policy document.</li>
+                                        <li>Diagnosis report or medical certificate from a registered medical
+                                            practitioner confirming the critical illness.</li>
+                                        <li>Medical records and test reports supporting the diagnosis.</li>
+                                        <li>Claimant’s statement providing details of the insured’s critical illness and
+                                            medical history.</li>
+                                        <li>Identity proof and address proof of the claimant (nominee or beneficiary).
+                                        </li>
+                                        <li>Bank account details of the claimant for claim amount transfer.</li>
+                                        <li>Any other documents as required by the insurance company.</li>
+
+                                    </ul>
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td><b>Disability Claim</b></td>
+                                <td>
+                                    <ul>
+                                        <li>Original policy document.</li>
+                                        <li>Medical certificate from a registered medical practitioner confirming the
+                                            disability and its nature.</li>
+                                        <li>Medical records and test reports supporting the disability diagnosis.</li>
+                                        <li>Claimant’s statement providing details of the insured’s disability and
+                                            medical history.</li>
+                                        <li>Identity proof and address proof of the claimant (nominee or beneficiary).
+                                        </li>
+                                        <li>Bank account details of the claimant for claim amount transfer.</li>
+                                        <li>Any other documents as required by the insurance company.</li>
+
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Death Claim</b></td>
+                                <td>
+                                    <ul>
+                                        <li>Original policy document.</li>
+                                        <li>Death certificate of the insured issued by the municipal corporation or
+                                            local authorities.</li>
+                                        <li>Claimant’s statement providing details of the insured’s death, cause of
+                                            death, date, and place.</li>
+                                        <li>Medical records (if applicable) related to the illness or treatment leading
+                                            to death.</li>
+                                        <li>FIR or police report (in case of accidental death or unnatural cause).</li>
+                                        <li>Post-mortem report (if applicable).</li>
+                                        <li>Identity proof of the claimant (nominee or beneficiary) with photographs.
+                                        </li>
+                                        <li>Address proof of the claimant.</li>
+                                        <li>Bank account details of the claimant for claim amount transfer.</li>
+                                        <li>Any other documents as required by the insurance company.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+
+                        </tbody>
+
+
+
+                    </table>
+                </div>
+            </div>
+        </div>
+    
+
+
+    <!-- end -->
+ <!-- get or renew -->
+ <div class="container-fluid team py-3 mt-5">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="0.4s">
+                <div class="section-title text-left mb-5">
+                    <h1 class="mb-4 renew-title">
+                        <span> Get or Renew</span> Your Insurance with Aapka Policywala
+                    </h1>
+                    <p class="mb-4 renew-para">
+                        We are just a call away. Feel free to contact us
+                    </p>
+                    <button class="main-btn"><a href="#">Contact Us </a></button>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="health-img ps-md-5">
+                    <img src="./images/renew.png" class="img-fluid w-100" alt="Image" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- end -->
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start footer-2 text-muted">
+        <!-- Section: Links  -->
+        <div class="p-4">
+            <div class="container-fluid text-center text-md-start">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Motor Insurance</h6>
+                        <p><a href="#!" class="text-reset">Car Insurance</a></p>
+                        <p><a href="#!" class="text-reset">Two Wheeler</a></p>
+                        <p><a href="#!" class="text-reset">Goods Carrying</a></p>
+                        <p><a href="#!" class="text-reset">Passenger Carrying</a></p>
+                        <p><a href="#!" class="text-reset">Misc-D Insurance</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Life Insurance</h6>
+                        <p><a href="#!" class="text-reset">Group Term Insurance</a></p>
+                        <p><a href="#!" class="text-reset">Term Life Insurance</a></p>
+                        <p><a href="#!" class="text-reset">1 Crore Term Insurance</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Resources</h6>
+                        <p><a href="#!" class="text-reset">POSP Partner</a></p>
+                        <p><a href="#!" class="text-reset">Tutorial</a></p>
+                        <p><a href="#!" class="text-reset">Video Tutorial</a></p>
+                        <p><a href="#!" class="text-reset">Article</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">About Us</h6>
+                        <p><a href="#!" class="text-reset">Terms of Service</a></p>
+                        <p><a href="#!" class="text-reset">Privacy Policy</a></p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+
+                <!-- Second row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+
+                        <p>
+                            <i class="fa-solid fa-location-dot pe-2"></i> Booth No. 13, Anaj
+                            Mandi, Bhattu Mandi, Bhattu Kalan, Fatehbad, Haryana - 125053
+                        </p>
+
+                        <p><i class="fa-solid fa-phone-volume pe-2"></i>+91 8390008390</p>
+                        <p>
+                            <i class="fa-solid fa-envelope pe-2"></i> info@aapkapolicywala.com
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Follow us on</h6>
+                        <div class="social-icons">
+                            <a href="#!" class="text-reset"><i class="fab fa-instagram fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-linkedin fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-pinterest fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-youtube fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-facebook-f fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-twitter fa-lg"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Grid column -->
+                </div>
+                <!-- Second row -->
+            </div>
+        </div>
+        <!-- Section: Links -->
+
+        <!-- Copyright -->
+        <div class="text-center description p-4" style="background-color: rgba(0, 0, 0, 0.05)">
+            <p class="description-heading-1 py-2 text-center">
+                Aapka Policywala Insurance
+                <span style="color: #e89e3f">Broking Services</span> Pvt. Ltd.
+            </p>
+            <p class="description-para-1 py-2 text-center">
+                IRDAI Registration Code: IRDAI / DB1058 / 2023 | IRDAI Registration
+                No.: 933| Category: Direct (Life & General) | License Valid:
+                19.01.2024 - 18.01.2027
+            </p>
+            <p class="text-left disclaimer py-5">
+                <b>Disclaimer:</b>Insurance is the subject matter of solicitation.
+                Visitors are hereby informed that their information submitted on the
+                website may be shared with insurers. The product information for
+                comparison displayed on this website is of the insurers with whom our
+                company has an agreement. Product information is authentic and solely
+                based on the information received from the Insurer.
+            </p>
+        </div>
+    </footer>
+
+    <!-- end -->
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz4fnFO9gybBogGz9qQJbXUjXT1ZtAn1Ry5zVSrK7SwppV8xv8Q5XlWJ9Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-pprn3073KE6tl6ERvA6knXKa2QKN8R6bJ5L3VGsBzHrtvPpBfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

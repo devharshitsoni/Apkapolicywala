@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Apna Policy</title>
+        <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Ribeye&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@100..900&display=swap" rel="stylesheet">
+    
+    
+        <!-- icon -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+        <!-- bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+    
+        <!-- stylesheet -->
+        <link rel="stylesheet" href="./style.css" />
+    
+    
+    
+    </head>
+    
+<body>
+    
+
+ <!-- nav -->
+ <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-none d-lg-flex" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <span>General Insurance</span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider" />
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <span>Life Insurance</span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider" />
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <span>Knowledge Base</span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider" />
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><span>Become a Posp Partner</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><span>Contact us</span></a>
+                </li>
+            </ul>
+            <button class="main-btn ms-4">Sign up</button>
+        </div>
+        <div class="offcanvas offcanvas-end offcanvas-glass d-lg-none" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <a href="#" class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./images/logo.png"
+                        alt="" /></a>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            General Insurance
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Life Insurance
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Knowledge Base
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Become a Posp Partner</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- end navabr -->
+
+<!-- head -->
+
+<div class="container-fluid general px-5 my-5">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6 col-md-6">
+                <div class="section-title text-left mb-5">
+                    <h1 class="renew-title">
+                        Buy <span> Bharat Sookshma Udhyam Insurance</span> Online
+                    </h1>
+                    <p class="">
+                        Micro businesses are the backbone of local commerce in India, and Aapka Policywala understands the unique challenges they face. That’s why we bring comprehensive Bharat Sookshma Udhyam Suraksha (BSUS) Insurance for shopkeepers and entrepreneurs running micro units across India. Gain peace of mind knowing you can weather unexpected storms and keep your shop or business running smoothly! 
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="health-img">
+                    <img src="./images/bharat-sookshma-udham.png" class="img-fluid w-100 py-4" alt="Image" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end -->
+
+
+
+<!--   What is Bharat Sookshma Udyam Suraksha Policy?-->
+<div class="container p-5 my-3">
+    <div class="row g-3 align-items-center">
+        <div class="section-title text-center ">
+            <h1 class="text-center">
+                What is <span> Bharat Sookshma Udyam Suraksha</span> Policy?
+            </h1>
+        </div>
+
+        <p class="posp-para">
+            Bharat Sookshma Udhyam Suraksha (BSUS) policy is a government-backed insurance scheme designed specifically for small and medium-sized shopkeepers. Recognizing the important role these businesses play in the Indian economy, this initiative aims to provide financial security and safeguard them against unforeseen events. BSUS insurance offers complete coverage for your shop’s physical assets including the building and its contents. This can include inventory, furniture, fixtures, and even machinery (depending on your specific shop setup.) By opting for this scheme, you gain peace of mind knowing that your business is protected against various potential risks.You can focus on serving your customers and keeping your shop thriving! Make sure you buy one from a trusted online insurance site in India to get all the benefits of this government insurance plan for micro businesses.
+        </p>
+    </div>
+</div>
+
+<!-- end -->
+
+
+
+<!-- Key Benefits of Bharat Sookshma Udhyam Insurance -->
+
+<div class="container py-3">
+    <div class="row g-3 align-items-center">
+        <div class="section-title ">
+            <h1 class="text-center">
+                Key Benefits of <span>Bharat Sookshma Udhyam Insurance</span>
+            </h1>
+
+        </div>
+        <p class="posp-para text-left px-5">As a shopkeeper, choosing Bharat Sookshma Udhyam Insurance provides several advantages. In short words, it offers financial protection and peace of mind for your business. But if we talk in detail, well, here are key benefits to consider:</p>
+
+        <div class="container-fluid my-3">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="custom-card-v10">
+                                    <h2>PolicyFinancial Protection Against Unforeseen Events Duration</h2>
+                                    <p class="posp-para">BSUS safeguards your shop against various unexpected occurrences that could lead to significant financial losses. This includes coverage for natural disasters like fire, earthquakes, and floods. Even man-made events like theft, burglary, and even riots.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="custom-card-v10">
+                                    <h2>Affordable Premiums</h2>
+                                    <p class="posp-para">This government insurance for small business owners is wholly designed to be accessible to SMBs. The premiums are relatively low compared to other commercial insurance options. Overall, it’s a financially viable solution to secure your shop.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="custom-card-v10">
+                                    <h2>Coverage for Shop's Contents</h2>
+                                    <p class="posp-para">Beyond the physical structure of your shop, BSUS insurance covers the contents within. This can include your inventory, furniture, fixtures, and even basic machinery (given your shop's requirements.) This exhaustive coverage makes sure that you're protected against various potential losses.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="custom-card-v10">
+                                    <h2>Government-backed Scheme</h2>
+                                    <p class="posp-para">Bharat Sookshama Udyam Suraksha policy is backed by the Indian government. Yes, you read it right! This means you’ll have an added layer of trust and reliability. You’re going to have a secure and dependable insurance solution for your shop. Simply put, you can focus on running your business with confidence!</p>
+                                </div>
+                            </div>
+                           
+                            
+                        </div>
+                    </div>
+                  
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end -->
+
+
+
+
+<!--  Who Can Benefit from This Government Insurance Policy?-->
+<div class="container p-5 my-3">
+    <div class="row g-3 align-items-center">
+        <div class="section-title text-center ">
+            <h1 class=" text-center">
+                Who Can Benefit from This <span>Government Insurance</span> Policy?
+            </h1>
+        </div>
+        <p class="posp-para">As we mentioned before, Bharat Sookshma Udhyam Suraksha insurance policy is specifically designed to cater to small and medium-sized shopkeepers in India. However, your business needs to meet the following criteria to be eligible for this insurance by government:</p>
+
+        <div class="">
+            <p class="posp-para">
+                <b>Value of Business Assets:</b> The total value of your shop’s assets (including the building, inventory, and equipment must not exceed ₹5 crore at the time of policy purchase.
+            </p>
+            <p class="posp-para">
+               <b> In-Built Covers – Property Ownership:</b> You can be eligible for BSUS insurance if you are:
+               <ul>
+                <li> The owner of the place you use for your shop.
+                   </li>
+                   <li> A tenant or lessee who is legally permitted to operate a commercial business on the premises.</li>
+               </ul>
+            </p>
+
+           
+
+        </div>
+    </div>
+</div>
+
+<!-- end -->
+
+
+
+
+
+
+<!--  transparency in insurance coverage-->
+<div class="container-fluid transparency  p-5 my-3">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+       
+            <p class="posp-para">Aapka Policywala strives to provide transparency in insurance coverage. Here’s a breakdown of what’s included and excluded in the Bharat Sookshma Udhyam Suraksha policy:</p>
+    
+            <div class="">
+                <p class="posp-para">
+                    <b>Covered Events (Inclusions)</b> 
+                </p>
+                <ol>
+                    <li>Fire and Allied Perils: This includes damage caused by fire, lightning, explosion, and implosion.</li>
+                    <li>Natural Disasters: BSUS covers losses arising from events like earthquakes, floods, storms, and landslides</li>
+                    <li>Impact Damage:  Coverage extends to damage caused by the impact of a motor vehicle, aircraft, or any external object.</li>
+                    <li> Riots, Strikes, and Malicious Acts: The policy covers damage caused by riots, strikes, and other acts of vandalism.</li>
+                </ol>
+                <p class="posp-para">
+                    <b>Covered Events (Inclusions)</b> 
+                </p>
+                <ol>
+                    <li>Breakdown and Wear & Tear: Bharat Sookshma Udyam Suraksha policy doesn’t cover damage caused by the wear and tear of equipment, machinery breakdown, or electrical/mechanical malfunctions.</li>
+                    <li>Construction Activities: Any damage arising from alterations, renovation, or excavation near your shop is excluded.</li>
+                    <li>Owned Vehicle Damage:  Damage caused by a vehicle belonging to you, your employees, or anyone associated with the insured shop is not covered.</li>
+                    <li>Illegal Activities: The policy excludes losses resulting from illegal activities conducted on the insured property.</li>
+                </ol>
+    <p class="posp-para">This is a general overview! Specific inclusions and exclusions may vary depending on the chosen BSUS plan and insurance provider.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- end -->
+
+
+
+
+
+
+ <!-- Why Us for Bharat Sookshma Udhyam Insurance? -->
+
+        <div class="container py-3">
+            <div class="row g-3 align-items-center">
+                <div class="section-title text-center ">
+                    <h1 class="text-center">
+                        Why Us for <span> Bharat Sookshma Udhyam Insurance?</span>
+                    </h1>
+                </div>
+                <p class="posp-para">While BSUS insurance policies can be bought on a lot of insurance buying and renewing platforms including government ones, Aapka Policywala stands out as your ideal partner for securing complete and affordable protection for your shop. Here’s why:</p>
+                <div class="d-flex flex-wrap justify-content-center">
+                    <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                        <div class="inner-text text-center">
+                            <p class="head mb-4 text-center">Simplified Process and Expert Guidance</p>
+                            <p class="para">
+                                We understand that navigatinginsurance options can be overwhelming. Aapka Policywala offers a userfriendly online platform and a dedicated team of insurance professionals toguide you through the process.We’ll explain your BSUS options clearly, answer your questions, and helpyou choose the right plan that aligns perfectly with your shop’s needs.
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                        <div class="inner-text text-center">
+                            <p class="head mb-4 text-center">Competitive Rates and Flexible Plan</p>
+                            <p class="para">
+                                 We are committed to providing youwith the best value for your money. We partner with leading insurance companies to offer competitive rates on Bharat Sookshma Udyam Surakshaplans. We make sure you get the necessary coverage without exceedingyour budget.Additionally, we offer a variety of BSUS plan options to cater to the diverseneeds of different shop types and sizes.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                        <div class="inner-text text-center">
+                            <p class="head mb-4 text-center">Hassle-Free Claims Assistance</p>
+                            <p class="para">
+                                In the unfortunate event of a covered incident, Aapka Policywala is here to support you! We will guide you through the claims process, assist with necessary documentation, and advocate on your behalf to ensure a smooth and efficient claim settlement.This will minimize disruption to your business. Also, it will allow you to focus on getting your shop back on track quickly.
+                            </p>
+                        </div>
+                    </div>
+                    
+
+                </div>
+                <p class="posp-para">Other than Bharat sookshma udyam Suraksha policy, thousands of micro and small business owners also trust Aapka Policywala for Bharat Laghu Udyam Suraksha insurance, bharat griha raksha insurance, and goods carrying insurance plan  in India.</p>
+            </div>
+        </div>
+ 
+
+<!-- end -->
+
+
+
+
+
+
+
+
+
+
+
+
+  <!--=============================== testimonials ====================================-->
+
+  <div class="container align-items-center mt-3 px-5">
+    <div class="row">
+      <div class="section-title text-center ">
+        <img src="./main-page-img/slider-top.svg" class="testimonial-top-img pb-2" alt="" />
+        <h1 class="mb-1">Client love us & we love them</h1>
+        <p>Trusted by over 4,000 clients worldwide</p>
+      </div>
+    </div>
+  </div>
+  <div class="testimonial-container mb-5 overflow-hidden">
+    <div class="swiper-box"></div>
+    <div class="swiper-container mySwiper2 pb-5">
+      <div class="swiper-wrapper my-2 my-md-0">
+        <div class="swiper-slide">
+          <div class="d-flex align-items-center text-start swiper-slide-content ">
+            <img class="quote-image me-3" src="./main-page-img/slider-image.png" alt="Nathalie Grossman" />
+            <div class="content-div">
+              <img class="slider-mark" src="./main-page-img/slider-mark.png" alt="" />
+              <p class="mt-3">
+                We help our clients succeed by creating brand identities,
+                digital experiences, material that communicate clearly,
+                achieve marketing goals!
+              </p>
+              <div class="testimonial-author">Nathalie Grossman</div>
+              <div class="testimonial-role">CEO of Advisor Fue</div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="d-flex align-items-center text-start swiper-slide-content ">
+            <img class="quote-image me-3" src="./main-page-img/slider-image-1.png" alt="Nathalie Grossman" />
+            <div class="content-div">
+              <img class="slider-mark" src="./main-page-img/slider-mark.png" alt="" />
+              <p class="mt-3">
+                We help our clients succeed by creating brand identities,
+                digital experiences, material that communicate clearly,
+                achieve marketing goals!
+              </p>
+              <div class="testimonial-author">Nathalie Grossman</div>
+              <div class="testimonial-role">CEO of Advisor Fue</div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="d-flex align-items-center text-start swiper-slide-content ">
+            <img class="quote-image me-3" src="./main-page-img/slider-image.png" alt="Nathalie Grossman" />
+            <div class="content-div">
+              <img class="slider-mark" src="./main-page-img/slider-mark.png" alt="" />
+              <p class="mt-3">
+                We help our clients succeed by creating brand identities,
+                digital experiences, material that communicate clearly,
+                achieve marketing goals!
+              </p>
+              <div class="testimonial-author">Nathalie Grossman</div>
+              <div class="testimonial-role">CEO of Advisor Fue</div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="d-flex align-items-center text-start swiper-slide-content ">
+            <img class="quote-image me-3" src="./main-page-img/slider-image-1.png" alt="Nathalie Grossman" />
+            <div class="content-div">
+              <img class="slider-mark" src="./main-page-img/slider-mark.png" alt="" />
+              <p class="mt-3">
+                We help our clients succeed by creating brand identities,
+                digital experiences, material that communicate clearly,
+                achieve marketing goals!
+              </p>
+              <div class="testimonial-author">Nathalie Grossman</div>
+              <div class="testimonial-role">CEO of Advisor Fue</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Repeat similar blocks for other slides -->
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+      <!-- Add Navigation -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </div>
+
+  <!-- end -->
+
+
+ <!-- contact us -->
+
+ <div class="container p-5 my-3">
+    <div class="row g-3 align-items-center">
+        <div class="section-title text-center ">
+            <h1 class=" text-center">
+                Share Your <span>BSUS Policy Queries !</span></h1>
+        </div>
+        <p class="posp-para">Ready to find the perfect group health insurance plan for your business in India? Aapka Policywala is here to help. Contact our team of advisors for a free consultation and personalized quote. We’ll guide you through the process and ensure your employees receive the healthcare coverage they deserve.</p>
+    </div>
+    <div class="row g-5 align-items-center">
+        <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+            <div class="health-img ps-md-5">
+                <img src="./images/support image.png" class="img-fluid w-100" alt="Image" />
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="0.4s">
+            <div class="form">
+                <h2>Get in Touch</h2>
+                <div class="d-flex justify-content-between">
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Phone Number">
+                </div>
+                <input type="email" placeholder="Email">
+                <textarea placeholder="Message"></textarea>
+                <button class="main-btn">Submit</button>
+            </div>
+            
+        </div>
+       
+    </div>
+</div>
+<!-- end -->
+
+
+
+
+    <!-- get or renew -->
+    <div class="container-fluid team py-3 mt-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="0.4s">
+                    <div class="section-title text-left mb-5">
+                        <h1 class="mb-4 renew-title">
+                            <span> Get or Renew</span> Your Insurance with Aapka Policywala
+                        </h1>
+                        <p class="mb-4 renew-para">
+                            We are just a call away. Feel free to contact us
+                        </p>
+                        <button class="main-btn"><a href="#">Contact Us </a></button>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="health-img ps-md-5">
+                        <img src="./images/renew.png" class="img-fluid w-100" alt="Image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end -->
+    <!-- Footer -->
+    <footer class="text-center text-lg-start footer-2 text-muted">
+        <!-- Section: Links  -->
+        <div class="p-4">
+            <div class="container-fluid text-center text-md-start">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Motor Insurance</h6>
+                        <p><a href="#!" class="text-reset">Car Insurance</a></p>
+                        <p><a href="#!" class="text-reset">Two Wheeler</a></p>
+                        <p><a href="#!" class="text-reset">Goods Carrying</a></p>
+                        <p><a href="#!" class="text-reset">Passenger Carrying</a></p>
+                        <p><a href="#!" class="text-reset">Misc-D Insurance</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Life Insurance</h6>
+                        <p><a href="#!" class="text-reset">Group Term Insurance</a></p>
+                        <p><a href="#!" class="text-reset">Term Life Insurance</a></p>
+                        <p><a href="#!" class="text-reset">1 Crore Term Insurance</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Resources</h6>
+                        <p><a href="#!" class="text-reset">POSP Partner</a></p>
+                        <p><a href="#!" class="text-reset">Tutorial</a></p>
+                        <p><a href="#!" class="text-reset">Video Tutorial</a></p>
+                        <p><a href="#!" class="text-reset">Article</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">About Us</h6>
+                        <p><a href="#!" class="text-reset">Terms of Service</a></p>
+                        <p><a href="#!" class="text-reset">Privacy Policy</a></p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+
+                <!-- Second row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+
+                        <p>
+                            <i class="fa-solid fa-location-dot pe-2"></i> Booth No. 13, Anaj
+                            Mandi, Bhattu Mandi, Bhattu Kalan, Fatehbad, Haryana - 125053
+                        </p>
+
+                        <p><i class="fa-solid fa-phone-volume pe-2"></i>+91 8390008390</p>
+                        <p>
+                            <i class="fa-solid fa-envelope pe-2"></i> info@aapkapolicywala.com
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Follow us on</h6>
+                        <div class="social-icons">
+                            <a href="#!" class="text-reset"><i class="fab fa-instagram fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-linkedin fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-pinterest fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-youtube fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-facebook-f fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-twitter fa-lg"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Grid column -->
+                </div>
+                <!-- Second row -->
+            </div>
+        </div>
+        <!-- Section: Links -->
+
+        <!-- Copyright -->
+        <div class="text-center description p-4" style="background-color: rgba(0, 0, 0, 0.05)">
+            <p class="description-heading-1 py-2 text-center">
+                Aapka Policywala Insurance
+                <span style="color: #e89e3f">Broking Services</span> Pvt. Ltd.
+            </p>
+            <p class="description-para-1 py-2 text-center">
+                IRDAI Registration Code: IRDAI / DB1058 / 2023 | IRDAI Registration
+                No.: 933| Category: Direct (Life & General) | License Valid:
+                19.01.2024 - 18.01.2027
+            </p>
+            <p class="text-left disclaimer py-5">
+                <b>Disclaimer:</b>Insurance is the subject matter of solicitation.
+                Visitors are hereby informed that their information submitted on the
+                website may be shared with insurers. The product information for
+                comparison displayed on this website is of the insurers with whom our
+                company has an agreement. Product information is authentic and solely
+                based on the information received from the Insurer.
+            </p>
+        </div>
+    </footer>
+
+    <!-- end -->
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz4fnFO9gybBogGz9qQJbXUjXT1ZtAn1Ry5zVSrK7SwppV8xv8Q5XlWJ9Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-pprn3073KE6tl6ERvA6knXKa2QKN8R6bJ5L3VGsBzHrtvPpBfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+</body>
+</html>

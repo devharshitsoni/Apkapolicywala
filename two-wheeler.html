@@ -1,0 +1,1703 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apna Policy</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Ribeye&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@100..900&display=swap" rel="stylesheet">
+
+
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+
+
+
+</head>
+
+
+<body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-none d-lg-flex" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>General Insurance</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>Life Insurance</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>Knowledge Base</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><span>Become a Posp Partner</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><span>Contact us</span></a>
+                    </li>
+                </ul>
+                <button class="main-btn ms-4">Sign up</button>
+            </div>
+            <div class="offcanvas offcanvas-end offcanvas-glass d-lg-none" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <a href="#" class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./images/logo.png"
+                            alt="" /></a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                General Insurance
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Life Insurance
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Knowledge Base
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Become a Posp Partner</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- end navabr -->
+
+    <!-- head -->
+
+    <div class="container-fluid general px-5 my-5">
+        <div class="container">
+
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 col-md-6">
+                    <div class="section-title text-left mb-5">
+                        <h1 class="renew-title">
+                            Cheapest <span>Two-Wheeler
+                                Insurance</span> Online
+                        </h1>
+                        <p class="">
+                            Ensure your peace of mind with Aapka Policywala’s comprehensive two-wheeler
+                            insurance plans. Our insurance policies are designed to safeguard you against a range of
+                            risks including damages incurred in accidents to unforeseen events that may lead to
+                            injury or death. With us, you’re covered for every two-wheeler insurance need
+                            imaginable. Don’t wait until it’s too late – get your bike, scooter, activa, or ebike
+                            insurance today and enjoy the freedom of the road worry-free!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="health-img">
+                        <img src="./images/two-wheeler.png" class="img-fluid w-100 py-4" alt="Image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+
+
+
+
+
+    <!--Why Aapka Policywala for Your Two-Wheeler Insurance?-->
+    <div class="container  p-5 my-3">
+        <div class="row g-3 align-items-center">
+            <div class="section-title text-center ">
+                <h1 class=" text-center">
+                    Why Aapka Policywala for Your <span>Two-Wheeler Insurance?</span>
+                </h1>
+                <p class="posp-para">We understand that selecting the right 2-wheeler insurance provider is crucial
+                    forpersonal safety and traffic police penalty protection. Here’s why Aapka Policywala – a
+                    leading online insurance firm in India – should be your top choice for two-wheeler insurance
+                    renewal:
+                </p>
+            </div>
+
+            <div class="container-fluid my-5">
+                <div class="row g-5 justify-content-center align-items-center">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content-card card-custom-4" data-wow-delay="0.3s">
+                            <div class="inner-text text-center">
+                                <img src="./images/group-1.png" class="py-3" alt="">
+                                <p class="head mb-4 text-center">Effortless Online Process</p>
+                                <p class="para">
+                                    Bid farewell to cumbersome insurance
+                                    paperwork and long queues. With our
+                                    streamlined online platform, renewing
+                                    or buying a new two-wheeler insurance
+                                    is as simple as a few clicks. We prioritize
+                                    convenience, ensuring you can complete
+                                    the process swiftly.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content-card card-custom-4" data-wow-delay="0.3s">
+                            <div class="inner-text text-center">
+                                <img src="./images/brand-images/maruti.png" class="py-3" alt="">
+                                <p class="head mb-4 text-center">Competitive Pricing</p>
+                                <p class="para">
+                                    We believe in providing exceptional value
+                                    without compromising on 2-wheeler
+                                    coverage. Our competitive insurance
+                                    pricing ensures that your bike or scooter
+                                    receives the best insurance protection.
+                                    Rest assured, with Aapka Policywala,
+                                    you're getting the cheapest 2-wheeler
+                                    coverage out there!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content-card card-custom-4" data-wow-delay="0.3s">
+                            <div class="inner-text text-center">
+                                <img src="./images/brand-images/maruti.png" class="py-3" alt="">
+                                <p class="head mb-4 text-center">Comprehensive Coverage Options</p>
+                                <p class="para">
+                                    Whether you're seeking comprehensive
+                                    coverage or specialized add-ons, we
+                                    offer a range of options tailored to suit
+                                    your unique needs. Our customizable
+                                    policies ensure that you receive the
+                                    maximum two-wheeler protection on the
+                                    road, safeguarding you against a variety
+                                    of risks and uncertainties.
+
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content-card card-custom-4" data-wow-delay="0.3s">
+                            <div class="inner-text text-center">
+                                <img src="./images/group-2.png" class="py-3" alt="">
+                                <p class="head mb-4 text-center">Dedicated Customer Support</p>
+                                <p class="para">
+                                    Our team of insurance specialists is
+                                    committed to delivering prompt and
+                                    efficient assistance throughout the
+                                    renewal process. From addressing
+                                    inquiries to resolving concerns, we
+                                    are here to ensure a smooth and
+                                    hassle-free experience while buying
+                                    or renewing 2-wheeler insurance.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+    <!-- end -->
+
+
+
+    <!--Why is Two-Wheeler Insurance Important?-->
+    <div class="container-fluid p-5 group my-5">
+       <div class="container">
+        <div class="row g-2 align-items-center">
+            <div class="section-title text-center mb-2">
+                <h1 class="mb-4 text-left">
+                    Why is <span>Two-Wheeler</span> Insurance Important?
+                </h1>
+            </div>
+
+            <p class="posp-para">
+                Two-wheeler insurance is an essential shield against potential financial setbacks stemming from theft,
+                accidents, or damages incurred during covered
+                events, providing crucial financial protection and ensuring compliance with local regulations. With
+                comprehensive coverage from insurance providers
+                like Aapka Policywala, riders can alleviate the burden of unexpected expenses and ride with peace of
+                mind knowing they’re prepared for any eventuality.
+                <br> <br>
+                Additionally, riding without insurance carries serious legal repercussions as it violates Indian law
+                mandating insurance coverage for all vehicles on
+                public roads. By purchasing a two-wheeler insurance policy with Aapka Policywala, riders not only ensure
+                compliance but also enjoy the peace of mind
+                that comes with comprehensive coverage, safeguarding against various risks and uncertainties on the
+                road.
+            </p>
+        </div>
+       </div>
+    </div>
+
+    <!-- end -->
+
+
+
+    <!--Key Features and Benefits of Two-Wheeler Insurance-->
+
+    
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="section-title text-left mb-">
+                    <h1 class="mb-4 text-left">
+                        <span>Key Features and Benefits</span> of Two-Wheeler Insurance
+                    </h1>
+                    <p class="posp-para">A 2-wheeler insurance policy comes with a multitude of essential features and
+                        advantages tailored to protect you and your vehicle on the road. Here some of the major one’s
+                        worth considering:</p>
+                </div>
+            </div>
+
+            <div class="container-fluid my-2">
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered custom-table">
+                        <thead>
+                            <tr>
+
+                                <th scope="col">Features</th>
+                                <th scope="col">Benefits</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+
+                                <td><b>Third-Party Liability Coverage</b></td>
+                                <td>
+                                    Protection against legal liabilities for bodily injury, death, or property damage to
+                                    third parties.
+                                </td>
+                            </tr>
+                            <tr>
+
+                                <td></td>
+                                <td>
+                                    Protection against legal liabilities for bodily injury, death, or property damage to
+                                    third parties.
+                                </td>
+                            </tr>
+
+                            <tr>
+
+                                <td><b>Own Damage Coverage</b></td>
+                                <td>
+                                    Coverage for damages to your own vehicle due to accidents, theft, fire, vandalism,
+                                    and natural disasters.
+                                </td>
+                            </tr>
+
+                            <tr>
+
+                                <td><b>Personal Accident Cover</b></td>
+                                <td>
+                                    Compensation for accidental death or permanent total disability of the owner/driver.
+                                </td>
+                            </tr>
+
+                            <tr>
+
+                                <td><b>No Claim Bonus (NCB)</b></td>
+                                <td>
+                                    Discounts on premium for claim-free years, reducing insurance costs.
+                                </td>
+                            </tr>
+
+                            <tr>
+
+                                <td><b>Cashless Claim Settlement</b></td>
+                                <td>
+                                    Convenient repair process at network garages with no upfront expenses.
+                                </td>
+                            </tr>
+                            <tr>
+
+                                <td><b>Add-On Covers</b></td>
+                                <td>
+                                    Customizable options to enhance coverage with additional benefits.
+                                </td>
+                            </tr>
+                            <tr>
+
+                                <td><b>Peace of Mind</b></td>
+                                <td>
+                                    Assurance and protection against unexpected financial burdens.
+                                </td>
+                            </tr>
+                            <tr>
+
+                                <td><b>Legal Compliance</b></td>
+                                <td>
+                                    Legal Compliance
+                                </td>
+                            </tr>
+                            <tr>
+
+                                <td><b>Protection Against Theft</b></td>
+                                <td>
+                                    Coverage in case of theft or total loss of the insured vehicle.
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    
+
+    <!-- end -->
+
+
+
+    <!--Types of Two-Wheeler Insurance Policies in India-->
+    <div class="container-fluid group  p-5 my-3">
+
+
+      <div class="container">
+        <div class="row g-3 align-items-center">
+            <div class="section-title text-center ">
+                <h1 class=" text-center">
+                    Types of <span>Two-Wheeler Insurance</span> Policies in India
+                </h1>
+
+            </div>
+
+            <div class="container-fluid my-5">
+                <div class="row g-5 justify-content-center align-items-center">
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content-card card-custom-4" data-wow-delay="0.3s">
+                            <div class="inner-text text-center">
+                                <img src="./images/backpack.png" class="py-3" alt="">
+                                <p class="head mb-4 text-center">Third Party Liability</p>
+                                <p class="para">
+                                    These policies fulfill the financial
+                                    obligations arising from accidents
+                                    involving third-party assets, as
+                                    mandated by the Motor Vehicles Act of
+                                    1988. They cover damages or injuries
+                                    caused to others by the insured two-
+                                    wheeler.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content-card card-custom-4" data-wow-delay="0.3s">
+                            <div class="inner-text text-center">
+                                <img src="./images/backpack.png" class="py-3" alt="">
+                                <p class="head mb-4 text-center">Own-damage Cover</p>
+                                <p class="para">
+                                    This type of policy provides financial
+                                    protection specifically against theft or
+                                    damage to the insured bike, scooter,
+                                    activa, or ebike, offering peace of mind
+                                    to the owner in case of such unfortunate
+                                    events. One of the cheapest 2-wheeler
+                                    insurance options out there!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content-card card-custom-4" data-wow-delay="0.3s">
+                            <div class="inner-text text-center">
+                                <img src="./images/group-2.png" class="py-3" alt="">
+                                <p class="head mb-4 text-center">Comprehensive Cover</p>
+                                <p class="para">
+                                    Combining the benefits of third-party
+                                    liability and own-damage coverage,
+                                    comprehensive insurance provides a wider
+                                    scope of protection. It safeguards against
+                                    expenses arising from theft or damage to
+                                    the insured vehicle as well as third-party
+                                    liability.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+        </div>
+      </div>
+    </div>
+    <!-- end -->
+
+    <!--How to Select the Best Two-Wheeler Insurance Online ?-->
+    <div class="container   p-5 my-3">
+        <div class="row g-3 align-items-center">
+            <div class="section-title text-left ">
+                <h1 class=" text-left">
+                    How to Select the Best Two-Wheeler Insurance Online ?
+                </h1>
+                <p>Selecting the best online two-wheeler insurance policy involves several steps to ensure you make an
+                    informed decision tailored to your specific needs:</p>
+            </div>
+
+            <div class="container-fluid my-3">
+                <div class="row g-5 justify-content-center align-items-center">
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content-card card-custom-4" data-wow-delay="0.3s">
+                            <div class="inner-text text-center">
+                                <img src="./images/backpack.png" class="py-3" alt="">
+                                <p class="head mb-4 text-center">Access Your Coverage
+                                    Needs</p>
+                                <p class="para">
+                                    Consider factors such as your two-
+                                    wheeler's age, usage patterns, location,
+                                    and personal preferences to determine
+                                    whether you require comprehensive
+                                    coverage or just third party liability
+                                    coverage.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content-card card-custom-4" data-wow-delay="0.3s">
+                            <div class="inner-text text-center">
+                                <img src="./images/backpack.png" class="py-3" alt="">
+                                <p class="head mb-4 text-center">Compare Plans from
+                                    Multiple Insurers</p>
+                                <p class="para">
+                                    Utilize Aapka Policywala's insurance
+                                    comparison website to compare policies
+                                    from various insurers. Evaluate coverage
+                                    benefits, add-ons, premium costs, and
+                                    customer reviews for each policy to
+                                    identify the most suitable option.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content-card card-custom-4" data-wow-delay="0.3s">
+                            <div class="inner-text text-center">
+                                <img src="./images/group-2.png" class="py-3" alt="">
+                                <p class="head mb-4 text-center">Check Insurer’s
+                                    Reputation</p>
+                                <p class="para">
+                                    Research the reputation and financial
+                                    stability of the insurance companies
+                                    you're considering for bike, scooter,
+                                    ebike, or activa coverage. Look for
+                                    customer reviews, ratings, and the
+                                    insurer's claim settlement record to
+                                    assess their reliability and customer
+                                    service quality.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content-card card-custom-4" data-wow-delay="0.3s">
+                            <div class="inner-text text-center">
+                                <img src="./images/group-2.png" class="py-3" alt="">
+                                <p class="head mb-4 text-center">Coverage and
+                                    Add-Ons</p>
+                                <p class="para">
+                                    Ensure that the selected two-wheeler
+                                    insurance policy offers the necessary
+                                    coverage, including third-party liability
+                                    and own damage protection. Evaluate
+                                    add-ons that align with your 2-wheeler i
+                                    nsurance needs but avoid unnecessary
+                                    ones that may significantly increase the
+                                    premium.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content-card card-custom-4" data-wow-delay="0.3s">
+                            <div class="inner-text text-center">
+                                <img src="./images/group-2.png" class="py-3" alt="">
+                                <p class="head mb-4 text-center">Claim Settlement
+                                    Ratio</p>
+                                <p class="para">
+                                    Check the claim settlement ratio of the
+                                    two-wheeler insurer, as a higher ratio
+                                    indicates more efficient claims
+                                    processing. This factor is crucial for
+                                    peace of mind during a claim situation.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content-card card-custom-4" data-wow-delay="0.3s">
+                            <div class="inner-text text-center">
+                                <img src="./images/group-2.png" class="py-3" alt="">
+                                <p class="head mb-4 text-center">Online Reviews and
+                                    Testimonials</p>
+                                <p class="para">
+                                    Read online reviews and testimonials
+                                    from existing policyholders to gain
+                                    insights into the insurer's customer
+                                    service, claim settlement process,
+                                    pricing, and overall experience.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content-card card-custom-4" data-wow-delay="0.3s">
+                            <div class="inner-text text-center">
+                                <img src="./images/group-2.png" class="py-3" alt="">
+                                <p class="head mb-4 text-center">No Claim
+                                    Bonus (NCB)</p>
+                                <p class="para">
+                                    Verify if the insurer offers a No Claim
+                                    Bonus (NCB) feature, which rewards you
+                                    with a discount on the premium for every
+                                    claim-free year. NCB can substantially
+                                    reduce your bike insurance renewal costs
+                                    and give you the cheapest 2-wheeler
+                                    insurance options.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content-card card-custom-4" data-wow-delay="0.3s">
+                            <div class="inner-text text-center">
+                                <img src="./images/group-2.png" class="py-3" alt="">
+                                <p class="head mb-4 text-center">Network
+                                    Garages</p>
+                                <p class="para">
+                                    If you prefer cashless claim settlement,
+                                    ensure the insurer listed on Aapka
+                                    Policywala has a wide network of
+                                    authorized garages where you can avail
+                                    cashless repair services for your ebike,
+                                    scooter, or moped.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content-card card-custom-4" data-wow-delay="0.3s">
+                            <div class="inner-text text-center">
+                                <img src="./images/group-2.png" class="py-3" alt="">
+                                <p class="head mb-4 text-center">Ease of Purchase and
+                                    Renewal</p>
+                                <p class="para">
+                                    Choose insurers that offer a user-friendly
+                                    online platform for 2-wheeler policy
+                                    purchase and renewal. A smooth and
+                                    hassle-free process enhances the overall
+                                    customer experience.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content-card card-custom-4" data-wow-delay="0.3s">
+                            <div class="inner-text text-center">
+                                <img src="./images/group-2.png" class="py-3" alt="">
+                                <p class="head mb-4 text-center">Customer Support</p>
+                                <p class="para">
+                                    Evaluate the insurer's customer support
+                                    services, as prompt and efficient
+                                    assistance can be crucial in resolving
+                                    queries and addressing concerns
+                                    effectively. This is as important as
+                                    ensuring affordable pricing.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content-card card-custom-4" data-wow-delay="0.3s">
+                            <div class="inner-text text-center">
+                                <img src="./images/group-2.png" class="py-3" alt="">
+                                <p class="head mb-4 text-center">Read Policy
+                                    Wordings</p>
+                                <p class="para">
+                                    Thoroughly read the online two-wheeler
+                                    insurance policy documents, including
+                                    terms and conditions, to understand the
+                                    inclusions, exclusions, and other
+                                    important details of the policy.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+    <!-- end -->
+
+
+
+    <!--Filling a 2-Wheeler Insurance Claim: Documents Required-->
+
+    
+        <div class="container py-3">
+            <div class="row g-5 align-items-center">
+                <div class="section-title text-left mb-">
+                    <h1 class="mb-4 text-left">
+                        Filling a 2-Wheeler Insurance Claim: <span>Documents Required</span>
+                    </h1>
+                    <p class="posp-para">To ensure a seamless and efficient two-wheeler insurance claim process online
+                        at Aapka Policywala or any other 2-wheeler insurance provider, it’s essential to
+                        have the following documents readily available for submission:</p>
+                </div>
+            </div>
+
+            <div class="container-fluid my-2">
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered custom-table">
+                        <thead>
+                            <tr>
+
+                                <th scope="col">Features</th>
+                                <th scope="col">Benefits</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+
+                                <td><b>Claim Form</b></td>
+                                <td>
+                                    Fill out and sign the claim form provided by the insurance company to initiate the
+                                    claims
+                                    process.
+                                </td>
+                            </tr>
+
+
+                            <tr>
+
+                                <td><b>Copy of Insurance Policy</b></td>
+                                <td>
+                                    Provide a copy of your valid two-wheeler insurance policy document to verify
+                                    coverage details.
+                                </td>
+                            </tr>
+
+                            <tr>
+
+                                <td><b>Driving License</b></td>
+                                <td>
+                                    Submit a valid driving license to authenticate your legal authorization to operate
+                                    the two-
+                                    wheeler.
+                                </td>
+                            </tr>
+
+                            <tr>
+
+                                <td><b>Registration Certificate (RC)</b></td>
+                                <td>
+                                    Include a copy of the vehicle’s registration certificate to confirm ownership and
+                                    provide
+                                    essential vehicle details.t
+                                </td>
+                            </tr>
+
+                            <tr>
+
+                                <td><b>First Information Report (FIR)</b></td>
+                                <td>
+                                    If applicable, furnish a copy of the FIR filed with the local police station for
+                                    incidents involving
+                                    theft, vandalism, or major accidents resulting in injuries.t
+                                </td>
+                            </tr>
+                            <tr>
+
+                                <td><b>Estimate of Repairs</b></td>
+                                <td>
+                                    Provide a repair estimate from the garage or workshop where you intend to have your
+                                    two-
+                                    wheeler repaired, detailing the expected costs.
+                                </td>
+                            </tr>
+                            <tr>
+
+                                <td><b>Hospital/Medical Records (if applicable)</b></td>
+                                <td>
+                                    If the claim involves personal accident cover, submit relevant medical records and
+                                    bills related
+                                    to hospitalization or treatment for injuries sustained.
+                                </td>
+                            </tr>
+                            <tr>
+
+                                <td><b>Copy of PAN Card</b></td>
+                                <td>
+                                    For claim settlement amounts exceeding a specified threshold, you may need to
+                                    furnish a
+                                    copy of your PAN card for tax purposes.
+                                </td>
+                            </tr>
+                            <tr>
+
+                                <td><b>Medical Records (if applicable)</b></td>
+                                <td>
+                                    For claims involving bodily injury, to provide medical bills and treatment reports.
+                                </td>
+                            </tr>
+                            <tr>
+
+                                <td><b>Original Repair Bills (for reimbursement claims)</b></td>
+                                <td>
+                                    Retain original repair bills and receipts if you opt for reimbursement claims after
+                                    repairs
+                                    conducted at a non-network garage.t
+                                </td>
+                            </tr>
+                            <tr>
+
+                                <td><b>Canceled Cheque and Bank Details</b></td>
+                                <td>
+                                    Provide a canceled cheque and your bank account details for direct claim settlement
+                                    via
+                                    NEFT transfer, ensuring prompt and hassle-free processing of claim settlements.
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+   
+    <!-- end -->
+
+
+
+    <!--Online Premium Calculation for Two-Wheeler Insurance-->
+    <div class="container p-5 my-3">
+        <div class="row g-2 align-items-center">
+            <div class="section-title text-left ">
+                <h1 class=" text-left">
+                    Online Premium Calculation for <span>Two-Wheeler Insurance</span>
+                </h1>
+
+            </div>
+            <p class="posp-para">Experience the effortless convenience of technology with Aapka Policywala’s online
+                two-wheeler insurance premium calculation tool. Here’s a step-by-step
+                guide to help you seamlessly navigate through the process:</p>
+
+            <div class="">
+                <p class="posp-para">
+                    <b> Use Our Comparison Portal:</b> Locate the "Premium Calculator" or "Get a Quote" option on either
+                    Aapka Policywala’s homepage or the specific insurance
+                    product page for two-wheelers.
+                </p>
+                <p class="posp-para">
+                    <b> Access the Premium Calculator:</b> Locate the “Premium Calculator” or “Get a Quote” option on
+                    our Aapka Policywala’s homepage or the specific insurance
+                    product page
+                </p>
+
+                <p class="posp-para">
+                    <b>Enter Your Details:</b> Enter relevant information such as your two-wheeler's make, model, year
+                    of manufacture, and registration location. Additionally, input
+                    your personal details including age and previous insurance history, if applicable.
+                </p>
+                <p class="posp-para">
+                    <b>Select Coverage Type and Add-Ons:</b> Choose between third-party liability or comprehensive
+                    coverage based on your needs. Additionally, select any desired
+                    add-ons to customize your policy for enhanced protection.
+                </p>
+                <p class="posp-para">
+                    <b> Submit the Details:</b> Once all required information is accurately entered, submit the details
+                    for
+                    processing through our secure platform. Make sure the form is
+                    correctly filled and there are no errors.
+                </p>
+                <p class="posp-para">
+                    <b>View the Premium Estimate:</b> Our premium calculator will swiftly generate an estimate based on
+                    the provided data. You will be able to view the cost for the
+                    selected coverage and add-ons in real-time.
+                </p>
+                <p class="posp-para">
+                    <b> Proceed with Purchase:</b> Upon reviewing the premium quote and coverage details, proceed with
+                    purchasing the policy directly through our website for instant
+                    protection. Enjoy peace of mind knowing your two-wheeler is adequately insured.
+                </p>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- end -->
+
+
+
+
+
+    <!--Process of Filling Two-Wheeler Insurance Claims Online-->
+
+    <div class="container py-3">
+
+        <div class="row g-2 align-items-center">
+            <div class="section-title text-center ">
+                <h1 class=" text-left">
+                    Process of Filling <span>Two-Wheeler Insurance</span> Claims Online
+                </h1>
+
+            </div>
+            <p class="posp-para text-left pt-3 ">Navigating the process of filing a claim for your two-wheeler bike
+                insurance purchased through Aapka Policywala is straightforward and hassle-free. Here’s a
+                step-by-step guide to help you through the process:</p>
+            <div class="row number-cards g-5 py-2">
+
+                <!-- Repeat this block for each card -->
+                <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                    <div class="number">1</div>
+                    <div class="custom-card-v11">
+
+                        <p><b>Inform the Insurer</b></p>
+                        <p>Contact your insurance company or their
+                            customer service helpline following the
+                            accident or incident. Aapka Policywala’s
+                            dedicated claims specialist will assist you
+                            in providing detailed information,
+                            including the date, time, and location of
+                            the event.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                    <div class="number">2</div>
+                    <div class="custom-card-v11">
+                        <p><b>Provide Necessary Information</b></p>
+                        <p>Ensure you have your policy number,
+                            contact details, and incident details ready
+                            when reporting the claim. Include a
+                            description of the accident, extent of
+                            damage or injuries, and any involved third
+                            parties.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                    <div class="number">3</div>
+
+                    <div class="custom-card-v11">
+                        <p><b>File a First Information Report (FIR)</b></p>
+                        <p> If the incident involves theft, vandalism, or
+                            major accidents with injuries, file an FIR
+                            with the local police station. Keep a copy
+                            as it may be required during the claim
+                            process.</p>
+                    </div>
+                </div>
+                <!-- Continue this pattern to create up to 12 cards -->
+                <!-- Example for the 4th card -->
+                <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                    <div class="number">4</div>
+
+                    <div class="custom-card-v11">
+                        <p><b>Submit Required Documents</b></p>
+                        <p>Your insurer will request specific
+                            documents to support your claim. These
+                            may include a completed claim form, copy
+                            of your driving license, two-wheeler’s
+                            registration certificate, photographs of the
+                            damaged vehicle, repair estimates,
+                            medical reports (if applicable), and other
+                            relevant documents.</p>
+                    </div>
+                </div>
+                <!-- Add more cards as needed -->
+                <!-- Example for the 5th card -->
+                <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                    <div class="number">5</div>
+
+                    <div class="custom-card-v11">
+                        <p><b>Claim Survey</b></p>
+                        <p> Depending on the extent of damage, a
+                            surveyor may assess the loss. They will
+                            inspect your two-wheeler bike or scooter,
+                            verify claim details, and submit a report to
+                            the insurer.</p>
+                    </div>
+                </div>
+                <!-- Example for the 6th card -->
+                <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                    <div class="number">6</div>
+
+                    <div class="custom-card-v11">
+                        <p><b>Repair Your Vehicle</b></p>
+                        <p> Opt for repairs at a network garage for
+                            cashless claims or choose a non-network
+                            garage for reimbursement claims. Submit
+                            repair bills accordingly.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                    <div class="number">7</div>
+
+                    <div class="custom-card-v11">
+                        <p><b>Settlement</b></p>
+                        <p>Once the surveyor’s report is received and
+                            all documents submitted, your claim will
+                            be processed. If approved, the insurer will
+                            settle the claim directly with the repair
+                            garage or reimburse you accordingly.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                    <div class="number">8</div>
+
+                    <div class="custom-card-v11">
+                        <p><b>Claim Status</b></p>
+                        <p>Stay updated on your bike, activa, or
+                            scooter claim’s progress by contacting
+                            customer service or checking online
+                            using our platform or the insurer’s
+                            website or mobile app.</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- end -->
+
+
+
+
+
+    <!--2-Wheeler Insurance Coverage Options-->
+
+    <div class="container py-5">
+        <div class="row g-5 align-items-center">
+            <div class="section-title ">
+                <h1 class="text-left">
+                    2-Wheeler Insurance <span>Coverage Options</span>
+                </h1>
+                <p class="posp-para text-left">Ensure comprehensive protection for your bike, moped, scooter, or ebike
+                    with our range of cheap insurance coverage options meticulously tailored to
+                    safeguard against various risks and uncertainties:</p>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row justify-content-center g-5">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="custom-card-v10">
+                            <h2>Theft Coverage</h2>
+                            <p class="posp-para">Our comprehensive insurance shields you
+                                against the theft of your two-wheeler,
+                                providing compensation for the vehicle’s
+                                value in the unfortunate event of theft or
+                                total loss.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="custom-card-v10">
+                            <h2>Natural Calamities Coverage</h2>
+                            <p class="posp-para">Extend your coverage to damages caused
+                                by natural calamities such as earthquakes,
+                                floods, storms, and more, ensuring
+                                financial security in the face of
+                                unpredictable disasters.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="custom-card-v10">
+                            <h2>Fire and Explosion Coverage</h2>
+                            <p class="posp-para">Safeguard your bike, moped, or e-scooter
+                                against damages resulting from fire and
+                                explosions, providing essential financial
+                                protection for your valuable asset.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="custom-card-v10">
+                            <h2>Riot and Vandalism Coverage</h2>
+                            <p class="posp-para">Some of our cheapest policies provide
+                                coverage for damages to your two-
+                                wheeler due to riots, strikes, or malicious
+                                acts, offering peace of mind amidst
+                                uncertain times.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="custom-card-v10">
+                            <h2>Consumable Expenses Cover</h2>
+                            <p class="posp-para">Include coverage for expenses on
+                                consumables like engine oil, nuts, and
+                                bolts incurred during repairs, alleviating
+                                the financial burden of maintenance.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="custom-card-v10">
+                            <h2>Roadside Assistance Cover</h2>
+                            <p class="posp-para">Stay prepared for unexpected situations
+                                like breakdowns, tire punctures, and fuel
+                                assistance with our comprehensive
+                                roadside assistance cover, ensuring
+                                you’re never stranded on the road.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="custom-card-v10">
+                            <h2>Engine Protection Cover</h2>
+                            <p class="posp-para">Protect your engine against damages
+                                caused by water ingress or oil leakage,
+                                ensuring smooth performance and
+                                longevity for your vehicle.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="custom-card-v10">
+                            <h2>Zero Depreciation Cover</h2>
+                            <p class="posp-para">Maximize your 2-wheeler coverage
+                                benefits with our zero depreciation cover,
+                                ensuring you receive the full claim
+                                amount without depreciation
+                                considerations.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="custom-card-v10">
+                            <h2>Personal Accident Cover</h2>
+                            <p class="posp-para">Some 2-wheeler policies include personal
+                                accident cover for the owner/driver,
+                                providing compensation in the event of
+                                accidental death or permanent total
+                                disability.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- end -->
+
+
+
+
+    <!--Add-Ons for Enhanced Two-Wheeler Insurance-->
+    <div class="container p-5 my-5">
+        <div class="row g-2 align-items-center">
+            <div class="section-title text-center ">
+                <h1 class=" text-left">
+                    Add-Ons for Enhanced <span>Two-Wheeler Insurance</span>
+                </h1>
+
+            </div>
+            <p class="posp-para">Sometimes, add-ons can serve as invaluable safeguards against financial loss and offer
+                added security for your two-wheeler vehicle. Here are some common
+                add-ons provided by insurers that are part of Aapka Policywala:</p>
+
+            <div class="">
+                <p class="posp-para">
+                    <b>Zero Depreciation Cover:</b> This add-on ensures you receive the full claim amount without
+                    factoring in depreciation on the vehicle’s parts during repairs. It is
+                    particularly beneficial for new or recently purchased bikes, scooters, ebike, or mopeds.
+                </p>
+                <p class="posp-para">
+                    <b>Engine Protection Cover:</b> This cheap add-on provides coverage for damages to the engine
+                    resulting from water ingression, lubricating oil leakage, or gearbox
+                    damage. Since standard policies may exclude engine-related issues, this add-on can prove to be
+                    invaluable.
+                </p>
+
+                <p class="posp-para">
+                    <b> Roadside Assistance Cover:</b> Roadside assistance cover offers 24/7 assistance for breakdowns,
+                    flat tires, battery related issues, fuel depletion, and more,
+                    providing reassurance during 2-wheeler emergencies and ensuring you’re never stranded on the road.
+                </p>
+                <p class="posp-para">
+                    <b>Consumable Expenses Cover: </b>This add-on covers expenses on consumables like engine oil, nuts,
+                    bolts, and washers during repairs, alleviating the financial
+                    burden of these expenses during claim settlement and enhancing your overall coverage.
+                </p>
+                <p class="posp-para">
+                    <b>Return to Invoice (RTI) Cover:</b> In the event of total loss or theft of your two-wheeler, RTI
+                    cover ensures you receive the original invoice value of the vehicle
+                    rather than the depreciated value, offering enhanced financial protection and peace of mind.
+                </p>
+                <p class="posp-para">
+                    <b> Personal Accident Cover for Pillion Rider:</b> Personal accident cover for the pillion rider
+                    extends personal accident coverage to the pillion rider, offering
+                    financial protection in case of accidental death or disability, ensuring comprehensive coverage for
+                    all occupants.
+                </p>
+                <p class="posp-para">
+                    <b> Key Replacement Cover: </b>This affordable add-on gives coverage for the cost of replacing lost
+                    or stolen keys of your two-wheeler, offering added convenience
+                    and security, ensuring you’re always prepared in case of key-related issues.
+                </p>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- end -->
+
+
+    <!--Advantages of 2-Wheeler Insurance Comparison Online-->
+
+    
+        <div class="container py-3">
+            <div class="row g-3 align-items-center">
+                <div class="section-title ">
+                    <h1 class=" text-center">
+                       <span> Advantages</span> of 2-Wheeler Insurance Comparison Online
+                    </h1>
+                </div>
+           <p class="posp-para">Looking for the ideal insurance provider for your sports bike or scooter but finding the selection process daunting? Fear not! Aapka Policywala’s online 
+            comparison feature simplifies the task of finding the cheapest two-wheeler insurance policy for you! Discover advantages awaiting you as you utilize our 
+            website’s policy comparison feature:</p>
+            </div>
+
+
+            <div class="container-fluid my-3">
+                <div class="table-responsive">
+                    <table class="custom-table">
+                        <thead>
+                            <tr>
+
+                                <th>Features</th>
+                                <th>Use</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td><b>Multiple Options at Your Fingertips</b></td>
+                                <td>Access a diverse array of 2-wheeler insurance options from various reputable companies, all 
+                                    conveniently hosted by Aapka Policywala's platform for quick and easy comparison.</td>
+                            </tr>
+                            <tr>
+                                <td><b>Time and Cost Savings</b></td>
+                                <td>Streamline the insurance purchase process and save valuable time and effort by eliminating the 
+                                    need for multiple visits to insurance agents or companies. Our platform ensures efficient and cost-
+                                    effective decision-making.</td>
+                            </tr>
+
+
+                            <tr>
+                                <td><b>Transparent and Unbiased Information</b></td>
+
+                                <td> Benefit from unbiased information presented on our two-wheeler online insurance comparison 
+                                    platform. We guarantee transparency and facilitate informed decision making, empowering you to 
+                                    choose the best policy for your needs.</td>
+                            </tr>
+                            <tr>
+                                <td><b>Personalization</b></td>
+                                <td>Customize your search based on specific requirements effortlessly. Simply input details such as 
+                                    your bike's specifications and desired coverage to receive personalized results tailored to your 
+                                    needs and preferences.</td>
+
+                            </tr>
+                            <tr>
+                                <td><b>Detailed Policy Features</b> </td>
+                                <td>Gain comprehensive insight into policy features, inclusions, exclusions, and add-ons. Our website's 
+                                    two-wheeler insurance comparison feature enables a thorough understanding of coverage options, 
+                                    ensuring you make an informed decision.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Premium Comparison</b></td>
+                                <td>Easily compare premium costs across different policies with varying coverage levels. Find the 
+                                    cheapest option without compromising on essential coverage, ensuring maximum value for your 
+                                    money.</td>
+                            </tr>
+
+                            <tr>
+                                <td><b>Customer Reviews and Ratings</b></td>
+                                <td>Access customer reviews and ratings for insurers and policies, providing valuable insights into claim 
+                                    settlement processes and customer service quality. Make informed decisions based on real user 
+                                    experiences and feedback.</td>
+                            </tr>
+                            <tr>
+                                <td><b>No Pressure Purchase</b></td>
+                                <td>Explore policies at your own pace without any sales pressure! Aapka Policywala's comparison table 
+                                    provides a stress-free shopping experience, allowing you to make decisions confidently and 
+                                    comfortably.</td>
+
+                            </tr>
+                            <tr>
+                                <td><b>Instant Policy Purchase</b></td>
+                                <td>Enjoy the convenience of purchasing your chosen policy instantly online. Facilitate quick and 
+                                    efficient coverage acquisition without any hassle, ensuring seamless and hassle-free transactions.</td>
+
+                            </tr>
+
+
+
+                            <tr>
+                                <td><b>24/7 Access</b></td>
+                                <td>Benefit from the round-the-clock availability of our two-wheeler online insurance policy comparison 
+                                    platform. Compare policies and make decisions at your convenience, anytime and anywhere, 
+                                    ensuring flexibility and accessibility for all users.</td>
+                            </tr>
+
+
+
+                        </tbody>
+
+
+
+                    </table>
+                </div>
+            </div>
+        </div>
+    
+
+
+    <!-- end -->
+ <!-- testimonil -->
+
+ <div class="container-fluid py-2">
+
+    <div class="row g-2 align-items-center">
+        <div class="section-title text-center ">
+            <h1 class="mb-4 text-center">
+                <span>Health Insurance</span> Renewal Reviews
+            </h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, nihil.</p>
+        </div>
+    </div>
+    <div class="container py-5" id="testimonials">
+        <div class="slider">
+            <div class="slide-track testimonial-container">
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-1.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">SUZANA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-2.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">LÍVIA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-3.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">KÁTIA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-4.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">MATHEUS</p>
+                    </div>
+                </div>
+                <!-- Duplicate the slides to create an infinite loop effect -->
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-1.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">SUZANA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-2.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">LÍVIA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-3.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">KÁTIA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-4.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">MATHEUS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+<script>
+    document.querySelector('.slider').addEventListener('mouseover', function () {
+        document.querySelector('.slide-track').style.animationPlayState = 'paused';
+    });
+
+    document.querySelector('.slider').addEventListener('mouseout', function () {
+        document.querySelector('.slide-track').style.animationPlayState = 'running';
+    });
+</script>
+<!-- end -->
+
+   <!-- get or renew -->
+   <div class="container-fluid team py-3 mt-5">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="0.4s">
+                <div class="section-title text-left mb-5">
+                    <h1 class="mb-4 renew-title">
+                        <span> Get or Renew</span> Your Insurance with Aapka Policywala
+                    </h1>
+                    <p class="mb-4 renew-para">
+                        We are just a call away. Feel free to contact us
+                    </p>
+                    <button class="main-btn"><a href="#">Contact Us </a></button>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="health-img ps-md-5">
+                    <img src="./images/renew.png" class="img-fluid w-100" alt="Image" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- end -->
+
+<!-- Footer -->
+<footer class="text-center text-lg-start footer-2 text-muted">
+    <!-- Section: Links  -->
+    <div class="p-4">
+        <div class="container-fluid text-center text-md-start">
+            <!-- Grid row -->
+            <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">Motor Insurance</h6>
+                    <p><a href="#!" class="text-reset">Car Insurance</a></p>
+                    <p><a href="#!" class="text-reset">Two Wheeler</a></p>
+                    <p><a href="#!" class="text-reset">Goods Carrying</a></p>
+                    <p><a href="#!" class="text-reset">Passenger Carrying</a></p>
+                    <p><a href="#!" class="text-reset">Misc-D Insurance</a></p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">Life Insurance</h6>
+                    <p><a href="#!" class="text-reset">Group Term Insurance</a></p>
+                    <p><a href="#!" class="text-reset">Term Life Insurance</a></p>
+                    <p><a href="#!" class="text-reset">1 Crore Term Insurance</a></p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">Resources</h6>
+                    <p><a href="#!" class="text-reset">POSP Partner</a></p>
+                    <p><a href="#!" class="text-reset">Tutorial</a></p>
+                    <p><a href="#!" class="text-reset">Video Tutorial</a></p>
+                    <p><a href="#!" class="text-reset">Article</a></p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">About Us</h6>
+                    <p><a href="#!" class="text-reset">Terms of Service</a></p>
+                    <p><a href="#!" class="text-reset">Privacy Policy</a></p>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+
+            <!-- Second row -->
+            <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+
+                    <p>
+                        <i class="fa-solid fa-location-dot pe-2"></i> Booth No. 13, Anaj
+                        Mandi, Bhattu Mandi, Bhattu Kalan, Fatehbad, Haryana - 125053
+                    </p>
+
+                    <p><i class="fa-solid fa-phone-volume pe-2"></i>+91 8390008390</p>
+                    <p>
+                        <i class="fa-solid fa-envelope pe-2"></i> info@aapkapolicywala.com
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">Follow us on</h6>
+                    <div class="social-icons">
+                        <a href="#!" class="text-reset"><i class="fab fa-instagram fa-lg"></i></a>
+                        <a href="#!" class="text-reset"><i class="fab fa-linkedin fa-lg"></i></a>
+                        <a href="#!" class="text-reset"><i class="fab fa-pinterest fa-lg"></i></a>
+                        <a href="#!" class="text-reset"><i class="fab fa-youtube fa-lg"></i></a>
+                        <a href="#!" class="text-reset"><i class="fab fa-facebook-f fa-lg"></i></a>
+                        <a href="#!" class="text-reset"><i class="fab fa-twitter fa-lg"></i></a>
+                    </div>
+                </div>
+
+                <!-- Grid column -->
+            </div>
+            <!-- Second row -->
+        </div>
+    </div>
+    <!-- Section: Links -->
+
+    <!-- Copyright -->
+    <div class="text-center description p-4" style="background-color: rgba(0, 0, 0, 0.05)">
+        <p class="description-heading-1 py-2 text-center">
+            Aapka Policywala Insurance
+            <span style="color: #e89e3f">Broking Services</span> Pvt. Ltd.
+        </p>
+        <p class="description-para-1 py-2 text-center">
+            IRDAI Registration Code: IRDAI / DB1058 / 2023 | IRDAI Registration
+            No.: 933| Category: Direct (Life & General) | License Valid:
+            19.01.2024 - 18.01.2027
+        </p>
+        <p class="text-left disclaimer py-5">
+            <b>Disclaimer:</b>Insurance is the subject matter of solicitation.
+            Visitors are hereby informed that their information submitted on the
+            website may be shared with insurers. The product information for
+            comparison displayed on this website is of the insurers with whom our
+            company has an agreement. Product information is authentic and solely
+            based on the information received from the Insurer.
+        </p>
+    </div>
+</footer>
+
+<!-- end -->
+
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="./js.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz4fnFO9gybBogGz9qQJbXUjXT1ZtAn1Ry5zVSrK7SwppV8xv8Q5XlWJ9Q"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+    integrity="sha384-pprn3073KE6tl6ERvA6knXKa2QKN8R6bJ5L3VGsBzHrtvPpBfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

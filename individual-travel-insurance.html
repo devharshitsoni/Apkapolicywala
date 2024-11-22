@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apna Policy</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Ribeye&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@100..900&display=swap" rel="stylesheet">
+
+
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+
+
+
+</head>
+
+<body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-none d-lg-flex" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>General Insurance</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>Life Insurance</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>Knowledge Base</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><span>Become a Posp Partner</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><span>Contact us</span></a>
+                    </li>
+                </ul>
+                <button class="main-btn ms-4">Sign up</button>
+            </div>
+            <div class="offcanvas offcanvas-end offcanvas-glass d-lg-none" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <a href="#" class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./images/logo.png"
+                            alt="" /></a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                General Insurance
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Life Insurance
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Knowledge Base
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Become a Posp Partner</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- end navabr -->
+
+    <!-- head -->
+
+    <div class="container-fluid general px-5 my-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 col-md-6">
+                    <div class="section-title text-left mb-5">
+                        <h1 class="renew-title">
+                            Buy Individual <span>Travel Insurance</span> Online 
+                        </h1>
+                        <p class="">
+                            Planning a trip is exciting but unexpected events can disrupt even the best-laid vacation and
+                            adventure plans. Individual travel insurance from Aapka Policywala will provide a safety net
+                            while you travel alone for leisure and work. It will protect you from financial setbacks due to
+                            trip cancellations, medical emergencies, or lost luggage. Buy or renew individual travel
+                            insurance policy plans and make the most of your solo trip knowing you’re covered throughout
+                            your journey!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="health-img">
+                        <img src="./images/individual-travel-insurance.png" class="img-fluid w-100 py-4" alt="Image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+
+
+
+    <!--    What is Individual Travel Insurance?-->
+    <div class="container p-5 my-3">
+        <div class="row g-3 align-items-center">
+            <div class="section-title text-center ">
+                <h1 class=" text-center">
+                    What is <span> Individual Travel Insurance?</span>
+                </h1>
+            </div>
+
+            <p class="posp-para">
+                Alright, imagine you’re finally on that long-awaited trek through Mount Capanne, Italy. Breathtaking
+                scenery surrounds you. Adventure is filling the air. Suddenly, a twist in your ankle lands you needing
+                medical attention. Without travel insurance, the cost of treatment in a foreign country could quickly
+                turn your dream vacation into a financial nightmare! 
+                An individual travel insurance policy from a trusted online insurance firm in India will act like a
+                buddy who always has your back. It will ensure that medical expenses and other unexpected costs won’t
+                derail your trip. So, just pack your bags, embrace the unknown, and let the travel insurance policy
+                handle the worries! You better focus on creating unforgettable memories.
+            </p>
+        </div>
+    </div>
+
+    <!-- end -->
+
+
+
+
+    <!-- Individual Travel Insurance Policy: Benefits -->
+
+    <div class="container  py-3">
+        <div class="row g-3 align-items-center">
+            <div class="section-title ">
+                <h1 class="text-center">
+                    Individual Travel <span>Insurance Policy: Benefits</span>
+                </h1>
+
+            </div>
+            <p class="posp-para px-5">Embark on your work or leisure travel with confidence by opting for Aapka
+                Policywala’s Individual Travel Insurance policies. Here are some reasons to chooseus for buying and
+                comparing insurance plans:</p>
+
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="custom-card-v10">
+                            <h2>Diverse Options</h2>
+                            <p class="posp-para">Access a variety of individual travel insurance policies from reputable
+                                third-party companies. On our website, you’ll find the perfect travel coverage for your
+                                specific needs.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="custom-card-v10">
+                            <h2>Easy Comparison</h2>
+                            <p class="posp-para">Our platform facilitates easy comparison of different policies.
+                                Meaning, we empower you to make an informed decision based on coverage, benefits, and
+                                premiums.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="custom-card-v10">
+                            <h2>Transparent Information</h2>
+                            <p class="posp-para"> Aapka Policywala provides clear details about each individual travel
+                                policy. This not only guarantees transparency but also enables you to understand the
+                                terms and conditions before making a purchase.</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- end -->
+
+
+
+    <!-- Individual vs. Group Travel Insurance-->
+    <div class="container p-5 my-3">
+        <div class="row g-3 align-items-center">
+            <div class="section-title text-center ">
+                <h1 class=" text-center">
+                    <span>Individual vs. Group</span> Travel Insurance
+                </h1>
+            </div>
+            <p class="posp-para">Travel insurance policies protect you from unexpected events that can disrupt your
+                trip. But a question that often makes people confused is, “Should I choose an individual plan or a group
+                plan?” Here’s a breakdown of the key differences and comparison points to help you decide on your
+                purchase or renewal:</p>
+
+            <div class="">
+                <p class="posp-para">
+                    <b> Customization:</b> Individual plans allow you to tailor coverage to your age, health, trip
+                    duration, and activities. Group plans typically offer a one-size fits-all approach.
+                </p>
+                <p class="posp-para">
+
+                    <b> Pre-existing Conditions: </b>Individual travel insurance plans can be customized to cover
+                    pre-existing medical conditions. Group insurance plans, on the other hand, might have exclusions or
+                    limitations.
+                </p>
+                <p class="posp-para">
+
+                    <b> Trip Specifics:</b> The former cater to different trip types like adventure travel or business
+                    trips, offering focused coverage. Latter might not offer these variations.
+                </p>
+                <p class="posp-para">
+
+                    <b> Flexibility:</b> Talking about flexibility, Individual travel insurance policies allow
+                    individuals in India to add or remove coverage as needed. Group travel insurance plans typically
+                    lock them into predetermined coverage.
+                </p>
+                <p class="posp-para">
+
+                    <b> Claim Process:</b> Individual claims are handled directly with the third-party insurance company
+                    listed at Aapka Policywala. Group claims might involve the group organizer as an intermediary. This
+                    adds an extra step to the process.
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- end -->
+
+
+
+
+
+    <!--  Mandatory Individual Travel Insurance Destinations-->
+
+    <div class="container-fluid life bg-[#f7b661] py-5">
+        <div class="container py-5">
+            <div class="row g-3 align-items-center">
+                <div class="section-title text-center">
+                    <h1 class="text-center">
+                        Mandatory <span>Individual Travel Insurance</span> Destinations
+                    </h1>
+                </div>
+                <div class="col-md-12 wow fadeInRight" data-wow-delay="0.4s">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-6 mb-3">
+                            <div class="custom-card-v2 text-center ">
+                                <div class="custom-card-v2-body">
+                                    <img src="./images/Man enjoying vacation.png" alt="Car icon" class="icon-v2 mb-2" />
+                                    <p class="custom-card-v2-text">Schengen Area</p>
+
+                                    <p class="posp-para text-center">This zone includes 26 European countries (Austria,
+                                        Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece,
+                                        Hungary, Iceland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta,
+                                        Netherlands, Norway, Poland, Portugal, Slovakia, Slovenia, Spain, Sweden, and
+                                        Switzerland).</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 mb-3">
+                            <div class="custom-card-v2 text-center">
+                                <div class="custom-card-v2-body">
+                                    <img src="./images/Family enjoying picnic.png" alt="Motorcycle icon"
+                                        class="icon-v2 mb-2" />
+                                    <p class="custom-card-v2-text">Other Popular Destinations</p>
+
+                                    <p class="posp-para text-center">Cuba, Ecuador, Iran, Turkey, Morocco, Thailand,
+                                        United Arab Emirates (UAE), Togo, Algeria, Romania, Croatia, Moldova, Georgia,
+                                        Aruba, Cambodia, Lebanon, Seychelles, Antarctica.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end -->
+
+
+    <!-- What is covered in Individual Travel Insurance -->
+ 
+        <div class="container py-3 my-3">
+            <div class="row g-3 align-items-center">
+                <div class="section-title ">
+                    <h1 class=" text-center">
+                        What is covered in <span>Individual Travel Insurance</span>
+                    </h1>
+                </div>
+                <p class="posp-para px-5"> Peace of mind is priceless especially when you’re travelling solo. Individual
+                    travel insurance from Aapka Policywala provides a safety net for a variety of unexpected situations
+                    that can arise during your trip. 
+                    Here’s what will be covered if you buy or renew this type of insurance policy: </p>
+            </div>
+
+            <div class="container-fluid my-2">
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered custom-table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Features</th>
+                                <th scope="col">Benefits</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><b>Trip Cancellation or Interruption</b></td>
+                                <td>
+                                    Travel insurance reimburses non-refundable expenses if a trip needs to be canceled
+                                    or interrupted
+                                    due to covered reasons such as illness, injury, or unforeseen events, ensuring
+                                    travelers don’t suffer
+                                    financial losses.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Emergency Medical Expenses</b></td>
+                                <td>
+                                    Travel insurance covers emergency medical expenses incurred during the trip,
+                                    including
+                                    hospitalization, medical treatments, and medications, relieving travelers from
+                                    significant out-of-
+                                    pocket costs.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Emergency Evacuation and Repatriation</b></td>
+                                <td>
+                                    In critical situations where immediate medical evacuation is required, travel
+                                    insurance covers the
+                                    cost of transportation to the nearest medical facility or back to the insured’s home
+                                    country.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Baggage Loss or Delay</b></td>
+                                <td>
+                                    Travel insurance provides compensation for lost, stolen, or delayed baggage,
+                                    assisting travelers in
+                                    replacing essential belongings and coping with unexpected expenses.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Personal Liability</b></td>
+                                <td>
+                                    Travel insurance reimburses additional expenses caused by travel delays, such as
+                                    accommodation
+                                    and meals, ensuring travelers are taken care of until their journey can resume.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Trip Delay</b></td>
+                                <td>
+                                    Many travel insurance policies offer 24/7 emergency assistance services, providing access to 
+                                    helplines for medical emergencies, travel advice, and coordination of necessary assistance while 
+                                    abroad.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Accidental Death and Dismemberment (AD&D)</b></td>
+                                <td>
+                                    Travel insurance may cover legal expenses and compensation if the insured accidentally causes 
+                                    injury to others or damages someone’s property during the trip.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Travel Assistance Services</b></td>
+                                <td>
+                                    Some travel insurance policies offer optional coverage for adventure sports and activities, allowing 
+travelers to indulge in high-risk activities with confidence.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Emergency Cash Advance</b></td>
+                                <td>
+                                    Travel insurance protects the investment made in pre-paid travel expenses, such as flights, hotels, 
+                                    and tours, in case of trip cancellations or interruptions.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Missed Connection</b></td>
+                                <td>
+                                    Family travel insurance plans offer coverage for the entire family, providing peace of mind for parents 
+                                    traveling with children.
+                                </td>
+                            </tr>
+
+
+
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    
+
+
+
+<!-- end -->
+
+
+ <!-- What’s Not Covered in Individual Travel Insurance?-->
+ <div class="container p-5 my-5">
+    <div class="row g-3 align-items-center">
+        <div class="section-title text-center ">
+            <h1 class=" text-center">
+                What’s Not Covered in <span>Individual Travel Insurance?</span>
+            </h1>
+        
+        </div>
+        <p class="posp-para">Aapka Policywala believes in the importance of considering both sides of the coin. Before purchasing or renewing an individual travel insurance plan, it’s essential to understand not only what is covered but also what is not covered. 
+            Here are some common exclusions to be aware of before you buy individual travel insurance:</p>
+
+        <div class="">
+            <p class="posp-para">
+                <b>Pre-existing Medical Conditions:</b> Most plans exclude coverage for pre existing medical conditions or complications arising from them. Be upfront with your health situation when purchasing insurance to avoid claim denials.
+            </p>
+            <p class="posp-para">
+
+                <b>Adventure Activities:</b> If you're planning on skydiving, rock climbing, or other high-risk activities, standard travel insurance might not cover injuries sustained during these adventures. Look for a plan that includes coverage for adventure sports if needed.
+            </p>
+            <p class="posp-para">
+
+              <b>  Self-inflicted Harm:</b> Injuries resulting from reckless behaviour or intoxication are typically not covered. Play it safe and responsible during your trip.
+            </p>
+            <p class="posp-para">
+
+               <b> Mental Health Concerns: </b>Claims related to mental or emotional disorders are often excluded. Consider alternative insurance options if you require this type of coverage. 
+            </p>
+            <p class="posp-para">
+
+                <b>Illegal Activities: </b>Travel insurance won't cover losses or injuries incurred while breaking the law. Abide by local laws to ensure your safety and avoid coverage issues. 
+            </p>
+            <p class="posp-para">
+
+              <b>  Pregnancy and Childbirth:</b> Expenses related to pregnancy or childbirth may be excluded unless specifically covered by an add-on. Be clear about your needs when choosing an individual travel plan.
+            </p>
+            <p class="posp-para">
+
+                <b>Unattended Belongings:</b> Leaving your belongings unattended in public places can lead to denied claims for theft or loss. Therefore, keep your valuables secure.
+            </p>
+            <p class="posp-para">
+
+                <b>Natural Disasters and Epidemics: </b>Some plans might exclude claims related to natural disasters, epidemics, or pandemics. Make sure to check the policy details on our platform for specific exclusions.
+            </p>
+
+        </div>
+    </div>
+</div>
+
+<!-- end -->
+
+
+ <!-- testimonil -->
+
+ <div class="container-fluid py-2">
+
+    <div class="row g-2 align-items-center">
+        <div class="section-title text-center ">
+            <h1 class="mb-4 text-center">
+                <span>Health Insurance</span> Renewal Reviews
+            </h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, nihil.</p>
+        </div>
+    </div>
+    <div class="container py-5" id="testimonials">
+        <div class="slider">
+            <div class="slide-track testimonial-container">
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-1.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">SUZANA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-2.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">LÍVIA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-3.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">KÁTIA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-4.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">MATHEUS</p>
+                    </div>
+                </div>
+                <!-- Duplicate the slides to create an infinite loop effect -->
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-1.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">SUZANA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-2.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">LÍVIA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-3.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">KÁTIA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-4.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">MATHEUS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+<script>
+    document.querySelector('.slider').addEventListener('mouseover', function () {
+        document.querySelector('.slide-track').style.animationPlayState = 'paused';
+    });
+
+    document.querySelector('.slider').addEventListener('mouseout', function () {
+        document.querySelector('.slide-track').style.animationPlayState = 'running';
+    });
+</script>
+<!-- end -->
+
+
+  <!-- get or renew -->
+  <div class="container-fluid team py-3 mt-5">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="0.4s">
+                <div class="section-title text-left mb-5">
+                    <h1 class="mb-4 renew-title">
+                        <span> Get or Renew</span> Your Insurance with Aapka Policywala
+                    </h1>
+                    <p class="mb-4 renew-para">
+                        We are just a call away. Feel free to contact us
+                    </p>
+                    <button class="main-btn"><a href="#">Contact Us </a></button>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="health-img ps-md-5">
+                    <img src="./images/renew.png" class="img-fluid w-100" alt="Image" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- end -->
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start footer-2 text-muted">
+        <!-- Section: Links  -->
+        <div class="p-4">
+            <div class="container-fluid text-center text-md-start">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Motor Insurance</h6>
+                        <p><a href="#!" class="text-reset">Car Insurance</a></p>
+                        <p><a href="#!" class="text-reset">Two Wheeler</a></p>
+                        <p><a href="#!" class="text-reset">Goods Carrying</a></p>
+                        <p><a href="#!" class="text-reset">Passenger Carrying</a></p>
+                        <p><a href="#!" class="text-reset">Misc-D Insurance</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Life Insurance</h6>
+                        <p><a href="#!" class="text-reset">Group Term Insurance</a></p>
+                        <p><a href="#!" class="text-reset">Term Life Insurance</a></p>
+                        <p><a href="#!" class="text-reset">1 Crore Term Insurance</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Resources</h6>
+                        <p><a href="#!" class="text-reset">POSP Partner</a></p>
+                        <p><a href="#!" class="text-reset">Tutorial</a></p>
+                        <p><a href="#!" class="text-reset">Video Tutorial</a></p>
+                        <p><a href="#!" class="text-reset">Article</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">About Us</h6>
+                        <p><a href="#!" class="text-reset">Terms of Service</a></p>
+                        <p><a href="#!" class="text-reset">Privacy Policy</a></p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+
+                <!-- Second row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+
+                        <p>
+                            <i class="fa-solid fa-location-dot pe-2"></i> Booth No. 13, Anaj
+                            Mandi, Bhattu Mandi, Bhattu Kalan, Fatehbad, Haryana - 125053
+                        </p>
+
+                        <p><i class="fa-solid fa-phone-volume pe-2"></i>+91 8390008390</p>
+                        <p>
+                            <i class="fa-solid fa-envelope pe-2"></i> info@aapkapolicywala.com
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Follow us on</h6>
+                        <div class="social-icons">
+                            <a href="#!" class="text-reset"><i class="fab fa-instagram fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-linkedin fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-pinterest fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-youtube fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-facebook-f fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-twitter fa-lg"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Grid column -->
+                </div>
+                <!-- Second row -->
+            </div>
+        </div>
+        <!-- Section: Links -->
+
+        <!-- Copyright -->
+        <div class="text-center description p-4" style="background-color: rgba(0, 0, 0, 0.05)">
+            <p class="description-heading-1 py-2 text-center">
+                Aapka Policywala Insurance
+                <span style="color: #e89e3f">Broking Services</span> Pvt. Ltd.
+            </p>
+            <p class="description-para-1 py-2 text-center">
+                IRDAI Registration Code: IRDAI / DB1058 / 2023 | IRDAI Registration
+                No.: 933| Category: Direct (Life & General) | License Valid:
+                19.01.2024 - 18.01.2027
+            </p>
+            <p class="text-left disclaimer py-5">
+                <b>Disclaimer:</b>Insurance is the subject matter of solicitation.
+                Visitors are hereby informed that their information submitted on the
+                website may be shared with insurers. The product information for
+                comparison displayed on this website is of the insurers with whom our
+                company has an agreement. Product information is authentic and solely
+                based on the information received from the Insurer.
+            </p>
+        </div>
+    </footer>
+
+    <!-- end -->
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz4fnFO9gybBogGz9qQJbXUjXT1ZtAn1Ry5zVSrK7SwppV8xv8Q5XlWJ9Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-pprn3073KE6tl6ERvA6knXKa2QKN8R6bJ5L3VGsBzHrtvPpBfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

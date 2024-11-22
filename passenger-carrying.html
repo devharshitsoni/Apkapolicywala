@@ -1,0 +1,1393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apna Policy</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Ribeye&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@100..900&display=swap" rel="stylesheet" />
+
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-none d-lg-flex" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>General Insurance</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>Life Insurance</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>Knowledge Base</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><span>Become a Posp Partner</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><span>Contact us</span></a>
+                    </li>
+                </ul>
+                <button class="main-btn ms-4">Sign up</button>
+            </div>
+            <div class="offcanvas offcanvas-end offcanvas-glass d-lg-none" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <a href="#" class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./images/logo.png"
+                            alt="" /></a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                General Insurance
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Life Insurance
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Knowledge Base
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Become a Posp Partner</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- end navabr -->
+
+    <!-- head -->
+    <div class="container-fluid general px-5 my-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 col-md-6">
+                    <div class="section-title text-left mb-5">
+                        <h1 class="renew-title">
+                            Buy <span>Passenger Carrying</span>
+                            Vehicle Insurance Online
+                        </h1>
+                        <p class="">
+                            In today’s bustling world of commerce, safeguarding your cargo isn’t just wise. It’s essential!
+                            Ensure the protection of your valuable assets with comprehensive online commercial vehicle
+                            insurance from Aapka Policywala. Navigate the highways with confidence knowing that your
+                            business is protected against unforeseen risks. The tailored commercial vehicle insurance
+                            solutions listed on our website will offer you peace of mind, shielding your cargo and vehicle
+                            from the unexpected.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="health-img">
+                        <img src="./images/passenger-carrying.png" class="img-fluid w-100 py-4" alt="Image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+
+    <!--  Understanding Passenger Carrying Vehicle Insurance-->
+    <div class="container p-5 my-3">
+        <div class="row g-2 align-items-center">
+            <div class="section-title text-center ">
+                <h1 class="mb-4 text-center">
+                    Understanding Passenger Carrying <span>Vehicle Insurance</span>
+                </h1>
+            </div>
+
+            <p class="posp-para">
+                Also known as commercial passenger vehicle insurance, passenger-carrying vehicle insurance is a
+                specialized type of coverage that is crafted to safeguard
+                vehicles engaged in transporting passengers. This includes buses, mini buses, taxis, and other public
+                transport vehicles. Passenger carrying vehicle insurance
+                policy has a wide coverage. It shields passengers, drivers, and vehicle proprietors against financial
+                setbacks in the event of accidents, injuries, or damages,
+                encompassing various vital components and ensuring comprehensive protection. Put simply, the
+                passenger-carrying vehicle insurance that you will buy using
+                our platform will stand as a crucial asset for public transport operators and owners. Not only will it
+                ensure the safety of your passengers but will facilitate
+                compliance with legal obligations while shielding you against potential financial burdens and legal
+                entanglements arising from unforeseen incidents on the road.
+            </p>
+        </div>
+    </div>
+
+    <!-- end -->
+
+
+
+
+    <!--Who Should Purchase Passenger Carrying Vehicle Insurance ? -->
+
+    <div class="container py-3">
+        <div class="row g-2 align-items-center">
+            <div class="section-title">
+                <h1 class="text-center ">
+                    <span> Who Should Purchase</span> Passenger Carrying Vehicle Insurance ?
+                </h1>
+            </div>
+            <p class="posp-para text-left px-3">
+                Online insurance for passenger carrying vehicles is accessible to various entities and individuals
+                involved in passenger transportation. Here’s a breakdown of
+                potential buyers:
+            </p>
+
+            <div class="container my-5">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Commercial Vehicle
+                                            Owners</h2>
+                                        <p class="posp-para">
+                                            Owners of commercial vehicles engaged in passenger transport including
+                                            buses, mini buses, taxis, and vans can secure this type of insurance. This
+                                            coverage will shield against damages to the vehicle and third-party
+                                            liabilities stemming from accidents.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Transport
+                                            Companies</h2>
+                                        <p class="posp-para">
+                                            Companies managing fleets of
+                                            passenger-carrying vehicles can also opt
+                                            for insurance to cover all their vehicles
+                                            under a unified policy. This approach
+                                            assures all-inclusive coverage and
+                                            streamlines insurance management.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Public Transport
+                                            Operators</h2>
+                                        <p class="posp-para">
+                                             Public transport entities, be it state-
+                                            owned and private bus services can
+                                            procure insurance to safeguard both
+                                            passengers and vehicles..
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Individual Vehicle Owners</h2>
+                                        <p class="posp-para">
+                                            Individuals owning passenger-carrying
+                                            vehicles be it for personal or business
+                                            purposes (school buses or cabs, for
+                                            instance) can also purchase passenger
+                                            carrying insurance from Aapka
+                                            Policywala. It serves to protect their
+                                            interests and comply with legal
+                                            mandates after all!
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Fleet
+                                            Owners</h2>
+                                        <p class="posp-para">
+                                            Entities or individuals owning multiple
+                                            passenger-carrying vehicles such as tour
+                                            operators, travel agencies, and schools
+                                            can insure their entire fleet. Ensure
+                                            smooth operations and prioritize
+                                            passenger safety!
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <p class="posp-para px-4">Being the leading online insurance company in India, we believe that every auto,
+                taxi, bus, and van should buy a passenger-carrying vehicle policy. That’s the
+                easiest way to stay safe and avoid financial loss while driving on Indian roads.</p>
+        </div>
+    </div>
+    <!-- end -->
+
+
+
+    <!--Benefits of Passenger Carrying Vehicle Insurance -->
+
+    <div class="container py-2">
+        <div class="container py-5">
+            <div class="row g-3 align-items-center">
+                <div class="section-title mb-">
+                    <h1 class="mb-4 text-left">
+                        <span>Benefits</span> of Passenger Carrying Vehicle Insurance
+                    </h1>
+                    <p class="posp-para text-left">
+                        For owners of passenger-carrying vehicles like vans, cars, and buses, purchasing or renewing
+                        insurance through Aapka Policywala
+                        will present a multitude of advantages crucial for business’s seamless operation and the safety
+                        of valued passengers. Here’s why
+                        obtain this type of insurance policy if you own passenger carrying vehicles:
+                    </p>
+                </div>
+            </div>
+
+            <div class="container my-2">
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered custom-table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Features</th>
+                                <th scope="col">Benefits</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><b>Legal Compliance</b></td>
+                                <td>
+                                    Operating within the legal framework is paramount for any business. With insurance
+                                    from
+                                    Aapka Policywala, you stay compliant with jurisdictional regulations. You will be
+                                    able to steer
+                                    clear of legal entanglements, penalties, and operational disruptions.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Financial Protection</b></td>
+                                <td>
+                                    Safeguard your business against the unpredictable. Our insurance coverage acts as a
+                                    safety
+                                    net. It will shield you from the financial repercussions of unforeseen events like
+                                    accidents,
+                                    theft, or vandalism. Be it repairs or replacements, we help alleviate the financial
+                                    strain,
+                                    ensuring your business remains financially resilient.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Third-Party Liability Coverage</b></td>
+                                <td>
+                                    Accidents happen but our insurance has you covered! With third-party liability
+                                    coverage included
+                                    in our cheap insurance policies, you’re shielded from potential legal liabilities
+                                    arising from
+                                    accidents involving passengers, pedestrians, or other vehicles. We provide
+                                    compensation to
+                                    affected parties, safeguarding your business’s reputationand financial stability..
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Personal Accident Cover</b></td>
+                                <td>
+                                    Your passengers and drivers are the heart of your business. With Aapka Policywala’s
+                                    passenger-
+                                    carrying vehicle insurance, they will receive the care and support they deserve. In
+                                    the unfortunate
+                                    event of accidents resulting in injury or disability, our personal accident cover
+                                    extends financial
+                                    assistance.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Property Damage Coverage</b></td>
+                                <td>
+                                    A Accidents can extend beyond vehicles. With our comprehensive insurance, you’re
+                                    protected
+                                    against damage to third party property. Rest easy knowing that the costs of
+                                    repairing or
+                                    replacing damaged property are covered. Focus on what matters most, which is running
+                                    your
+                                    business smoothly and safely.
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- end -->
+
+
+
+    <!--  How Important are Passenger Carrying Vehicles in India?-->
+    <div class="container p-5 my-2">
+        <div class="row g-2 align-items-center">
+            <div class="section-title text-center ">
+                <h1 class=" text-center">
+                    How Important are <span>Passenger Carrying Vehicles</span> in India?
+                </h1>
+            </div>
+
+            <p class="posp-para px-4">
+                Absolutely! In India, passenger carrying vehicles are of utmost importance as they provide vital public
+                transportation services to the vast population. They serve
+                as a crucial part of the nation’s transportation network, addressing the mobility needs of millions
+                daily. Encompassing buses, taxis, auto-rickshaws, and other
+                modes of public transit, they are essential components of India’s urban infrastructure.
+                <br> <br>
+                As urbanization is accelerating and the population increasing, the demand for efficient, reliable public
+                transportation is also escalating. Passenger carrying
+                vehicles alleviate the strain on individual cars, mitigate traffic congestion, and champion
+                environmentally friendly travel options.
+                <br> <br>
+                Additionally, they facilitate accessibility across the nation. How, you ask? Well, by bridging remote
+                areas with urban centers and fostering economic growth. To
+                ensure passenger safety and seamless transportation services nationwide, the government advocates for
+                stringent regulation and licensing of these vehicles.
+                <br> <br>
+                Aapka Policywala has simplified the process of insurance buying and renewal. Other than passenger
+                vehicle insurance, thousands of Indians also use our
+                portal for car insurance, two-wheeler insurance, and commercial vehicle insurance in India.
+            </p>
+        </div>
+    </div>
+
+    <!-- end -->
+
+
+
+
+    <!--Features & Benefits Passenger Vehicle Insurance -->
+
+    <div class="container py-2">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="section-title mb-">
+                    <h1 class="mb-4 text-left">
+                        <span> Features & Benefits</span> Passenger Vehicle Insurance
+                    </h1>
+                    <p class="posp-para text-left">
+                        Features and benefits of health insurance can vary based on the specific plan and insurance
+                        provider.
+                    </p>
+                </div>
+            </div>
+
+            <div class="container my-2">
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered custom-table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Features</th>
+                                <th scope="col">Benefits</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><b>Third-Party Liability Cover</b></td>
+                                <td>
+                                    Legal compliance with Motor Vehicles Act<br>- Protection against third-party claims
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Own Damage Cover</b></td>
+                                <td>
+                                    Coverage for vehicle damage due to accidents, theft, fire, etc.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Personal Accident Cover for Owner-Driver</b></td>
+                                <td>
+                                    Financial assistance in case of disability or death of the owner-driver
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Passenger Coverr</b></td>
+                                <td>
+                                    Protection for passengers in case of injuries or medical expenses
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>No Claim Bonus (NCB)</b></td>
+                                <td>
+                                    Discounts on premium for claim-free years
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Add-On Covers</b></td>
+                                <td>
+                                    Enhanced protection with additional coverage options
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Legal Compliance</b></td>
+                                <td>
+                                    Complying with mandatory insurance requirements for passenger carrying vehicles
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Peace of Mind</b></td>
+                                <td>
+                                    Financial security and peace of mind for vehicle owners
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Customization</b></td>
+                                <td>
+                                    Flexibility to tailor insurance coverage according to specific needs and preferences
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- end -->
+
+
+    <!--Why Us for Buying Passenger Vehicle Insurance Online?-->
+    <div class="container p-5 ">
+        <div class="row g-2 align-items-center">
+            <div class="section-title text-left ">
+                <h1 class="mb-4 text-left">
+                    Why Us for Buying Passenger <span>Vehicle Insurance Online?</span>
+                </h1>
+                <p class="posp-para text-left">Discover the ultimate convenience of securing passenger carrying vehicle
+                    insurance online with Aapka Policywala! Our platform offers a seamless experience
+                    while bringing together a plethora of insurance options from top providers. With just a few clicks,
+                    you can compare prices, renew policies, and find the perfect
+                    coverage for your passenger vehicle needs.</p>
+
+                <p class="posp-para text-left"><b>Here are some reasons to choose us for buying passenger carrying
+                        vehicle insurance:</b></p>
+            </div>
+
+            <p class="posp-para">
+                <b>Variety of Options:</b> Access a diverse range of insurance policies from multiple providers. Find
+                the perfect match for your passenger vehicle.
+            </p>
+            <p class="posp-para">
+                <b>Convenient Comparison:</b> Easily compare prices, coverage, and features. Our website will empower
+                you to make informed decisions tailored to your
+                requirements.
+            </p>
+            <p class="posp-para">
+                <b> Effortless Renewals:</b> Seamlessly renew your insurance policies online. Eliminate hassle and
+                ensure uninterrupted coverage for your passenger vehicle with
+                Aapka Policywala!
+            </p>
+            <p class="posp-para">
+                <b>Transparent Process:</b> Enjoy clarity and transparency throughout the purchasing journey with no
+                hidden fees or surprises.
+            </p>
+            <p class="posp-para">
+                <b> Expert Guidance:</b> Benefit from expert advice and assistance from our team. Drive your way through
+                the insurance landscape with confidence and ease.
+            </p>
+            <p class="posp-para">
+                <b> Cheapest Policies: </b>Yes, our passenger carrying policies for cars, buses, vans, and auto
+                rickshaws are the cheapest out there!
+            </p>
+
+        </div>
+    </div>
+
+    <!-- end -->
+
+
+
+
+
+
+    <!--What Does Passenger Carrying Vehicle Insurance Exclude? -->
+    
+     
+            <div class="container py-2">
+                <div class="row g-2 align-items-center">
+                    <div class="section-title ">
+                        <h1 class="mb-4 text-center">
+                            What Does Passenger Carrying <span>Vehicle Insurance Exclude?</span>
+                        </h1>
+                    </div>
+                    <p class="posp-para px-5">
+                        Although passenger-carrying vehicle insurance policies listed on Aapka Policy Wala indeed offer
+                        extensive coverage against various risks, certain exclusions
+                        exist within them. These exclusions may vary depending on the insurance provider and specific
+                        policy terms.
+                    </p>
+                    <p class="posp-para px-5"><b>Here are common exclusions typically found in online passenger carrying
+                            vehicle insurance:</b></p>
+                    <div class="d-flex flex-wrap justify-content-center">
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+
+                                <p class="head mb-4 text-left">
+                                    General Wear and
+                                    Tear
+                                </p>
+                                <p class="para">
+                                    Damages resulting from the natural wear
+                                    and tear of the vehicle over time are not
+                                    covered.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+
+                                <p class="head mb-4 text-left">Mechanical or Electrical
+                                    Breakdown</p>
+                                <p class="para">
+                                    Damages arising from mechanical or
+                                    electrical breakdowns of the vehicle are
+                                    excluded from coverage.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+
+                                <p class="head mb-4 text-left">Intentional
+                                    Acts</p>
+                                <p class="para">
+                                    Damages caused by intentional acts or
+                                    deliberate negligence of driver or owner
+                                    are not covered.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+
+                                <p class="head mb-4 text-left">
+                                    Driving Under the
+                                    Influence
+                                </p>
+                                <p class="para">
+                                    Any damages or accidents occurring
+                                    while the driver is under alcohol or drug
+                                    influence are not covered.
+                            </div>
+                        </div>
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+
+                                <p class="head mb-4 text-left">Unauthorized
+                                    Use</p>
+                                <p class="para">
+                                    If the vehicle is operated by an
+                                    unauthorised driver or used for illegal
+                                    purposes, insurance coverage may be
+                                    void.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+
+                                <p class="head mb-4 text-left">Consequential
+                                    Loss</p>
+                                <p class="para">
+                                    Losses or damages indirectly caused by
+                                    the initial covered event may be excluded
+                                    from coverage.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+
+                                <p class="head mb-4 text-left">
+                                    War and
+                                    Terrorism
+                                </p>
+                                <p class="para">
+                                    Damages caused due to war, terrorism,
+                                    or nuclear events will be expunged from
+                                    the policy.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+
+                                <p class="head mb-4 text-left">Racing or Adventure
+                                    Sports</p>
+                                <p class="para">
+                                    Accidents that occur during racing,
+                                    stunts, or adventure sports activities are
+                                    typically not covered.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+       
+   
+
+    <!-- end -->
+
+
+    <!-- How to File a Claim for Passenger Carrying Vehicle Insurance? -->
+
+    <div class="container py-3">
+        <div class="section-title">
+            <h1 class="mb-4 text-center">
+                How to File a Claim for Passenger  <span> Carrying Vehicle Insurance?</span>
+            </h1>
+        </div>
+        <p class="posp-para text-left py-4">Aapka Policywala understands that filing a claim can be a daunting task. That’s
+            why we’ve streamlined the process to ensure a seamless and efficient
+            settlement. Here’s a step-by-step guide tailored for our valued customers:</p>
+
+
+        <div class="row number-cards g-5">
+
+            <!-- Repeat this block for each card -->
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">1</div>
+                <div class="custom-card-v11">
+
+                    <p class="pt-5"><b>Notify Aapka Policywala</b></p>
+                    <p> As soon as the incident occurs, reach
+                        out to us through our dedicated helpline
+                        or email. We’re here to assist you every
+                        step of the way.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">2</div>
+                <div class="custom-card-v11">
+                    <p class="pt-5"><b>Provide Essential Details</b></p>
+                    <p>During the notification, provide crucial
+                        information like your policy number, date
+                        and time of the incident, location,
+                        description of the event, and the extent
+                        of damages or injuries.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">3</div>
+
+                <div class="custom-card-v11">
+                    <p class="pt-5"><b>File an FIR</b></p>
+                    <p>In cases involving theft, burglary, or
+                        criminal activities, file a First Information
+                        Report (FIR) at the nearest police station
+                        and obtain a copy for documentation.</p>
+                </div>
+            </div>
+            <!-- Continue this pattern to create up to 12 cards -->
+            <!-- Example for the 4th card -->
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">4</div>
+
+                <div class="custom-card-v11">
+                    <p class="pt-5"><b>Document the Scene</b></p>
+                    <p>Capture the accident site, damages,
+                        injuries, and any relevant evidence
+                        through photographs if possible. This
+                        documentation serves as vital support
+                        for your claim.</p>
+                </div>
+            </div>
+            <!-- Add more cards as needed -->
+            <!-- Example for the 5th card -->
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">5</div>
+
+                <div class="custom-card-v11">
+                    <p class="pt-5"><b>Seek Medical Attension</b></p>
+                    <p>Prioritize the well-being of passengers or
+                        third parties by seeking immediate
+                        medical assistance if injuries are involved.
+                        Include all medical records and bills to
+                        make the claim process snappy.</p>
+                </div>
+            </div>
+            <!-- Example for the 6th card -->
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">6</div>
+
+                <div class="custom-card-v11">
+                    <p class="pt-5"><b>Inform the RTO</b></p>
+                    <p>For significant accidents or damages,
+                        notify the Regional Transport Office (RTO)
+                        about the incident. Especially if there are
+                        fatalities or substantial property damage.</p>
+                </div>
+            </div>
+            <!-- Continue until the 12th card -->
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">7</div>
+
+                <div class="custom-card-v11">
+                    <p class="pt-5"><b>Complete the Claim Form</b></p>
+                    <p>Obtain and fill out the claim form
+                        available on our website. Make sure all
+                        information provided is accurate and
+                        detailed to expedite the claim settlement
+                        process.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">8</div>
+
+                <div class="custom-card-v11">
+                    <p class="pt-5"><b>Submit Necessary Documents</b></p>
+                    <p>Attach all required documents including
+                        the claim form, FIR copy, policy document,
+                        driver’s licence, vehicle registration, and
+                        any other relevant paperwork.
+
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">9</div>
+
+                <div class="custom-card-v11">
+                    <p class="pt-5"><b>Await Inspection</b></p>
+                    <p>Aapka Policywala may perform a survey
+                        or assessment of the vehicle. This will
+                        help us evaluate damages and ascertain
+                        the claim. During the process, our team
+                        will coordinate with you seamlessly.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">10</div>
+
+                <div class="custom-card-v11">
+                    <p class="pt-5"><b>Cooperate with Investigation</b></p>
+                    <p>Cooperate with any investigation
+                        conducted by our team or insurance firm.
+                        Your cooperation expedites the claim
+                        resolution process.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">11</div>
+
+                <div class="custom-card-v11">
+                    <p class="pt-5"><b>Stay Updated</b></p>
+                    <p>Keep track of your claim’s progress
+                        through our website or by contacting our
+                        customer support team. We’re intent on
+                        keeping you apprised every step of the
+                        way!</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- end -->
+
+
+
+    <!-- Documents Needed To File a Insurance Claim -->
+
+
+
+
+  
+        <div class="container py-3">
+            <div class="row g-2 align-items-center">
+                <div class="section-title mb-">
+                    <h1 class="mb-4 text-left">
+                        <span> Documents Needed </span>To File a Insurance Claim
+                    </h1>
+                </div>
+                <p class="posp-para text-left">When initiating a claim for your passenger carrying vehicle, making
+                    certain that you have the necessary documentation is pivotal. While specific requirements
+                    may vary depending on your insurer and the nature of the claim, here’s a comprehensive list of
+                    documents you may need to furnish:</p>
+            </div>
+
+
+            <div class="container my-5">
+                <div class="table-responsive">
+                    <table class="custom-table">
+                        <thead>
+                            <tr>
+                               
+                                <th>Features</th>
+                                <th>Use</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td><b>Claim Form</b></td>
+                                <td> Complete the claim form provided by your insurer. Write down the accurate and detailed information 
+                                    regarding the incident.</td>
+                            </tr>
+                            <tr>
+                                <td><b>Policy Document</b></td>
+                                <td>Provide a copy of your valid passenger carrying vehicle insurance policy to verify online coverage.</td>
+                            </tr>
+
+
+                            <tr>
+                                <td><b>FIR Copy</b></td>
+
+                                <td> Does the incident involve theft, burglary, or criminal activity? No problem. Include a copy of the First 
+                                    Information Report (FIR) filed at the police station.</td>
+                            </tr>
+                            <tr>
+                                <td><b>Driving License</b></td>
+                                <td>Submit the valid driving licence of the driver involved in the accident as proof of authorization.</td>
+
+                            </tr>
+                            <tr>
+                                <td><b>Vehicle Registration Certificate</b> </td>
+                                <td>Furnish a copy of the vehicle’s registration certificate as evidence of ownership..</td>
+                            </tr>
+                            <tr>
+                                <td><b>Insurance Certificate</b></td>
+                                <td>Include the insurance certificate of the vehicle containing essential coverage details.</td>
+                            </tr>
+
+                            <tr>
+                                <td><b>Photos and Videos</b></td>
+                                <td>Capture images or videos depicting the accident scene, vehicle damages, and any injuries sustained 
+                                    for visual documentation.</td>
+                            </tr>
+                            <tr>
+                                <td><b>Repair Estimates</b></td>
+                                <td>Obtain repair estimates from authorized workshops or garages detailing the extent of vehicle 
+                                    damages.</td>
+
+                            </tr>
+                            <tr>
+                                <td><b>Medical Records</b></td>
+                                <td>If there are injuries to passengers or third parties, retain all pertinent medical records, prescriptions, 
+                                    and bills to support medical claims.</td>
+
+                            </tr>
+
+
+
+                            <tr>
+                                <td><b>Accident Report</b></td>
+                                <td>Provide the accident report prepared by the police or relevant authorities. Outline all circumstances 
+                                    of the incident.</td>
+                            </tr>
+                            <tr>
+                                <td><b>Witness Statements</b></td>
+                                <td> If available, gather witness statements to corroborate the events leading to the incident.</td>
+                            </tr>
+                                <tr>
+                                    <td><b>Letter of Subrogation</b></td>
+                                    <td> In cases involving third-party claims, you may be required to submit a letter of subrogation. This 
+                                        will grant you the right to pursue recovery from the responsible party!</td>
+                                </tr>
+
+
+
+                        </tbody>
+
+
+
+                    </table>
+
+
+                </div>
+            </div>
+        </div>
+    
+
+
+    <!-- end -->
+
+
+
+
+ <!-- testimonil -->
+
+ <div class="container-fluid py-2">
+
+    <div class="row g-2 align-items-center">
+        <div class="section-title text-center ">
+            <h1 class="mb-4 text-center">
+                <span>Health Insurance</span> Renewal Reviews
+            </h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, nihil.</p>
+        </div>
+    </div>
+    <div class="container py-5" id="testimonials">
+        <div class="slider">
+            <div class="slide-track testimonial-container">
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-1.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">SUZANA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-2.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">LÍVIA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-3.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">KÁTIA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-4.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">MATHEUS</p>
+                    </div>
+                </div>
+                <!-- Duplicate the slides to create an infinite loop effect -->
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-1.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">SUZANA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-2.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">LÍVIA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-3.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">KÁTIA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-4.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">MATHEUS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+<script>
+    document.querySelector('.slider').addEventListener('mouseover', function () {
+        document.querySelector('.slide-track').style.animationPlayState = 'paused';
+    });
+
+    document.querySelector('.slider').addEventListener('mouseout', function () {
+        document.querySelector('.slide-track').style.animationPlayState = 'running';
+    });
+</script>
+<!-- end -->
+
+
+
+
+
+
+
+    <!-- contact us -->
+
+    <div class="container p-5 my-3">
+        <div class="row g-3 align-items-center">
+            <div class="section-title text-center ">
+                <h1 class=" text-center">
+                    Contact <span>Aapka Policywala</span> </h1>
+            </div>
+            <p class="posp-para">Ready to find the perfect group health insurance plan for your business in India? Aapka
+                Policywala is here to help. Contact our team of advisors for a free consultation and personalized quote.
+                We’ll guide you through the process and ensure your employees receive the healthcare coverage they
+                deserve.</p>
+        </div>
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="health-img ps-md-5">
+                    <img src="./images/support image.png" class="img-fluid w-100" alt="Image" />
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="0.4s">
+                <div class="form">
+                    <h2>Get in Touch</h2>
+                    <div class="d-flex justify-content-between">
+                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="Phone Number">
+                    </div>
+                    <input type="email" placeholder="Email">
+                    <textarea placeholder="Message"></textarea>
+                    <button class="main-btn">Submit</button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- end -->
+
+
+
+    <!-- get or renew -->
+    <div class="container-fluid team py-3 mt-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="0.4s">
+                    <div class="section-title text-left mb-5">
+                        <h1 class="mb-4 renew-title">
+                            <span> Get or Renew</span> Your Insurance with Aapka Policywala
+                        </h1>
+                        <p class="mb-4 renew-para">
+                            We are just a call away. Feel free to contact us
+                        </p>
+                        <button class="main-btn"><a href="#">Contact Us </a></button>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="health-img ps-md-5">
+                        <img src="./images/renew.png" class="img-fluid w-100" alt="Image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end -->
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start footer-2 text-muted">
+        <!-- Section: Links  -->
+        <div class="p-4">
+            <div class="container text-center text-md-start">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Motor Insurance</h6>
+                        <p><a href="#!" class="text-reset">Car Insurance</a></p>
+                        <p><a href="#!" class="text-reset">Two Wheeler</a></p>
+                        <p><a href="#!" class="text-reset">Goods Carrying</a></p>
+                        <p><a href="#!" class="text-reset">Passenger Carrying</a></p>
+                        <p><a href="#!" class="text-reset">Misc-D Insurance</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Life Insurance</h6>
+                        <p><a href="#!" class="text-reset">Group Term Insurance</a></p>
+                        <p><a href="#!" class="text-reset">Term Life Insurance</a></p>
+                        <p><a href="#!" class="text-reset">1 Crore Term Insurance</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Resources</h6>
+                        <p><a href="#!" class="text-reset">POSP Partner</a></p>
+                        <p><a href="#!" class="text-reset">Tutorial</a></p>
+                        <p><a href="#!" class="text-reset">Video Tutorial</a></p>
+                        <p><a href="#!" class="text-reset">Article</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">About Us</h6>
+                        <p><a href="#!" class="text-reset">Terms of Service</a></p>
+                        <p><a href="#!" class="text-reset">Privacy Policy</a></p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+
+                <!-- Second row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+
+                        <p>
+                            <i class="fa-solid fa-location-dot pe-2"></i> Booth No. 13, Anaj
+                            Mandi, Bhattu Mandi, Bhattu Kalan, Fatehbad, Haryana - 125053
+                        </p>
+
+                        <p><i class="fa-solid fa-phone-volume pe-2"></i>+91 8390008390</p>
+                        <p>
+                            <i class="fa-solid fa-envelope pe-2"></i> info@aapkapolicywala.com
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Follow us on</h6>
+                        <div class="social-icons">
+                            <a href="#!" class="text-reset"><i class="fab fa-instagram fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-linkedin fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-pinterest fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-youtube fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-facebook-f fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-twitter fa-lg"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Grid column -->
+                </div>
+                <!-- Second row -->
+            </div>
+        </div>
+        <!-- Section: Links -->
+
+        <!-- Copyright -->
+        <div class="text-center description p-4" style="background-color: rgba(0, 0, 0, 0.05)">
+            <p class="description-heading-1 py-2 text-center">
+                Aapka Policywala Insurance
+                <span style="color: #e89e3f">Broking Services</span> Pvt. Ltd.
+            </p>
+            <p class="description-para-1 py-2 text-center">
+                IRDAI Registration Code: IRDAI / DB1058 / 2023 | IRDAI Registration
+                No.: 933| Category: Direct (Life & General) | License Valid:
+                19.01.2024 - 18.01.2027
+            </p>
+            <p class="text-left disclaimer py-5">
+                <b>Disclaimer:</b>Insurance is the subject matter of solicitation.
+                Visitors are hereby informed that their information submitted on the
+                website may be shared with insurers. The product information for
+                comparison displayed on this website is of the insurers with whom our
+                company has an agreement. Product information is authentic and solely
+                based on the information received from the Insurer.
+            </p>
+        </div>
+    </footer>
+
+    <!-- end -->
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz4fnFO9gybBogGz9qQJbXUjXT1ZtAn1Ry5zVSrK7SwppV8xv8Q5XlWJ9Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-pprn3073KE6tl6ERvA6knXKa2QKN8R6bJ5L3VGsBzHrtvPpBfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

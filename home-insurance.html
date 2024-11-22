@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apna Policy</title>
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Ribeye&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@100..900&display=swap" rel="stylesheet" />
+
+  <!-- icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="./footer.css">
+  <link rel="stylesheet" href="./style.css" />
+
+
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-none d-lg-flex" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <span>General Insurance</span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <span>Life Insurance</span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <span>Knowledge Base</span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"><span>Become a Posp Partner</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"><span>Contact us</span></a>
+          </li>
+        </ul>
+        <button class="main-btn ms-4">Sign up</button>
+      </div>
+      <div class="offcanvas offcanvas-end offcanvas-glass d-lg-none" tabindex="-1" id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <a href="#" class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./images/logo.png" alt="" /></a>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                General Insurance
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Life Insurance
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Knowledge Base
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Become a Posp Partner</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- end navabr -->
+
+  <!-- head -->
+
+  <div class="container-fluid general px-5 ">
+   <div class="container">
+    <div class="row  align-items-center">
+      <div class="col-lg-6 col-md-6">
+        <div class="section-title text-left mb-5">
+          <h1 class="renew-title">
+            Shielding Your Sanctuary: <br> <span>The Importance of Home Insurance</span>
+          </h1>
+          <p class="renew-para">
+            Secure your journey with travel insurance, offering protection against unforeseen events such as trip
+            cancellations, medical emergencies, lost luggage, and more. Travel with peace of mind, knowing you have
+            comprehensive coverage wherever your adventures take you.
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+        <div class="health-img">
+          <img src="./images/home-insurance.svg" class="img-fluid w-100" alt="Image" />
+        </div>
+      </div>
+    </div>
+   </div>
+  </div>
+
+  <!-- end -->
+
+  <!--What is home Insurance?-->
+  <div class="container px-5 my-3">
+    <div class="row  align-items-center">
+      <div class="section-title text-center ">
+        <h2 class=" text-center">
+          What is <span>Home Insurance?</span>
+        </h2>
+      </div>
+
+      <p class="posp-para text-center">
+        Home insurance, also known as homeowner’s insurance or property insurance, is a type of insurance policy that
+        provides financial protection to homeowners
+        against various risks and perils that could damage or destroy their property. It offers coverage for both the
+        physical structure of the home and the personal
+        belongings inside it. Home insurance typically includes protection against risks such as fire, theft, vandalism,
+        lightning, windstorm, and certain natural
+        disasters like earthquakes and floods (depending on the policy). In case of an insured event, the insurance
+        company provides financial compensation to
+        repair or replace the damaged property, helping homeowners recover from the financial losses. Home insurance is
+        essential for homeowners to safeguard
+        their investment and provide peace of mind against unexpected events that may cause significant financial
+        burdens. Make sure you buy one from a trusted
+        online insurance website in India to discover policies from top companies and get all the benefits.
+      </p>
+    </div>
+  </div>
+
+  <!-- end -->
+
+
+
+  <!-- Why We Need Travel Insurance? -->
+
+  <div class="container-fluid py-1">
+    <div class="container">
+      <div class="section-title text-center py-1 ">
+        <h2 class="mb-4">Why We Need <span>Travel Insurance?</span></h2>
+      </div>
+
+      <!-- slider -->
+      <div class="container ">
+        <div class="row justify-content-evenly">
+          <div class="col-lg-10">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2500">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card-v9">
+                        <img class="health-img-1" src="./images/homeowners.svg" alt="First slide" />
+                        <p class="para-2">Homeowners</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card-v9">
+                        <img class="health-img-1" src="./images/Condo-Owner.svg" alt="Second slide" />
+                        <p class="para-2">Condo Owners</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card-v9">
+                        <img class="health-img-1" src="./images/Renters.svg" alt="Third slide" />
+                        <p class="para-2">Renters</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item ">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card-v9">
+                        <img class="health-img-1" src="./images/Financial-planning.png" alt="First slide" />
+                        <p class="para-2">Homeowners</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card-v9">
+                        <img class="health-img-1" src="./images/Financial-planning.png" alt="Second slide" />
+                        <p class="para-2">Condo Owners</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card-v9">
+                        <img class="health-img-1" src="./images/Financial-planning.png" alt="Third slide" />
+                        <p class="para-2">Renters</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item ">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card-v9">
+                        <img class="health-img-1" src="./images/Financial-planning.png" alt="First slide" />
+                        <p class="para-2">Homeowners</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card-v9">
+                        <img class="health-img-1" src="./images/Financial-planning.png" alt="Second slide" />
+                        <p class="para-2">Condo Owners</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card-v9">
+                        <img class="health-img-1" src="./images/Financial-planning.png" alt="Third slide" />
+                        <p class="para-2">Renters</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end -->
+
+
+
+  <!-- Choose the Right home Insurance Plan! -->
+
+  <div class="container-fluid life  ">
+    <div class="container p-4">
+      <div class="row  align-items-center">
+        <div class="section-title text-center">
+          <h2 class="text-center">
+            Choose the Right <span> Home Insurance Plan!</span>
+          </h2>
+        </div>
+        <div class="col-md-12 wow fadeInRight" data-wow-delay="0.4s">
+          <div class="row d-flex justify-content-center">
+
+            <div class="col-md-6 col-lg-4   ">
+              <div class="custom-card-v2 text-center">
+                <div class="custom-card-v2-body">
+                  <img src="./images/Bharat-Griha.svg" alt="Motorcycle icon" class="icon-v2 mb-2" />
+                  <p class="custom-card-v2-text">Bharat Griha</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- end -->
+
+
+
+
+  <!-- home insurance plan type -->
+
+
+  
+    <div class="container py-5">
+      <div class="row  align-items-center">
+        <div class="section-title ">
+          <h2 class="text-center">
+            Simple <span>Home Insurance</span> Buying Guide
+          </h2>
+        </div>
+        <p class="posp-para text-center">
+          Buying home insurance is an essential step in protecting your most significant investment and ensuring
+          financial security. Here’s a simple home insurance
+          buying guide to help you make informed decisions:
+        </p>
+
+        
+          <div class="row justify-content-center">
+              <div class="col-md-4 mb-4">
+                  <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                      <div class="inner-text text-center">
+                          <img src="./images/Assess Your Needs.svg" alt="" class="img-fluid" />
+                          <p class="head  text-center">Assess Your Needs</p>
+                          <p class="para">
+                              Start by evaluating your home and its contents. Determine the replacement value of your house and the value of your belongings. This will help you understand how much coverage you need.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                  <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                      <div class="inner-text text-center">
+                          <img src="./images/Research.svg" alt="" class="img-fluid" />
+                          <p class="head  text-center">Research Insurance Providers</p>
+                          <p class="para">
+                              Look for reputable insurance companies that offer home insurance in your area. Check their financial stability, customer reviews, and claim settlement track record.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                  <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                      <div class="inner-text text-center">
+                          <img src="./images/Compare Coverage and Policies.svg" alt="" class="img-fluid" />
+                          <p class="head  text-center">Compare Coverage and Policies</p>
+                          <p class="para">
+                              Obtain quotes from different insurers and compare their coverage options, deductibles, limits, and exclusions. Ensure the policies align with your specific needs and budget.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                  <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                      <div class="inner-text text-center">
+                          <img src="./images/Understand Coverage Types.svg" alt="" class="img-fluid" />
+                          <p class="head text-center">Understand Coverage Types</p>
+                          <p class="para">
+                              Learn about the different types of coverage available, such as dwelling coverage, personal belongings coverage, liability protection, and additional living expenses. Choose the ones that suit your requirements.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                  <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                      <div class="inner-text text-center">
+                          <img src="./images/Assess Risks.svg" alt="" class="img-fluid" />
+                          <p class="head  text-center">Assess Risks</p>
+                          <p class="para">
+                              Consider the risks your home might be exposed to, such as natural disasters, theft, or vandalism. Opt for additional coverage for specific risks, like flood insurance or earthquake insurance, if needed.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                  <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                      <div class="inner-text text-center">
+                          <img src="./images/Deductibles.svg" alt="" class="img-fluid" />
+                          <p class="head  text-center">Determine Deductibles</p>
+                          <p class="para">
+                              Decide on the deductible amount you are comfortable with. A higher deductible usually means lower premiums, but make sure you can afford the deductible in case of a claim.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                  <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                      <div class="inner-text text-center">
+                          <img src="./images/Discounts.svg" alt="" class="img-fluid" />
+                          <p class="head  text-center">Ask about Discounts</p>
+                          <p class="para">
+                              Inquire about available discounts. Some insurers offer discounts for installing security systems, smoke alarms, or for bundling home and auto insurance.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                  <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                      <div class="inner-text text-center">
+                          <img src="./images/Read Policy.svg" alt="" class="img-fluid" />
+                          <p class="head  text-center">Read the Policy Carefully</p>
+                          <p class="para">
+                              Read the policy documents carefully to understand the coverage, exclusions, and limitations. Ask questions if anything is unclear.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                  <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                      <div class="inner-text text-center">
+                          <img src="./images/Review.svg" alt="" class="img-fluid" />
+                          <p class="head text-center">Review Annually</p>
+                          <p class="para">
+                              Periodically review your home insurance coverage to ensure it still meets your needs. Update the policy if you make significant changes to your home or acquire valuable belongings.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                  <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                      <div class="inner-text text-center">
+                          <img src="./images/Work with an Agent.svg" alt="" class="img-fluid" />
+                          <p class="head  text-center">Work with an Agent</p>
+                          <p class="para">
+                              If you find the process overwhelming, consider working with an independent insurance agent. They can help you find the best policy and guide you through the process.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+     
+      
+      </div>
+    </div>
+ 
+
+
+  <!-- end -->
+
+
+  <!-- key benifits of home insurance -->
+
+  
+    <div class="container ">
+      <div class="row  align-items-center">
+        <div class="section-title ">
+          <h2 class="text-center">
+            <span>Key Benefits</span> of Home Insurance
+          </h2>
+        </div>
+      </div>
+
+      <div class="container ">
+        <div class="table-responsive">
+          <table class="table table-striped table-bordered custom-table">
+            <thead>
+              <tr>
+                <th scope="col">Features</th>
+                <th scope="col">Benefits</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><b>Dwelling Coverage</b></td>
+                <td>
+                  Home insurance provides coverage for the physical structure of your home. It protects against
+                  damage caused by perils such as fire, lightning, windstorm, hail, and more. In case of damage, the
+                  insurance company will cover the repair or rebuilding costs.
+                </td>
+              </tr>
+              <tr>
+                <td><b>Personal Belongings Coverage</b></td>
+                <td>
+                  Home insurance also covers your personal belongings, such as furniture, electronics, appliances,
+                  clothing, and other items. If these belongings are damaged or stolen, the insurance will provide
+                  compensation to replace or repair them.
+                </td>
+              </tr>
+              <tr>
+                <td><b>Liability Protection</b></td>
+                <td>
+                  Home insurance includes liability coverage, which protects you against lawsuits and financial claims
+                  if someone is injured on your property or if you accidentally damage someone else’s property. It
+                  covers legal defense costs and any settlement or judgment amounts up to the policy limit.
+                </td>
+              </tr>
+              <tr>
+                <td><b>Additional Living Expenses (ALE)</b></td>
+                <td>
+                  If your home becomes uninhabitable due to a covered peril, home insurance will cover the additional
+                  living expenses incurred while staying in temporary accommodation, such as hotel bills or rental
+                  costs.
+                </td>
+              </tr>
+              <tr>
+                <td><b>Medical Payments Coverage</b></td>
+                <td>
+                  This coverage pays for medical expenses if a guest or visitor is injured on your property, regardless
+                  of who is at fault. It can help prevent small incidents from turning into costly lawsuits.
+                </td>
+              </tr>
+
+              <tr>
+                <td><b>Emergency Assistance Services</b></td>
+                <td>
+                  Many travel insurance policies offer 24/7 emergency
+                  assistance services, providing access to helplines for
+                  medical emergencies, travel advice, and coordination of
+                  necessary assistance while abroad.
+                </td>
+              </tr>
+
+              <tr>
+                <td><b>Personal Liability Coverage</b></td>
+                <td>
+                  Travel insurance may cover legal expenses and compensation
+                  if the insured accidentally causes injury to others or
+                  damages someone’s property during the trip.
+                </td>
+              </tr>
+              
+
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+
+  <!-- end -->
+
+
+ <!--  Home Insurance Exclusions and Inclusions -->
+
+ <div class="container ">
+  <div class="row align-items-center">
+      <div class="section-title ">
+          <h2 class="text-center">
+          <span>  Home Insurance</span> Exclusions and Inclusions
+          </h2>
+          
+      </div>
+      <p class="posp-para text-center ">Inclusions of Home Insurance:</p>
+      <div class="container">
+          <div class="row justify-content-center">
+              <div class="col-lg-4 col-md-6">
+                  <div class="custom-card-v10">
+                      <h2>Purchase the Policy</h2>
+                      <p class="posp-para">Once you are satisfied with the coverage 
+                        and premium, you can proceed to 
+                        purchase the travel insurance policy 
+                        online.</p>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                  <div class="custom-card-v10">
+                      <h2>Dwelling Coverage</h2>
+                      <p class="posp-para">Home insurance typically covers the 
+                        structure of your house, including the 
+                        walls, roof, floors, and other permanent 
+                        fixtures, in case of damage due to perils 
+                        like fire, lightning, windstorm, hail, etc.</p>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                  <div class="custom-card-v10">
+                      <h2>Personal Belongings</h2>
+                      <p class="posp-para">Your home insurance provides coverage 
+                        for your personal belongings, such as 
+                        furniture, appliances, clothing, and 
+                        electronics, in case of theft, damage, 
+                        or destruction due to covered perils.</p>
+                  </div>
+              </div>
+
+              <p class="posp-para text-left  py-3">Inclusions of Home Insurance:</p>
+              <div class="col-lg-4 col-md-6">
+                <div class="custom-card-v10">
+                    <h2>Flood Damage</h2>
+                    <p class="posp-para"> Most standard home insurance policies 
+                      do not cover damage caused by floods.
+                       For this, you may need to purchase a 
+                      separate flood insurance policy.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="custom-card-v10">
+                    <h2>Earthquake Damage</h2>
+                    <p class="posp-para">Earthquake damage is typically not 
+                      covered by standard home insurance. 
+                      You may need to add earthquake 
+                      coverage as a separate endorsement 
+                      or purchase a standalone earthquake 
+                      insurance policy.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="custom-card-v10">
+                    <h2>Wear and Tear</h2>
+                    <p class="posp-para">Home insurance does not cover damages
+                      that occur due to normal wear and 
+                     tear or lack of maintenance.</p>
+                </div>
+            </div>
+          </div>
+      </div>
+
+  </div>
+</div>
+<!-- end -->
+
+
+
+
+<!--How Do I Make a Claim on My Home Insurance? -->
+
+<div class="container py-5">
+  <div class="section-title">
+      <h2 class="mb-5 text-center ">
+        How Do I <span> Make a Claim</span> on My Home Insurance?
+      </h2>
+  </div>
+  <div class="row number-cards g-5">
+      <!-- Repeat this block for each card -->
+      <div class="col-lg-4 col-md-6 custom-card-wrapper">
+          <div class="number">1</div>
+          <div class="custom-card-v11">
+           
+              <h2 class="pt-5">Contact Your Insurance Company</h2>
+              <p>Inform your insurance company about the 
+                incident that led to the damage or loss to 
+                your property. You can usually find their 
+                contact information on your insurance 
+                policy documents or their website.</p>
+          </div>
+      </div>
+      <!-- Repeat the above block and increment the number for each card (2, 3, 4, etc.) -->
+      <div class="col-lg-4 col-md-6 custom-card-wrapper">
+          <div class="number">2</div>
+          <div class="custom-card-v11">
+             
+              <h2 class="pt-5">Provide Details</h2>
+              <p>Be prepared to provide specific details 
+                about the incident, such as the date and 
+                time it occurred, the cause of the 
+                damage, and any relevant information 
+                about the property or belongings affected.</p>
+          </div>
+      </div>
+      <div class="col-lg-4 col-md-6 custom-card-wrapper">
+          <div class="number">3</div>
+
+          <div class="custom-card-v11">
+              <h2 class="pt-5">File a Claim Form</h2>
+              <p>Your insurance company may require you 
+                to fill out a claim form. This form will 
+                include essential details related to the 
+                incident and the property.</p>
+          </div>
+      </div>
+      <!-- Continue this pattern to create up to 12 cards -->
+      <!-- Example for the 4th card -->
+      <div class="col-lg-4 col-md-6 custom-card-wrapper">
+          <div class="number">4</div>
+
+          <div class="custom-card-v11">
+              <h2 class="pt-5">Document the Damage</h2>
+              <p>Take photos or videos of the damaged 
+                property and belongings as evidence. 
+                This will help support your claim and 
+                assist the insurance company’s 
+                assessment process.
+                  </p>
+          </div>
+      </div>
+      <!-- Add more cards as needed -->
+      <!-- Example for the 5th card -->
+      <div class="col-lg-4 col-md-6 custom-card-wrapper">
+          <div class="number">5</div>
+
+          <div class="custom-card-v11">
+              <h2 class="pt-5">Cooperate with Insurer’s Inspection</h2>
+              <p>The insurance company may send a 
+                claims adjuster to assess the damage or 
+                loss. Cooperate with them and provide 
+                any necessary information they request.</p>
+          </div>
+      </div>
+      <!-- Example for the 6th card -->
+      <div class="col-lg-4 col-md-6 custom-card-wrapper">
+          <div class="number">6</div>
+
+          <div class="custom-card-v11">
+              <h2 class="pt-5">Get Repair Estimates</h2>
+              <p>If your claim involves property damage 
+                that requires repairs, obtain repair 
+                estimates from reputable contractors. 
+                Share these estimates with the insurance 
+                company.</p>
+          </div>
+      </div>
+      <!-- Continue until the 12th card -->
+      <div class="col-lg-4 col-md-6 custom-card-wrapper">
+          <div class="number">7</div>
+
+          <div class="custom-card-v11">
+              <h2 class="pt-5">Keep Records</h2>
+              <p> Keep copies of all communication with 
+                the insurance company, including emails, 
+                letters, and claim-related documents. 
+                This will help you track the progress of 
+                your claim.</p>
+          </div>
+      </div>
+      <div class="col-lg-4 col-md-6 custom-card-wrapper">
+          <div class="number">8</div>
+
+          <div class="custom-card-v11">
+              <h2 class="pt-5">Be Patient</h2>
+              <p>The claim settlement process may take 
+                some time, especially for significant 
+                losses. Be patient and follow up with the 
+                insurer regularly to check on the status 
+                of your claim.</p>
+          </div>
+      </div>
+      <div class="col-lg-4 col-md-6 custom-card-wrapper">
+          <div class="number">9</div>
+
+          <div class="custom-card-v11">
+              <h2 class="pt-5">Receive Settlement Offer</h2>
+              <p>Once the insurer evaluates the claim, they 
+                will provide you with a settlement offer. 
+                Review the offer carefully and ask 
+                questions if needed.</p>
+          </div>
+      </div>
+      <div class="col-lg-4 col-md-6 custom-card-wrapper">
+          <div class="number">10</div>
+
+          <div class="custom-card-v11">
+              <h2 class="pt-5">Claim Settlement</h2>
+              <p> If you agree with the settlement offer, the 
+                insurance company will proceed with the 
+                claim settlement and provide you with the
+                 agreed-upon amount. If you disagree with 
+                the offer, discuss it with the insurer to find 
+                a resolution.</p>
+          </div>
+      </div>
+      
+  </div>
+</div>
+
+<!-- end -->
+
+
+
+
+
+
+
+
+
+      <!-- get or renew -->
+ <!-- contact us section -->
+
+ <div class="container-fluid contact-us px-2 mt-2 mb-0">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="d-flex justify-content-center align-items-center">
+        <div class="bg-contact ">
+          <div class="d-flex">
+            <div class="help-heading">
+              <p class="head text-left">Got questions? We'd love to Answer</p>
+              <p class="para text-left">
+                With access to offerings from over 25 insurance providers in
+                India, finding the most cost-effective insurance plans has
+                With access to ........
+              </p>
+
+              <div class="pt-2">
+                <a href="tel:+91123456789" class="d-flex call-bg  ">
+                  <img src="./main-page-img/call.png" alt="" />
+                  <p>+91 123456789</p>
+                </a>
+                <a href="mailto:Mail@aapkapolicywala.com" class="d-flex call-bg ">
+                  <img src="./main-page-img/mail.png" alt="" />
+                  <p>Mail@aapkapolicywala.com</p>
+                </a>
+              </div>
+            </div>
+            <div class="d-none d-lg-block help-pc">
+              <img src="./main-page-img/help-pic.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- end -->
+
+<!-- end -->
+
+<!-- =====================information Strip======================== -->
+
+<div class="container-fluid information-strip">
+  <div class="container">
+    <div class="row justify-content-center my-auto sm-g-0 information-strip-inner text-center">
+      <div class="col-lg col-6 col-md-4 text-center mb-3 mb-md-0"> <!-- Added margin bottom for spacing -->
+        <p class="strip-head">24</p>
+        <p class="strip-para">YEARS</p>
+      </div>
+      <div class="col-lg col-6 col-md-4 text-center mb-3 mb-md-0">
+        <p class="strip-head">30Lakh+</p>
+        <p class="strip-para">CUSTOMERS</p>
+      </div>
+      <div class="col-lg col-6 col-md-4 text-center mb-3 mb-md-0">
+        <p class="strip-head">1100+</p>
+        <p class="strip-para">Cities</p>
+      </div>
+      <div class="col-lg col-6 col-md-4 text-center mb-3 mb-md-0">
+        <p class="strip-head">4200+</p>
+        <p class="strip-para">Outlets</p>
+      </div>
+      <div class="col-lg col-6 col-md-4 text-center mb-0 mb-md-0">
+        <p class="strip-head">3,27,301Cr+</p>
+        <p class="strip-para">CUSTOMER ASSETS</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <!-- Footer -->
+
+ <footer class="footer-st">
+  <!-- Disclaimer Section -->
+  <div class="footer-top-outer-st">
+    <div class="disclaimer-st">
+      <p class="disclaimer-text">
+        <b>Disclaimer:</b> Insurance is the subject matter of solicitation. Visitors are hereby informed
+        that their information submitted on the website may be shared with insurers. The product information
+        for comparison displayed on this website is of the insurers with whom our company has an agreement.
+        Product information is authentic and solely based on the information received from the Insurer.
+      </p>
+    </div>
+
+    <!-- Footer Top Section -->
+    <div class="footer-top">
+      <div class="footer-container-st">
+        <!-- Contact Info -->
+        <div class="footer-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <p>Booth No. 13, Anaj Mandi, <br> Bhattu Mandi, Bhattu Kalan, <br> Fatehbad, Haryana - 125053</p>
+        </div>
+        <div class="divider"></div>
+        <div class="footer-item">
+          <i class="fas fa-phone"></i>
+          <p>+91 8390008390</p>
+        </div>
+        <div class="divider"></div>
+        <div class="footer-item">
+          <i class="fas fa-envelope"></i>
+          <p>info@aapkapolicywala.com</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Link Section -->
+  <div class="container ">
+    <div class="row footer-menu-st">
+      <!-- Motor Insurance -->
+      <div class="column">
+        <h6 class="title-st">Motor Insurance</h6>
+        <p><a href="#">Car Insurance</a></p>
+        <p><a href="#">Two Wheeler</a></p>
+        <p><a href="#">Goods Carrying</a></p>
+        <p><a href="#">Passenger Carrying</a></p>
+        <p><a href="#">Misc-D Insurance</a></p>
+      </div>
+
+      <!-- Life Insurance -->
+      <div class="column">
+        <h6 class="title-st">Life Insurance</h6>
+        <p><a href="#">Group Term Insurance</a></p>
+        <p><a href="#">Term Life Insurance</a></p>
+        <p><a href="#">1 Crore Term Insurance</a></p>
+      </div>
+
+      <!-- Resources -->
+      <div class="column">
+        <h6 class="title-st">Resources</h6>
+        <p><a href="#">POSP Partner</a></p>
+        <p><a href="#">Tutorial</a></p>
+        <p><a href="#">Video Tutorial</a></p>
+        <p><a href="#">Article</a></p>
+      </div>
+
+      <!-- About Us -->
+      <div class="column">
+        <h6 class="title-st">About Us</h6>
+        <p><a href="#">Terms of Service</a></p>
+        <p><a href="#">Privacy Policy</a></p>
+        <p><a href="#">Solicitation Process</a></p>
+        <p><a href="#">Our History</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Social Icons -->
+  <div class="social-section">
+    <img src="./images/logo-dark.png" alt="Logo">
+    <div class="social-icons-st">
+      <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+      <a href="#"><i class="fab fa-linkedin fa-lg"></i></a>
+      <a href="#"><i class="fab fa-pinterest fa-lg"></i></a>
+      <a href="#"><i class="fab fa-youtube fa-lg"></i></a>
+      <a href="#"><i class="fab fa-facebook-f fa-lg"></i></a>
+      <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+    </div>
+  </div>
+
+  <!-- Copyright -->
+  <div class="copyright">
+    <p class="head">
+      Aapka Policywala Insurance <span class="highlight">Broking Services</span> Pvt. Ltd.
+    </p>
+    <p>
+      IRDAI Registration Code: IRDAI / DB1058 / 2023 | IRDAI Registration No.: 933 | Category: Direct (Life &
+      General) | License Valid: 19.01.2024 - 18.01.2027 <br>
+      Principal Officer: Pardeep Kumar | Registered Office : BOOTH NO. 13, ANAJ MANDI, BHATTU MANDI, BHATTU
+      KALAN, FATEHABAD, HR, IN, 125053 | <br>
+      Corporate Address : DSS-121-G-Floor Commercial UE-ll - Hisar - Haryana Pin Code- 125005 | Email Us:
+      info@aapkapolicywala.com | Call Us: +91 8390008390
+    </p>
+    <p>
+      @Copyright 2024 Aapkapolicywala Insurance Broking Services Pvt. Ltd.
+    </p>
+  </div>
+</footer>
+
+
+  <!-- end -->
+
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="./js.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz4fnFO9gybBogGz9qQJbXUjXT1ZtAn1Ry5zVSrK7SwppV8xv8Q5XlWJ9Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+    integrity="sha384-pprn3073KE6tl6ERvA6knXKa2QKN8R6bJ5L3VGsBzHrtvPpBfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

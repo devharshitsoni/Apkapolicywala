@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Apna Policy</title>
+        <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Ribeye&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@100..900&display=swap" rel="stylesheet">
+    
+    
+        <!-- icon -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+        <!-- bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+    
+        <!-- stylesheet -->
+        <link rel="stylesheet" href="./style.css" />
+    
+    
+    
+    </head>
+<body>
+    
+   <!-- nav -->
+   <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-none d-lg-flex" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <span>General Insurance</span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider" />
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <span>Life Insurance</span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider" />
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <span>Knowledge Base</span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider" />
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><span>Become a Posp Partner</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><span>Contact us</span></a>
+                </li>
+            </ul>
+            <button class="main-btn ms-4">Sign up</button>
+        </div>
+        <div class="offcanvas offcanvas-end offcanvas-glass d-lg-none" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <a href="#" class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./images/logo.png"
+                        alt="" /></a>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            General Insurance
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Life Insurance
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Knowledge Base
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Become a Posp Partner</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- end navabr -->
+
+<!-- head -->
+
+<div class="container-fluid general px-5 my-5">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6 col-md-6">
+                <div class="section-title text-left mb-5">
+                    <h1 class="renew-title">
+                        Buy Group <span>Personal Accident</span> Insurance
+                    </h1>
+                    <p class="">
+                        Life is unpredictable. Accidents can happen anytime, especially when you are travelling. A group personal accident insurance policy from Aapka Policywala will offer economic cushion for you and your loved ones in such unforeseen circumstances. Buy or renew affordable group insurance plans to provide coverage against accidental death, disability, and medical expenses, ensuring peace of mind for its members!
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="health-img">
+                    <img src="./images/group-personal-accident.png" class="img-fluid w-100 py-4" alt="Image" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end -->
+
+
+
+
+<!--Why Group Personal Accident Policy Online in 2024? -->
+
+<div class="container py-3">
+    <div class="row g-3 align-items-center">
+        <div class="section-title ">
+            <h1 class="text-center">
+                Why Group <span>Personal Accident Policy</span> Online in 2024?
+            </h1>
+
+        </div>
+        <p class="posp-para text-left px-5">In today’s fast-paced world, unexpected events can significantly impact your life. Here’s why securing a group personal accident policy online in 2024 is essential:</p>
+
+        <div class="container my-5">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="custom-card-v10">
+                                    <h2>Increased Risk</h2>
+                                    <p class="posp-para">From traffic accidents to workplace hazards, modern life exposes us to various risks. Online group accident policy offers quick and convenient coverage against these unforeseen circumstances.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="custom-card-v10">
+                                    <h2>Financial Security</h2>
+                                    <p class="posp-para">Group accidents can lead to medical bills, lost income, or even death. This type of policy provides financial aid during these difficult times. It will ensure your loved ones are taken care of.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="custom-card-v10">
+                                    <h2>Affordability</h2>
+                                    <p class="posp-para">Group personal accident plans are generally very affordable, making it an accessible form of protection for everyone.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="custom-card-v10">
+                                    <h2>Increased Risk</h2>
+                                    <p class="posp-para">From traffic accidents to workplace hazards, modern life exposes us to various risks. Online group accident policy offers quick and convenient coverage against these unforeseen circumstances.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="custom-card-v10">
+                                    <h2>Financial Security</h2>
+                                    <p class="posp-para">Group accidents can lead to medical bills, lost income, or even death. This type of policy provides financial aid during these difficult times. It will ensure your loved ones are taken care of.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="custom-card-v10">
+                                    <h2>Affordability</h2>
+                                    <p class="posp-para">Group personal accident plans are generally very affordable, making it an accessible form of protection for everyone.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="custom-card-v10">
+                                    <h2>Increased Risk</h2>
+                                    <p class="posp-para">From traffic accidents to workplace hazards, modern life exposes us to various risks. Online group accident policy offers quick and convenient coverage against these unforeseen circumstances.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="custom-card-v10">
+                                    <h2>Financial Security</h2>
+                                    <p class="posp-para">Group accidents can lead to medical bills, lost income, or even death. This type of policy provides financial aid during these difficult times. It will ensure your loved ones are taken care of.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="custom-card-v10">
+                                    <h2>Affordability</h2>
+                                    <p class="posp-para">Group personal accident plans are generally very affordable, making it an accessible form of protection for everyone.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="posp-para px-5 pt-5">By securing a Group personal accident Policy online in 2024, you're taking a proactive step towards safeguarding your future and ensuring financial stability for yourself and your family.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end -->
+
+
+
+
+
+
+ <!--Key Features of Group Personal Accident Insurance Policy -->
+
+ 
+    <div class="container py-2">
+        <div class="row g-5 align-items-center">
+            <div class="section-title mb-">
+                <h1 class="mb-4 text-left">
+                    What’s Included in <span>International Student Travel</span> Policy?
+                </h1>
+                <p class="posp-para text-left">Group Personal Accident Insurance offers a variety of benefits to both employers and employees. Here’s a breakdown of its key features:</p>
+            </div>
+        </div>
+
+        <div class="container my-2">
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered custom-table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Number</th>
+                            <th scope="col">Features</th>
+                            <th scope="col">Benefits</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><b>1</b></td>
+                            <td><b>Comprehensive Coverage</b></td>
+                            <td>
+                                Protects against accidental death, permanent disability (total or partial), and in some cases, medical expenses incurred due to accidents.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>2</b></td>
+                            <td><b>Group Eligibility</b></td>
+                            <td>
+                                Ideal for employees of companies, clubs, associations, institutions, and firms.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>3</b></td>
+                            <td><b>Optional Benefits</b></td>
+                            <td>
+                                Some plans offer additional benefits like educational fund for the insured's dependent children in case of death or permanent disability.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>4</b></td>
+                            <td><b>Cost-Effective</b></td>
+                            <td>
+                                Group policies are generally affordable due to discounted premiums based on the group size.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>5</b></td>
+                            <td><b>Simple Renewal Process</b></td>
+                            <td>
+                                Renewal follows the same standard process as other insurance policies.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>6</b></td>
+                            <td><b>Flexible Policy Tenure</b></td>
+                            <td>
+                                While the tenure is typically one year, some insurers may offer options for longer coverage periods.
+                            </td>
+                        </tr>
+                        
+                        
+                    </tbody>
+                </table>
+            </div>
+            <p class="posp-para">We bring the best deals on personal insurance plans in India. Thousands of families also trust Aapka Policywala for <a href="https://aapkapolicywala.com/home-insurance/">home insurance plan</a>, <a href="https://aapkapolicywala.com/family-travel-insurance/">family travel insurance plan</a> and <a href="https://aapkapolicywala.com/individual-travel-insurance/">individual travel insurance policy</a> in India.</p>
+        </div>
+        
+    </div>
+
+
+<!-- end -->
+
+
+
+
+
+
+    <!-- Why us for Group Personal Accident Insurance Needs? -->
+    <div class="container-fluid group p-5 my-3">
+       <div class="container">
+        <div class="row g-3 align-items-center">
+            <div class="section-title text-center ">
+                <h1 class="mb-4 text-center">
+                    Why us for <span>Group Personal Accident</span> Insurance Needs?
+                </h1>
+                <p class="posp-para">Finding the right Group Personal Accident Insurance policy can feel overwhelming. Aapka Policywala simplifies the process by offering a user-friendly platform to compare and purchase coverage from top insurance providers in India.But that’s not the only benefit! Here are more compelling reasons why Aapka Policywala should be your one-stop shop for securing a group personal accident insurance:</p>
+            </div>
+
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="content-card card-custom-3" data-wow-delay="0.3s">
+                            <div class="inner-text text-center">
+                                <img src="./images/group-1.png" class="py-3" alt="">
+                                <p class="head mb-4 text-center">Wide Range of Option</p>
+                                <p class="para">
+                                    We offer a comprehensive selection of group personal accident insurance plans from various reputable insurers. This allows you to compare coverage options, benefits, and premiums to find the perfect fit for your group's specific needs and budget.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="content-card card-custom-3" data-wow-delay="0.3s">
+                            <div class="inner-text text-center">
+                                <img src="./images/brand-images/maruti.png" class="py-3" alt="">
+                                <p class="head mb-4 text-center">Hassle-Free Comparison</p>
+                                <p class="para">
+                                    Forget lengthy phone calls and agent visits. Aapka Policywala's user-friendly interface enables you to easily compare plans side-by-side. This transparent comparison tool empowers you to make informed decisions based on key features, coverage details, and pricing information.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="content-card card-custom-3" data-wow-delay="0.3s">
+                            <div class="inner-text text-center">
+                                <img src="./images/brand-images/maruti.png" class="py-3" alt="">
+                                <p class="head mb-4 text-center">Expert Guidance</p>
+                                <p class="para">
+                                    Our dedicated support team is readily available to answer your questions and guide you through the selection process. Whether you're uncertain about specific group personal accident policy terms or need help customizing coverage, Aapka Policywala's POSPs are here to assist you.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="content-card card-custom-3" data-wow-delay="0.3s">
+                            <div class="inner-text text-center">
+                                <img src="./images/group-2.png" class="py-3" alt="">
+                                <p class="head mb-4 text-center">Simplified Online Purchase</p>
+                                <p class="para">
+                                    Gone are the days of complex paperwork. Aapka Policywala streamlines the entire purchase process. We allow you to secure a group personal accident scheme for your group entirely online. This saves you valuable time and guarantees a smooth and efficient experience.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 ">
+                        <div class="content-card card-custom-3 " data-wow-delay="0.3s">
+                            <div class="inner-text text-center">
+                                <img src="./images/group-2.png" class="py-3" alt="">
+                                <p class="head mb-4 text-center">Competitive Rates</p>
+                                <p class="para">
+                                    Aapka Policywala works with leading insurance providers who offer competitive rates for group personal accident insurance policies. By leveraging our platform, you can potentially access discounted premiums due to our partnerships with various insurers.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+
+        </div>
+       </div>
+    </div>
+
+    <!-- end -->
+
+
+
+
+
+
+
+    <!-- testimonil -->
+
+    <div class="container-fluid py-2">
+
+        <div class="row g-2 align-items-center">
+            <div class="section-title text-center ">
+                <h1 class="mb-4 text-center">
+                    <span>Health Insurance</span> Renewal Reviews
+                </h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, nihil.</p>
+            </div>
+        </div>
+        <div class="container py-5" id="testimonials">
+            <div class="slider">
+                <div class="slide-track testimonial-container">
+                    <div class="slide testimonial">
+                        <div class="text">
+                            <div class="quote">&#8220;</div>
+                            <p class="review">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                                quos error beatae dolores, dicta maxime libero optio voluptatem
+                                culpa, obcaecati omnis!
+                            </p>
+                        </div>
+                        <div class="info">
+                            <div class="pfp">
+                                <img src="./images/test-1.png" alt="Den Kerdian" />
+                            </div>
+                            <p class="text">SUZANA</p>
+                        </div>
+                    </div>
+                    <div class="slide testimonial">
+                        <div class="text">
+                            <div class="quote">&#8220;</div>
+                            <p class="review">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                                quos error beatae dolores, dicta maxime libero optio voluptatem
+                                culpa, obcaecati omnis!
+                            </p>
+                        </div>
+                        <div class="info">
+                            <div class="pfp">
+                                <img src="./images/test-2.png" alt="Den Kerdian" />
+                            </div>
+                            <p class="text">LÍVIA</p>
+                        </div>
+                    </div>
+                    <div class="slide testimonial">
+                        <div class="text">
+                            <div class="quote">&#8220;</div>
+                            <p class="review">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                                quos error beatae dolores, dicta maxime libero optio voluptatem
+                                culpa, obcaecati omnis!
+                            </p>
+                        </div>
+                        <div class="info">
+                            <div class="pfp">
+                                <img src="./images/test-3.png" alt="Den Kerdian" />
+                            </div>
+                            <p class="text">KÁTIA</p>
+                        </div>
+                    </div>
+                    <div class="slide testimonial">
+                        <div class="text">
+                            <div class="quote">&#8220;</div>
+                            <p class="review">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                                quos error beatae dolores, dicta maxime libero optio voluptatem
+                                culpa, obcaecati omnis!
+                            </p>
+                        </div>
+                        <div class="info">
+                            <div class="pfp">
+                                <img src="./images/test-4.png" alt="Den Kerdian" />
+                            </div>
+                            <p class="text">MATHEUS</p>
+                        </div>
+                    </div>
+                    <!-- Duplicate the slides to create an infinite loop effect -->
+                    <div class="slide testimonial">
+                        <div class="text">
+                            <div class="quote">&#8220;</div>
+                            <p class="review">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                                quos error beatae dolores, dicta maxime libero optio voluptatem
+                                culpa, obcaecati omnis!
+                            </p>
+                        </div>
+                        <div class="info">
+                            <div class="pfp">
+                                <img src="./images/test-1.png" alt="Den Kerdian" />
+                            </div>
+                            <p class="text">SUZANA</p>
+                        </div>
+                    </div>
+                    <div class="slide testimonial">
+                        <div class="text">
+                            <div class="quote">&#8220;</div>
+                            <p class="review">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                                quos error beatae dolores, dicta maxime libero optio voluptatem
+                                culpa, obcaecati omnis!
+                            </p>
+                        </div>
+                        <div class="info">
+                            <div class="pfp">
+                                <img src="./images/test-2.png" alt="Den Kerdian" />
+                            </div>
+                            <p class="text">LÍVIA</p>
+                        </div>
+                    </div>
+                    <div class="slide testimonial">
+                        <div class="text">
+                            <div class="quote">&#8220;</div>
+                            <p class="review">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                                quos error beatae dolores, dicta maxime libero optio voluptatem
+                                culpa, obcaecati omnis!
+                            </p>
+                        </div>
+                        <div class="info">
+                            <div class="pfp">
+                                <img src="./images/test-3.png" alt="Den Kerdian" />
+                            </div>
+                            <p class="text">KÁTIA</p>
+                        </div>
+                    </div>
+                    <div class="slide testimonial">
+                        <div class="text">
+                            <div class="quote">&#8220;</div>
+                            <p class="review">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                                quos error beatae dolores, dicta maxime libero optio voluptatem
+                                culpa, obcaecati omnis!
+                            </p>
+                        </div>
+                        <div class="info">
+                            <div class="pfp">
+                                <img src="./images/test-4.png" alt="Den Kerdian" />
+                            </div>
+                            <p class="text">MATHEUS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script>
+        document.querySelector('.slider').addEventListener('mouseover', function () {
+            document.querySelector('.slide-track').style.animationPlayState = 'paused';
+        });
+
+        document.querySelector('.slider').addEventListener('mouseout', function () {
+            document.querySelector('.slide-track').style.animationPlayState = 'running';
+        });
+    </script>
+    <!-- end -->
+
+
+
+
+
+
+
+    <!-- contact us -->
+
+    <div class="container p-5 my-2">
+        <div class="row g-3 align-items-center">
+            <div class="section-title text-center ">
+                <h1 class=" text-center">
+                    Share <span>Group Personal Accident</span> Insurance Queries </h1>
+            </div>
+            <p class="posp-para">Ready to find the perfect group health insurance plan for your business in India? Aapka Policywala is here to help. Contact our team of advisors for a free consultation and personalized quote. We’ll guide you through the process and ensure your employees receive the healthcare coverage they deserve.</p>
+        </div>
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="health-img ps-md-5">
+                    <img src="./images/support image.png" class="img-fluid w-100" alt="Image" />
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="0.4s">
+                <div class="form">
+                    <h2>Get in Touch</h2>
+                    <div class="d-flex justify-content-between">
+                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="Phone Number">
+                    </div>
+                    <input type="email" placeholder="Email">
+                    <textarea placeholder="Message"></textarea>
+                    <button class="main-btn">Submit</button>
+                </div>
+                
+            </div>
+           
+        </div>
+    </div>
+    <!-- end -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- get or renew -->
+    <div class="container-fluid team py-3 mt-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="0.4s">
+                    <div class="section-title text-left mb-5">
+                        <h1 class="mb-4 renew-title">
+                            <span> Get or Renew</span> Your Insurance with Aapka Policywala
+                        </h1>
+                        <p class="mb-4 renew-para">
+                            We are just a call away. Feel free to contact us
+                        </p>
+                        <button class="main-btn"><a href="#">Contact Us </a></button>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="health-img ps-md-5">
+                        <img src="./images/renew.png" class="img-fluid w-100" alt="Image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end -->
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start footer-2 text-muted">
+        <!-- Section: Links  -->
+        <div class="p-4">
+            <div class="container text-center text-md-start">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Motor Insurance</h6>
+                        <p><a href="#!" class="text-reset">Car Insurance</a></p>
+                        <p><a href="#!" class="text-reset">Two Wheeler</a></p>
+                        <p><a href="#!" class="text-reset">Goods Carrying</a></p>
+                        <p><a href="#!" class="text-reset">Passenger Carrying</a></p>
+                        <p><a href="#!" class="text-reset">Misc-D Insurance</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Life Insurance</h6>
+                        <p><a href="#!" class="text-reset">Group Term Insurance</a></p>
+                        <p><a href="#!" class="text-reset">Term Life Insurance</a></p>
+                        <p><a href="#!" class="text-reset">1 Crore Term Insurance</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Resources</h6>
+                        <p><a href="#!" class="text-reset">POSP Partner</a></p>
+                        <p><a href="#!" class="text-reset">Tutorial</a></p>
+                        <p><a href="#!" class="text-reset">Video Tutorial</a></p>
+                        <p><a href="#!" class="text-reset">Article</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">About Us</h6>
+                        <p><a href="#!" class="text-reset">Terms of Service</a></p>
+                        <p><a href="#!" class="text-reset">Privacy Policy</a></p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+
+                <!-- Second row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+
+                        <p>
+                            <i class="fa-solid fa-location-dot pe-2"></i> Booth No. 13, Anaj
+                            Mandi, Bhattu Mandi, Bhattu Kalan, Fatehbad, Haryana - 125053
+                        </p>
+
+                        <p><i class="fa-solid fa-phone-volume pe-2"></i>+91 8390008390</p>
+                        <p>
+                            <i class="fa-solid fa-envelope pe-2"></i> info@aapkapolicywala.com
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Follow us on</h6>
+                        <div class="social-icons">
+                            <a href="#!" class="text-reset"><i class="fab fa-instagram fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-linkedin fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-pinterest fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-youtube fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-facebook-f fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-twitter fa-lg"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Grid column -->
+                </div>
+                <!-- Second row -->
+            </div>
+        </div>
+        <!-- Section: Links -->
+
+        <!-- Copyright -->
+        <div class="text-center description p-4" style="background-color: rgba(0, 0, 0, 0.05)">
+            <p class="description-heading-1 py-2 text-center">
+                Aapka Policywala Insurance
+                <span style="color: #e89e3f">Broking Services</span> Pvt. Ltd.
+            </p>
+            <p class="description-para-1 py-2 text-center">
+                IRDAI Registration Code: IRDAI / DB1058 / 2023 | IRDAI Registration
+                No.: 933| Category: Direct (Life & General) | License Valid:
+                19.01.2024 - 18.01.2027
+            </p>
+            <p class="text-left disclaimer py-5">
+                <b>Disclaimer:</b>Insurance is the subject matter of solicitation.
+                Visitors are hereby informed that their information submitted on the
+                website may be shared with insurers. The product information for
+                comparison displayed on this website is of the insurers with whom our
+                company has an agreement. Product information is authentic and solely
+                based on the information received from the Insurer.
+            </p>
+        </div>
+    </footer>
+
+    <!-- end -->
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz4fnFO9gybBogGz9qQJbXUjXT1ZtAn1Ry5zVSrK7SwppV8xv8Q5XlWJ9Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-pprn3073KE6tl6ERvA6knXKa2QKN8R6bJ5L3VGsBzHrtvPpBfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>

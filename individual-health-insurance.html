@@ -1,0 +1,1373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apna Policy</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Ribeye&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@100..900&display=swap" rel="stylesheet">
+
+
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+
+
+
+</head>
+
+<body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-none d-lg-flex" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>General Insurance</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>Life Insurance</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>Knowledge Base</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><span>Become a Posp Partner</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><span>Contact us</span></a>
+                    </li>
+                </ul>
+                <button class="main-btn ms-4">Sign up</button>
+            </div>
+            <div class="offcanvas offcanvas-end offcanvas-glass d-lg-none" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <a href="#" class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./images/logo.png"
+                            alt="" /></a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                General Insurance
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Life Insurance
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Knowledge Base
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Become a Posp Partner</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- end navabr -->
+
+    <!-- head -->
+
+    <div class="container-fluid general px-5 my-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 col-md-6">
+                    <div class="section-title text-left mb-5">
+                        <h1 class="renew-title">
+                            Buy or Renew <span>Health Insurance Online</span>
+                        </h1>
+                        <p class="">
+                            Experience peace of mind with individual health insurance that caters specifically to personal
+                            health needs and preferences. Our custom health coverage options ensure that you receive the
+                            medical care you need, exactly when you need it. Aapka Policywala brings the best individual
+                            health insurance plans that offer comprehensive protection designed to safeguard personal health
+                            and well-being. With flexible healthcare options and personalized service, our individual health
+                            insurance plans are here to support you every step of the way. Buy, compare or renew plans from
+                            top insurance companies!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="health-img">
+                        <img src="./images/individual-health-insurance.png" class="img-fluid w-100 py-4" alt="Image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+
+
+
+    <!--    What is Individual Health Insurance?-->
+    <div class="container p-5 my-3">
+        <div class="row g-3 align-items-center">
+            <div class="section-title text-center ">
+                <h1 class="text-center">
+                    What is <span> Individual Health Insurance?</span>
+                </h1>
+            </div>
+
+            <p class="posp-para">
+                In today’s fast-paced world, our health often takes a backseat amidst busy schedules and increasing
+                health risks. However, investing in Individual Health
+                Insurance Plans is essential to safeguard ourselves from the unpredictable burden of medical expenses.
+                These comprehensive plans cover a wide range of
+                medical costs, including hospitalization, surgeries, ambulance services, and more, providing financial
+                security during times of illness or injury. With the ever-
+                rising healthcare costs, having health insurance ensures that pre and post hospitalization expenses are
+                taken care of, easing the financial strain during
+                recovery.
+            </p>
+            <p class="posp-para">
+                Moreover, individual health insurance policies offer convenient cashless facilities at network
+                hospitals, making quality treatment accessible without immediate
+                out of-pocket expenses. Diagnostic tests, ambulance costs, and daycare facilities are also covered up to
+                specified limits, providing holistic coverage.
+                Additionally, certain plans even include coverage for pre-existing conditions and maternity related
+                expenses, further enhancing the comprehensive protection
+                offered.
+            </p>
+            <p class="posp-para">
+                By prioritizing Individual Health Insurance, we not only secure our health but also safeguard our
+                financial well-being, ensuring peace of mind in times of medical
+                emergencies. It’s a proactive step towards a healthier and stress-free life, empowering us to prioritize
+                our most valuable asset – our health.”
+            </p>
+        </div>
+    </div>
+
+    <!-- end -->
+
+
+
+
+
+    <!--   Why Aapka Policywala for Individual Health Insurance Plan?-->
+    <div class="container px-5 my-3">
+        <div class="row g-3 align-items-center">
+            <div class="section-title text-left ">
+                <h1 class=" text-left">
+                    Why Aapka Policywala for <span>Individual Health Insurance</span> Plan?
+                </h1>
+            </div>
+
+            <p class="posp-para">
+                Choosing Aapka Policywala for your individual health insurance plan offersnumerous advantages and peace
+                of mind. With Aapka Policywala, you benefit
+                from a hassle-free and transparent insurance buying experience. Our platformprovides best individual
+                health insurance plans from leading insurance providers,
+                ensuring that you have access to a comprehensive selection of options to suit your specific needs and
+                preferences.
+
+            </p>
+            <p class="posp-para">
+                Moreover, Aapka Policywala offers personalized assistance and guidance throughout the insurance buying
+                process. Our experienced insurance advisors are
+                available to answer your queries, provide expert advice, and assist you in selecting the most suitable
+                plan based on your unique requirements. You can also
+                compare personal health insurance plans online on our website and choose the best option easily
+            </p>
+            <p class="posp-para">
+                With Aapka Policywala, you can trust that you are making a smart investment in your health and financial
+                well-being. We are committed to delivering value-
+                driven insurance solutions that prioritize your peace of mind and ensure comprehensive coverage when you
+                need it most.
+            </p>
+            <p class="posp-para">
+                We bring the best deals on personal health insurance plans in India. Thousands of individuals also trust
+                Aapka Policywala every year for family health
+                insurance, critical illness insurance, and personal accident insurance in India. Browse our website to
+                discover more!
+            </p>
+        </div>
+    </div>
+
+    <!-- end -->
+
+
+    <!--Advantages of Buying Health Insurancee? -->
+
+    
+        
+            <div class="container py-3">
+                <div class="row g-3 align-items-center">
+                    <div class="section-title ">
+                        <h1 class=" text-center">
+                            Advantages of <span>Buying Health Insurancee?</span>
+                        </h1>
+                    </div>
+                    <p class="posp-para">
+                        Individual health insurance offers a plethora of benefits, ensuring that you are able to cover medical expenses and safeguard well-being when need emerges. 
+                        The best individual health insurance plans bring these benefits:
+                    </p>
+
+                    <div class="d-flex flex-wrap justify-content-center">
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+
+                                <p class="head mb-4 text-left">
+                                    Mandatory Health Check-ups
+                                </p>
+                                <p class="para">
+                                    Policyholders aged 45 and above may be 
+                                    required to undergo mandatory health 
+                                    check-ups as per policy guidelines. This 
+                                    ensures an accurate assessment of their 
+                                    health status, enabling tailored coverage 
+                                    that meets their specific health needs.
+                                    
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+
+                                <p class="head mb-4 text-left">
+                                    Tax Savings
+                                </p>
+                                <p class="para">
+                                    Premiums paid for health insurance 
+                                    policies are eligible for tax deductions 
+                                    under Section 80D of the Income Tax Act. 
+                                    This not only secures individuals’ health 
+                                    and well-being but also offers tax savings,
+                                    making health insurance a financially 
+                                    prudent investment.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+
+                                <p class="head mb-4 text-left">Quick Reimbursement</p>
+                                <p class="para">
+                                    Health insurance companies prioritize 
+                                    swift claim settlement and reimbursement 
+                                    processes, ensuring policyholders receive 
+                                    reimbursement for medical expenses 
+                                    within a few days of submitting necessary 
+                                    documents and bills. This prompt 
+                                    reimbursement mechanism facilitates 
+                                    efficient financial management for 
+                                    individuals. This is the major reason why 
+                                    people go for offline or online individual 
+                                    health insurance plans.
+                                </p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+  
+
+    <!-- end -->
+
+
+
+
+<!-- Personal Health Insurance Eligibility Guidelines -->
+<div class="container p-5 my-3">
+    <div class="row g-3 align-items-center">
+        <div class="section-title text-center ">
+            <h1 class=" text-center">
+               <span> Personal Health Insurance </span>Eligibility Guidelines
+            </h1>
+        </div>
+        <p class="posp-para">Guidelines for individual health insurance eligibility encompass various factors that applicants must meet to qualify for coverage. While specific criteria can vary
+            among insurance providers and policies, common eligibility requirements include:</p>
+
+        <div class="">
+            <p class="posp-para">
+              <b>  Age: </b>Applicants typically need to fall within a specified age range to qualify for individual health insurance. Both minimum and maximum age limits may apply,
+                varying by policy.
+            </p>
+            <p class="posp-para">
+                <b>Citizenship/Residency:</b> Most individual health insurance policies whether online or offline are accessible to Indian citizens and residents. Certain policies may 
+                extend eligibility to non-resident Indians (NRIs).
+            </p>
+
+            <p class="posp-para">
+              <b>  Medical History:</b> Health insurance companies assess applicants’ medical histories to determine eligibility. Some pre-existing conditions may be excluded from 
+coverage, and waiting periods might apply to certain conditions.
+            </p>
+            <p class="posp-para">
+              <b>  Health Condition:</b> Current health status is evaluated, sometimes requiring a medical check-up to assess overall health.
+            </p>
+            <p class="posp-para">
+               <b> Adverse Medical History:</b> Some insurers may have exclusions for individuals with adverse medical histories, impacting eligibility or premium rates.
+            </p>
+            <p class="posp-para">
+              <b>  Occupation: </b>Specific eligibility criteria might relate to the applicant’s occupation or profession. That’s because some fields of work amplify the risk of specific 
+                medical conditions.
+            </p>
+            <p class="posp-para">
+               <b> Premium Payment:</b> Applicants must be able to pay the required premium for their chosen health insurance policy on a yearly basis. This can be paid offline or
+                online.
+            </p>
+           
+        </div>
+    </div>
+</div>
+
+<!-- end -->
+
+
+
+
+  <!-- How to Choose Individual Health Insurance Plans in India? -->
+
+  
+    <div class="container py-3">
+      <div class="row g-3 align-items-center">
+        <div class="section-title ">
+          <h1 class=" text-center">
+            How to <span> Choose Individual Health Insurance</span> Plans in India?
+          </h1>
+        </div>
+        <p class="posp-para">Choosing the best individual health insurance plan in India requires a thorough assessment of your healthcare needs and financial considerations. Here are 
+            steps to guide you in making an informed decision:</p>
+      </div>
+
+      <div class="container-fluid my-3">
+        <div class="table-responsive">
+          <table class="table table-striped table-bordered custom-table">
+            <thead>
+              <tr>
+                <th scope="col">Features</th>
+                <th scope="col">Benefits</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><b>Assess Your Healthcare Needs</b></td>
+                <td>
+                    Evaluate your medical history, existing health conditions, and potential health risks to determine the 
+                    individual coverage you require. Consider factors like age, lifestyle, and specific treatments or 
+                    medications needed.
+                </td>
+              </tr>
+              <tr>
+                <td><b>Coverage and Inclusions</b></td>
+                <td>
+                    Compare the coverage offered by different individual health insurance plans, including hospitalization 
+                    expenses, pre and post hospitalization coverage, daycare procedures, maternity benefits, and critical 
+                    illness coverage. Choose a insurance plan that meets your healthcare needs.
+                </td>
+              </tr>
+              <tr>
+                <td><b>Sum Insured</b></td>
+                <td>
+                    Ensure the sum insured is adequate to cover potential medical expenses in case of emergencies 
+                    whole buying personal health insurance online or offline. Consider factors like inflation and rising 
+                    healthcare costs when selecting the sum insured.
+                </td>
+              </tr>
+              <tr>
+                <td><b>Network Hospitals</b></td>
+                <td>
+                    Check the list of network hospitals affiliated with the insurance provider. A wide network ensures 
+                    access to cashless treatment in preferred healthcare facilities.
+                </td>
+              </tr>
+              <tr>
+                <td><b>Waiting Periods</b></td>
+                <td>
+                    Understand waiting periods for pre-existing diseases and specific treatments. Opt for a individual 
+                    health policy plan with shorter waiting periods for coverage of pre-existing conditions.
+                </td>
+              </tr>
+
+              <tr>
+                <td><b>Claim Settlement Ratio</b></td>
+                <td>
+                    Research the claim settlement ratio of shortlisted individual health insurance companies. A higher 
+                    ratio indicates efficient claim processing and settlement, ensuring a hassle-free experience.
+                </td>
+              </tr>
+
+              <tr>
+                <td><b>Premiums and Cost</b></td>
+                <td>
+                    Compare premiums of different personal health insurance plans while considering coverage and 
+                    benefits offered. Choose a plan that provides comprehensive coverage at a reasonable premium.
+                </td>
+              </tr>
+              <tr>
+                <td><b>Co-payment and Deductibles</b></td>
+                <td>
+                    Check if the policy has any co-payment or deductible clauses, where you share the cost of medical 
+                    expenses with the insurance provider. Choose a plan that minimizes such out-of-pocket expenses.
+                </td>
+              </tr>
+              <tr>
+                <td><b>Add-on Riders</b></td>
+                <td>
+                    Evaluate the relevance of additional riders like critical illness, maternity, or accidental cover based on 
+                    your specific needs. Choose riders that enhance your health insurance coverage effectively.
+                </td>
+              </tr>
+              <tr>
+                <td><b>Customer Reviews and Reputation</b></td>
+                <td>
+                    Read customer reviews and feedback about the insurance company’s plans, claim settlement 
+                    process, and overall reputation. Opt for an individual health insurance company with positive reviews 
+                    and a strong reputation. Compare plans to choose the best!
+                </td>
+              </tr>
+              <tr>
+                <td><b>Online Tools and Services</b></td>
+                <td>
+                    Consider insurance providers that offer online tools like premium calculators, instant quotes, and 
+                    online policy purchase for convenience and accessibility.
+                </td>
+              </tr>
+              <tr>
+                <td><b>Financial Stability of Insurer</b></td>
+                <td>
+                    Compare premiums of different personal health insurance plans while considering coverage and 
+                    benefits offered. Choose a plan that provides comprehensive coverage at a reasonable premium.
+                </td>
+              </tr>
+              
+
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  
+
+  <!-- end -->
+
+
+
+
+   <!--What Coverage Personal Health Insurance Plans Include?s -->
+   
+  
+      <div class="container py-3">
+        <div class="row g-3 align-items-center">
+          <div class="section-title ">
+            <h1 class=" text-center">
+                What Coverage <span>Personal Health Insurance Plans</span>Include?
+            </h1>
+          </div>
+          <p class="posp-para">
+            An individual health insurance plan encompasses a broad spectrum of coverage tailored to the policyholder’s needs. While the specific inclusions vary among 
+            insurance providers and plan types, common coverage areas include:
+          </p>
+
+          <div class="d-flex flex-wrap justify-content-center">
+            <div class="content-card card-custom-2" data-wow-delay="0.3s">
+              <div class="inner-text text-left">
+                <img src="./images/Financial-planning.png" alt="" />
+                <p class="head mb-4 text-left">
+                    Hospitalization Expenses
+                </p>
+                <p class="para">
+                    Comprehensive coverage for in-patient 
+                    hospitalization costs, encompassing 
+                    room charges, nursing care, ICU 
+                    expenses, and medical supplies.
+                </p>
+              </div>
+            </div>
+            <div class="content-card card-custom-2" data-wow-delay="0.3s">
+              <div class="inner-text text-left">
+                <img src="./images/Financial-planning.png" alt="" />
+                <p class="head mb-4 text-left">Pre and Post Hospitalization</p>
+                <p class="para">
+                    Reimbursement for expenses incurred 
+                    before and after hospitalization, typically 
+                    for a specified number of days, ensuring 
+                    holistic coverage.
+                </p>
+              </div>
+            </div>
+            <div class="content-card card-custom-2" data-wow-delay="0.3s">
+              <div class="inner-text text-left">
+                <img src="./images/Financial-planning.png" alt="" />
+                <p class="head mb-4 text-left">Daycare Procedures</p>
+                <p class="para">
+                    Coverage for medical treatments and 
+                    procedures completed within a few hours, 
+                    not requiring prolonged (daycare 
+                    treatments). Limited personal health 
+                    insurance providers give this.
+                </p>
+              </div>
+            </div>
+            <div class="content-card card-custom-2" data-wow-delay="0.3s">
+              <div class="inner-text text-left">
+                <img src="./images/Financial-planning.png" alt="" />
+                <p class="head mb-4 text-left">
+                    Ambulance Charges
+                </p>
+                <p class="para">
+                    Financial support for emergency 
+                    ambulance services, facilitating swift 
+                    transportation to medical facilities. If you 
+                    are buying individual health insurance 
+                    online, please confirm this carefully.
+                </p>
+              </div>
+            </div>
+            <div class="content-card card-custom-2" data-wow-delay="0.3s">
+              <div class="inner-text text-left">
+                <img src="./images/Financial-planning.png" alt="" />
+                <p class="head mb-4 text-left">Pre-existing Diseases</p>
+                <p class="para">
+                    Some policies offer coverage for 
+                    pre-existing conditions after a waiting 
+                    period, ensuring continued support for 
+                    existing health conditions.
+                </p>
+              </div>
+            </div>
+            <div class="content-card card-custom-2" data-wow-delay="0.3s">
+              <div class="inner-text text-left">
+                <img src="./images/Financial-planning.png" alt="" />
+                <p class="head mb-4 text-left">Maternity and Newborn Care</p>
+                <p class="para">
+                    Comprehensive coverage for maternity-
+                    related expenses, including prenatal and 
+                    postnatal care, childbirth, and newborn 
+                    baby care.
+                </p>
+              </div>
+            </div>
+            <div class="content-card card-custom-2" data-wow-delay="0.3s">
+              <div class="inner-text text-left">
+                <img src="./images/Financial-planning.png" alt="" />
+                <p class="head mb-4 text-left">
+                    Organ Transplant
+                </p>
+                <p class="para">
+                    Financial assistance for expenses related 
+                    to organ transplantation, encompassing 
+                    surgery and post-operative care.
+                </p>
+              </div>
+            </div>
+            <div class="content-card card-custom-2" data-wow-delay="0.3s">
+              <div class="inner-text text-left">
+                <img src="./images/Financial-planning.png" alt="" />
+                <p class="head mb-4 text-left">Domiciliary Treatment</p>
+                <p class="para">
+                    Coverage for medical treatment 
+                    administered at home when 
+                    hospitalization is not feasible or required.
+                </p>
+              </div>
+            </div>
+            <div class="content-card card-custom-2" data-wow-delay="0.3s">
+              <div class="inner-text text-left">
+                <img src="./images/Financial-planning.png" alt="" />
+                <p class="head mb-4 text-left">Room Rent</p>
+                <p class="para">
+                    Coverage for hospital room rent expenses 
+                    during in-patient care, subject to specified 
+                    limits ensuring affordability.
+                </p>
+              </div>
+            </div>
+            <div class="content-card card-custom-2" data-wow-delay="0.3s">
+              <div class="inner-text text-left">
+                <img src="./images/Financial-planning.png" alt="" />
+                <p class="head mb-4 text-left">Health Check-ups</p>
+                <p class="para">
+                    Provision for periodic health check-ups to 
+                    monitor the insured’s health status and 
+                    well-being, facilitating preventive 
+                    healthcare measures.
+                </p>
+              </div>
+            </div>
+            <div class="content-card card-custom-2" data-wow-delay="0.3s">
+              <div class="inner-text text-left">
+                <img src="./images/Financial-planning.png" alt="" />
+                <p class="head mb-4 text-left">Critical Illness Coverage</p>
+                <p class="para">
+                    Additional coverage for specific critical 
+                    illnesses like cancer, heart attack, stroke, 
+                    providing enhanced financial protection 
+                    against severe health conditions.
+                </p>
+              </div>
+            </div>
+            <div class="content-card card-custom-2" data-wow-delay="0.3s">
+              <div class="inner-text text-left">
+                <img src="./images/Financial-planning.png" alt="" />
+                <p class="head mb-4 text-left">Alternative Treatments</p>
+                <p class="para">
+                    Coverage for alternative and Ayurvedic 
+treatments, if included in the policy, 
+promoting holistic individual healthcare 
+options.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+  
+
+  <!-- end -->
+
+
+
+
+ <!-- How to Compare Individual Health Insurance Plans in India? -->
+
+ <div class="container py-3">
+    <div class="section-title">
+        <h1 class="mb-4 text-center">
+            How to Compare Individual <span>Health Insurance Plans</span> in India?
+        </h1>
+    </div>
+    <p class="posp-para text-left">Once you’ve completed your thorough research on car insurance policies and compared plans from various insurers online, buying a cheap yet best insurance 
+        becomes a simple process. Follow these steps to purchase insurance for your car, sedan, SUV, or jeep online:</p>
+
+
+    <div class="row number-cards g-5 py-3">
+
+        <!-- Repeat this block for each card -->
+        <div class="col-lg-4 col-md-6 custom-card-wrapper">
+            <div class="number">1</div>
+            <div class="custom-card-v11">
+             
+               
+                <p>Start by using Aapka Policywala to 
+                    discover multiple plans from different 
+                    insurance providers at one place.</p>
+            </div>
+        </div>
+        <!-- Repeat the above block and increment the number for each card (2, 3, 4, etc.) -->
+        <div class="col-lg-4 col-md-6 custom-card-wrapper">
+            <div class="number">2</div>
+            <div class="custom-card-v11">
+               
+                <p>Ensure that you meet the eligibility criteria 
+                    for the selected health insurance plans. 
+                    Some plans may have specific age limits 
+                    or medical history requirements.</p>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 custom-card-wrapper">
+            <div class="number">3</div>
+
+            <div class="custom-card-v11">
+                <p>Evaluate the coverage provided by each 
+                    plan, focusing on essential features such 
+                    as in-patient hospitalization, pre and post-
+                    hospitalization expenses, daycare 
+                    procedures, ambulance cover, and 
+                    maternity benefits.</p>
+            </div>
+        </div>
+        <!-- Continue this pattern to create up to 12 cards -->
+        <!-- Example for the 4th card -->
+        <div class="col-lg-4 col-md-6 custom-card-wrapper">
+            <div class="number">4</div>
+
+            <div class="custom-card-v11">
+                <p>Pay attention to the waiting period for pre
+                    -existing diseases and specific treatments. 
+                    Opt for plans with shorter waiting periods. 
+                    Also, check the claim settlement ratio of 
+                    offline and online individual health 
+                    insurance companies to assess their 
+                    efficiency in settling claims.</p>
+            </div>
+        </div>
+        <!-- Add more cards as needed -->
+        <!-- Example for the 5th card -->
+        <div class="col-lg-4 col-md-6 custom-card-wrapper">
+            <div class="number">5</div>
+
+            <div class="custom-card-v11">
+                <p>Check for optional riders or add-ons that 
+                    can enhance the coverage, such as critical 
+                    illness cover, accidental cover, or maternity 
+                    benefits. Consider these riders based on 
+                    your specific needs.</p>
+            </div>
+        </div>
+        <!-- Example for the 6th card -->
+        <div class="col-lg-4 col-md-6 custom-card-wrapper">
+            <div class="number">6</div>
+
+            <div class="custom-card-v11">
+               <p>Look for sub-limits or co-payment clauses, 
+                where you might have to bear a portion of 
+                the medical expenses. Choose a plan with 
+                minimal or no sub-limits and co-payment.</p>
+            </div>
+        </div>
+        <!-- Continue until the 12th card -->
+        <div class="col-lg-4 col-md-6 custom-card-wrapper">
+            <div class="number">7</div>
+
+            <div class="custom-card-v11">
+                <p>Check the policy renewal terms, premium 
+                    payment frequency, and available 
+                    discounts. Choose an individual health 
+                    insurance plan that offers flexibility in 
+                    premium payment and convenient renewal 
+                    options.</p>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 custom-card-wrapper">
+            <div class="number">8</div>
+
+            <div class="custom-card-v11">
+              <p>Verify the list of network hospitals 
+                associated with the insurance provider. 
+                A wide network ensures easy access to 
+                cashless treatment in preferred hospitals.
+                
+                </p>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 custom-card-wrapper">
+            <div class="number">9</div>
+
+            <div class="custom-card-v11">
+                <p>Read patient reviews and feedback about 
+                    the personal health insurance companies 
+                    and their claim settlement process. This
+                     will help you gauge customer satisfaction 
+                    levels.</p>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 custom-card-wrapper">
+            <div class="number">10</div>
+
+            <div class="custom-card-v11">
+               
+                <p>If needed, consult with insurance experts 
+                    at Aapka Policywala to get free valuable 
+                    insights and help you make an informed 
+                    decision about your personal health 
+                    insurance plan.</p>
+            </div>
+        </div>
+        
+    </div>
+    <p class="posp-para">We bring the best deals on car insurance policy plans in India. Thousands of people also trust Aapka Policywala for <a href="https://aapkapolicywala.com/two-wheeler/"> online two wheeler insurance</a>, <a href="https://aapkapolicywala.com/goods-carrying/">commercial vehicle insurance </a>
+         and <a href="https://aapkapolicywala.com/passenger-carrying/">passenger carrying vehicle insurance </a>in India.</p>
+</div>
+
+<!-- end -->
+
+
+
+
+
+<!-- How to Apply Individual Health Insurance Claim -->
+<div class="container p-5 my-3">
+    <div class="row g-3 align-items-center">
+        <div class="section-title text-center ">
+            <h1 class=" text-center">
+                How to Apply <span>Individual Health</span> Insurance Claim
+            </h1>
+        </div>
+        <p class="posp-para">The claim process for individual health insurance typically involves several crucial steps to ensure a smooth and efficient experience:</p>
+
+        <div class="">
+            <p class="posp-para">
+                <b>Intimation:</b> Promptly inform the health insurance company or your POSP about hospitalization or medical emergencies. Use the insurer’s toll-free helpline or 
+                online platform for quick intimation.
+            </p>
+            <p class="posp-para">
+               <b> Pre-Authorization:</b> For planned hospitalization, seek pre-authorization from the individual health insurance company in advance. This involves sharing the 
+                treatment plan to obtain a pre-authorization letter. In emergencies, the hospital may request pre-authorization directly.
+            </p>
+
+            <p class="posp-para">
+              <b>  Hospitalization and Treatment:</b> Admit yourself to a network hospital to get cashless treatment! If cashless facility isn’t available in the hospital of your 
+                choice, pay for treatment and retain receipts for reimbursement.
+            </p>
+            <p class="posp-para">
+               <b> Submit Documents:</b> Upon discharge, gather all essential documents including original medical bills, diagnostic reports, discharge summary, and prescriptions 
+                to claim individual health insurance plan refund.
+            </p>
+            <p class="posp-para">
+              <b>  Claim Form:</b> Accurately fill and sign the health insurance claim form provided by the insurance company or POSP. Obtain the form from the insurer’s website or 
+                customer service team of Aapka Policywala.
+            </p>
+            <p class="posp-para">
+             <b>   Submission:</b> Submit the completed claim form along with supporting documents as per the health insurer’s guidelines within the stipulated time frame to 
+                avoid delays.
+            </p>
+            <p class="posp-para">
+               <b> Claim Processing:</b> The personal health insurance company will review your claim, assess medical records, bills, and may conduct a medical examination if 
+                necessary. The claim is processed adhering to policy terms and conditions.
+            </p>
+           
+            <p class="posp-para">
+               <b> Claim Settlement:</b> Upon approval, the insurer settles the claim amount. For cashless treatment, the insurer directly pays the hospital. For reimbursement 
+claims, the approved amount is transferred to your bank account.
+             </p>
+            
+        </div>
+    </div>
+</div>
+
+<!-- end -->
+
+
+
+
+   <!--  India's Top individual Health Insurance Companies-->
+   <div class="container p-5 my-2">
+    <div class="row g-3 align-items-center">
+        <div class="section-title text-center ">
+            <h1 class=" text-center">
+                India's Top individual <span>Health Insurance Companies</span>
+            </h1>
+        </div>
+    <p class="posp-para">There are a lot of individual healthcare insurance companies in India that provide good  medical coverage, affordable plans, and online support. Aapka 
+    Policywala has partnered with the best ones in India that offer cheap health insurance policies. Here’s the list of top individual health insurance providers in 
+    India:</p>
+
+
+        <div class="row px-5">
+            <div class="col-md-6 col-lg-4 mb-3">
+                <div class="brand-card text-center custom-card-v5">
+                    <div class="card-body">
+                        <img src="./images/brand-images/maruti.png" alt="Car icon" class="car-icon mb-2 mb-2" />
+                        <p class="card-text">Apollo Munich Health 
+                            Insurance <br> (Now HDFC 
+                            ERGO Health Insurance)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+                <div class="brand-card text-center custom-card-v5">
+                    <div class="card-body">
+                        <img src="./images/brand-images/maruti.png" alt="Car icon" class="car-icon mb-2" />
+                        <p class="card-text">Max Bupa Health 
+                            Insurance</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+                <div class="brand-card text-center custom-card-v5">
+                    <div class="card-body">
+                        <img src="./images/star.png" alt="Car icon" class="car-icon mb-2 mb-2" />
+                        <p class="card-text">Star Health and 
+                            Allied Insurance</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+                <div class="brand-card text-center custom-card-v5">
+                    <div class="card-body">
+                        <img src="./images/brand-images/maruti.png" alt="Car icon" class="car-icon mb-2 mb-2" />
+                        <p class="card-text">ICICI Lombard 
+                            General Insurance</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+                <div class="brand-card text-center custom-card-v5">
+                    <div class="card-body">
+                        <img src="./images/brand-images/maruti.png" alt="Car icon" class="car-icon mb-2 mb-2" />
+                        <p class="card-text">Bajaj Allianz General 
+                            Insurance</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+                <div class="brand-card text-center custom-card-v5">
+                    <div class="card-body">
+                        <img src="./images/brand-images/maruti.png" alt="Car icon" class="car-icon mb-2 mb-2" />
+                        <p class="card-text">Religare Health Insurance <br>
+                            (Now Care Health 
+                            Insurance)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+                <div class="brand-card text-center custom-card-v5">
+                    <div class="card-body">
+                        <img src="./images/star.png" alt="Car icon" class="car-icon mb-2 mb-2" />
+                        <p class="card-text">ManipalCigna Health 
+                            Insurance </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+                <div class="brand-card text-center custom-card-v5">
+                    <div class="card-body">
+                        <img src="./images/brand-images/maruti.png" alt="Car icon" class="car-icon mb-2 mb-2" />
+                        <p class="card-text">HDFC ERGO 
+                            General Insurance</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+                <div class="brand-card text-center custom-card-v5">
+                    <div class="card-body">
+                        <img src="./images/brand-images/maruti.png" alt="Car icon" class="car-icon mb-2 mb-2" />
+                        <p class="card-text">New India Assurance</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+                <div class="brand-card text-center custom-card-v5">
+                    <div class="card-body">
+                        <img src="./images/brand-images/maruti.png" alt="Car icon" class="car-icon mb-2 mb-2" />
+                        <p class="card-text">Oriental Insurance</p>
+                    </div>
+                </div>
+            </div>
+           
+
+
+
+
+        </div>
+    </div>
+</div>
+
+<!-- end -->
+
+
+
+
+ <!-- testimonil -->
+
+ <div class="container-fluid py-2">
+
+    <div class="row g-2 align-items-center">
+        <div class="section-title text-center ">
+            <h1 class="mb-4 text-center">
+                <span>Health Insurance</span> Renewal Reviews
+            </h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, nihil.</p>
+        </div>
+    </div>
+    <div class="container py-5" id="testimonials">
+        <div class="slider">
+            <div class="slide-track testimonial-container">
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-1.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">SUZANA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-2.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">LÍVIA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-3.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">KÁTIA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-4.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">MATHEUS</p>
+                    </div>
+                </div>
+                <!-- Duplicate the slides to create an infinite loop effect -->
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-1.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">SUZANA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-2.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">LÍVIA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-3.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">KÁTIA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-4.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">MATHEUS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+<script>
+    document.querySelector('.slider').addEventListener('mouseover', function () {
+        document.querySelector('.slide-track').style.animationPlayState = 'paused';
+    });
+
+    document.querySelector('.slider').addEventListener('mouseout', function () {
+        document.querySelector('.slide-track').style.animationPlayState = 'running';
+    });
+</script>
+<!-- end -->
+
+
+
+
+
+
+
+   
+ <!-- get or renew -->
+ <div class="container-fluid team py-3 mt-5">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="0.4s">
+                <div class="section-title text-left mb-5">
+                    <h1 class="mb-4 renew-title">
+                        <span> Get or Renew</span> Your Insurance with Aapka Policywala
+                    </h1>
+                    <p class="mb-4 renew-para">
+                        We are just a call away. Feel free to contact us
+                    </p>
+                    <button class="main-btn"><a href="#">Contact Us </a></button>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="health-img ps-md-5">
+                    <img src="./images/renew.png" class="img-fluid w-100" alt="Image" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- end -->
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start footer-2 text-muted">
+        <!-- Section: Links  -->
+        <div class="p-4">
+            <div class="container-fluid text-center text-md-start">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Motor Insurance</h6>
+                        <p><a href="#!" class="text-reset">Car Insurance</a></p>
+                        <p><a href="#!" class="text-reset">Two Wheeler</a></p>
+                        <p><a href="#!" class="text-reset">Goods Carrying</a></p>
+                        <p><a href="#!" class="text-reset">Passenger Carrying</a></p>
+                        <p><a href="#!" class="text-reset">Misc-D Insurance</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Life Insurance</h6>
+                        <p><a href="#!" class="text-reset">Group Term Insurance</a></p>
+                        <p><a href="#!" class="text-reset">Term Life Insurance</a></p>
+                        <p><a href="#!" class="text-reset">1 Crore Term Insurance</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Resources</h6>
+                        <p><a href="#!" class="text-reset">POSP Partner</a></p>
+                        <p><a href="#!" class="text-reset">Tutorial</a></p>
+                        <p><a href="#!" class="text-reset">Video Tutorial</a></p>
+                        <p><a href="#!" class="text-reset">Article</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">About Us</h6>
+                        <p><a href="#!" class="text-reset">Terms of Service</a></p>
+                        <p><a href="#!" class="text-reset">Privacy Policy</a></p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+
+                <!-- Second row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+
+                        <p>
+                            <i class="fa-solid fa-location-dot pe-2"></i> Booth No. 13, Anaj
+                            Mandi, Bhattu Mandi, Bhattu Kalan, Fatehbad, Haryana - 125053
+                        </p>
+
+                        <p><i class="fa-solid fa-phone-volume pe-2"></i>+91 8390008390</p>
+                        <p>
+                            <i class="fa-solid fa-envelope pe-2"></i> info@aapkapolicywala.com
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Follow us on</h6>
+                        <div class="social-icons">
+                            <a href="#!" class="text-reset"><i class="fab fa-instagram fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-linkedin fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-pinterest fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-youtube fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-facebook-f fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-twitter fa-lg"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Grid column -->
+                </div>
+                <!-- Second row -->
+            </div>
+        </div>
+        <!-- Section: Links -->
+
+        <!-- Copyright -->
+        <div class="text-center description p-4" style="background-color: rgba(0, 0, 0, 0.05)">
+            <p class="description-heading-1 py-2 text-center">
+                Aapka Policywala Insurance
+                <span style="color: #e89e3f">Broking Services</span> Pvt. Ltd.
+            </p>
+            <p class="description-para-1 py-2 text-center">
+                IRDAI Registration Code: IRDAI / DB1058 / 2023 | IRDAI Registration
+                No.: 933| Category: Direct (Life & General) | License Valid:
+                19.01.2024 - 18.01.2027
+            </p>
+            <p class="text-left disclaimer py-5">
+                <b>Disclaimer:</b>Insurance is the subject matter of solicitation.
+                Visitors are hereby informed that their information submitted on the
+                website may be shared with insurers. The product information for
+                comparison displayed on this website is of the insurers with whom our
+                company has an agreement. Product information is authentic and solely
+                based on the information received from the Insurer.
+            </p>
+        </div>
+    </footer>
+
+    <!-- end -->
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz4fnFO9gybBogGz9qQJbXUjXT1ZtAn1Ry5zVSrK7SwppV8xv8Q5XlWJ9Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-pprn3073KE6tl6ERvA6knXKa2QKN8R6bJ5L3VGsBzHrtvPpBfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

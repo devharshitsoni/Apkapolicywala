@@ -1,0 +1,1162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apna Policy</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Ribeye&display=swap" rel="stylesheet">
+
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-none d-lg-flex" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>General Insurance</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>Life Insurance</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>Knowledge Base</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><span>Become a Posp Partner</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><span>Contact us</span></a>
+                    </li>
+                </ul>
+                <button class="main-btn ms-4">Sign up</button>
+            </div>
+            <div class="offcanvas offcanvas-end offcanvas-glass d-lg-none" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <a href="#" class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./images/logo.png"
+                            alt="" /></a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                General Insurance
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Life Insurance
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Knowledge Base
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Become a Posp Partner</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- end navabr -->
+
+    <!-- head -->
+
+    <div class="container-fluid general px-5 my-5">
+      <div class="">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6 col-md-6">
+                <div class="section-title text-left mb-5">
+                    <h1 class="renew-title">
+                        <span> Essential Travel Insurance:</span> Your Safeguard Abroad
+                    </h1>
+                    <p class="renew-para">
+                        Secure your journey with travel insurance, offering protection
+                        against unforeseen events such as trip cancellations, medical
+                        emergencies, lost luggage, and more. Travel with peace of mind,
+                        knowing you have comprehensive coverage wherever your adventures
+                        take you.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="health-img">
+                    <img src="./images/travel-insurance.png" class="img-fluid w-100 py-4" alt="Image" />
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end -->
+
+    <!--What is Travel Insurance?-->
+    <div class="container px-5 my-5">
+        <div class="row g-2 align-items-center">
+            <div class="section-title text-center mb-2">
+                <h1 class="mb-4 text-center">
+                    What is <span>Travel Insurance?</span>
+                </h1>
+            </div>
+
+            <p class="posp-para">
+                Travel insurance is a crucial financial safety net for travelers
+                embarking on domestic or international journeys. It provides coverage
+                and protection against various unforeseen risks and emergencies that
+                may arise during the trip. This type of insurance typically includes
+                features such as trip cancellation or interruption coverage, which
+                offers reimbursement for non-refundable expenses if the trip needs to
+                be canceled or cut short due to covered reasons like illness or other
+                emergencies. Medical expenses incurred during the trip, including
+                hospitalization and emergency medical evacuation, are also covered by
+                travel insurance. Furthermore, travel insurance provides compensation
+                for lost or delayed baggage, helping travelers cope with the
+                inconvenience and financial loss. In the event of travel delays, such
+                as flight cancellations or mechanical issues, travel insurance can
+                reimburse additional expenses like accommodation and meals. Personal
+                liability coverage is also included to address legal expenses and
+                compensation in case the traveler causes injury to others or damages
+                someone’s property during the trip. With 24/7 emergency assistance
+                services, travelers can access immediate support for medical
+                emergencies, travel advice, and necessary assistance while away from
+                home. Travel insurance from a leading online insurance company in
+                India offers peace of mind, ensuring that travelers can focus on
+                enjoying their journey with the assurance of financial protection
+                against unexpected circumstances that may disrupt their plans.
+            </p>
+        </div>
+    </div>
+
+    <!-- end -->
+
+    <!--Importance-->
+    <div class="container px-5 my-5">
+        <div class="row g-2 align-items-center">
+            <div class="section-title text-center ">
+                <h1 class="mb-4 text-center">
+                    <span>Importance</span> of Travel Insurance
+                </h1>
+            </div>
+
+            <p class="posp-para">
+                Travel insurance is of utmost importance for anyone planning a trip,
+                be it for leisure or business. It serves as a safety net, providing
+                crucial financial protection and peace of mind during travels.
+                Unforeseen events such as trip cancellations, flight delays, medical
+                emergencies, or lost baggage can disrupt travel plans and lead to
+                substantial financial losses. Travel insurance covers these risks and
+                more, offering reimbursement for non-refundable expenses, emergency
+                medical expenses, and assistance in navigating challenging situations.
+                Moreover, travel insurance provides access to 24/7 emergency
+                assistance services, ensuring travelers receive immediate support and
+                guidance in unfamiliar environments. By investing in travel insurance,
+                travelers can embark on their journeys with confidence, knowing they
+                have a reliable companion to address unforeseen circumstances and
+                protect their travel investment.
+            </p>
+        </div>
+    </div>
+
+    <!-- end -->
+
+    <!-- Why We Need Travel Insurance? -->
+
+    <div class="container py-1">
+        <div class="container">
+            <div class="section-title text-center py-1 mb-2">
+                <h1 class="mb-4">Why We Need <span>Travel Insurance?</span></h1>
+            </div>
+
+            <!-- slider -->
+            <div class="container my-5">
+                <div class="row justify-content-evenly">
+                    <div class="col-lg-10">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"
+                            data-interval="2500">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-6 mb-4">
+                                            <div class="card-v9">
+                                                <img class="health-img-1" src="./images/Financial-planning.png"
+                                                    alt="First slide" />
+                                                <p class="para-2">Financial Protection</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 mb-4">
+                                            <div class="card-v9">
+                                                <img class="health-img-1" src="./images/Financial-planning.png"
+                                                    alt="Second slide" />
+                                                <p class="para-2">Trip Cancellation/ Interruption</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 mb-4">
+                                            <div class="card-v9">
+                                                <img class="health-img-1" src="./images/Financial-planning.png"
+                                                    alt="Third slide" />
+                                                <p class="para-2">Lost or Delayed Baggage</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-6 mb-4">
+                                            <div class="card-v9">
+                                                <img class="health-img-1" src="./images/Financial-planning.png"
+                                                    alt="First slide" />
+                                                <p class="para-2">Financial Protection</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 mb-4">
+                                            <div class="card-v9">
+                                                <img class="health-img-1" src="./images/Financial-planning.png"
+                                                    alt="Second slide" />
+                                                <p class="para-2">Trip Cancellation/ Interruption</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 mb-4">
+                                            <div class="card-v9">
+                                                <img class="health-img-1" src="./images/Financial-planning.png"
+                                                    alt="Third slide" />
+                                                <p class="para-2">Lost or Delayed Baggage</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-6 mb-4">
+                                            <div class="card-v9">
+                                                <img class="health-img-1" src="./images/Financial-planning.png"
+                                                    alt="First slide" />
+                                                <p class="para-2">Financial Protection</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 mb-4">
+                                            <div class="card-v9">
+                                                <img class="health-img-1" src="./images/Financial-planning.png"
+                                                    alt="Second slide" />
+                                                <p class="para-2">Trip Cancellation/ Interruption</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 mb-4">
+                                            <div class="card-v9">
+                                                <img class="health-img-1" src="./images/Financial-planning.png"
+                                                    alt="Third slide" />
+                                                <p class="para-2">Lost or Delayed Baggage</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+
+    <!-- Choose the Right Travel Insurance Plan! -->
+
+    <div class="container-fluid life bg-[#f7b661] py-2">
+        <div class="container py-3">
+            <div class="row g-2 align-items-center">
+                <div class="section-title text-center">
+                    <h1 class="text-center">
+                        Choose the Right <span> Travel Insurance Plan!</span>
+                    </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, consequuntur!</p>
+                </div>
+                <div class="col-md-12 wow fadeInRight" data-wow-delay="0.4s">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4 mb-3">
+                            <div class="custom-card-v2 text-center">
+                                <div class="custom-card-v2-body">
+                                    <img src="./images/Man enjoying vacation.png" alt="Car icon" class="icon-v2 mb-2" />
+                                    <p class="custom-card-v2-text">Individual Travel</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-3">
+                            <div class="custom-card-v2 text-center">
+                                <div class="custom-card-v2-body">
+                                    <img src="./images/Family enjoying picnic.png" alt="Motorcycle icon"
+                                        class="icon-v2 mb-2" />
+                                    <p class="custom-card-v2-text">Family Travel</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-3">
+                            <div class="custom-card-v2 text-center">
+                                <div class="custom-card-v2-body">
+                                    <img src="./images/backpack.png" alt="Truck icon" class="icon-v2 mb-2" />
+                                    <p class="custom-card-v2-text">Student Travel</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end -->
+
+    <!-- travel insurance plan type -->
+
+   
+        <div class="container-fluid py-5">
+            <div class="container ">
+                <div class="row g-2 align-items-center">
+                    <div class="section-title ">
+                        <h1 class="mb-3 text-center">
+                            Travel Insurance <span>Plan Types</span>
+                        </h1>
+                    </div>
+                    <p class="posp-para">
+                        We bring the best deals on health insurance plans in India.
+                        Thousands of families also trust Aapka Policywala for <a
+                            href="https://aapkapolicywala.com/group-health-insurance/" target="_blank">car
+                            insurance</a>, <a href="https://aapkapolicywala.com/family-travel-insurance/"
+                            target="_blank">family travel insurance</a>, and <a
+                            href="https://aapkapolicywala.com/group-health-insurance/">
+                            group health insurance in India</a>. Browse our vast collection of policies to meet your
+                        insurance
+                        goals. 
+                    </p>
+
+                    <div class="d-flex flex-wrap justify-content-center">
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+                                <img src="./images/Man enjoying vacation.png" alt="" />
+                                <p class="head mb-4 text-left">
+                                    Single Trip Travel Insurance
+                                </p>
+                                <p class="para">
+                                    This type of plan provides coverage for a specific trip or
+                                    vacation. It typically includes benefits like trip
+                                    cancellation, trip interruption, medical expenses, baggage
+                                    loss, and travel delay coverage for the duration of the
+                                    single trip.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+                                <img src="./images/Financial-planning.png" alt="" />
+                                <p class="head mb-4 text-left">
+                                    Annual Multi-Trip Travel Insurance
+                                </p>
+                                <p class="para">
+                                    Also known as annual travel insurance or multi-trip
+                                    insurance, this plan offers coverage for multiple trips
+                                    taken within a year. It is ideal for frequent travelers who
+                                    embark on multiple trips in a year, providing continuous
+                                    coverage for each trip.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+                                <img src="./images/Financial-planning.png" alt="" />
+                                <p class="head mb-4 text-left">Domestic Travel Insurance</p>
+                                <p class="para">
+                                    Domestic travel insurance is designed for individuals
+                                    traveling within their home country. It offers coverage for
+                                    trip cancellations, medical emergencies, baggage loss, and
+                                    other related risks within the borders of the insured’s
+                                    country.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+                                <img src="./images/Financial-planning.png" alt="" />
+                                <p class="head mb-4 text-left">
+                                    International Travel Insurance
+                                </p>
+                                <p class="para">
+                                    This type of travel insurance is suitable for travelers
+                                    venturing abroad. It offers comprehensive coverage,
+                                    including medical emergencies, emergency medical evacuation,
+                                    trip cancellations, baggage loss, and more, specifically
+                                    tailored for international travel.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+                                <img src="./images/Family enjoying picnic.png" alt="" />
+                                <p class="head mb-4 text-left">Family Travel Insurance</p>
+                                <p class="para">
+                                    Family travel insurance provides coverage for an entire
+                                    family traveling together. It includes benefits like medical
+                                    coverage for all family members, trip cancellations, baggage
+                                    loss, and other family-specific benefits.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+                                <img src="./images/backpack.png" alt="" />
+                                <p class="head mb-4 text-left">Student Travel Insurance</p>
+                                <p class="para">
+                                    Designed for students studying abroad, this plan offers
+                                    coverage for medical emergencies, study interruptions, and
+                                    other student-specific risks during their educational
+                                    journey in a foreign country.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+                                <img src="./images/Financial-planning.png" alt="" />
+                                <p class="head mb-4 text-left">
+                                    Senior Citizen Travel Insurance
+                                </p>
+                                <p class="para">
+                                    Senior citizen travel insurance caters to the specific needs
+                                    of elderly travelers. It provides comprehensive coverage,
+                                    taking into account age-related health concerns and offering
+                                    medical benefits for senior citizens.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+                                <img src="./images/sales team.png" alt="" />
+                                <p class="head mb-4 text-left">Business Travel Insurance</p>
+                                <p class="para">
+                                    This plan is tailored for business travelers and provides
+                                    coverage for business- related risks, such as trip
+                                    cancellations due to work commitments, loss of business
+                                    equipment, and emergency assistance during business trips.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+                                <img src="./images/Group of happy business people.png" alt="" />
+                                <p class="head mb-4 text-left">Adventure Travel Insurance</p>
+                                <p class="para">
+                                    Adventure travel insurance is designed for travelers
+                                    engaging in high-risk activities such as trekking, skiing,
+                                    or scuba diving. It provides specialized coverage for
+                                    potential risks associated with adventure sports and
+                                    activities.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+                                <img src="./images/Financial-planning.png" alt="" />
+                                <p class="head mb-4 text-left">Group Travel Insurance</p>
+                                <p class="para">
+                                    Group travel insurance covers a group of travelers, such as
+                                    corporate groups, tour groups, or school excursions. It
+                                    offers customized coverage based on the specific needs of
+                                    the group.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   
+
+    <!-- end -->
+
+    <!-- advantages of travel insurance -->
+
+   
+        <div class="container py-3">
+            <div class="row g-5 align-items-center">
+                <div class="section-title mb-">
+                    <h1 class="mb-4 text-center">
+                        <span>Advantages of</span> Travel Insurance
+                    </h1>
+                </div>
+            </div>
+
+            <div class="container my-5">
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered custom-table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Features</th>
+                                <th scope="col">Benefits</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><b>Trip Cancellation and Interruption Coverage</b></td>
+                                <td>
+                                    Travel insurance reimburses non-refundable expenses if a
+                                    trip needs to be canceled or interrupted due to covered
+                                    reasons such as illness, injury, or unforeseen events,
+                                    ensuring travelers don’t suffer financial losses.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Medical Expense Coverage</b></td>
+                                <td>
+                                    Travel insurance covers emergency medical expenses incurred
+                                    during the trip, including hospitalization, medical
+                                    treatments, and medications, relieving travelers from
+                                    significant out-of- pocket costs.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Emergency Medical Evacuation</b></td>
+                                <td>
+                                    In critical situations where immediate medical evacuation is
+                                    required, travel insurance covers the cost of transportation
+                                    to the nearest medical facility or back to the insured’s
+                                    home country.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Lost or Delayed Baggage Coverage</b></td>
+                                <td>
+                                    Travel insurance provides compensation for lost, stolen, or
+                                    delayed baggage, assisting travelers in replacing essential
+                                    belongings and coping with unexpected expenses.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Travel Delay Compensation</b></td>
+                                <td>
+                                    Travel insurance reimburses additional expenses caused by
+                                    travel delays, such as accommodation and meals, ensuring
+                                    travelers are taken care of until their journey can resume.
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><b>Emergency Assistance Services</b></td>
+                                <td>
+                                    Many travel insurance policies offer 24/7 emergency
+                                    assistance services, providing access to helplines for
+                                    medical emergencies, travel advice, and coordination of
+                                    necessary assistance while abroad.
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><b>Personal Liability Coverage</b></td>
+                                <td>
+                                    Travel insurance may cover legal expenses and compensation
+                                    if the insured accidentally causes injury to others or
+                                    damages someone’s property during the trip.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Coverage for Adventure Sports and Activities</b></td>
+                                <td>
+                                    Some travel insurance policies offer optional coverage for
+                                    adventure sports and activities, allowing travelers to
+                                    indulge in high-risk activities with confidence.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Financial Protection for Prepaid Expenses</b></td>
+                                <td>
+                                    Travel insurance protects the investment made in pre-paid
+                                    travel expenses, such as flights, hotels, and tours, in case
+                                    of trip cancellations or interruptions.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Family Coverage</b></td>
+                                <td>
+                                    Family travel insurance plans offer coverage for the entire
+                                    family, providing peace of mind for parents traveling with
+                                    children.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Cashless Medical Facilities</b></td>
+                                <td>
+                                    Some travel insurance policies offer cashless medical
+                                    facilities at select hospitals and healthcare providers,
+                                    simplifying the process of availing medical treatments.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Emergency Repatriation</b></td>
+                                <td>
+                                    In the event of the insured’s death during the trip, travel
+                                    insurance covers the cost of repatriating the remains to
+                                    their home country.
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    
+
+    <!-- end -->
+
+    <!-- How to Calculate Travel Insurance Premiums Online? -->
+
+    <div class="container py-2">
+        <div class="row g-2 align-items-center">
+            <div class="section-title ">
+                <h1 class="mb-4 text-center">
+                    How to <span>Calculate Travel Insurance</span> Premiums Online?
+                </h1>
+            </div>
+
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="custom-card-v10">
+                            <h2>Visit the Insurance Provider’s Website</h2>
+                            <p class="posp-para">Go to the website of the insurance company from which you wish to
+                                purchase travel insurance.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="custom-card-v10">
+                            <h2>Select the Type of Travel Insurance</h2>
+                            <p class="posp-para">Choose the type of travel insurance that best suits your needs, such as
+                                single trip, annual multi-trip, domestic, international, family, student, etc.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="custom-card-v10">
+                            <h2>Enter Travel Details</h2>
+                            <p class="posp-para">Provide the necessary details about your trip, including the
+                                destination, travel dates, and the number of travelers to be covered.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+    <!--How Can You Upgrade Your Global Travel Insurance?-->
+    <div class="container py-5 px-5 my-3">
+        <div class="row g-3 align-items-center">
+            <div class="section-title text-center mb-5">
+                <h1 class="mb-4 text-center">
+                    How Can You Upgrade Your <span>Global Travel Insurance?</span>
+                </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, placeat?</p>
+            </div>
+
+            <p class="posp-para">
+                Extending your international travel insurance is a simple and important step to ensure continuous
+                coverage during your trip. To begin the process, get in touch
+                with your insurance provider before your current policy’s expiration date. Check if your policy is
+                eligible for an extension, as not all policies offer this option.
+                Once confirmed, decide on the duration of the extension, whether it’s a few days or weeks, depending on
+                your extended travel plans. Provide the necessary
+                details, such as your policy number and the new travel dates, and pay the additional premium required
+                for the extension. Review the terms and conditions of
+                the extended policy to understand any changes in coverage or inclusions/exclusions that may apply. After
+                completing the process, you’ll receive a
+                confirmation with the updated policy details. Ensuring a seamless extension of your international travel
+                insurance guarantees continued protection, allowing you
+                to fully enjoy your journey with peace of mind.
+            </p>
+        </div>
+    </div>
+
+    <!-- end -->
+
+
+
+    <!-- Step by Step Guide to Buy Travel Insurance -->
+
+    <div class="container py-2">
+        <div class="section-title mb-5">
+            <h1 class="mb-4 text-center">
+                <span> Step by Step</span> Guide to Buy Travel Insurance
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, est?</p>
+        </div>
+        <div class="row number-cards g-3">
+            <!-- Repeat this block for each card -->
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">1</div>
+                <div class="custom-card-v11">
+                 
+                    <h2 class="pt-5">Assess Your Travel Needs</h2>
+                    <p>Determine the type of coverage you require based on your travel destination, duration, activities, and any specific needs such as medical coverage, trip cancellation, or baggage protection.</p>
+                </div>
+            </div>
+            <!-- Repeat the above block and increment the number for each card (2, 3, 4, etc.) -->
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">2</div>
+                <div class="custom-card-v11">
+                   
+                    <h2 class="pt-5">Research Insurance Providers</h2>
+                    <p>Look for reputable insurance providers that offer travel insurance plans. Compare different insurers based on coverage options, premiums, customer reviews, and ratings.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">3</div>
+
+                <div class="custom-card-v11">
+                    <h2 class="pt-5">Choose the Right Plan</h2>
+                    <p>Select the travel insurance plan that best aligns with your travel needs and budget. Make sure it provides adequate coverage for all aspects of your trip.</p>
+                </div>
+            </div>
+            <!-- Continue this pattern to create up to 12 cards -->
+            <!-- Example for the 4th card -->
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">4</div>
+
+                <div class="custom-card-v11">
+                    <h2 class="pt-5">Provide Travel Details</h2>
+                    <p>Enter the necessary travel details, 
+                        including your destination, travel dates, 
+                        number of travelers, and any pre-
+                        existing medical conditions if applicable.
+                        </p>
+                </div>
+            </div>
+            <!-- Add more cards as needed -->
+            <!-- Example for the 5th card -->
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">5</div>
+
+                <div class="custom-card-v11">
+                    <h2 class="pt-5">Review Policy Coverage</h2>
+                    <p>Carefully review the coverage details, 
+                        terms, and conditions of the travel 
+                        insurance policy. Understand the 
+                        inclusions, exclusions, claim process, 
+                        and any additional benefits offered.</p>
+                </div>
+            </div>
+            <!-- Example for the 6th card -->
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">6</div>
+
+                <div class="custom-card-v11">
+                    <h2 class="pt-5">Customize Your Coverage</h2>
+                    <p>Some insurance providers offer options 
+                        to customize your coverage. If needed, 
+                        adjust your plan to include optional 
+                        benefits or increase coverage limits.</p>
+                </div>
+            </div>
+            <!-- Continue until the 12th card -->
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">7</div>
+
+                <div class="custom-card-v11">
+                    <h2 class="pt-5">Complete the Application</h2>
+                    <p> Fill out the application form with 
+                        accurate information. Double-check all 
+                        details to ensure accuracy.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">8</div>
+
+                <div class="custom-card-v11">
+                    <h2 class="pt-5">Make the Payment</h2>
+                    <p>Pay the premium for your selected travel 
+                        insurance plan using the preferred 
+                        payment method.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">9</div>
+
+                <div class="custom-card-v11">
+                    <h2 class="pt-5">Receive Policy Documents</h2>
+                    <p>Once the payment is confirmed, you will 
+                        receive the policy documents via email 
+                        or physical mail. Keep these documents 
+                        safe and easily accessible during your 
+                        trip.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">10</div>
+
+                <div class="custom-card-v11">
+                    <h2 class="pt-5">Understand Emergency  <br>
+                        Contact Information</h2>
+                    <p>Familiarize yourself with the insurer’s 
+                        emergency contact information and 24/7 
+                        helpline in case you need assistance 
+                        during your travels.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">11</div>
+
+                <div class="custom-card-v11">
+                    <h2 class="pt-5">Notify Travel <br> Companions</h2>
+                    <p>If you are traveling with others, inform
+                        them about the travel insurance 
+                        coverage and how to access the policy 
+                        details in case of emergencies.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">12</div>
+
+                <div class="custom-card-v11">
+                    <h2 class="pt-5">Stay Informed</h2>
+                    <p>Before your trip, stay informed about any 
+                        travel advisories, health and safety 
+                        guidelines, and travel-related updates for 
+                        your destination.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end -->
+
+
+
+
+
+
+ <!--What Is Your Travel Insurance Policy's Claim Procedure?-->
+ <div class="container px-5 my-3">
+    <div class="row g-2 align-items-center">
+        <div class="section-title text-center ">
+            <h1 class="mb-4 text-center">
+                What Is Your Travel Insurance <span>Policy's Claim Procedure?</span>
+            </h1>
+        </div>
+
+
+        <div class="">
+            <p class="posp-para">
+              <b>  Notify the Insurance Provider:</b> In case of an emergency or covered event during your trip, contact your insurance provider’s claims helpline immediately. They 
+                will guide you through the claim process and provide necessary instructions. 
+            </p>
+            <p class="posp-para">
+                <b>Complete Claim Form:</b> The insurance company will ask you to fill out a claim form. Provide accurate details about the incident, including the date, time, 
+                location, and a description of what happened.
+            </p>
+
+            <p class="posp-para">
+               <b> Submit Required Documents:</b> Gather all relevant documents to support your claim. These may include medical reports, receipts for medical expenses, police 
+reports (in case of theft or loss), proof of trip cancellation or interruption, and any other documentation related to the claim.
+            </p>
+            <p class="posp-para">
+             <b>   Submit Proof of Travel and Insurance:</b> You may need to provide proof of your travel dates, such as flight tickets, hotel bookings, or travel itineraries. Also, 
+                submit a copy of your travel insurance policy and the policy number.
+            </p>
+            <p class="posp-para">
+               <b> Submit Additional Information:</b> Depending on the nature of the claim, the insurance company may request additional information or documentation.
+            </p>
+            <p class="posp-para">
+                <b>Claim Assessment:</b> The insurance provider will assess your claim based on the information and documents provided. This may involve verification and 
+                evaluation of the incident.
+            </p>
+            <p class="posp-para">
+               <b> Claim Settlement: </b>If your claim is approved, the insurance company will process the payment for the covered expenses. The settlement amount will depend 
+                on the terms and coverage of your travel insurance policy.
+            </p>
+            <p class="posp-para">
+               <b> Claim Denial or Dispute:</b> In some cases, the insurance company may deny a claim due to policy exclusions or insufficient evidence. If you disagree with the 
+                decision, you may appeal or raise a dispute with the insurance provider.
+            </p>
+           
+
+        </div>
+    </div>
+</div>
+
+<!-- end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- get or renew -->
+
+    <div class="container-fluid team  my-5">
+        <div class="container">
+            <div class="row g-2 align-items-center">
+                <div class="col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="0.4s">
+                    <div class="section-title text-left mb-5">
+                        <h1 class="mb-4 renew-title">
+                            <span> Get or Renew</span> Your Insurance with Aapka Policywala
+                        </h1>
+                        <p class="mb-4 renew-para">
+                            We are just a call away. Feel free to contact us
+                        </p>
+                        <button class="main-btn"><a href="#">Contact Us </a></button>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="health-img ps-md-5">
+                        <img src="./images/renew.png" class="img-fluid w-100" alt="Image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end -->
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start footer-2 text-muted">
+        <!-- Section: Links  -->
+        <div class="p-4">
+            <div class="container text-center text-md-start">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Motor Insurance</h6>
+                        <p><a href="#!" class="text-reset">Car Insurance</a></p>
+                        <p><a href="#!" class="text-reset">Two Wheeler</a></p>
+                        <p><a href="#!" class="text-reset">Goods Carrying</a></p>
+                        <p><a href="#!" class="text-reset">Passenger Carrying</a></p>
+                        <p><a href="#!" class="text-reset">Misc-D Insurance</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Life Insurance</h6>
+                        <p><a href="#!" class="text-reset">Group Term Insurance</a></p>
+                        <p><a href="#!" class="text-reset">Term Life Insurance</a></p>
+                        <p><a href="#!" class="text-reset">1 Crore Term Insurance</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Resources</h6>
+                        <p><a href="#!" class="text-reset">POSP Partner</a></p>
+                        <p><a href="#!" class="text-reset">Tutorial</a></p>
+                        <p><a href="#!" class="text-reset">Video Tutorial</a></p>
+                        <p><a href="#!" class="text-reset">Article</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">About Us</h6>
+                        <p><a href="#!" class="text-reset">Terms of Service</a></p>
+                        <p><a href="#!" class="text-reset">Privacy Policy</a></p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+
+                <!-- Second row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+
+                        <p>
+                            <i class="fa-solid fa-location-dot pe-2"></i> Booth No. 13, Anaj
+                            Mandi, Bhattu Mandi, Bhattu Kalan, Fatehbad, Haryana - 125053
+                        </p>
+
+                        <p><i class="fa-solid fa-phone-volume pe-2"></i>+91 8390008390</p>
+                        <p>
+                            <i class="fa-solid fa-envelope pe-2"></i> info@aapkapolicywala.com
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Follow us on</h6>
+                        <div class="social-icons">
+                            <a href="#!" class="text-reset"><i class="fab fa-instagram fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-linkedin fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-pinterest fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-youtube fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-facebook-f fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-twitter fa-lg"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Grid column -->
+                </div>
+                <!-- Second row -->
+            </div>
+        </div>
+        <!-- Section: Links -->
+
+        <!-- Copyright -->
+        <div class="text-center description p-4" style="background-color: rgba(0, 0, 0, 0.05)">
+            <p class="description-heading-1 py-2 text-center">
+                Aapka Policywala Insurance
+                <span style="color: #e89e3f">Broking Services</span> Pvt. Ltd.
+            </p>
+            <p class="description-para-1 py-2 text-center">
+                IRDAI Registration Code: IRDAI / DB1058 / 2023 | IRDAI Registration
+                No.: 933| Category: Direct (Life & General) | License Valid:
+                19.01.2024 - 18.01.2027
+            </p>
+            <p class="text-left disclaimer py-5">
+                <b>Disclaimer:</b>Insurance is the subject matter of solicitation.
+                Visitors are hereby informed that their information submitted on the
+                website may be shared with insurers. The product information for
+                comparison displayed on this website is of the insurers with whom our
+                company has an agreement. Product information is authentic and solely
+                based on the information received from the Insurer.
+            </p>
+        </div>
+    </footer>
+
+    <!-- end -->
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz4fnFO9gybBogGz9qQJbXUjXT1ZtAn1Ry5zVSrK7SwppV8xv8Q5XlWJ9Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-pprn3073KE6tl6ERvA6knXKa2QKN8R6bJ5L3VGsBzHrtvPpBfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

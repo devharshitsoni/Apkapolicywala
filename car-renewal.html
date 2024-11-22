@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apna Policy</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Ribeye&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@100..900&display=swap" rel="stylesheet">
+
+
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+
+
+
+</head>
+
+
+<body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-none d-lg-flex" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>General Insurance</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>Life Insurance</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>Knowledge Base</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><span>Become a Posp Partner</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><span>Contact us</span></a>
+                    </li>
+                </ul>
+                <button class="main-btn ms-4">Sign up</button>
+            </div>
+            <div class="offcanvas offcanvas-end offcanvas-glass d-lg-none" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <a href="#" class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./images/logo.png"
+                            alt="" /></a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                General Insurance
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Life Insurance
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Knowledge Base
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Become a Posp Partner</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- end navabr -->
+
+    <!-- head -->
+
+    <div class="container-fluid general px-5 my-5">
+        <div class="container">
+            <div class="row g-3 align-items-center">
+                <div class="col-lg-6 col-md-6">
+                    <div class="section-title text-left mb-5">
+                        <h1 class="renew-title">
+                            <span> Renew Car</span> Insurance Online
+                        </h1>
+                        <p class="">
+                            Owning a car brings the responsibility of protecting it from risks like accidents, third-party
+                            liability, and damage from natural disasters. Motor car insurance provides the necessary
+                            coverage against these risks, ensuring the safety of both you and your valuable vehicle. In
+                            India, the Motor Vehicle Act mandates having a third-party motor insurance plan for all vehicle
+                            owners.
+                            <br> 
+                            After purchasing a motor insurance policy for your car or commercial vehicle, it’s crucial to
+                            keep the policy active by paying premiums regularly and renewing it on time. Renew your car
+                            insurance effortlessly with Aapka Policywala with the cheapest plan to ensure uninterrupted
+                            protection for your four wheeler.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="health-img">
+                        <img src="./images/health-renewal.png" class="img-fluid w-100 py-4" alt="Image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+
+
+
+    <!--Why Renew a Car Insurance Before it Expires?-->
+
+    <div class="container py-2">
+        <div class="row g-3 align-items-center">
+            <div class="section-title ">
+                <h1 class="text-center mb-3">
+                    <span> Why Renew a Car</span> Insurance Before it Expires?
+
+                </h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, totam.</p>
+            </div>
+
+
+            <div class="container my-5">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Efficient Renewal Process</h2>
+                                        <p class="posp-para">Many vehicle insurance companies offer convenient online
+                                            renewal options, streamlining the process for policyholders. Ensuring timely
+                                            car insurance renewal online or offline allows you to maintain your coverage
+                                            seamlessly and without hassle.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Legal Requirement</h2>
+                                        <p class="posp-para">In India, possessing valid car insurance is mandatory for
+                                            driving on public roads. Ensuring timely renewal of your policy not only
+                                            maintains continuous coverage but also ensures compliance with legal
+                                            obligations.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Continuous Coverage</h2>
+                                        <p class="posp-para"> Renewing your car insurance on time is crucial to avoid
+                                            any gaps in coverage. Even a brief lapse in coverage, even for a day, can
+                                            leave you vulnerable to financial risks in the event of accidents or
+                                            damages.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Financial Protection</h2>
+                                        <p class="posp-para"> Car insurance online or offline offers essential financial
+                                            protection against a range of risks, including accidents, theft, vandalism,
+                                            and natural disasters. Timely renewal guarantees ongoing protection for both
+                                            you and
+                                            your vehicle throughout the policy term.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Preservation of No-Claim Bonus (NCB)</h2>
+                                        <p class="posp-para">Many car insurance policies reward policyholders with a
+                                            No-Claim Bonus for each year without claims. By renewing your policy on
+                                            time, you maintain your NCB, leading to potential premium reductions and
+                                            long-term cost savings.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Avoidance of Vehicle Inspection</h2>
+                                        <p class="posp-para">Allowing your policy to lapse may necessitate a vehicle
+                                            inspection when reinstating or purchasing a new policy. Timely renewal of
+                                            your SUV, hatchback, or sedan spares you this inconvenience and potential
+                                            delays in securing coverage.</p>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Uninterrupted Roadside Assistance</h2>
+                                        <p class="posp-para">Some car insurance policies include roadside assistance
+                                            services. Renewing your car insurance policy on time ensures continuous
+                                            access to these benefits whenever required.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Preventing Coverage Gaps</h2>
+                                        <p class="posp-para">Timely renewal of your Maruti, Tata, Mahindra, Hyundai, or
+                                            Kia prevents the occurrence of coverage gaps that could leave you
+                                            financially exposed during transitions to new policies or providers.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Potential for Policy Upgrades</h2>
+                                        <p class="posp-para">During renewal, you have the opportunity to review your
+                                            coverage and consider additional options or riders to enhance your car
+                                            insurance policy according to evolving needs.</p>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- end -->
+
+
+
+
+    <!--How to Renew Your Car Insurance Policy?-->
+    <div class="container p-5 my-3">
+        <div class="row g-3 align-items-center">
+            <div class="section-title text-center ">
+                <h1 class="mb-4 text-center">
+                    How to Renew Your <span>Car Insurance Policy?</span>
+                </h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, labore?</p>
+            </div>
+
+            <p class="posp-para">
+                <b>Locate ‘Renew Car Insurance’:</b> Scroll up on the current page and find the ‘Renew Car Insurance’
+                option. Click on it to proceed with
+                the renewal process.
+            </p>
+            <p class="posp-para">
+                <b> Choose Your Insurance Provider: </b>From the list provided, select your car insurance provider. This
+                will redirect you to the insurer’s
+                renewal portal.
+            </p>
+            <p class="posp-para">
+                <b>Select Vehicle Type and Enter Registration Number:</b> On the following page, indicate the type of
+                your vehicle and enter your vehicle’s
+                registration number accurately.
+            </p>
+            <p class="posp-para">
+                <b>Select Vehicle Type and Enter Registration Number:</b> On the following page, indicate the type of
+                your vehicle and enter your vehicle’s
+                registration number accurately.
+            </p>
+            <p class="posp-para">
+                <b>Click on Renew:</b> After entering the necessary details, click on the‘Renew’ option.This will
+                initiate the renewal process for your car
+                insurance policy.
+            </p>
+            <p class="posp-para">
+                <b> Confirmation Notification:</b> Upon successful renewal of your car insurance policy, expect a
+                confirmation notification sent to your
+                registered email ID and/or phone number, verifying the renewal. Renew your car insurance plan online
+                from a leading 
+                online insurance website in India to get max benefits! 
+            </p>
+
+        </div>
+    </div>
+
+    <!-- end -->
+
+
+
+    <!--Why Renew Car Insurance Online?-->
+
+    
+        <div class="container py-3">
+            <div class="row g-3 align-items-center">
+                <div class="section-title mb-">
+                    <h1 class="mb-4 text-center">
+                        <span> Why </span>Renew Car Insurance <span>Online?</span>
+                    </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ipsum!</p>
+                </div>
+
+            </div>
+
+
+            <div class="container my-5">
+                <div class="table-responsive">
+                    <table class="custom-table">
+                        <thead>
+                            <tr>
+
+                                <th>Reasons</th>
+                                <th>Benefits</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td><b>Convenience</b></td>
+                                <td>Embrace the ease of cheap online car insurance renewal, effortlessly conducted from
+                                    the comfort of
+                                    your home or anywhere with internet access. Bid farewell to the need for in-person
+                                    visits to insurer
+                                    branches or meetings with agents.</td>
+                            </tr>
+                            <tr>
+                                <td><b>Time-Saving</b></td>
+                                <td>Harness the efficiency of online renewal, completing the entire process swiftly
+                                    without cumbersome
+                                    paperwork. Save precious time and effort compared to traditional offline methods.
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td><b>24/7 Accessibility</b></td>
+
+                                <td>Enjoy the flexibility of online renewal portals, available round the clock for your
+                                    convenience. Say
+                                    goodbye to being bound by office hours or holiday closures.</td>
+                            </tr>
+                            <tr>
+                                <td><b>Instant Policy Issuance</b></td>
+                                <td>Experience the gratification of instant car policy issuance post-online renewal and
+                                    payment. Receive
+                                    your renewed policy promptly via email, ready for download and printing, eliminating
+                                    the wait for
+                                    physical copies.</td>
+
+                            </tr>
+                            <tr>
+                                <td><b>Comparing Options</b> </td>
+                                <td>Seize the opportunity to effortlessly compare different car insurance plans from
+                                    various insurers online.
+                                    Evaluate coverage, premium rates, and additional features with ease to make a
+                                    well-informed decision.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>No Agent Commission</b></td>
+                                <td>Benefit from direct online car insurance renewal, bypassing intermediaries and
+                                    agents, resulting in
+                                    potential cost savings with no commissions involved, leading to lower premium rates.
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><b>Secure Payment</b></td>
+                                <td>Rest assured with secure payment gateways offered by reputed insurers for online
+                                    transactions,
+                                    ensuring the safety of your financial information while paying premium for your
+                                    Maruti, Tata, Kia, or
+                                    Mahindra vehicle.</td>
+                            </tr>
+                            <tr>
+                                <td><b>Immediate No-Claim Bonus (NCB) Transfer</b></td>
+                                <td>Enjoy the convenience of instant transfer of entitled No-Claim Bonus (NCB) to your
+                                    renewed policy
+                                    upon online renewal.</td>
+
+                            </tr>
+                            <tr>
+                                <td><b>Easy Policy Management</b></td>
+                                <td>Navigate through online portals effortlessly to accesspolicy details, endorsements,
+                                    and other policy-
+                                    related information, facilitating seamless SUV, car, sedan, or hatchback policy
+                                    management.</td>
+
+                            </tr>
+
+
+
+                            <tr>
+                                <td><b>Prompt Reminders</b></td>
+                                <td>Stay on track with timely renewal reminders delivered via email or SMS from many
+                                    insurers, ensuring
+                                    you never miss a renewal date and remain continuously covered.</td>
+                            </tr>
+                            <tr>
+                                <td><b>Digital Documentation</b></td>
+                                <td>Embrace sustainability with reduced paper usage through online renewal, contributing
+                                    to a greener
+                                    environment. Access policy information and track previous communications
+                                    effortlessly with digital
+                                    documentation.</td>
+                            </tr>
+                            <tr>
+                                <td><b>Transparent Process</b></td>
+                                <td>Embrace the clarity of online car insurance renewal, with a transparent process that
+                                    allows you to
+                                    review and understand policy terms, coverage, and inclusions before making an
+                                    informed decision.</td>
+                            </tr>
+
+
+
+                        </tbody>
+
+
+
+                    </table>
+
+
+                </div>
+                <p class="posp-para">We bring the best deals on online car insurance renewal plans in India. Tens of
+                    thousands of individuals, couples, and families also trust Aapka Policywala for 
+                    <a href="https://aapkapolicywala.com/endowment-policy/"> endowment insurance policy</a>, <a
+                        href="https://aapkapolicywala.com/guaranteed-return-plans/">guaranteed return plans</a>, and <a
+                        href="https://aapkapolicywala.com/pension-plans/">pension insurance plans</a> in India!
+                </p>
+            </div>
+
+        </div>
+    
+
+
+    <!-- end -->
+
+
+
+
+
+    <!--Why Aapka Policywala for Online Car Insurance Renewal?-->
+    
+        <div class="container py-3">
+            <div class="container py-3">
+                <div class="row g-2 align-items-center">
+                    <div class="section-title text-center mb-2 px-5">
+                        <h1 class="mb-4 text-center">
+                           <span> Why Aapka Policywala</span> for Online Car Insurance Renewal?
+                        </h1>
+                        <p class="posp-para ">There are many benefits of going for Aapka Policywala to renew your car insurance plan. Here are the benefits of choosing us for your online car insurance 
+                            renewal:</p>
+                    </div>
+                   
+                    <div class="d-flex flex-wrap justify-content-center">
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+                                <p class="head mb-4 text-left">Effortless Convenience</p>
+                                <p class="para">
+                                    Aapka Policywala offers a seamless online 
+                                    platform for renewing your car insurance, 
+                                    providing the convenience of completing 
+                                    the process from the comfort of your 
+                                    home or anywhere with internet access.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+                                <p class="head mb-4 text-left">Time-Saving Solution</p>
+                                <p class="para">
+                                    Say goodbye to lengthy paperwork and 
+                                    time-consuming visits. With Aapka 
+                                    Policywala, you can renew your car 
+                                    insurance swiftly, saving you valuable 
+                                    time and effort.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+                                <p class="head mb-4 text-left">User-Friendly Interface</p>
+                                <p class="para">
+                                    Our user-friendly online portal ensures a 
+                                    hassle-free renewal experience, making it 
+                                    easy for you to navigate through the 
+                                    process with ease.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+                                <p class="head mb-4 text-left">Wide Range of Options</p>
+                                <p class="para">
+                                    Aapka Policywala offers a diverse range 
+of car insurance plans from leading 
+insurers, allowing you to compare options 
+and select the policy that best fits your 
+needs and budget.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+                                <p class="head mb-4 text-left">Instant Policy Issuance</p>
+                                <p class="para">
+                                    Upon completing the online renewal 
+process and making the payment, you 
+receive your renewed policy instantly via 
+email, ensuring prompt coverage without 
+any delays.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+                                <p class="head mb-4 text-left">Competitive Premium Rates</p>
+                                <p class="para">
+                                    Whether you buy car insurance for your 
+                                    Maruti, Tata, Kia, or Mahindra vehicle, we 
+                                    will ensure cheap premium rates, 
+                                    ensuring best value for your car insurance 
+                                    coverage.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+                                <p class="head mb-4 text-left">Secure Transactions</p>
+                                <p class="para">
+                                    Rest assured with secure payment 
+                                    gateways employed by Aapka Policywala 
+                                    for all online transactions, ensuring the 
+                                    safety and confidentiality of your financial 
+                                    information.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+                                <p class="head mb-4 text-left">Dedicated Customer Support</p>
+                                <p class="para">
+                                    Our dedicated car personal car insurance 
+                                    support team is available to assist you at 
+                                    every step of the renewal process, 
+                                    ensuring a smooth and satisfactory 
+                                    experience.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+                                <p class="head mb-4 text-left">Transparent Process</p>
+                                <p class="para">
+                                    At Aapka Policywala, we believe in 
+transparency. Our online renewal process 
+is transparent, allowing you to review and 
+understand policy terms, coverage 
+details, and premium rates before making 
+a decision.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+                                <p class="head mb-4 text-left">Prompt Renewal Reminders</p>
+                                <p class="para">
+                                    Never miss a renewal date with Aapka 
+Policywala. We send timely reminders via 
+email or SMS, ensuring that you stay 
+continuously covered without any lapses 
+in your car insurance policy.
+                                </p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <p class="posp-para px-5">Choose Aapka Policywala for your online car insurance renewal and experience a hassle-free, convenient, and transparent process that prioritizes your needs 
+                and preferences.</p>
+        </div>
+   
+
+    <!-- end -->
+
+
+
+
+
+ <!--=============================== testimonials ====================================-->
+
+ <div class="container align-items-center mt-3 px-5">
+    <div class="row">
+      <div class="section-title text-center ">
+        <img src="./main-page-img/slider-top.svg" class="testimonial-top-img pb-2" alt="" />
+        <h1 class="mb-1">Client love us & we love them</h1>
+        <p>Trusted by over 4,000 clients worldwide</p>
+      </div>
+    </div>
+  </div>
+  <div class="testimonial-container mb-5 overflow-hidden">
+    <div class="swiper-box"></div>
+    <div class="swiper-container mySwiper2 pb-5">
+      <div class="swiper-wrapper my-2 my-md-0">
+        <div class="swiper-slide">
+          <div class="d-flex align-items-center text-start swiper-slide-content ">
+            <img class="quote-image me-3" src="./main-page-img/slider-image.png" alt="Nathalie Grossman" />
+            <div class="content-div">
+              <img class="slider-mark" src="./main-page-img/slider-mark.png" alt="" />
+              <p class="mt-3">
+                We help our clients succeed by creating brand identities,
+                digital experiences, material that communicate clearly,
+                achieve marketing goals!
+              </p>
+              <div class="testimonial-author">Nathalie Grossman</div>
+              <div class="testimonial-role">CEO of Advisor Fue</div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="d-flex align-items-center text-start swiper-slide-content ">
+            <img class="quote-image me-3" src="./main-page-img/slider-image-1.png" alt="Nathalie Grossman" />
+            <div class="content-div">
+              <img class="slider-mark" src="./main-page-img/slider-mark.png" alt="" />
+              <p class="mt-3">
+                We help our clients succeed by creating brand identities,
+                digital experiences, material that communicate clearly,
+                achieve marketing goals!
+              </p>
+              <div class="testimonial-author">Nathalie Grossman</div>
+              <div class="testimonial-role">CEO of Advisor Fue</div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="d-flex align-items-center text-start swiper-slide-content ">
+            <img class="quote-image me-3" src="./main-page-img/slider-image.png" alt="Nathalie Grossman" />
+            <div class="content-div">
+              <img class="slider-mark" src="./main-page-img/slider-mark.png" alt="" />
+              <p class="mt-3">
+                We help our clients succeed by creating brand identities,
+                digital experiences, material that communicate clearly,
+                achieve marketing goals!
+              </p>
+              <div class="testimonial-author">Nathalie Grossman</div>
+              <div class="testimonial-role">CEO of Advisor Fue</div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="d-flex align-items-center text-start swiper-slide-content ">
+            <img class="quote-image me-3" src="./main-page-img/slider-image-1.png" alt="Nathalie Grossman" />
+            <div class="content-div">
+              <img class="slider-mark" src="./main-page-img/slider-mark.png" alt="" />
+              <p class="mt-3">
+                We help our clients succeed by creating brand identities,
+                digital experiences, material that communicate clearly,
+                achieve marketing goals!
+              </p>
+              <div class="testimonial-author">Nathalie Grossman</div>
+              <div class="testimonial-role">CEO of Advisor Fue</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Repeat similar blocks for other slides -->
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+      <!-- Add Navigation -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </div>
+
+  <!-- end -->
+
+
+
+
+
+
+    <!-- get or renew -->
+
+    <div class="container-fluid team py-2 mt-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="0.4s">
+                    <div class="section-title text-left mb-5">
+                        <h1 class="mb-4 renew-title">
+                            <span> Get or Renew</span> Your Insurance with Aapka Policywala
+                        </h1>
+                        <p class="mb-4 renew-para">
+                            We are just a call away. Feel free to contact us
+                        </p>
+                        <button class="main-btn"><a href="#">Contact Us </a></button>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="health-img ps-md-5">
+                        <img src="./images/renew.png" class="img-fluid w-100" alt="Image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end -->
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start footer-2 text-muted">
+        <!-- Section: Links  -->
+        <div class="p-4">
+            <div class="container text-center text-md-start">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Motor Insurance</h6>
+                        <p><a href="#!" class="text-reset">Car Insurance</a></p>
+                        <p><a href="#!" class="text-reset">Two Wheeler</a></p>
+                        <p><a href="#!" class="text-reset">Goods Carrying</a></p>
+                        <p><a href="#!" class="text-reset">Passenger Carrying</a></p>
+                        <p><a href="#!" class="text-reset">Misc-D Insurance</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Life Insurance</h6>
+                        <p><a href="#!" class="text-reset">Group Term Insurance</a></p>
+                        <p><a href="#!" class="text-reset">Term Life Insurance</a></p>
+                        <p><a href="#!" class="text-reset">1 Crore Term Insurance</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Resources</h6>
+                        <p><a href="#!" class="text-reset">POSP Partner</a></p>
+                        <p><a href="#!" class="text-reset">Tutorial</a></p>
+                        <p><a href="#!" class="text-reset">Video Tutorial</a></p>
+                        <p><a href="#!" class="text-reset">Article</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">About Us</h6>
+                        <p><a href="#!" class="text-reset">Terms of Service</a></p>
+                        <p><a href="#!" class="text-reset">Privacy Policy</a></p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+
+                <!-- Second row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+
+                        <p>
+                            <i class="fa-solid fa-location-dot pe-2"></i> Booth No. 13, Anaj
+                            Mandi, Bhattu Mandi, Bhattu Kalan, Fatehbad, Haryana - 125053
+                        </p>
+
+                        <p><i class="fa-solid fa-phone-volume pe-2"></i>+91 8390008390</p>
+                        <p>
+                            <i class="fa-solid fa-envelope pe-2"></i> info@aapkapolicywala.com
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Follow us on</h6>
+                        <div class="social-icons">
+                            <a href="#!" class="text-reset"><i class="fab fa-instagram fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-linkedin fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-pinterest fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-youtube fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-facebook-f fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-twitter fa-lg"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Grid column -->
+                </div>
+                <!-- Second row -->
+            </div>
+        </div>
+        <!-- Section: Links -->
+
+        <!-- Copyright -->
+        <div class="text-center description p-4" style="background-color: rgba(0, 0, 0, 0.05)">
+            <p class="description-heading-1 py-2 text-center">
+                Aapka Policywala Insurance
+                <span style="color: #e89e3f">Broking Services</span> Pvt. Ltd.
+            </p>
+            <p class="description-para-1 py-2 text-center">
+                IRDAI Registration Code: IRDAI / DB1058 / 2023 | IRDAI Registration
+                No.: 933| Category: Direct (Life & General) | License Valid:
+                19.01.2024 - 18.01.2027
+            </p>
+            <p class="text-left disclaimer py-5">
+                <b>Disclaimer:</b>Insurance is the subject matter of solicitation.
+                Visitors are hereby informed that their information submitted on the
+                website may be shared with insurers. The product information for
+                comparison displayed on this website is of the insurers with whom our
+                company has an agreement. Product information is authentic and solely
+                based on the information received from the Insurer.
+            </p>
+        </div>
+    </footer>
+
+    <!-- end -->
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz4fnFO9gybBogGz9qQJbXUjXT1ZtAn1Ry5zVSrK7SwppV8xv8Q5XlWJ9Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-pprn3073KE6tl6ERvA6knXKa2QKN8R6bJ5L3VGsBzHrtvPpBfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

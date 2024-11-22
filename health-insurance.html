@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apna Policy</title>
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Ribeye&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@100..900&display=swap" rel="stylesheet" />
+
+  <!-- icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="./footer.css">
+  <link rel="stylesheet" href="./style.css" />
+
+
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-none d-lg-flex" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <span>General Insurance</span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <span>Life Insurance</span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <span>Knowledge Base</span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"><span>Become a Posp Partner</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"><span>Contact us</span></a>
+          </li>
+        </ul>
+        <button class="main-btn ms-4">Sign up</button>
+      </div>
+      <div class="offcanvas offcanvas-end offcanvas-glass d-lg-none" tabindex="-1" id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <a href="#" class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./images/logo.png" alt="" /></a>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                General Insurance
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Life Insurance
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Knowledge Base
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Become a Posp Partner</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- end navabr -->
+
+  <!-- head -->
+
+  <div class="container-fluid general px-5 ">
+    <div class="container">
+      <div class="row g-5 align-items-center">
+        <div class="col-lg-6 col-md-6">
+          <div class="section-title text-left mb-5">
+            <h1 class="renew-title">
+              Safeguarding Your Health: <br> Understanding
+              <span>Health Insurance</span>
+            </h1>
+            <p class="">
+              Navigate the complexities of healthcare coverage with confidence.
+              From routine check-ups to unexpected medical emergencies, ensure
+              you’re protected with comprehensive health insurance tailored to
+              your needs.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+          <div class="health-img">
+            <img src="./images/health-insurance.svg" class="img-fluid w-100 " alt="Image" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- end -->
+
+  <!-- Why Do You Need a Life Insurance? -->
+  <div class="container  my-3">
+    <div class="row g-2 align-items-center">
+      <div class="section-title text-center mb-1">
+        <h2 class=" text-center">
+          What is <span> Health Insurance?</span>
+        </h2>
+      </div>
+
+      <p class="posp-para">
+        Health insurance is a type of insurance policy that provides financial
+        coverage for medical and healthcare expenses incurred by the insured
+        individual or their covered dependents. It is designed to protect
+        individuals and families from the high costs of medical treatments,
+        hospitalization, surgeries, and other healthcare services. Browse
+        Aapka Policywala – a leading online insurance provider in India – to
+        discover health insurance plans from the best insurance companies!
+      </p>
+    </div>
+  </div>
+
+  <!-- end -->
+
+  <!-- insurance partner slider -->
+
+  <div class="container-fluid py-1">
+    <div class="container">
+      <div class="section-title text-center py-1 mb-2">
+        <h2 class="mb-4">India’s Favorite <span>Insurance Partners</span></h2>
+      </div>
+
+      <!-- slider -->
+      <div class="container ">
+        <div class="row justify-content-evenly">
+          <div class="col-lg-10">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card-v9">
+                        <img class="health-img-1" src="./images/health-insurance/medical-emergencies.svg"
+                          alt="First slide" />
+                        <p class="para-2">Medical Emergencies</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card-v9">
+                        <img class="health-img-1" src="./images/health-insurance/quality-healthcare.svg"
+                          alt="Second slide" />
+                        <p class="para-2">Access to Quality Healthcare</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                      <div class="card-v9">
+                        <img class="health-img-1" src="./images/health-insurance/safegaurdian.svg" alt="Third slide" />
+                        <p class="para-2">
+                          Safeguarding Your Family's Well-Being
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-lg-12 col-md-6 mb-4">
+                      <div class="card-v9">
+                        <img class="health-img-1" src="./images/health-insurance/emergency.png" alt="First slide" />
+                        <p class="para-2">Emergency Preparedness</p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end -->
+
+  <!-- Choose the right health insurance plan -->
+  <div class="container-fluid right-health p-5 ">
+    <div class="container">
+      <div class="row  align-items-center">
+        <div class="section-title text-center ">
+          <h2 class=" text-center">
+            Choose the Right <span>Health Insurance Plan!</span>
+          </h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, voluptates!</p>
+        </div>
+
+        <div class="row ">
+          <div class="col-md-6 col-lg-3 mb-3">
+            <div class="brand-card text-center custom-card-v5">
+              <div class="card-body card-body-custom">
+                <img src="./images/health-insurance/individual-health.png" alt="Car icon"
+                  class="car-icon custom-icon-1 mb-2 mb-2" />
+                <p class="card-text">Individual Health</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-3">
+            <div class="brand-card text-center custom-card-v5">
+              <div class="card-body card-body-custom">
+                <img src="./images/health-insurance/family-health.png" alt="Car icon"
+                  class="car-icon custom-icon-2 mb-2" />
+                <p class="card-text">Family Health</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-3">
+            <div class="brand-card text-center custom-card-v5">
+              <div class="card-body card-body-custom">
+                <img src="./images/health-insurance/multi-individual.png" alt="Car icon"
+                  class="car-icon custom-icon-1 mb-2 mb-2" />
+                <p class="card-text">Multi Individual</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-3">
+            <div class="brand-card text-center custom-card-v5">
+              <div class="card-body card-body-custom">
+                <img src="./images/health-insurance/personal accident.png" alt="Car icon" class="car-icon mb-2 mb-2" />
+                <p class="card-text">Personal Accident</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-3">
+            <div class="brand-card text-center custom-card-v5">
+              <div class="card-body card-body-custom">
+                <img src="./images/health-insurance/critical-illness.png" alt="Car icon" class="car-icon mb-2 mb-2" />
+                <p class="card-text">Critical Illness</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-3">
+            <div class="brand-card text-center custom-card-v5">
+              <div class="card-body card-body-custom">
+                <img src="./images/health-insurance/personal accident.png" alt="Car icon" class="car-icon mb-2 mb-2" />
+                <p class="card-text">Group Personal Accident</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-3">
+            <div class="brand-card text-center custom-card-v5">
+              <div class="card-body card-body-custom">
+                <img src="./images/health-insurance/mosbite.png" alt="Car icon" class="car-icon mb-2 mb-2" />
+                <p class="card-text">Mos-Bite</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-3">
+            <div class="brand-card text-center custom-card-v5">
+              <div class="card-body card-body-custom">
+                <img src="./images/health-insurance/group-health.png" alt="Car icon" class="car-icon mb-2 mb-2" />
+                <p class="card-text">Group Health</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-3">
+            <div class="brand-card text-center custom-card-v5">
+              <div class="card-body card-body-custom">
+                <img src="./images/health-insurance/cancer-insurance.png" alt="Car icon" class="car-icon mb-2 mb-2" />
+                <p class="card-text">Cancer Health</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end -->
+
+  <!--Indian Health Insurance Plan Types -->
+
+  <div class="container-fluid mt-3">
+    <div class="container ">
+      <div class="row g-2 align-items-center">
+        <div class="section-title ">
+          <h2 class="mb-1 text-center">
+            Indian Health <span>Insurance Plan Types</span>
+          </h2>
+        </div>
+        <p class="posp-para text-center">
+          We bring the best deals on health insurance plans in India.
+          Thousands of families also trust Aapka Policywala for car
+          insurance, family travel insurance, and  group health insurance in
+          India. Browse our vast collection of policies to meet your
+          insurance goals. 
+        </p>
+
+        
+          <div class="row d-flex flex-wrap justify-content-center">
+              <div class="col-md-4 col-12 mb-4">
+                  <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                      <div class="inner-text text-center">
+                          <img src="./images/health-insurance/1.svg" alt="" />
+                          <p class="head  text-center">Individual Health Insurance:</p>
+                          <p class="para">
+                              Individual health insurance plans provide coverage for a single individual. These policies offer financial protection for medical expenses incurred by the insured person during hospitalization or medical treatment.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4 col-12 mb-4">
+                  <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                      <div class="inner-text text-center">
+                          <img src="./images/health-insurance/2.svg" alt="" />
+                          <p class="head mb-4 text-center">Family Health Insurance</p>
+                          <p class="para">
+                              Family health insurance plans offer coverage for the entire family under a single policy. They include the policyholder, spouse, children, and sometimes dependent parents or in-laws. Family health insurance provides comprehensive coverage for all family members in one policy.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4 col-12 mb-4">
+                  <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                      <div class="inner-text text-center">
+                          <img src="./images/health-insurance/3.svg" alt="" />
+                          <p class="head mb-4 text-center">Group Health Insurance</p>
+                          <p class="para">
+                              Group health insurance plans are offered by employers or organizations to cover a group of employees or members. These plans provide collective coverage to the entire group, and the premiums are often more affordable than individual plans.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4 col-12 mb-4">
+                  <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                      <div class="inner-text text-center">
+                          <img src="./images/health-insurance/4.svg" alt="" />
+                          <p class="head mb-4 text-center">Senior Citizen Health Insurance</p>
+                          <p class="para">
+                              Senior citizen health insurance plans are specifically designed for elderly individuals aged 60 years and above. These plans address the unique healthcare needs of seniors and cover age-related medical conditions.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4 col-12 mb-4">
+                  <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                      <div class="inner-text text-center">
+                          <img src="./images/health-insurance/5.svg" alt="" />
+                          <p class="head mb-4 text-center">Critical Illness Insurance</p>
+                          <p class="para">
+                              Critical illness insurance provides a lump sum payment upon diagnosis of a specified critical illness such as cancer, heart attack, stroke, or kidney failure. The benefit can be used to cover medical expenses or other financial needs during the treatment and recovery period.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4 col-12 mb-4">
+                  <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                      <div class="inner-text text-center">
+                          <img src="./images/health-insurance/6.svg" alt="" />
+                          <p class="head mb-4 text-center">Maternity Health Insurance</p>
+                          <p class="para">
+                              Maternity health insurance plans offer coverage for prenatal care, childbirth, and postnatal care. These plans cover medical expenses related to maternity and childbirth, including hospitalization and delivery costs.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4 col-12 mb-4">
+                  <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                      <div class="inner-text text-center">
+                          <img src="./images/health-insurance/7.svg" alt="" />
+                          <p class="head mb-4 text-center">Top-up and Super Top-up Plans</p>
+                          <p class="para">
+                              Top-up and super top-up plans provide additional coverage over and above the existing health insurance policy. They come into effect after the insured reaches a specified deductible limit.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4 col-12 mb-4">
+                  <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                      <div class="inner-text text-center">
+                          <img src="./images/health-insurance/8.svg" alt="" />
+                          <p class="head mb-4 text-center">Hospital Cash Insurance</p>
+                          <p class="para">
+                              Hospital cash insurance pays a fixed daily amount to the insured for each day of hospitalization. It helps cover additional expenses during hospital stays, such as transportation and incidental costs.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4 col-12 mb-4">
+                  <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                      <div class="inner-text text-center">
+                          <img src="./images/health-insurance/9.svg" alt="" />
+                          <p class="head mb-4 text-center">Disease-specific Plans</p>
+                          <p class="para">
+                              Some health insurance plans are tailored to cover specific diseases or medical conditions. For example, diabetes insurance plans provide coverage for diabetes-related treatments and medications.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4 col-12 mb-4">
+                  <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                      <div class="inner-text text-center">
+                          <img src="./images/health-insurance/10.svg" alt="" />
+                          <p class="head mb-4 text-center">Universal Health Insurance</p>
+                          <p class="para">
+                              Universal health insurance aims to provide coverage for all citizens of the country and is often part of government-sponsored health schemes.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      
+      
+      </div>
+    </div>
+  </div>
+
+
+  <!-- end -->
+
+  <!-- Features & Benefits of Health Insurance -->
+
+  <div class="container ">
+    <div class="container ">
+      <div class="row g-2 align-items-center">
+        <div class="section-title mb-">
+          <h1 class="text-center">
+            <span> Features & Benefits </span>of Health Insurance
+          </h1>
+        </div>
+        <p class="posp-para text-center px-5">
+          Features and benefits of health insurance can vary based on the specific plan and insurance provider.
+        </p>
+      </div>
+
+
+      <div class="container ">
+        <div class="table-responsive">
+          <table class="table  table-striped table-bordered custom-table">
+            <thead>
+              <tr>
+                <th scope="col">Features</th>
+                <th scope="col">Benefits</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Hospitalization Coverage</td>
+                <td>Financial protection for in-patient medical expenses</td>
+              </tr>
+              <tr>
+                <td>Pre-Hospitalization</td>
+                <td>Coverage for medical expenses before hospitalization</td>
+              </tr>
+              <tr>
+                <td>Post-Hospitalization</td>
+                <td>Coverage for medical expenses after hospitalization</td>
+              </tr>
+              <tr>
+                <td>Day Care Procedures</td>
+                <td>Coverage for specific medical treatments.</td>
+              </tr>
+              <tr>
+                <td>Cashless Hospitalization</td>
+                <td>Easy access to cashless medical services</td>
+              </tr>
+
+              <tr>
+                <td>Domiciliary Treatment</td>
+                <td>Coverage for medical treatment at home</td>
+              </tr>
+              <tr>
+                <td>Maternity Coverage</td>
+                <td>Coverage for pregnancy and childbirth expenses</td>
+              </tr>
+              <tr>
+                <td>Preventive Care</td>
+                <td>Coverage for health check-ups and vaccinations</td>
+              </tr>
+              <tr>
+                <td>Critical Illness Coverage</td>
+                <td>Lump sum payout upon diagnosis of critical illnesses</td>
+              </tr>
+              <tr>
+                <td>No-Claim Bonus</td>
+                <td>Rewards for not making any claims</td>
+              </tr>
+              <tr>
+                <td>Room Upgrade</td>
+                <td>Option to upgrade to higher category room</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- end -->
+
+
+
+
+
+  <!--How Do You Make a Claim on an Indian Health Insurance Policy? -->
+  <div class="container my-2">
+    <div class="row  align-items-center">
+      <div class="section-title text-center mb-2">
+        <h1 class="mb-2 text-center">
+          How Do You <span> Make a Claim</span> on an Indian Health Insurance Policy?
+        </h1>
+      </div>
+
+
+      <div class="">
+        <p class="posp-para">
+          <b>Inform the Insurance Company: </b> As soon as you or your insured family member requires medical treatment,
+          inform your health insurance company about the hospitalization or treatment. Most insurance companies have a
+          24/7 helpline or customer service number for claim intimation.
+        </p>
+        <p class="posp-para">
+          <b> Pre-Authorization (For Cashless Claims):</b> If you are availing of cashless treatment at a network
+          hospital, request a pre-authorization from the insurance company. You or the hospital staff can initiate this
+          process by submitting relevant medical documents and details of the planned treatment to the insurer.
+        </p>
+
+        <p class="posp-para">
+          <b>Document Collection:</b> Gather all necessary documents to support your claim. These typically include the
+          original bills, discharge summary, diagnostic reports, prescriptions, and any other relevant medical records.
+        </p>
+        <p class="posp-para">
+          <b>Complete Claim Form:</b> Obtain and fill out the claim form provided by the insurance company. This form is
+          available on their website, at their branch offices, or you can request it via email.
+        </p>
+        <p class="posp-para">
+          <b> Submit Claim Form and Documents:</b> Submit the filled claim form along with the required documents to the
+          insurance company. You can do this through email, courier, or by visiting their nearest branch office.
+        </p>
+        <p class="posp-para">
+          <b> Claim Processing:</b> The insurance company will review your claim and the submitted documents. The
+          processing time can vary, but it is typically done within a few days to a couple of weeks.
+        </p>
+        <p class="posp-para">
+          <b>Approval or Rejection:</b> The insurance company will communicate their decision regarding the claim. If
+          approved, they will specify the amount covered and any applicable deductions or co-payments.
+        </p>
+        <p class="posp-para">
+          <b> Cashless or Reimbursement:</b> If you have opted for a cashless facility and the claim is approved, the
+          insurance company will directly settle the bills with the hospital. If not, you will need to pay the bills
+          yourself and then apply for reimbursement as per the approved claim amount.
+        </p>
+        <p class="posp-para">
+          <b>Follow-up:</b> If there are any discrepancies or additional information required, cooperate with the
+          insurance company to expedite the claim settlement process.
+        </p>
+        <p class="posp-para">
+          <b> Claim Settlement: </b>Once the claim is approved, and all necessary verifications are complete, the
+          insurance company will settle the claim amount either through direct payment to the hospital (for cashless
+          claims) or through reimbursement to you (for reimbursement claims), as per the terms of your policy.
+        </p>
+
+
+      </div>
+    </div>
+  </div>
+
+  <!-- end -->
+
+
+
+
+
+
+  <!--   Does COVID-19 Fall Under Health Insurance? -->
+  <div class="container my-5">
+    <div class="row align-items-center">
+      <div class="section-title text-center ">
+        <h1 class=" text-left">
+          Does COVID-19 Fall Under <span>Health Insurance?</span>
+        </h1>
+      </div>
+
+      <p class="posp-para">
+        You can use your regular health insurance to cover COVID-19. With infections spreading like wildfire in India,
+        one of the worst-affected nations, customers of medical insurance are in a bind. People who now have insurance
+        for their health during the pandemic should be covered by COVID-19 by all insurers, according to expectations.
+        The IRDAI standards state that since the ailment is a new illness and not a pre-existing one, coverage cannot be
+        denied. Consumables including personal safety gear (PPE), oxygen, masks, and oximeters, that are crucial
+        components of the treatment, might not be covered by it. Two common health insurance plans, Corona Kavach and
+        Corona Rakshak Policy, were created and widely purchased in accordance with IRDAI requirements.
+      </p>
+    </div>
+  </div>
+
+  <!-- end -->
+
+  <!--   Policy of Corona Kavach -->
+  <div class="container  ">
+    <div class="row g-2 align-items-center">
+      <div class="section-title text-center ">
+        <h1 class="mb-2 text-left">
+          Policy of Corona Kavach
+        </h1>
+      </div>
+
+      <p class="posp-para">
+        To safeguard you and your loved ones from COVID-19, Corona Kavach has become an indemnity-oriented policy that
+        pays for all COVID hospitalisation costs. <br> The policy intends to pay for hospitalisation, pre- and
+        post-hospitalization costs, home care treatment costs, and AYUSH treatments if the insured tests positive for
+        COVID-19. <br> In addition to hospitalisation costs, the coverage also includes coverage for oxygen, blood,
+        surgery fees, surgical tools, medication and drugs, diagnostic costs, PPE package, mask, and other comparable
+        things.
+      </p>
+    </div>
+  </div>
+
+  <!-- end -->
+
+
+
+  <!--   Corona Rakshak -->
+  <div class="container  my-5">
+    <div class="row g-2 align-items-center">
+      <div class="section-title text-center ">
+        <h1 class="mb-1 text-left">
+          Corona Rakshak
+        </h1>
+      </div>
+
+      <p class="posp-para">
+        An affordable health insurance programme called Corona Rakshak pays policyholders with COVID-19 a flat sum as
+        compensation. The plan covers a 100% sum insured if the diagnosis identifies the virus and necessitates a
+        72-hour hospital stay.
+      </p>
+    </div>
+  </div>
+
+  <!-- end -->
+
+
+
+  <!--Document Required For Filing The Claim -->
+  <div class="container  my-5">
+    <div class="row g-2 align-items-center">
+      <div class="section-title text-center ">
+        <h1 class="mb-4 text-center">
+          <span>Document Required</span> For Filing The Claim
+        </h1>
+      </div>
+
+
+      <div class="">
+        <p class="posp-para">
+          <b> Claim Form: </b>A duly filled and signed claim form provided by the insurance company.
+        </p>
+        <p class="posp-para">
+          <b>Original Bills and Receipts:</b> Original bills and receipts for medical expenses incurred. This includes
+          hospitalization bills, pharmacy bills, diagnostic tests, doctor’s consultation fees, etc.
+        </p>
+
+        <p class="posp-para">
+          <b>Medical Reports:</b> Any medical reports, such as laboratory test results, X-rays, MRI/CT scans, or other
+          diagnostic reports related to the treatment.
+        </p>
+        <p class="posp-para">
+          <b> Discharge Summary:</b> A copy of the discharge summary from the hospital, which includes details of the
+          treatment received during hospitalization.
+        </p>
+        <p class="posp-para">
+          <b> Prescriptions:</b> Prescriptions from the treating doctor, specifying the medications and treatments
+          prescribed.
+        </p>
+        <p class="posp-para">
+          <b> Policy Document: </b>A copy of the health insurance policy document showing your coverage details, policy
+          number, and the terms and conditions.
+        </p>
+        <p class="posp-para">
+          <b>ID Proof:</b> A valid ID proof of the insured person filing the claim.
+        </p>
+        <p class="posp-para">
+          <b> Payment Receipts:</b> Receipts or payment proofs of the medical expenses paid by the insured at the time
+          of treatment.
+        </p>
+        <p class="posp-para">
+          <b> Medical History:</b> In some cases, the insurance company may require the insured’s medical history,
+          especially if the claim is related to a pre-existing condition.
+        </p>
+        <p class="posp-para">
+          <b> FIR or Medico-Legal Certificate (if applicable):</b> If the claim is related to an accident or injury, an
+          FIR copy or a medico-legal certificate may be required.
+        </p>
+        <p class="posp-para">
+          <b> Cashless Approval Letter (for Reimbursement Claims):</b> In the case of reimbursement claims, if the
+          insured had sought prior cashless approval but ended up paying the bills, a copy of the initial cashless
+          approval letter may be needed.
+        </p>
+
+
+      </div>
+    </div>
+  </div>
+
+  <!-- end -->
+
+
+
+
+
+
+      <!-- get or renew -->
+ <!-- contact us section -->
+
+ <div class="container-fluid contact-us px-2 mt-2 mb-0">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="d-flex justify-content-center align-items-center">
+        <div class="bg-contact ">
+          <div class="d-flex">
+            <div class="help-heading">
+              <p class="head text-left">Got questions? We'd love to Answer</p>
+              <p class="para text-left">
+                With access to offerings from over 25 insurance providers in
+                India, finding the most cost-effective insurance plans has
+                With access to ........
+              </p>
+
+              <div class="pt-2">
+                <a href="tel:+91123456789" class="d-flex call-bg  ">
+                  <img src="./main-page-img/call.png" alt="" />
+                  <p>+91 123456789</p>
+                </a>
+                <a href="mailto:Mail@aapkapolicywala.com" class="d-flex call-bg ">
+                  <img src="./main-page-img/mail.png" alt="" />
+                  <p>Mail@aapkapolicywala.com</p>
+                </a>
+              </div>
+            </div>
+            <div class="d-none d-lg-block help-pc">
+              <img src="./main-page-img/help-pic.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- end -->
+
+<!-- end -->
+
+<!-- =====================information Strip======================== -->
+
+<div class="container-fluid information-strip">
+  <div class="container">
+    <div class="row justify-content-center my-auto sm-g-0 information-strip-inner text-center">
+      <div class="col-lg col-6 col-md-4 text-center mb-3 mb-md-0"> <!-- Added margin bottom for spacing -->
+        <p class="strip-head">24</p>
+        <p class="strip-para">YEARS</p>
+      </div>
+      <div class="col-lg col-6 col-md-4 text-center mb-3 mb-md-0">
+        <p class="strip-head">30Lakh+</p>
+        <p class="strip-para">CUSTOMERS</p>
+      </div>
+      <div class="col-lg col-6 col-md-4 text-center mb-3 mb-md-0">
+        <p class="strip-head">1100+</p>
+        <p class="strip-para">Cities</p>
+      </div>
+      <div class="col-lg col-6 col-md-4 text-center mb-3 mb-md-0">
+        <p class="strip-head">4200+</p>
+        <p class="strip-para">Outlets</p>
+      </div>
+      <div class="col-lg col-6 col-md-4 text-center mb-0 mb-md-0">
+        <p class="strip-head">3,27,301Cr+</p>
+        <p class="strip-para">CUSTOMER ASSETS</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <!-- Footer -->
+
+ <footer class="footer-st">
+  <!-- Disclaimer Section -->
+  <div class="footer-top-outer-st">
+    <div class="disclaimer-st">
+      <p class="disclaimer-text">
+        <b>Disclaimer:</b> Insurance is the subject matter of solicitation. Visitors are hereby informed
+        that their information submitted on the website may be shared with insurers. The product information
+        for comparison displayed on this website is of the insurers with whom our company has an agreement.
+        Product information is authentic and solely based on the information received from the Insurer.
+      </p>
+    </div>
+
+    <!-- Footer Top Section -->
+    <div class="footer-top">
+      <div class="footer-container-st">
+        <!-- Contact Info -->
+        <div class="footer-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <p>Booth No. 13, Anaj Mandi, <br> Bhattu Mandi, Bhattu Kalan, <br> Fatehbad, Haryana - 125053</p>
+        </div>
+        <div class="divider"></div>
+        <div class="footer-item">
+          <i class="fas fa-phone"></i>
+          <p>+91 8390008390</p>
+        </div>
+        <div class="divider"></div>
+        <div class="footer-item">
+          <i class="fas fa-envelope"></i>
+          <p>info@aapkapolicywala.com</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Link Section -->
+  <div class="container ">
+    <div class="row footer-menu-st">
+      <!-- Motor Insurance -->
+      <div class="column">
+        <h6 class="title-st">Motor Insurance</h6>
+        <p><a href="#">Car Insurance</a></p>
+        <p><a href="#">Two Wheeler</a></p>
+        <p><a href="#">Goods Carrying</a></p>
+        <p><a href="#">Passenger Carrying</a></p>
+        <p><a href="#">Misc-D Insurance</a></p>
+      </div>
+
+      <!-- Life Insurance -->
+      <div class="column">
+        <h6 class="title-st">Life Insurance</h6>
+        <p><a href="#">Group Term Insurance</a></p>
+        <p><a href="#">Term Life Insurance</a></p>
+        <p><a href="#">1 Crore Term Insurance</a></p>
+      </div>
+
+      <!-- Resources -->
+      <div class="column">
+        <h6 class="title-st">Resources</h6>
+        <p><a href="#">POSP Partner</a></p>
+        <p><a href="#">Tutorial</a></p>
+        <p><a href="#">Video Tutorial</a></p>
+        <p><a href="#">Article</a></p>
+      </div>
+
+      <!-- About Us -->
+      <div class="column">
+        <h6 class="title-st">About Us</h6>
+        <p><a href="#">Terms of Service</a></p>
+        <p><a href="#">Privacy Policy</a></p>
+        <p><a href="#">Solicitation Process</a></p>
+        <p><a href="#">Our History</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Social Icons -->
+  <div class="social-section">
+    <img src="./images/logo-dark.png" alt="Logo">
+    <div class="social-icons-st">
+      <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+      <a href="#"><i class="fab fa-linkedin fa-lg"></i></a>
+      <a href="#"><i class="fab fa-pinterest fa-lg"></i></a>
+      <a href="#"><i class="fab fa-youtube fa-lg"></i></a>
+      <a href="#"><i class="fab fa-facebook-f fa-lg"></i></a>
+      <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+    </div>
+  </div>
+
+  <!-- Copyright -->
+  <div class="copyright">
+    <p class="head">
+      Aapka Policywala Insurance <span class="highlight">Broking Services</span> Pvt. Ltd.
+    </p>
+    <p>
+      IRDAI Registration Code: IRDAI / DB1058 / 2023 | IRDAI Registration No.: 933 | Category: Direct (Life &
+      General) | License Valid: 19.01.2024 - 18.01.2027 <br>
+      Principal Officer: Pardeep Kumar | Registered Office : BOOTH NO. 13, ANAJ MANDI, BHATTU MANDI, BHATTU
+      KALAN, FATEHABAD, HR, IN, 125053 | <br>
+      Corporate Address : DSS-121-G-Floor Commercial UE-ll - Hisar - Haryana Pin Code- 125005 | Email Us:
+      info@aapkapolicywala.com | Call Us: +91 8390008390
+    </p>
+    <p>
+      @Copyright 2024 Aapkapolicywala Insurance Broking Services Pvt. Ltd.
+    </p>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  <!-- end -->
+
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="./js.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz4fnFO9gybBogGz9qQJbXUjXT1ZtAn1Ry5zVSrK7SwppV8xv8Q5XlWJ9Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+    integrity="sha384-pprn3073KE6tl6ERvA6knXKa2QKN8R6bJ5L3VGsBzHrtvPpBfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

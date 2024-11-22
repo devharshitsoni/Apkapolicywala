@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apna Policy</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Ribeye&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@100..900&display=swap" rel="stylesheet">
+
+
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+
+
+
+</head>
+
+<body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-none d-lg-flex" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>General Insurance</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>Life Insurance</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>Knowledge Base</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><span>Become a Posp Partner</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><span>Contact us</span></a>
+                    </li>
+                </ul>
+                <button class="main-btn ms-4">Sign up</button>
+            </div>
+            <div class="offcanvas offcanvas-end offcanvas-glass d-lg-none" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <a href="#" class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./images/logo.png"
+                            alt="" /></a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                General Insurance
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Life Insurance
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Knowledge Base
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Become a Posp Partner</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- end navabr -->
+
+    <!-- head -->
+
+    <div class="container-fluid general px-5 my-5">
+     <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6 col-md-6">
+                <div class="section-title text-left mb-5">
+                    <h1 class="renew-title">
+                        <span>Travel Insurance</span> for International Students
+                    </h1>
+                    <p class="">
+                        Studying abroad can be an enriching experience but unforeseen emergencies can disrupt the journey. With our international student travel insurance plans, you can ensure peace of mind throughout your academic endeavors. Our specialized overseas travel insurance coverage is designed to protect Indian students against a wide range of risks and uncertainties, allowing them to focus on enriching their educational experiences worry-free in countries like the USA, Canada, Australia, New Zealand, and UK.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="health-img">
+                    <img src="./images/student-travel-insurance.png" class="img-fluid w-100 py-4" alt="Image" />
+                </div>
+            </div>
+        </div>
+     </div>
+    </div>
+    <!-- end -->
+
+
+
+    <!--   What is International Student Travel Insurance?-->
+    <div class="container p-5 my-3">
+        <div class="row g-2 align-items-center">
+            <div class="section-title text-center ">
+                <h1 class=" text-center">
+                    What is International <span>Student Travel Insurance?</span>
+                </h1>
+            </div>
+
+            <p class="posp-para">
+                Student travel insurance is obligatory for students traveling abroad for graduation, masters, and specialised degrees. Offering comprehensive protection across various contingencies, overseas travel insurance for students ensures prompt and adequate medical coverage for illnesses or injuries, including emergency medical evacuation if required. It also provides financial reimbursement for non-refundable trip expenses in case of cancellations due to unexpected events, mitigating potential financial losses. Want to know more benefits? buying overseas student travel insurance online or offline safeguards against baggage loss or delay, facilitating the prompt replacement of essential belongings. If bought from a reputed online insurance provider in India, overseas student policy will also be managed. Furthermore, it addresses personal liability risks by offering coverage for accidental bodily injury or property damage to third parties, providing students with peace of mind.
+            </p>
+          
+
+
+        </div>
+    </div>
+
+    <!-- end -->
+
+
+
+
+ <!-- Why is Overseas Student Travel Insurance Important?-->
+ <div class="container-fluid student p-5 my-5">
+    <div class="container">
+        <div class="row g-2 align-items-center">
+            <div class="section-title text-center mb-5">
+                <h1 class="mb-4 text-center">
+                    Why is Overseas <span> Student Travel Insurance</span> Important?
+                </h1>
+            </div>
+    
+            <p class="posp-para">
+                International student travel insurance is a specialized insurance policy meticulously designed to provide comprehensive coverage to students studying abroad. This policy encompasses a range of benefits, including coverage for medical emergencies such as hospitalization, medical treatment, and evacuation if necessary, ensuring students receive timely and adequate healthcare while away from home. Best student travel insurance policies and plans also extend protection to cover trip interruptions, baggage loss, and personal liability, shielding students from unforeseen events and unexpected expenses that may arise during their international journeys. Beyond financial security, overseas student travel insurance plays a pivotal role in meeting the visa requirements of many countries, making it an essential component of the study abroad process.  With round-the-clock emergency assistance services, students can rest assured knowing they have immediate access to support and guidance whenever faced with emergencies, thereby ensuring a seamless and worry-free experience throughout their educational journey overseas. In short, overseas student travel insurance serves as a crucial safety net, empowering students to focus on studies and growth while away from home.
+            </p>
+          
+    
+    
+        </div>
+    </div>
+</div>
+
+
+<!-- end -->
+
+
+
+ <!--What’s Included in International Student Travel Policy? -->
+
+    <div class="container py-3">
+        <div class="row g-5 align-items-center">
+            <div class="section-title mb-">
+                <h1 class="text-left">
+                    What’s Included in <span>International Student Travel</span> Policy?
+                </h1>
+                <p class="posp-para text-left">Overseas student travel insurance policy offers comprehensive coverage for various contingencies they may encounter during their international trip. Here’swhat’s usually covered in best student travel plans offered by top providers:</p>
+            </div>
+        </div>
+
+        <div class="container-fluid my-2">
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered custom-table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Features</th>
+                            <th scope="col">Benefits</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><b>Medical Expenses</b></td>
+                            <td>
+                                Coverage for medical treatment and hospitalization expenses in case of illness or accidents during the trip.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>Emergency Medical Evacuation</b></td>
+                            <td>
+                                Coverage for emergency medical evacuation to the nearest medical facility in case of a severe medical condition that requires immediate attention.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>Repatriation of Mortal Remains</b></td>
+                            <td>
+                                Coverage for the transportation expenses of mortals remains back to the home country in the unfortunate event of the insured student’s death.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>Trip Cancellation or Interruption</b></td>
+                            <td>
+                                Reimbursement of prepaid trip expenses if the trip is canceled or interrupted due to covered reasons like illness, injury, or emergency situations.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>Baggage and Personal Belongings</b></td>
+                            <td>
+                                Coverage to international students for loss or damage to baggage and personal belongings during the trip.
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><b>Personal Liability</b></td>
+                            <td>
+                                Coverage for legal liabilities arising due to accidental damage to third-party property or injury to third parties.
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><b>Study Interruption</b></td>
+                            <td>
+                                Reimbursement for tuition fees in case the insured student needs to interrupt their studies due to medical reasons
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>Passport Loss</b></td>
+                            <td>
+                                Coverage for the expenses incurred in obtaining a new passport if the original passport is lost during the trip.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>Dental Expenses</b></td>
+                            <td>
+                                Coverage for emergency dental treatment expenses.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>Personal Accident</b></td>
+                            <td>
+                                Coverage for accidental death or permanent disability due to an accident during the trip.
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td><b>Travel Delay</b></td>
+                            <td>
+                                Coverage for additional expenses incurred due to a delay in travel plans.
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td><b>Emergency Cash Assistance</b></td>
+                            <td>
+                                Coverage for international students in case of theft or robbery of funds through emergency cash assistance.
+                            </td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+            <p class="posp-para">We bring the best deals on personal insurance plans in India. Thousands of families also trust Aapka Policywala for <a href="https://aapkapolicywala.com/home-insurance/">home insurance plan</a>, <a href="https://aapkapolicywala.com/family-travel-insurance/">family travel insurance plan</a> and <a href="https://aapkapolicywala.com/individual-travel-insurance/">individual travel insurance policy</a> in India.</p>
+        </div>
+        
+    </div>
+
+
+<!-- end -->
+
+
+
+
+
+
+
+ <!--What’s Not Included in Overseas Student Travel Plan?-->
+ <div class="container p-5 my-3">
+    <div class="row g-3 align-items-center">
+        <div class="section-title text-center ">
+            <h1 class=" text-center">
+                What’s Not Included in <span>Overseas Student Travel Plan?</span>
+            </h1>
+        </div>
+        <p class="posp-para">While the specific exclusions can vary based on the overseas travel insurance company and the policy chosen, here are some common exclusions found in even the best student travel insurance policies:</p>
+
+        <div class="">
+            <p class="posp-para">
+               <b> Pre-existing Medical Conditions:</b> Medical expenses related to any pre-existing health conditions that the insured student had before purchasing the policy may be excluded.
+            </p>
+            <p class="posp-para">
+               <b> Self-inflicted Injuries: </b>Injuries or illnesses intentionally caused by the insured overseas student to themselves are usually not covered.
+            </p>
+
+            <p class="posp-para">
+               <b> Participating in Risky Activities: </b>Injuries or accidents resulting from participation in hazardous activities such as adventure sports, extreme sports, or illegal activities may not be covered.
+            </p>
+            <p class="posp-para">
+              <b>Mental Health Issues</b> Mental health conditions and related treatments are excluded in some overseas student travel insurance plans.
+            </p>
+            <p class="posp-para">
+                <b>Substance Abuse: </b>Medical treatment or incidents arising from the use of alcohol, drugs, or other intoxicants are generally not covered.
+            </p>
+            <p class="posp-para">
+               <b> Traveling Against Medical Advice:</b> If the insured student is traveling despite medical advice not to travel, any medical expenses incurred may not be covered.
+            </p>
+            <p class="posp-para">
+                <b>Travel to Restricted Areas:</b> If the family travels to regions or countries with travel advisories or considered high-risk, the policy may not provide coverage for incidents occurring in those areas.
+            </p>
+            <p class="posp-para">
+              <b>  War and Terrorism:</b> Losses or injuries resulting from war, acts of terrorism, civil unrest, or nuclear events may be excluded in some international student travel plans.
+            </p>
+            <p class="posp-para">
+              <b>  Non-Compliance with Policy Terms:</b> If the insured student fails to comply with the terms and conditions of the policy, such as late reporting of a claim, coverage may be denied.
+            </p>
+            <p class="posp-para">
+               <b> Loss of Personal Belongings Left Unattended:</b> Loss of personal belongings that were left unattended or not properly secured may not be covered.
+            </p>
+            <p class="posp-para">
+               <b> Travel Against Medical Advice:</b> If the insured travels despite being medically advised against it, coverage for related incidents may be excluded from the policy.
+            </p>
+            <p class="posp-para">
+               <b> Pre-existing Travel Plans:</b> Cancellation or interruption of travel plans due to reasons known before purchasing the policy may be excluded.
+            </p>
+            <p class="posp-para">
+                <b>Pregnancy and Childbirth:</b> Expenses related to pregnancy, childbirth, and maternity-related treatments may not be covered.
+            </p>
+
+        </div>
+    
+    </div>
+</div>
+
+<!-- end -->
+
+
+
+
+
+
+
+
+
+<!--Why Us for Overseas Student Travel Insurance Online? -->
+
+<div class="container py-3">
+    <div class="row g-3 align-items-center">
+        <div class="section-title ">
+            <h1 class="text-left">
+                Why Us for <span>Overseas Student Travel Insurance</span> Online?
+            </h1>
+
+        </div>
+        <p class="posp-para text-left px-4">We understand that selecting the right international student travel health insurance online is crucial for personal and financial safety while traveling to unknown places. Here’s why Aapka Policywala should be your top choice for buying overseas student travel insurance online or offline:</p>
+
+        <div class="container-fluid my-5">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="custom-card-v10">
+                                    <h2>Effortless Online Process</h2>
+                                    <p class="posp-para">Whether you are going for a degree program or Masters, bid farewell to cumbersome international student travel insurance paperwork and long queues. With our streamlined online platform, renewing or buying a new travel insurance is as simple as a few clicks</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="custom-card-v10">
+                                    <h2>Competitive Pricing</h2>
+                                    <p class="posp-para">We believe in providing best value at the cheapest international student travel insurance premium without compromising on family travel insurance coverage. Our competitive insurance pricing ensures that your loved ones receive the best insurance protection.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="custom-card-v10">
+                                    <h2>Comprehensive Coverage Options</h2>
+                                    <p class="posp-para">Whether you're seeking comprehensive overseas student travel coverage or specialized health add-ons, we offer a range of options tailored to suit your unique needs. Our customizable policies ensure that you receive the maximum travel protection</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="custom-card-v10">
+                                    <h2>Effortless Online Process</h2>
+                                    <p class="posp-para">Whether you are going for a degree program or Masters, bid farewell to cumbersome international student travel insurance paperwork and long queues. With our streamlined online platform, renewing or buying a new travel insurance is as simple as a few clicks</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="custom-card-v10">
+                                    <h2>Competitive Pricing</h2>
+                                    <p class="posp-para">We believe in providing best value at the cheapest international student travel insurance premium without compromising on family travel insurance coverage. Our competitive insurance pricing ensures that your loved ones receive the best insurance protection.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="custom-card-v10">
+                                    <h2>Comprehensive Coverage Options</h2>
+                                    <p class="posp-para">Whether you're seeking comprehensive overseas student travel coverage or specialized health add-ons, we offer a range of options tailored to suit your unique needs. Our customizable policies ensure that you receive the maximum travel protection</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="custom-card-v10">
+                                    <h2>Effortless Online Process</h2>
+                                    <p class="posp-para">Whether you are going for a degree program or Masters, bid farewell to cumbersome international student travel insurance paperwork and long queues. With our streamlined online platform, renewing or buying a new travel insurance is as simple as a few clicks</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="custom-card-v10">
+                                    <h2>Competitive Pricing</h2>
+                                    <p class="posp-para">We believe in providing best value at the cheapest international student travel insurance premium without compromising on family travel insurance coverage. Our competitive insurance pricing ensures that your loved ones receive the best insurance protection.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="custom-card-v10">
+                                    <h2>Comprehensive Coverage Options</h2>
+                                    <p class="posp-para">Whether you're seeking comprehensive overseas student travel coverage or specialized health add-ons, we offer a range of options tailored to suit your unique needs. Our customizable policies ensure that you receive the maximum travel protection</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- testimonil -->
+
+    <div class="container-fluid py-2">
+
+        <div class="row g-2 align-items-center">
+            <div class="section-title text-center ">
+                <h1 class="mb-4 text-center">
+                    <span>Health Insurance</span> Renewal Reviews
+                </h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, nihil.</p>
+            </div>
+        </div>
+        <div class="container py-5" id="testimonials">
+            <div class="slider">
+                <div class="slide-track testimonial-container">
+                    <div class="slide testimonial">
+                        <div class="text">
+                            <div class="quote">&#8220;</div>
+                            <p class="review">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                                quos error beatae dolores, dicta maxime libero optio voluptatem
+                                culpa, obcaecati omnis!
+                            </p>
+                        </div>
+                        <div class="info">
+                            <div class="pfp">
+                                <img src="./images/test-1.png" alt="Den Kerdian" />
+                            </div>
+                            <p class="text">SUZANA</p>
+                        </div>
+                    </div>
+                    <div class="slide testimonial">
+                        <div class="text">
+                            <div class="quote">&#8220;</div>
+                            <p class="review">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                                quos error beatae dolores, dicta maxime libero optio voluptatem
+                                culpa, obcaecati omnis!
+                            </p>
+                        </div>
+                        <div class="info">
+                            <div class="pfp">
+                                <img src="./images/test-2.png" alt="Den Kerdian" />
+                            </div>
+                            <p class="text">LÍVIA</p>
+                        </div>
+                    </div>
+                    <div class="slide testimonial">
+                        <div class="text">
+                            <div class="quote">&#8220;</div>
+                            <p class="review">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                                quos error beatae dolores, dicta maxime libero optio voluptatem
+                                culpa, obcaecati omnis!
+                            </p>
+                        </div>
+                        <div class="info">
+                            <div class="pfp">
+                                <img src="./images/test-3.png" alt="Den Kerdian" />
+                            </div>
+                            <p class="text">KÁTIA</p>
+                        </div>
+                    </div>
+                    <div class="slide testimonial">
+                        <div class="text">
+                            <div class="quote">&#8220;</div>
+                            <p class="review">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                                quos error beatae dolores, dicta maxime libero optio voluptatem
+                                culpa, obcaecati omnis!
+                            </p>
+                        </div>
+                        <div class="info">
+                            <div class="pfp">
+                                <img src="./images/test-4.png" alt="Den Kerdian" />
+                            </div>
+                            <p class="text">MATHEUS</p>
+                        </div>
+                    </div>
+                    <!-- Duplicate the slides to create an infinite loop effect -->
+                    <div class="slide testimonial">
+                        <div class="text">
+                            <div class="quote">&#8220;</div>
+                            <p class="review">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                                quos error beatae dolores, dicta maxime libero optio voluptatem
+                                culpa, obcaecati omnis!
+                            </p>
+                        </div>
+                        <div class="info">
+                            <div class="pfp">
+                                <img src="./images/test-1.png" alt="Den Kerdian" />
+                            </div>
+                            <p class="text">SUZANA</p>
+                        </div>
+                    </div>
+                    <div class="slide testimonial">
+                        <div class="text">
+                            <div class="quote">&#8220;</div>
+                            <p class="review">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                                quos error beatae dolores, dicta maxime libero optio voluptatem
+                                culpa, obcaecati omnis!
+                            </p>
+                        </div>
+                        <div class="info">
+                            <div class="pfp">
+                                <img src="./images/test-2.png" alt="Den Kerdian" />
+                            </div>
+                            <p class="text">LÍVIA</p>
+                        </div>
+                    </div>
+                    <div class="slide testimonial">
+                        <div class="text">
+                            <div class="quote">&#8220;</div>
+                            <p class="review">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                                quos error beatae dolores, dicta maxime libero optio voluptatem
+                                culpa, obcaecati omnis!
+                            </p>
+                        </div>
+                        <div class="info">
+                            <div class="pfp">
+                                <img src="./images/test-3.png" alt="Den Kerdian" />
+                            </div>
+                            <p class="text">KÁTIA</p>
+                        </div>
+                    </div>
+                    <div class="slide testimonial">
+                        <div class="text">
+                            <div class="quote">&#8220;</div>
+                            <p class="review">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                                quos error beatae dolores, dicta maxime libero optio voluptatem
+                                culpa, obcaecati omnis!
+                            </p>
+                        </div>
+                        <div class="info">
+                            <div class="pfp">
+                                <img src="./images/test-4.png" alt="Den Kerdian" />
+                            </div>
+                            <p class="text">MATHEUS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script>
+        document.querySelector('.slider').addEventListener('mouseover', function () {
+            document.querySelector('.slide-track').style.animationPlayState = 'paused';
+        });
+
+        document.querySelector('.slider').addEventListener('mouseout', function () {
+            document.querySelector('.slide-track').style.animationPlayState = 'running';
+        });
+    </script>
+    <!-- end -->
+
+
+    <!-- get or renew -->
+    <div class="container-fluid team py-3 mt-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="0.4s">
+                    <div class="section-title text-left mb-5">
+                        <h1 class="mb-4 renew-title">
+                            <span> Get or Renew</span> Your Insurance with Aapka Policywala
+                        </h1>
+                        <p class="mb-4 renew-para">
+                            We are just a call away. Feel free to contact us
+                        </p>
+                        <button class="main-btn"><a href="#">Contact Us </a></button>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="health-img ps-md-5">
+                        <img src="./images/renew.png" class="img-fluid w-100" alt="Image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end -->
+    <!-- Footer -->
+    <footer class="text-center text-lg-start footer-2 text-muted">
+        <!-- Section: Links  -->
+        <div class="p-4">
+            <div class="container-fluid text-center text-md-start">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Motor Insurance</h6>
+                        <p><a href="#!" class="text-reset">Car Insurance</a></p>
+                        <p><a href="#!" class="text-reset">Two Wheeler</a></p>
+                        <p><a href="#!" class="text-reset">Goods Carrying</a></p>
+                        <p><a href="#!" class="text-reset">Passenger Carrying</a></p>
+                        <p><a href="#!" class="text-reset">Misc-D Insurance</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Life Insurance</h6>
+                        <p><a href="#!" class="text-reset">Group Term Insurance</a></p>
+                        <p><a href="#!" class="text-reset">Term Life Insurance</a></p>
+                        <p><a href="#!" class="text-reset">1 Crore Term Insurance</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Resources</h6>
+                        <p><a href="#!" class="text-reset">POSP Partner</a></p>
+                        <p><a href="#!" class="text-reset">Tutorial</a></p>
+                        <p><a href="#!" class="text-reset">Video Tutorial</a></p>
+                        <p><a href="#!" class="text-reset">Article</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">About Us</h6>
+                        <p><a href="#!" class="text-reset">Terms of Service</a></p>
+                        <p><a href="#!" class="text-reset">Privacy Policy</a></p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+
+                <!-- Second row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+
+                        <p>
+                            <i class="fa-solid fa-location-dot pe-2"></i> Booth No. 13, Anaj
+                            Mandi, Bhattu Mandi, Bhattu Kalan, Fatehbad, Haryana - 125053
+                        </p>
+
+                        <p><i class="fa-solid fa-phone-volume pe-2"></i>+91 8390008390</p>
+                        <p>
+                            <i class="fa-solid fa-envelope pe-2"></i> info@aapkapolicywala.com
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Follow us on</h6>
+                        <div class="social-icons">
+                            <a href="#!" class="text-reset"><i class="fab fa-instagram fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-linkedin fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-pinterest fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-youtube fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-facebook-f fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-twitter fa-lg"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Grid column -->
+                </div>
+                <!-- Second row -->
+            </div>
+        </div>
+        <!-- Section: Links -->
+
+        <!-- Copyright -->
+        <div class="text-center description p-4" style="background-color: rgba(0, 0, 0, 0.05)">
+            <p class="description-heading-1 py-2 text-center">
+                Aapka Policywala Insurance
+                <span style="color: #e89e3f">Broking Services</span> Pvt. Ltd.
+            </p>
+            <p class="description-para-1 py-2 text-center">
+                IRDAI Registration Code: IRDAI / DB1058 / 2023 | IRDAI Registration
+                No.: 933| Category: Direct (Life & General) | License Valid:
+                19.01.2024 - 18.01.2027
+            </p>
+            <p class="text-left disclaimer py-5">
+                <b>Disclaimer:</b>Insurance is the subject matter of solicitation.
+                Visitors are hereby informed that their information submitted on the
+                website may be shared with insurers. The product information for
+                comparison displayed on this website is of the insurers with whom our
+                company has an agreement. Product information is authentic and solely
+                based on the information received from the Insurer.
+            </p>
+        </div>
+    </footer>
+
+    <!-- end -->
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz4fnFO9gybBogGz9qQJbXUjXT1ZtAn1Ry5zVSrK7SwppV8xv8Q5XlWJ9Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-pprn3073KE6tl6ERvA6knXKa2QKN8R6bJ5L3VGsBzHrtvPpBfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>

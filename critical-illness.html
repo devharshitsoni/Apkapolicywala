@@ -1,0 +1,1353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apna Policy</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Ribeye&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@100..900&display=swap" rel="stylesheet" />
+
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-none d-lg-flex" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>General Insurance</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>Life Insurance</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>Knowledge Base</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><span>Become a Posp Partner</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><span>Contact us</span></a>
+                    </li>
+                </ul>
+                <button class="main-btn ms-4">Sign up</button>
+            </div>
+            <div class="offcanvas offcanvas-end offcanvas-glass d-lg-none" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <a href="#" class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./images/logo.png"
+                            alt="" /></a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                General Insurance
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Life Insurance
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Knowledge Base
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Become a Posp Partner</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- end navabr -->
+
+    <!-- head -->
+
+    <div class="container-fluid general px-5 my-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 col-md-6">
+                    <div class="section-title text-left mb-5">
+                        <h1 class="renew-title">
+                            Buy <span>Critical illness</span> Term Insurance Online
+                        </h1>
+                        <p class="">
+                            Going through a critical illness can be daunting, both emotionally
+                            and financially. That’s where a critical illness insurance policy
+                            comes in handy! Aapka Policywala – a trusted online insurance
+                            company in India –provides term insurance plans that offer
+                            critical disease coverage and peace ofmind. This policy will
+                            ensure you have the support you need when you need itmost. Secure
+                            your health and financial status by opting for the safety net
+                            ofcritical illness insurance today!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="health-img">
+                        <img src="./images/critical-illness.png" class="img-fluid w-100 py-4" alt="Image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+
+    <!-- Understanding Critical Illness Insurance-->
+    <div class="container px-5 my-3">
+        <div class="row g-2 align-items-center">
+            <div class="section-title text-center ">
+                <h1 class="mb-4 text-center">
+                    Understanding <span> Critical Illness</span> Insurance
+                </h1>
+            </div>
+
+            <p class="posp-para">
+                Critical illness insurance is a specialized form of coverage designed
+                to provide financial assistance in the event of a serious medical
+                diagnosis. It offers a lump- sum payment upon the diagnosis of a
+                covered condition. This payment can be used to cover various expenses
+                such as medical bills, ongoing treatment costs, or even everyday
+                expenses like mortgage payments or childcare.
+                <br />
+                <br />
+                With the best critical illness insurance plan, policyholders get
+                additional support to navigate the financial challenges that often
+                accompany serious illnesses like cancer. This allows them to focus on
+                their recovery without worrying aboutfinancial strain.
+            </p>
+        </div>
+    </div>
+
+    <!-- end -->
+
+    <!--Why Buy a Critical Insurance Policy? -->
+
+    <div class="container py-3">
+        <div class="row g-3 align-items-center">
+            <div class="section-title">
+                <h1 class="text-center">
+                    <span> Why Buy </span>a Critical Insurance Policy?
+                </h1>
+            </div>
+            <p class="posp-para text-left px-5">
+                Health remains an invaluable thread, weaving through our aspirations
+                and endeavors. Yet, amidst the unpredictability of existence, the
+                spectre of critical illnesses looms large, threatening to unravel the
+                fabric of our well-being and financial stability.*Enters critical
+                illness insurance*A beacon of hope, it offers not just protection but
+                a lifeline during times of health crisis. Here are reasons to purchase
+                this type of policy:
+            </p>
+
+            <div class="container my-5">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Comprehensive Coverage</h2>
+                                        <p class="posp-para">
+                                            Critical illness insurance policy offers a broad range
+                                            of coverage. This includes major illnesses like cancer,
+                                            heart attack, and stroke. It makes sure that you’re
+                                            protected against life’s unexpected curveballs.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Lump Sum Payout</h2>
+                                        <p class="posp-para">
+                                            Upon diagnosis of a covered condition, critical illness
+                                            insurance provides a lump- sum payment. It gives you
+                                            immediate financial support to cover medical expenses,
+                                            household bills, or any other needs that arise.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Flexibility in Use</h2>
+                                        <p class="posp-para">
+                                            Whether it’s medical treatment costs, rehabilitation
+                                            expenses, or simply maintaining your lifestyle during
+                                            recovery, the payout from critical illness insurance
+                                            bought at Aapka Policywala can be used as you see fit.
+                                            It will provide you with the flexibility you need during
+                                            a challenging time.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>No Restriction on Providers</h2>
+                                        <p class="posp-para">
+                                            Unlike some health insurance plans that limit you to
+                                            specific providers or networks, critical illness
+                                            insurance policy allows you the freedom to select your
+                                            preferred healthcare professionals and facilities,
+                                            ensuring you receive the best possible care.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Renewable Policies</h2>
+                                        <p class="posp-para">
+                                            With renewable policies, you have the option to extend
+                                            your coverage beyond the initial term. Put simply, you
+                                            will get long-term protection and peace of mind for you
+                                            and your loved ones.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Tax Benefits</h2>
+                                        <p class="posp-para">
+                                            Depending on your country’s tax laws, critical illness
+                                            insurance premiums and payouts may offer tax benefits.
+                                            They will help you save money while securing your
+                                            financial future.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Added Security</h2>
+                                        <p class="posp-para">
+                                            Beyond financial assistance, critical illness insurance
+                                            provides emotional security. Meaning, you will be aware
+                                            that you have a safety net in place to support you and
+                                            your family during times of medical emergency.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+
+    <!--Why Us for Buying Critical Illness Insurance? -->
+
+    <div class="container py-3">
+        <div class="row g-3 align-items-center">
+            <div class="section-title">
+                <h1 class="text-center">
+                    Why Us for Buying <span>Critical Illness Insurance?</span>
+                </h1>
+            </div>
+            <p class="posp-para text-left px-5">
+                Embarking on the journey of selecting critical illness insurance can
+                be daunting. But with Aapka Policywala, the path becomes clearer and
+                benefits are more prominent! Here are some compelling reasons why
+                buying critical illness insurance on our platform is a good decision:
+            </p>
+
+            <div class="container my-5">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Diverse Selection</h2>
+                                        <p class="posp-para">
+                                            Aapka Policywala curates a comprehensive array of
+                                            critical illness insurance plans from top-rated medical
+                                            insurance companies. With a diverse selection at your
+                                            fingertips, you can compare and choose the policy that
+                                            best aligns with your needs and budget.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Expert Guidance</h2>
+                                        <p class="posp-para">
+                                            Navigating the intricacies of critical illness insurance
+                                            can be overwhelming. But fear not! Aapka Policywala’s
+                                            team of experienced POSP agents is here to assist you
+                                            every step of the way. From understanding policy terms
+                                            to clarifying coverage details, count on expert guidance
+                                            to make informed decisions.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Transparent Comparison</h2>
+                                        <p class="posp-para">
+                                            Transparency is paramount at Aapka Policywala. Our
+                                            platform empowers you with the tools to compare critical
+                                            illness insurance plans side by side. Meaning, you will
+                                            have full idea about cheapest premiums, coverage limits,
+                                            and additional benefits. Make confident choices backed
+                                            by clear insights!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Customized Solutions</h2>
+                                        <p class="posp-para">
+                                            We understand that every individual’s critical disease
+                                            insurance needs are unique. That’s why Aapka Policywala
+                                            offers personalized solutions tailored to your specific
+                                            requirements. Whether you’re seeking extensive medical
+                                            coverage for a family or cheapest individual protection,
+                                            find the perfect fit on Aapka Policywala.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Seamless Experience</h2>
+                                        <p class="posp-para">
+                                            At Aapka Policywala, convenience is key. Our
+                                            user-friendly platform streamlines the entire insurance
+                                            buying process. Enjoy a seamless experience from start
+                                            to finish. That too backed by cutting-edge technology
+                                            and unwavering support.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+
+    <!--Tips for Choosing a Critical Illness Plan -->
+
+    <div class="container py-2">
+        
+            <div class="row g-5 align-items-center">
+                <div class="section-title mb-">
+                    <h1 class="mb-4 text-left">
+                        Tips for Choosing a <span>Critical Illness Plan</span>
+                    </h1>
+                    <p class="posp-para text-left">
+                        In the labyrinth of critical illness insurance options, finding
+                        the perfect fit requires a strategic approach tailored to your
+                        unique circumstances. Here’s a roadmap for selecting the most
+                        suitable plan:
+                    </p>
+                </div>
+            </div>
+
+            <div class="container my-2">
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered custom-table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Number</th>
+                                <th scope="col">Features</th>
+                                <th scope="col">Benefits</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><b>1</b></td>
+                                <td><b>Coverage Spectrum</b></td>
+                                <td>
+                                    Survey the landscape of covered critical illnesses within
+                                    each plan. Make sure that the spectrum aligns with your
+                                    individual health risks and familial medical history. A
+                                    thorough examination here lays the groundwork for
+                                    comprehensive protection.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>2</b></td>
+                                <td><b>Sum Insured Selection</b></td>
+                                <td>
+                                    Set sail with an ample sum insured that accounts for not
+                                    only medical expenses but also living costs and potential
+                                    income disruptions during the recovery phase. The right sum
+                                    ensures smooth sailing even amidst the storm of illness.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>3</b></td>
+                                <td><b>Patience Pays</b></td>
+                                <td>
+                                    Delve into the depths of waiting periods associated with
+                                    different critical illnesses. Try to understand these
+                                    timeframes. Because by doing so, you will be equipped with
+                                    the foresight needed to assess the policy’s efficacy in
+                                    scenarios of early diagnosis. Remember, patience is indeed a
+                                    virtue!
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>4</b></td>
+                                <td><b>Exclusions Unveiled</b></td>
+                                <td>
+                                    Illuminate the shadows of critical health policy exclusions
+                                    to preempt any surprises when the time comes to file a
+                                    claim. Familiarizing yourself with what’s not covered is
+                                    just as crucial as knowing what is.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>5</b></td>
+                                <td><b>Premium Parity</b></td>
+                                <td>
+                                    Plot a course through the seas of premium costs. Compare the
+                                    offerings of various plans while evaluating their value
+                                    proposition in terms of coverage and benefits. We have
+                                    partnered with companies that have the cheapest insurance
+                                    premiums for critical illness plans!
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        
+    </div>
+
+    <!-- end -->
+
+    <!--Purchasing Critical Illness Insurance Online-->
+    <div class="container px-5 my-3">
+        <div class="row g-3 align-items-center">
+            <div class="section-title text-center">
+                <h1 class="text-center">
+                    <span> Purchasing Critical Illness</span> Insurance Online
+                </h1>
+            </div>
+            <p class="posp-para">
+                When it comes to securing critical illness insurance policy online,
+                Aapka Policywala stands as your trusted ally. We offer a seamless
+                pathway to finding the perfect policy amidst a plethora of options.
+                <br />
+                <br />
+
+                Here’s a step-by-step guide to acquiring critical illness insurance
+                through ourplatform:
+            </p>
+
+            <div class="">
+                <p class="posp-para">
+                    <b> Exploration Phase:</b>Begin your journey by visiting the Aapka
+                    Policywala’s website. Explore the diverse array of critical illness
+                    insurance plans listed from reputable third-party insurers. Looking
+                    for the cheapest critical illness plans? We have got them!
+                </p>
+                <p class="posp-para">
+                    <b> Comparison Tools: </b>Utilize our intuitive comparison tools to
+                    juxtapose the features, coverage, and premiums of various plans side
+                    by side. Filter options based on your specific requirements such as
+                    coverage amount, waiting period, or premium affordability.
+                </p>
+
+                <p class="posp-para">
+                    <b> Informed Decision–Making:</b> Armed with comprehensive insights,
+                    make an informed decision that aligns with your unique needs and
+                    preferences. Leverage expert advice from our team of insurance
+                    advisors to clarify any queries or uncertainties.
+                </p>
+                <p class="posp-para">
+                    <b> Seamless Purchase Process:</b> Once you’ve identified the ideal
+                    critical illness insurance plan, initiate the purchase process
+                    effortlessly through our platform. Complete the necessary
+                    documentation and payment steps securely and conveniently online
+                </p>
+                <p class="posp-para">
+                    <b> Policy Issuance and Confirmation:</b> Upon successful completion
+                    of the purchase process, receive instant confirmation of your policy
+                    issuance. Access your policy documents and details through our
+                    user-friendly interface for future reference.
+                </p>
+                <p class="posp-para">
+                    <b>Post–Purchase Support:</b> Rest assured knowing that Aapka
+                    Policywala is committed to providing ongoing support throughout your
+                    critical illness insurance policy journey. Stay informed about
+                    policy updates, renewal reminders, and other relevant information to
+                    ensure continuous coverage
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- end -->
+
+    <!-- How to Claim Critical Illness Insurance? -->
+
+    <div class="container py-3">
+        <div class="section-title">
+            <h1 class="mb-4 text-center pb-5">
+                How to Claim <span>Critical Illness Insurance?</span>
+            </h1>
+        </div>
+
+        <div class="row number-cards g-3">
+            <!-- Repeat this block for each card -->
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">1</div>
+                <div class="custom-card-v11">
+                    <p><b>Critical Illness Diagnosis</b></p>
+                    <p>
+                        Upon receiving a diagnosis of a critical illness covered by your
+                        policy, promptly notify Aapka Policywala as well as the insurance
+                        company. Gather medical reports and relevant documents to
+                        substantiate your claim.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">2</div>
+                <div class="custom-card-v11">
+                    <p><b>Intimation to the Insurer</b></p>
+                    <p>
+                        Reach out to our customer service or claims department to notify
+                        about the critical illness diagnosis. Follow the insurer’s
+                        guidelines for communication, whether via phone, email, or their
+                        designated online portal.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">3</div>
+
+                <div class="custom-card-v11">
+                    <p><b>Claim Documentation</b></p>
+                    <p>
+                        Our POSPs will furnish a checklist of required documents for claim
+                        processing. Complete the claim form and gather essential documents
+                        such as medical reports, attending doctor’s statement, and
+                        hospitalization records.
+                    </p>
+                </div>
+            </div>
+            <!-- Continue this pattern to create up to 12 cards -->
+            <!-- Example for the 4th card -->
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">4</div>
+
+                <div class="custom-card-v11">
+                    <p><b>Claim Submission</b></p>
+                    <p>
+                        Submit the completed claim form along with all necessary documents
+                        to us, and insurance company. Remember, accuracy and completeness
+                        are important here to expedite the claim processing timeline.
+                    </p>
+                </div>
+            </div>
+            <!-- Add more cards as needed -->
+            <!-- Example for the 5th card -->
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">5</div>
+
+                <div class="custom-card-v11">
+                    <p><b>Claim Verification</b></p>
+                    <p>
+                        We will meticulously review the submitted documents and may
+                        conduct additional verification such as contacting medical
+                        professionals or hospitals involved in your treatment.
+                    </p>
+                </div>
+            </div>
+            <!-- Example for the 6th card -->
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">6</div>
+
+                <div class="custom-card-v11">
+                    <p><b>Claim Settlement</b></p>
+                    <p>
+                        Upon approval and verification, the insurer (from whom you bought
+                        critical insurance policy using our platform) will proceed with
+                        claim settlement. The payout will be disbursed to the policyholder
+                        or nominee in accordance with the policy terms and conditions.
+                    </p>
+                </div>
+            </div>
+            <!-- Continue until the 12th card -->
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">7</div>
+
+                <div class="custom-card-v11">
+                    <p><b>Rejection or Query</b></p>
+                    <p>
+                        In the event of discrepancies or missing information, the
+                        insurance company may raise queries or request additional
+                        documentation. Claims found ineligible as per policy terms may be
+                        rejected, with reasons communicated to the policyholder.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">8</div>
+
+                <div class="custom-card-v11">
+                    <p><b>Discharge Voucher (Optional)</b></p>
+                    <p>
+                        Some insurers may provide a discharge voucher, facilitating
+                        cashless treatment at network hospitals. In fact, the insurance
+                        company will settle bills directly with the hospital. This will
+                        ease financial burdens during treatment.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end -->
+
+    <!--Health Insurance vs. Critical Illness Insurance-->
+
+    <div class="container py-3">
+       
+            <div class="row g-3 align-items-center">
+                <div class="section-title mb-">
+                    <h1 class="mb-4 text-center">
+                        Health Insurance vs. <span>Critical Illness</span> Insurance
+                    </h1>
+                </div>
+                <p class="posp-para">
+                    While both health insurance and critical illness insurance serve as
+                    pillars of financial protection against medical expenses, they
+                    diverge significantly in coverage, payout mechanisms, and
+                    overarching purposes. Here’s what sets these two vital forms of
+                    insurance apart:
+                </p>
+            </div>
+
+            <div class="container my-5">
+                <div class="table-responsive">
+                    <table class="custom-table">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Health Insurance</th>
+                                <th>Critical Illness</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td><b>Coverage</b></td>
+                                <td>
+                                    The comprehensive shield of health insurance encompasses an
+                                    extensive array of medical expenses, spanning
+                                    hospitalization costs, doctor consultations, diagnostic
+                                    procedures, surgeries, and treatments for diverse illnesses
+                                    and injuries.
+                                </td>
+                                <td>
+                                    Critical illness insurance, on the other hand, hones in on
+                                    specific critical illnesses delineated within the policy.
+                                    These typically encompass grave conditions like cancer,
+                                    heart attacks, strokes, kidney failure, and major organ
+                                    transplants, offering a lump sum payout upon diagnosis.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Purpose</b></td>
+                                <td>
+                                    The primary aim of health insurance is to furnish
+                                    financial security against the hefty burden of
+                                    medical treatments and hospital stays. It ensures
+                                    individuals canaccess quality healthcare without
+                                    grappling with exorbitant expenses.
+                                </td>
+                                <td>
+                                    About critical illness insurance, well, it is a tailor-
+                                    made policy that extends a financial safety net,
+                                    especially when the harrowing diagnosis of a
+                                    critical illness strikes. The lump sum payout
+                                    empowers policyholders to manage medical costs,
+                                    explore alternative therapies, and sustain their
+                                    livelihoods during the recovery phase.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Claim Payout</b></td>
+                                <td>
+                                    Claim reimbursements in health insurance are
+                                    contingent upon the actual medical expenses
+                                    incurred by the insured. The insurer reimburses
+                                    these costs, subject to policy limits and exclusions.
+                                </td>
+                                <td>
+                                    In stark contrast, critical illness insurance offers a
+                                    lump sum payout upon the diagnosis of a covered
+                                    critical illness, irrespective of the incurred medical
+                                    expenses. This lump sum serves as a lifeline,
+                                    affording immediate financial relief to navigate the
+                                    challenges ahead.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Policy Term</b></td>
+                                <td>
+                                    Typically, health insurance policies operate on an
+                                    annual basis, necessitating renewal each year to
+                                    sustain coverage.
+                                </td>
+                                <td>
+                                    Critical illness insurance may be procured as
+                                    standalone policies or appended as riders to a
+                                    health insurance plan. They may feature specific
+                                    terms or remain effective until the diagnosis of a
+                                    critical illness.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Scope of Coverage</b></td>
+                                <td>
+                                    With its expansive scope, health insurance
+                                    blankets a broad spectrum of medical conditions,
+                                    accidents, and injuries, furnishing holistic
+                                    protection against myriad healthcare needs.
+                                </td>
+                                <td>
+                                    Conversely, critical illness insurance zooms in on
+                                    a targeted list of critical illnesses. Meaning, this
+                                    type of policy furnishes specialized financial
+                                    assistance tailored to these severe health
+                                    afflictions.
+                                </td>
+                            </tr>
+
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        
+    </div>
+
+    <!-- end -->
+
+
+
+
+
+
+
+    <!--Documents for Critical Illness Insurance Claims-->
+
+   
+        <div class="container py-3">
+            <div class="row g-3 align-items-center">
+                <div class="section-title mb-">
+                    <h1 class="text-center">
+                        <span>Documents</span> for Critical Illness Insurance Claims
+                    </h1>
+                </div>
+                <p class="posp-para">
+                    Gathering the following documents will guarantee a smooth and efficient claims process. Put simply,
+                    these will facilitate timely assistance and support
+                    during critical illness episodes.
+                </p>
+            </div>
+
+            <div class="container my-5">
+                <div class="table-responsive">
+                    <table class="custom-table">
+                        <thead>
+                            <tr>
+                                <th>Number</th>
+                                <th>Features</th>
+                                <th>Use</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td><b>1</b></td>
+                                <td>
+                                    Claim Form
+                                </td>
+                                <td>
+                                    Ensure the claim form provided by the insurance company is completed accurately and
+                                    signed.
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><b>2</b></td>
+                                <td>
+                                    Diagnosis Report
+                                </td>
+                                <td>
+                                    Obtain medical reports confirming the critical illness diagnosis from a qualified
+                                    medical practitioner
+                                    or specialist.
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><b>3</b></td>
+                                <td>
+                                    Medical Records
+                                </td>
+                                <td>
+                                    Compile relevant medical records including hospitalization reports and treatment
+                                    details pertaining
+                                    to the critical illness.
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><b>4</b></td>
+                                <td>
+                                    Attending Doctor’s Statement
+                                </td>
+                                <td>
+                                    Request a statement from the treating doctor outlining the critical illness, its
+                                    severity, and the
+                                    treatment administered.
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><b>5</b></td>
+                                <td>
+                                    Test Reports
+                                </td>
+                                <td>
+                                    Include results from medical tests, scans, or imaging studies that support the
+                                    diagnosis of the
+                                    critical illness.
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><b>6</b></td>
+                                <td>
+                                    Discharge Summary
+                                </td>
+                                <td>
+                                    If hospitalised, provide a discharge summary from the hospital detailing the
+                                    duration of hospital
+                                    stay and treatments received.
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><b>7</b></td>
+                                <td>
+                                    Policy Document
+                                </td>
+                                <td>
+                                    Furnish a copy of the critical illness insurance policy document to verify coverage
+                                    details and policy
+                                    terms.
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><b>8</b></td>
+                                <td>
+                                    Identity Proof
+                                </td>
+                                <td>
+                                    Submit a copy of the insured individual’s identity proof such as Aadhar card,
+                                    passport, or driver’s
+                                    license.
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><b>9</b></td>
+                                <td>
+                                    Address Proof
+                                </td>
+                                <td>
+                                    Include a copy of the insured’s address proof such as utility bills to validate
+                                    residency.
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td><b>10</b></td>
+                                <td>
+                                    Bank Account Details
+                                </td>
+                                <td>
+                                    Provide accurate bank account information where the claim amount is to be credited
+                                    for seamless
+                                    transaction processing.
+                                </td>
+                            </tr>
+
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+  
+
+    <!-- end -->
+
+
+
+
+
+
+<!-- testimonil -->
+
+<div class="container-fluid py-2">
+
+    <div class="row g-2 align-items-center">
+        <div class="section-title text-center ">
+            <h1 class="mb-4 text-center">
+                <span>Health Insurance</span> Renewal Reviews
+            </h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, nihil.</p>
+        </div>
+    </div>
+    <div class="container py-5" id="testimonials">
+        <div class="slider">
+            <div class="slide-track testimonial-container">
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-1.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">SUZANA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-2.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">LÍVIA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-3.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">KÁTIA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-4.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">MATHEUS</p>
+                    </div>
+                </div>
+                <!-- Duplicate the slides to create an infinite loop effect -->
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-1.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">SUZANA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-2.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">LÍVIA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-3.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">KÁTIA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-4.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">MATHEUS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+<script>
+    document.querySelector('.slider').addEventListener('mouseover', function () {
+        document.querySelector('.slide-track').style.animationPlayState = 'paused';
+    });
+
+    document.querySelector('.slider').addEventListener('mouseout', function () {
+        document.querySelector('.slide-track').style.animationPlayState = 'running';
+    });
+</script>
+<!-- end -->
+
+  
+ <!-- get or renew -->
+ <div class="container-fluid team py-3 mt-5">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="0.4s">
+                <div class="section-title text-left mb-5">
+                    <h1 class="mb-4 renew-title">
+                        <span> Get or Renew</span> Your Insurance with Aapka Policywala
+                    </h1>
+                    <p class="mb-4 renew-para">
+                        We are just a call away. Feel free to contact us
+                    </p>
+                    <button class="main-btn"><a href="#">Contact Us </a></button>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="health-img ps-md-5">
+                    <img src="./images/renew.png" class="img-fluid w-100" alt="Image" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- end -->
+
+
+<!-- Footer -->
+<footer class="text-center text-lg-start footer-2 text-muted">
+    <!-- Section: Links  -->
+    <div class="p-4">
+        <div class="container text-center text-md-start">
+            <!-- Grid row -->
+            <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">Motor Insurance</h6>
+                    <p><a href="#!" class="text-reset">Car Insurance</a></p>
+                    <p><a href="#!" class="text-reset">Two Wheeler</a></p>
+                    <p><a href="#!" class="text-reset">Goods Carrying</a></p>
+                    <p><a href="#!" class="text-reset">Passenger Carrying</a></p>
+                    <p><a href="#!" class="text-reset">Misc-D Insurance</a></p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">Life Insurance</h6>
+                    <p><a href="#!" class="text-reset">Group Term Insurance</a></p>
+                    <p><a href="#!" class="text-reset">Term Life Insurance</a></p>
+                    <p><a href="#!" class="text-reset">1 Crore Term Insurance</a></p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">Resources</h6>
+                    <p><a href="#!" class="text-reset">POSP Partner</a></p>
+                    <p><a href="#!" class="text-reset">Tutorial</a></p>
+                    <p><a href="#!" class="text-reset">Video Tutorial</a></p>
+                    <p><a href="#!" class="text-reset">Article</a></p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">About Us</h6>
+                    <p><a href="#!" class="text-reset">Terms of Service</a></p>
+                    <p><a href="#!" class="text-reset">Privacy Policy</a></p>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+
+            <!-- Second row -->
+            <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+
+                    <p>
+                        <i class="fa-solid fa-location-dot pe-2"></i> Booth No. 13, Anaj
+                        Mandi, Bhattu Mandi, Bhattu Kalan, Fatehbad, Haryana - 125053
+                    </p>
+
+                    <p><i class="fa-solid fa-phone-volume pe-2"></i>+91 8390008390</p>
+                    <p>
+                        <i class="fa-solid fa-envelope pe-2"></i> info@aapkapolicywala.com
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">Follow us on</h6>
+                    <div class="social-icons">
+                        <a href="#!" class="text-reset"><i class="fab fa-instagram fa-lg"></i></a>
+                        <a href="#!" class="text-reset"><i class="fab fa-linkedin fa-lg"></i></a>
+                        <a href="#!" class="text-reset"><i class="fab fa-pinterest fa-lg"></i></a>
+                        <a href="#!" class="text-reset"><i class="fab fa-youtube fa-lg"></i></a>
+                        <a href="#!" class="text-reset"><i class="fab fa-facebook-f fa-lg"></i></a>
+                        <a href="#!" class="text-reset"><i class="fab fa-twitter fa-lg"></i></a>
+                    </div>
+                </div>
+
+                <!-- Grid column -->
+            </div>
+            <!-- Second row -->
+        </div>
+    </div>
+    <!-- Section: Links -->
+
+    <!-- Copyright -->
+    <div class="text-center description p-4" style="background-color: rgba(0, 0, 0, 0.05)">
+        <p class="description-heading-1 py-2 text-center">
+            Aapka Policywala Insurance
+            <span style="color: #e89e3f">Broking Services</span> Pvt. Ltd.
+        </p>
+        <p class="description-para-1 py-2 text-center">
+            IRDAI Registration Code: IRDAI / DB1058 / 2023 | IRDAI Registration
+            No.: 933| Category: Direct (Life & General) | License Valid:
+            19.01.2024 - 18.01.2027
+        </p>
+        <p class="text-left disclaimer py-5">
+            <b>Disclaimer:</b>Insurance is the subject matter of solicitation.
+            Visitors are hereby informed that their information submitted on the
+            website may be shared with insurers. The product information for
+            comparison displayed on this website is of the insurers with whom our
+            company has an agreement. Product information is authentic and solely
+            based on the information received from the Insurer.
+        </p>
+    </div>
+</footer>
+
+<!-- end -->
+
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="./js.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz4fnFO9gybBogGz9qQJbXUjXT1ZtAn1Ry5zVSrK7SwppV8xv8Q5XlWJ9Q"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+    integrity="sha384-pprn3073KE6tl6ERvA6knXKa2QKN8R6bJ5L3VGsBzHrtvPpBfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

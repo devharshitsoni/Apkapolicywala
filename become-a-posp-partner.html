@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Apna Policy</title>
+        <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+      
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+          rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Ribeye&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@100..900&display=swap" rel="stylesheet" />
+      
+        <!-- icon -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+          integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+      
+        <!-- bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+        <!-- stylesheet -->
+        <link rel="stylesheet" href="./footer.css">
+        <link rel="stylesheet" href="./style.css" />
+      
+      
+      </head>
+      
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-none d-lg-flex" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>General Insurance</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>Life Insurance</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>Knowledge Base</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><span>Become a Posp Partner</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><span>Contact us</span></a>
+                    </li>
+                </ul>
+                <button class="main-btn ms-4">Sign up</button>
+            </div>
+            <div class="offcanvas offcanvas-end offcanvas-glass d-lg-none" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <a href="#" class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./images/logo.png"
+                            alt="" /></a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                General Insurance
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Life Insurance
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Knowledge Base
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Become a Posp Partner</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- end navabr -->
+
+    <!-- join the team -->
+    <div class="container-fluid posp py-2 ">
+      <div class="container">
+        <div class="row g-2 align-items-center">
+          
+
+            <div class="col-lg-7 col-md-6 wow fadeInRight py-3">
+                <div class="section-title text-left ">
+                    <h1 class=" text-left text-uppercase">
+                        Join the team. <br> Become a <span> POSP Partner</span>
+                    </h1>
+                </div>
+                <p class="mb-4 para-2 ps-0 text-left">
+                    Embark on a journey towards self-sustainability and financial
+                    independence with Aapka Policywala as a Point of Sales Person
+                    (POSP). As a POSP, you’ll have the freedom to craft your own income
+                    stream and thrive as an independent insurance agent dealing in all
+                    types of policies, be it health, life insurance, business, travel,
+                    or motor insurance policies.
+                </p>
+                <button class="main-btn"><a href="#">Become POSP Today</a></button>
+            </div>
+            <div class="col-lg-5 col-md-6 wow fadeInLeft">
+                <div class="health-img pb-0 ps-md-5">
+                    <img src="./images/join-team.svg" class="img-fluid rounded w-100"
+                        style="object-fit: cover; height: 100%" alt="join the team" />
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end -->
+    <!-- who is posp -->
+    <div class="container  my-3">
+        <div class="row g-2 align-items-center">
+            <div class="section-title text-center ">
+                <h1 class="mb-2 text-center">Who is a <span>POSP?</span></h1>
+            </div>
+
+            <p class="posp-para">
+                POSP (Point of Sales Person) refers to an individual who acts as a
+                sales agent or intermediary for insurance products and services. They
+                play a crucial role in the distribution and sale of insurance policies
+                to customers. POSPs are authorized by insurance companies or
+                intermediaries to sell insurance products directly to customers at the
+                point of sale. The concept of POSP was introduced to extend the reach
+                of insurance services and make them more accessible to customers,
+                especially in areas where traditional insurance agents might not be
+                readily available. POSPs often operate on a commission-based model,
+                earning a commission on the insurance policies they sell.
+            </p>
+
+            <div class="">
+                <h5 class="mb-2">Key characteristics of a POSP:</h5>
+                <p class="posp-para">
+                    <b>Direct Sales:</b> POSPs engage in direct sales of insurance
+                    products to customers. They may approach potential clients, offer
+                    insurance solutions, explain policy details, and facilitate the
+                    purchase of insurance plans.
+                </p>
+                <p class="posp-para">
+                    <b> Product Knowledge:</b> POSPs are required to have a good
+                    understanding of the insurance products they are selling. They
+                    should be able to explain policy features, benefits, terms, and
+                    conditions to customers.
+                </p>
+
+                <p class="posp-para">
+                    <b> Training and Certification:</b> In many jurisdictions, POSPs are
+                    required to undergo training and obtain certification from insurance
+                    regulators or companies to ensure they are well-informed about the
+                    insurance industry and adhere to ethical practices.
+                </p>
+                <p class="posp-para">
+                    <b> Digital Enablement:</b> Many POSPs leverage digital platforms
+                    and technology to facilitate the sales process. This includes using
+                    online portals or mobile applications to provide quotes, complete
+                    applications, and issue insurance policies.
+                </p>
+                <p class="posp-para">
+                    <b>Distribution Channels:</b> POSPs may operate through various
+                    distribution channels, such as insurance company branches, banks,
+                    online platforms, or insurance aggregators.
+                </p>
+                <p class="posp-para">
+                    <b>Insurance Categories:</b> POSPs may deal with different types of
+                    insurance products, including life insurance, health insurance,
+                    motor insurance, and more. Become a POSP agent with Aapka Policy,
+                    the leading online insurance company of India to start a
+                    high-earning full-time or part-time career!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- end -->
+
+    <!-- Advantages to Working as a Aapka Policywala Point of Sale Person -->
+    
+    <div class="container-fluid ">
+        <div class="container">
+            <div class="row g-4">
+                <div class="section-title text-center">
+                    <h1 class=" text-center">
+                        <span>Advantages to Working</span> as a Aapka Policywala Point of Sale Person
+                    </h1>
+                </div>
+    
+                <div class="row g-4 justify-content-center">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text">
+                                <img src="./images/posp-partner/Financial-planning.svg" alt="">
+                                <p class="head">Financial Independence:</p>
+                                <p class="para">
+                                    As a POSP with Aapka Policywala, you have the opportunity to
+                                    design your own source of income. You can earn commissions
+                                    on the insurance policies you sell, giving you the potential
+                                    to increase your earnings based on your efforts and sales
+                                    performance.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text">
+                                <img src="./images/posp-partner/Idea.svg" alt="">
+                                <p class="head">Flexibility</p>
+                                <p class="para">
+                                    Working as a POSP provides you with the flexibility to set
+                                    your own working hours. You can choose when and how much you
+                                    want to work, allowing you to strike a work-life balance
+                                    that suits your personal needs.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text">
+                                <img src="./images/posp-partner/entrepreneurship.svg" alt="">
+                                <p class="head">Entrepreneurship</p>
+                                <p class="para">
+                                    Aapka Policywala empowers you to become an entrepreneur
+                                    within the insurance industry. You can build your own
+                                    client base, develop your business strategies, and grow your
+                                    income stream independently.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text">
+                                <img src="./images/posp-partner/training.svg" alt="">
+                                <p class="head">Training and Support</p>
+                                <p class="para">
+                                    Aapka Policywala provides comprehensive training and
+                                    continuous support to POSPs. You will receive the necessary
+                                    knowledge, tools, and resources to succeed in the insurance
+                                    market and serve your clients effectively.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text">
+                                <img src="./images/posp-partner/vast-product.svg" alt="">
+                                <p class="head">Vast Product Portfolio</p>
+                                <p class="para">
+                                    Aapka Policywala offers a wide range of insurance products,
+                                    including life insurance, health insurance, motor insurance,
+                                    and more. This diverse product portfolio enables you to
+                                    cater to the varied needs of your clients and provide them
+                                    with suitable insurance solutions.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text">
+                                <img src="./images/posp-partner/Digital-contract.svg" alt="">
+                                <p class="head">Digital Enablement</p>
+                                <p class="para">
+                                    Aapka Policywala leverages digital platforms and technology,
+                                    making it easier for you to manage your clients, track
+                                    policies, and access training materials. The online tools
+                                    provided by the company streamline your workflow and enhance
+                                    your productivity.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text">
+                                <img src="./images/posp-partner/recognition.svg" alt="">
+                                <p class="head">Recognition and Incentives</p>
+                                <p class="para">
+                                    Aapka Policywala values the contributions of its POSPs and
+                                    recognizes their achievements. The company offers attractive
+                                    incentives, rewards, and recognition programs to motivate
+                                    and encourage your performance.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text">
+                                <img src="./images/posp-partner/financial-inslusin.svg" alt="">
+                                <p class="head">Financial Inclusion</p>
+                                <p class="para">
+                                    As a POSP, you play a crucial role in promoting financial
+                                    inclusion by reaching out to underserved segments of the
+                                    population and making insurance accessible to a wider
+                                    audience.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text">
+                                <img src="./images/posp-partner/opporchunity-to-growth.svg" alt="">
+                                <p class="head">Opportunity for Growth</p>
+                                <p class="para">
+                                    Working with Aapka Policywala provides ample opportunities
+                                    for career growth and professional development. As you build
+                                    your client base and gain experience, you can progress in
+                                    your role and take on leadership positions within the
+                                    organization.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text">
+                                <img src="./images/posp-partner/satisfaction.svg" alt="">
+                                <p class="head">Satisfaction of Helping Others</p>
+                                <p class="para">
+                                    As a POSP, you provide valuable financial protection to
+                                    individuals and families, helping them secure their future.
+                                    The satisfaction of making a positive impact on people’s
+                                    lives can be personally rewarding.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- end -->
+
+    <!-- what kinds of goods -->
+
+   
+    <div class="container  my-5">
+        <div class="row g-2 align-items-center">
+            <div class="section-title text-center ">
+                <h1 class="mb-2 text-center">
+                    What <span>kind of goods</span> can be offered through POSP?
+                </h1>
+            </div>
+
+            <p class="posp-para">
+                A POSP Partner can sell the most important vital policies by analysing
+                the vast scope and potential that are there in the current market.
+            </p>
+
+            <div class="">
+                <h5 class="mb-2">Key characteristics of a POSP:</h5>
+                <p class="posp-para">
+                    <b>Life Insurance:</b> POSPs can sell various types of life
+                    insurance policies, including term insurance, whole life insurance,
+                    endowment plans, and unit-linked insurance plans (ULIPs). These
+                    policies provide financial protection and investment opportunities
+                    to policyholders.
+                </p>
+                <p class="posp-para">
+                    <b>Health Insurance:</b> POSPs can offer health insurance plans that
+                    cover medical expenses, hospitalization costs, and other related
+                    medical treatments. Health insurance policies may include individual
+                    health plans, family floater policies, and critical illness
+                    insurance.
+                </p>
+
+                <p class="posp-para">
+                    <b> Motor Insurance: </b>POSPs can sell motor insurance policies
+                    that provide coverage for vehicles against damages, theft, and
+                    third-party liabilities. These policies include car insurance,
+                    two-wheeler insurance, and commercial vehicle insurance.
+                </p>
+                <p class="posp-para">
+                    <b> Travel Insurance:</b> POSPs can offer travel insurance policies
+                    that provide coverage for trip cancellations, lost baggage, medical
+                    emergencies, and other travel-related risks.
+                </p>
+                <p class="posp-para">
+                    <b> Home Insurance:</b> POSPs may sell home insurance policies that
+                    protect homes and their contents against damages caused by fire,
+                    theft, natural disasters, and other perils.
+                </p>
+                <p class="posp-para">
+                    <b> Personal Accident Insurance:</b> POSPs can offer personal
+                    accident insurance that provides coverage for accidental death,
+                    disability, and related medical expenses.
+                </p>
+                <p class="posp-para">
+                    <b> Rural and Micro-Insurance:</b> POSPs may also sell rural
+                    insurance products and micro-insurance plans tailored to the
+                    specific needs of customers in rural or low-income areas. POSPs can
+                    offer personal accident insurance that provides coverage for
+                    accidental death, disability, and related medical expenses.
+                </p>
+                <p class="posp-para">
+                    <b> Savings and Investment Products:</b> In some cases, POSPs may
+                    also offer savings and investment-linked insurance products, such as
+                    retirement plans and pension schemes.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- end -->
+
+    <!-- qualifiation to work asa posp -->
+
+    <!-- Qualifications to work as a POSp at Aapka Policywala -->
+    <div class="container py-3 my-5">
+        <div class="row g-2 align-items-center">
+            <div class="section-title posp-head text-center ">
+                <h1 class="mb-4 text-center">
+                    <span>Qualifications to work</span> as a POSP at Aapka Policywala
+                </h1>
+            </div>
+
+
+
+            <div class="container-fluid my-2">
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered custom-table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Features</th>
+                                <th scope="col">Benefits</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><b>Trip Cancellation or Interruption</b></td>
+                                <td>
+                                    Travel insurance reimburses non-refundable expenses if a trip needs to be canceled
+                                    or interrupted
+                                    due to covered reasons such as illness, injury, or unforeseen events, ensuring
+                                    travelers don’t suffer
+                                    financial losses.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Emergency Medical Expenses</b></td>
+                                <td>
+                                    Travel insurance covers emergency medical expenses incurred during the trip,
+                                    including
+                                    hospitalization, medical treatments, and medications, relieving travelers from
+                                    significant out-of-
+                                    pocket costs.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Emergency Evacuation and Repatriation</b></td>
+                                <td>
+                                    In critical situations where immediate medical evacuation is required, travel
+                                    insurance covers the
+                                    cost of transportation to the nearest medical facility or back to the insured’s home
+                                    country.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Baggage Loss or Delay</b></td>
+                                <td>
+                                    Travel insurance provides compensation for lost, stolen, or delayed baggage,
+                                    assisting travelers in
+                                    replacing essential belongings and coping with unexpected expenses.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Personal Liability</b></td>
+                                <td>
+                                    Travel insurance reimburses additional expenses caused by travel delays, such as
+                                    accommodation
+                                    and meals, ensuring travelers are taken care of until their journey can resume.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Trip Delay</b></td>
+                                <td>
+                                    Many travel insurance policies offer 24/7 emergency assistance services, providing access to 
+                                    helplines for medical emergencies, travel advice, and coordination of necessary assistance while 
+                                    abroad.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Accidental Death and Dismemberment (AD&D)</b></td>
+                                <td>
+                                    Travel insurance may cover legal expenses and compensation if the insured accidentally causes 
+                                    injury to others or damages someone’s property during the trip.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Travel Assistance Services</b></td>
+                                <td>
+                                    Some travel insurance policies offer optional coverage for adventure sports and activities, allowing 
+travelers to indulge in high-risk activities with confidence.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Emergency Cash Advance</b></td>
+                                <td>
+                                    Travel insurance protects the investment made in pre-paid travel expenses, such as flights, hotels, 
+                                    and tours, in case of trip cancellations or interruptions.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Missed Connection</b></td>
+                                <td>
+                                    Family travel insurance plans offer coverage for the entire family, providing peace of mind for parents 
+                                    traveling with children.
+                                </td>
+                            </tr>
+
+
+
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- end -->
+
+
+
+
+
+
+     <!-- get or renew -->
+ <!-- contact us section -->
+
+ <div class="container-fluid contact-us px-2 mt-2 mb-0">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="bg-contact ">
+            <div class="d-flex">
+              <div class="help-heading">
+                <p class="head text-left">Got questions? We'd love to Answer</p>
+                <p class="para text-left">
+                  With access to offerings from over 25 insurance providers in
+                  India, finding the most cost-effective insurance plans has
+                  With access to ........
+                </p>
+
+                <div class="pt-2">
+                  <a href="tel:+91123456789" class="d-flex call-bg  ">
+                    <img src="./main-page-img/call.png" alt="" />
+                    <p>+91 123456789</p>
+                  </a>
+                  <a href="mailto:Mail@aapkapolicywala.com" class="d-flex call-bg ">
+                    <img src="./main-page-img/mail.png" alt="" />
+                    <p>Mail@aapkapolicywala.com</p>
+                  </a>
+                </div>
+              </div>
+              <div class="d-none d-lg-block help-pc">
+                <img src="./main-page-img/help-pic.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- end -->
+
+<!-- end -->
+
+<!-- =====================information Strip======================== -->
+
+<div class="container-fluid information-strip">
+    <div class="container">
+      <div class="row justify-content-center my-auto sm-g-0 information-strip-inner text-center">
+        <div class="col-lg col-6 col-md-4 text-center mb-3 mb-md-0"> <!-- Added margin bottom for spacing -->
+          <p class="strip-head">24</p>
+          <p class="strip-para">YEARS</p>
+        </div>
+        <div class="col-lg col-6 col-md-4 text-center mb-3 mb-md-0">
+          <p class="strip-head">30Lakh+</p>
+          <p class="strip-para">CUSTOMERS</p>
+        </div>
+        <div class="col-lg col-6 col-md-4 text-center mb-3 mb-md-0">
+          <p class="strip-head">1100+</p>
+          <p class="strip-para">Cities</p>
+        </div>
+        <div class="col-lg col-6 col-md-4 text-center mb-3 mb-md-0">
+          <p class="strip-head">4200+</p>
+          <p class="strip-para">Outlets</p>
+        </div>
+        <div class="col-lg col-6 col-md-4 text-center mb-0 mb-md-0">
+          <p class="strip-head">3,27,301Cr+</p>
+          <p class="strip-para">CUSTOMER ASSETS</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- Footer -->
+  
+   <footer class="footer-st">
+    <!-- Disclaimer Section -->
+    <div class="footer-top-outer-st">
+      <div class="disclaimer-st">
+        <p class="disclaimer-text">
+          <b>Disclaimer:</b> Insurance is the subject matter of solicitation. Visitors are hereby informed
+          that their information submitted on the website may be shared with insurers. The product information
+          for comparison displayed on this website is of the insurers with whom our company has an agreement.
+          Product information is authentic and solely based on the information received from the Insurer.
+        </p>
+      </div>
+
+      <!-- Footer Top Section -->
+      <div class="footer-top">
+        <div class="footer-container-st">
+          <!-- Contact Info -->
+          <div class="footer-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>Booth No. 13, Anaj Mandi, <br> Bhattu Mandi, Bhattu Kalan, <br> Fatehbad, Haryana - 125053</p>
+          </div>
+          <div class="divider"></div>
+          <div class="footer-item">
+            <i class="fas fa-phone"></i>
+            <p>+91 8390008390</p>
+          </div>
+          <div class="divider"></div>
+          <div class="footer-item">
+            <i class="fas fa-envelope"></i>
+            <p>info@aapkapolicywala.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Link Section -->
+    <div class="container ">
+      <div class="row footer-menu-st">
+        <!-- Motor Insurance -->
+        <div class="column">
+          <h6 class="title-st">Motor Insurance</h6>
+          <p><a href="#">Car Insurance</a></p>
+          <p><a href="#">Two Wheeler</a></p>
+          <p><a href="#">Goods Carrying</a></p>
+          <p><a href="#">Passenger Carrying</a></p>
+          <p><a href="#">Misc-D Insurance</a></p>
+        </div>
+
+        <!-- Life Insurance -->
+        <div class="column">
+          <h6 class="title-st">Life Insurance</h6>
+          <p><a href="#">Group Term Insurance</a></p>
+          <p><a href="#">Term Life Insurance</a></p>
+          <p><a href="#">1 Crore Term Insurance</a></p>
+        </div>
+
+        <!-- Resources -->
+        <div class="column">
+          <h6 class="title-st">Resources</h6>
+          <p><a href="#">POSP Partner</a></p>
+          <p><a href="#">Tutorial</a></p>
+          <p><a href="#">Video Tutorial</a></p>
+          <p><a href="#">Article</a></p>
+        </div>
+
+        <!-- About Us -->
+        <div class="column">
+          <h6 class="title-st">About Us</h6>
+          <p><a href="#">Terms of Service</a></p>
+          <p><a href="#">Privacy Policy</a></p>
+          <p><a href="#">Solicitation Process</a></p>
+          <p><a href="#">Our History</a></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Social Icons -->
+    <div class="social-section">
+      <img src="./images/logo-dark.png" alt="Logo">
+      <div class="social-icons-st">
+        <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+        <a href="#"><i class="fab fa-linkedin fa-lg"></i></a>
+        <a href="#"><i class="fab fa-pinterest fa-lg"></i></a>
+        <a href="#"><i class="fab fa-youtube fa-lg"></i></a>
+        <a href="#"><i class="fab fa-facebook-f fa-lg"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="copyright">
+      <p class="head">
+        Aapka Policywala Insurance <span class="highlight">Broking Services</span> Pvt. Ltd.
+      </p>
+      <p>
+        IRDAI Registration Code: IRDAI / DB1058 / 2023 | IRDAI Registration No.: 933 | Category: Direct (Life &
+        General) | License Valid: 19.01.2024 - 18.01.2027 <br>
+        Principal Officer: Pardeep Kumar | Registered Office : BOOTH NO. 13, ANAJ MANDI, BHATTU MANDI, BHATTU
+        KALAN, FATEHABAD, HR, IN, 125053 | <br>
+        Corporate Address : DSS-121-G-Floor Commercial UE-ll - Hisar - Haryana Pin Code- 125005 | Email Us:
+        info@aapkapolicywala.com | Call Us: +91 8390008390
+      </p>
+      <p>
+        @Copyright 2024 Aapkapolicywala Insurance Broking Services Pvt. Ltd.
+      </p>
+    </div>
+  </footer>
+
+  
+
+    <!-- end -->
+
+    <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz4fnFO9gybBogGz9qQJbXUjXT1ZtAn1Ry5zVSrK7SwppV8xv8Q5XlWJ9Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+    integrity="sha384-pprn3073KE6tl6ERvA6knXKa2QKN8R6bJ5L3VGsBzHrtvPpBfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="./js.js"></script>
+  <!-- =================================javascript text animation link ===================== -->
+  <!--==================================== Swiper JS =====================================-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  <script src="./swiper.js"></script>
+  
+</body>
+
+</html>

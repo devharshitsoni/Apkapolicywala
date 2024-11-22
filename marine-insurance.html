@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apna Policy</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Ribeye&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@100..900&display=swap" rel="stylesheet">
+
+
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+
+
+
+</head>
+
+<body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-none d-lg-flex" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>General Insurance</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>Life Insurance</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>Knowledge Base</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><span>Become a Posp Partner</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><span>Contact us</span></a>
+                    </li>
+                </ul>
+                <button class="main-btn ms-4">Sign up</button>
+            </div>
+            <div class="offcanvas offcanvas-end offcanvas-glass d-lg-none" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <a href="#" class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./images/logo.png"
+                            alt="" /></a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                General Insurance
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Life Insurance
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Knowledge Base
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Become a Posp Partner</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- end navabr -->
+
+    <!-- head -->
+
+    <div class="container-fluid general px-5 my-5">
+        <div class="container">
+            <div class="row g-3 align-items-center">
+                <div class="col-lg-6 col-md-6">
+                    <div class="section-title text-left mb-5">
+                        <h1 class="renew-title">
+                            <span> Hull and Machinery </span>
+                            Insurance for Ships
+                        </h1>
+                        <p class="">
+                            As a crucial aspect of maritime risk management, Hull and Machinery Insurance safeguards vessels
+                            and their equipment against various perils, ensuring the smooth operation and protection of
+                            maritime assets. Whether you run a single ship or a fleet, our hull insurance plans will give
+                            you the protection you need.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="health-img">
+                        <img src="./images/marine-insurane.png" class="img-fluid w-100 py-4" alt="Image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+
+
+
+    <!--   What is Hull and Machinery Insurance?-->
+    <div class="container p-5 my-3">
+        <div class="row g-2 align-items-center">
+            <div class="section-title text-center ">
+                <h1 class=" text-center">
+                    What is <span> Marine Insurance</span> Policy?
+                </h1>
+            </div>
+
+            <p class="posp-para">
+                Marine insurance is a specialized form of insurance that provides coverage for ships, cargo, and other
+                vessels operating on the sea or inland waterways. It is designed to protect owners, operators, and cargo
+                owners from the financial losses associated with maritime risks, such as damage to the vessel, loss of
+                cargo, liability for third-party damages, and other perils encountered during maritime activities. At
+                its core, marine insurance serves as a crucial risk management tool for the maritime industry, offering
+                protection against a wide range of hazards that vessels may face while navigating the oceans or inland
+                waterways. These hazards include but are not limited to natural disasters like storms, hurricanes, and
+                tsunamis, as well as man-made risks such as collisions, fires, piracy, and theft. Marine insurance
+                policies are typically tailored to meet the specific needs of shipowners, cargo owners, freight
+                forwarders, charterers, and other stakeholders involved in maritime trade and transportation. These
+                policies can vary in scope and coverage, ranging from basic hull and machinery insurance for ships to
+                comprehensive cargo insurance for goods in transit. Make sure you buy one from a trusted insurance
+                aggregator in India to get all the benefits of this marine insurance plan.
+            </p>
+
+        </div>
+    </div>
+
+    <!-- end -->
+
+
+    <!--What are the Benefits of Marine Insurance Policy?-->
+
+    <div class="container py-3">
+        <div class="row g-3 align-items-center">
+            <div class="section-title px-5">
+                <h1 class="text-left">
+                    What are the <span>Benefits of Marine Insurance</span> Policy?
+                </h1>
+
+            </div>
+            <p class="posp-para text-left px-5">Marine insurance policies offer a wide range of benefits to various
+                stakeholders involved in maritime trade and transportation. These benefits extend beyond mere financial
+                protection and play a crucial role in ensuring the smooth functioning of the global shipping industry.
+                Here are some key benefits of marine insurance policies:</p>
+
+            <div class="container-fluid my-2">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-interval="2000">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Financial Protection</h2>
+                                        <p class="posp-para">One of the primary benefits of buying or renewing marine
+                                            insurance is financial protection against the risks and perils associated
+                                            with maritime activities. Whether it’s damage to the vessel, loss of cargo,
+                                            or liability for third-party claims, marine insurance provides coverage for
+                                            these potential financial losses, helping businesses mitigate their exposure
+                                            to risks and safeguard their investments.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Risk Management</h2>
+                                        <p class="posp-para">Marine insurance policies serve as essential risk
+                                            management tools for shipowners, cargo owners, and other stakeholders
+                                            involved in maritime operations. By transferring the risk of potential
+                                            losses to insurance providers, businesses can better manage their
+                                            operational risks and focus on their core activities without worrying about
+                                            unforeseen financial liabilities.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2> Compliance with Legal Requirements</h2>
+                                        <p class="posp-para">In many jurisdictions, marine insurance is a legal
+                                            requirement for shipowners and operators to comply with international
+                                            maritime regulations and conventions. Having a valid marine insurance policy
+                                            ensures that businesses meet these legal requirements, thereby avoiding
+                                            potential penalties or restrictions on their operations.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Financial Protection</h2>
+                                        <p class="posp-para">One of the primary benefits of buying or renewing marine
+                                            insurance is financial protection against the risks and perils associated
+                                            with maritime activities. Whether it’s damage to the vessel, loss of cargo,
+                                            or liability for third-party claims, marine insurance provides coverage for
+                                            these potential financial losses, helping businesses mitigate their exposure
+                                            to risks and safeguard their investments.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Risk Management</h2>
+                                        <p class="posp-para">Marine insurance policies serve as essential risk
+                                            management tools for shipowners, cargo owners, and other stakeholders
+                                            involved in maritime operations. By transferring the risk of potential
+                                            losses to insurance providers, businesses can better manage their
+                                            operational risks and focus on their core activities without worrying about
+                                            unforeseen financial liabilities.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2> Compliance with Legal Requirements</h2>
+                                        <p class="posp-para">In many jurisdictions, marine insurance is a legal
+                                            requirement for shipowners and operators to comply with international
+                                            maritime regulations and conventions. Having a valid marine insurance policy
+                                            ensures that businesses meet these legal requirements, thereby avoiding
+                                            potential penalties or restrictions on their operations.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Financial Protection</h2>
+                                        <p class="posp-para">One of the primary benefits of buying or renewing marine
+                                            insurance is financial protection against the risks and perils associated
+                                            with maritime activities. Whether it’s damage to the vessel, loss of cargo,
+                                            or liability for third-party claims, marine insurance provides coverage for
+                                            these potential financial losses, helping businesses mitigate their exposure
+                                            to risks and safeguard their investments.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Risk Management</h2>
+                                        <p class="posp-para">Marine insurance policies serve as essential risk
+                                            management tools for shipowners, cargo owners, and other stakeholders
+                                            involved in maritime operations. By transferring the risk of potential
+                                            losses to insurance providers, businesses can better manage their
+                                            operational risks and focus on their core activities without worrying about
+                                            unforeseen financial liabilities.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2> Compliance with Legal Requirements</h2>
+                                        <p class="posp-para">In many jurisdictions, marine insurance is a legal
+                                            requirement for shipowners and operators to comply with international
+                                            maritime regulations and conventions. Having a valid marine insurance policy
+                                            ensures that businesses meet these legal requirements, thereby avoiding
+                                            potential penalties or restrictions on their operations.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+
+
+
+
+    <!--Why Us for Buying Marine Insurance Policy Online?-->
+
+    
+            <div class="container py-3">
+                <div class="row g-3 align-items-center">
+                    <div class="section-title">
+                        <h1 class=" text-center">
+                            Why Us for Buying <span>Marine Insurance Policy Online?</span>
+                        </h1>
+                    </div>
+                    <p class="posp-para">
+                        When it comes to protecting your maritime assets, choosing the right cargo insurance company is paramount. At Aapka Policywala, we understand the unique risks and challenges faced by businesses and individuals involved in maritime trade and transportation. Here are some compelling reasons to choose Aapka Policywala for your marine insurance policy:
+                    </p>
+
+                    <div class="d-flex flex-wrap justify-content-center">
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+
+                                <p class="head mb-4 text-left">
+                                    Specialized Expertise
+                                </p>
+                                <p class="para">
+                                    With years of experience in the insurance industry, Aapka Policywala has developed specialized expertise in marine insurance. Our team of insurance professionals understands the intricacies of maritime risks and can tailor insurance solutions to meet your specific needs.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+
+                                <p class="head mb-4 text-left">
+                                    Comprehensive Coverage
+                                </p>
+                                <p class="para">
+                                    We offer comprehensive marine insurance policies that provide extensive coverage for vessels, cargo, and other assets involved in maritime operations. Whether you need hull and machinery insurance, cargo insurance, or protection and indemnity (P&I) insurance, we have you covered
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+
+                                <p class="head mb-4 text-left">Customized Solutions</p>
+                                <p class="para">
+                                    At Aapka Policywala, we believe in providing personalized cargo insurance service to our clients. We work closely with you to understand your unique requirements and tailor insurance solutions that best fit your needs and budget. Our flexible insurance coverage options allow you to customize your policy to suit your specific risk profile and premium goals.
+                                </p>
+                            </div>
+                        </div>
+                       
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+
+                                <p class="head mb-4 text-left">Competitive Rates</p>
+                                <p class="para">
+                                    We strive to offer competitive rates for our marine insurance policies without compromising on coverage or service quality. Our transparent pricing ensures that you get the best value for your insurance investment, helping you manage your costs effectively.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+
+                                <p class="head mb-4 text-left">Prompt Claims Settlement</p>
+                                <p class="para">
+                                    In the unfortunate event of a claim, you can rely on Aapka Policywala for prompt and efficient claims settlement. Our dedicated cargo claims team is committed to processing claims quickly and fairly, minimizing disruptions to your business operations
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+
+                                <p class="head mb-4 text-left">
+                                    Excellent Customer Service
+                                </p>
+                                <p class="para">
+                                    At Aapka Policywala, we prioritize customer satisfaction above all else. Our friendly and knowledgeable customer service team is always available to assist you with any questions or concerns you may have. We strive to provide a seamless and hassle-free cargo insurance experience for our clients.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+
+                                <p class="head mb-4 text-left">
+                                    Strong Partnerships
+                                </p>
+                                <p class="para">
+                                    We have established strong partnerships with leading marine insurance companies and underwriters in the industry. This allows us to offer a wide range of insurance products and access to competitive rates and terms, giving you peace of mind knowing that your insurance needs are in good hands.
+                                </p>
+                            </div>
+                        </div>
+
+                        
+
+                    </div>
+                </div>
+
+                <p class="posp-para pt-5">Other than a marine insurance policy, thousands of entrepreneurs also trust Aapka Policywala for construction all risk insurance, erection all risk insurance, and hull insurance in India.</p>
+            </div>
+            
+        </div>
+  
+
+    <!-- end -->
+
+
+
+
+
+
+ <!-- Documents Required for Crop Insurance -->
+
+
+    <div class="container py-3">
+        <div class="row g-5 align-items-center">
+            <div class="section-title mb-">
+                <h1 class=" text-left">
+                    What are <span> Different Types </span>of Marine Insurances?
+                </h1>
+                <p class="posp-para text-left">The documents required for crop insurance may vary depending on the specific insurance scheme and the insurance provider. However, in general, the 
+                    following documents are commonly required when applying for crop insurance:</p>
+            </div>
+        </div>
+
+        <div class="container-fluid my-3">
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered custom-table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Features</th>
+                            <th scope="col">Benefits</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><b>Government-Sponsored Schemes</b></td>
+                            <td>
+                                Hull and Machinery Insurance: This covers physical damage to the vessel, including its hull, machinery, and equipment, resulting from accidents or perils specified in the marine insurance policy
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>Cargo Insurance</b></td>
+                            <td>
+                                This protects the cargo owner against the loss or damage of goods while in transit by sea, air, or land. It provides coverage for a wide range of risks, including theft, damage from handling, and natural disasters.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>Protection and Indemnity (P&I) Insurance</b></td>
+                            <td>
+                                Proof of the farmer’s residential address, such as Aadhar card, voter ID, utility bills, etc.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><b>Freight Insurance</b></td>
+                            <td>
+                                This covers the financial loss incurred by the shipowner or cargo owner due to the non-delivery or damage of cargo, which results in the loss of freight revenue.
+                            </td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+<!-- end -->
+
+
+
+
+
+
+
+
+
+    <!-- testimonil -->
+
+    <div class="container-fluid py-2">
+
+        <div class="row g-2 align-items-center">
+            <div class="section-title text-center ">
+                <h1 class="mb-4 text-center">
+                    <span>Health Insurance</span> Renewal Reviews
+                </h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, nihil.</p>
+            </div>
+        </div>
+        <div class="container py-5" id="testimonials">
+            <div class="slider">
+                <div class="slide-track testimonial-container">
+                    <div class="slide testimonial">
+                        <div class="text">
+                            <div class="quote">&#8220;</div>
+                            <p class="review">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                                quos error beatae dolores, dicta maxime libero optio voluptatem
+                                culpa, obcaecati omnis!
+                            </p>
+                        </div>
+                        <div class="info">
+                            <div class="pfp">
+                                <img src="./images/test-1.png" alt="Den Kerdian" />
+                            </div>
+                            <p class="text">SUZANA</p>
+                        </div>
+                    </div>
+                    <div class="slide testimonial">
+                        <div class="text">
+                            <div class="quote">&#8220;</div>
+                            <p class="review">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                                quos error beatae dolores, dicta maxime libero optio voluptatem
+                                culpa, obcaecati omnis!
+                            </p>
+                        </div>
+                        <div class="info">
+                            <div class="pfp">
+                                <img src="./images/test-2.png" alt="Den Kerdian" />
+                            </div>
+                            <p class="text">LÍVIA</p>
+                        </div>
+                    </div>
+                    <div class="slide testimonial">
+                        <div class="text">
+                            <div class="quote">&#8220;</div>
+                            <p class="review">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                                quos error beatae dolores, dicta maxime libero optio voluptatem
+                                culpa, obcaecati omnis!
+                            </p>
+                        </div>
+                        <div class="info">
+                            <div class="pfp">
+                                <img src="./images/test-3.png" alt="Den Kerdian" />
+                            </div>
+                            <p class="text">KÁTIA</p>
+                        </div>
+                    </div>
+                    <div class="slide testimonial">
+                        <div class="text">
+                            <div class="quote">&#8220;</div>
+                            <p class="review">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                                quos error beatae dolores, dicta maxime libero optio voluptatem
+                                culpa, obcaecati omnis!
+                            </p>
+                        </div>
+                        <div class="info">
+                            <div class="pfp">
+                                <img src="./images/test-4.png" alt="Den Kerdian" />
+                            </div>
+                            <p class="text">MATHEUS</p>
+                        </div>
+                    </div>
+                    <!-- Duplicate the slides to create an infinite loop effect -->
+                    <div class="slide testimonial">
+                        <div class="text">
+                            <div class="quote">&#8220;</div>
+                            <p class="review">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                                quos error beatae dolores, dicta maxime libero optio voluptatem
+                                culpa, obcaecati omnis!
+                            </p>
+                        </div>
+                        <div class="info">
+                            <div class="pfp">
+                                <img src="./images/test-1.png" alt="Den Kerdian" />
+                            </div>
+                            <p class="text">SUZANA</p>
+                        </div>
+                    </div>
+                    <div class="slide testimonial">
+                        <div class="text">
+                            <div class="quote">&#8220;</div>
+                            <p class="review">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                                quos error beatae dolores, dicta maxime libero optio voluptatem
+                                culpa, obcaecati omnis!
+                            </p>
+                        </div>
+                        <div class="info">
+                            <div class="pfp">
+                                <img src="./images/test-2.png" alt="Den Kerdian" />
+                            </div>
+                            <p class="text">LÍVIA</p>
+                        </div>
+                    </div>
+                    <div class="slide testimonial">
+                        <div class="text">
+                            <div class="quote">&#8220;</div>
+                            <p class="review">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                                quos error beatae dolores, dicta maxime libero optio voluptatem
+                                culpa, obcaecati omnis!
+                            </p>
+                        </div>
+                        <div class="info">
+                            <div class="pfp">
+                                <img src="./images/test-3.png" alt="Den Kerdian" />
+                            </div>
+                            <p class="text">KÁTIA</p>
+                        </div>
+                    </div>
+                    <div class="slide testimonial">
+                        <div class="text">
+                            <div class="quote">&#8220;</div>
+                            <p class="review">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                                quos error beatae dolores, dicta maxime libero optio voluptatem
+                                culpa, obcaecati omnis!
+                            </p>
+                        </div>
+                        <div class="info">
+                            <div class="pfp">
+                                <img src="./images/test-4.png" alt="Den Kerdian" />
+                            </div>
+                            <p class="text">MATHEUS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script>
+        document.querySelector('.slider').addEventListener('mouseover', function () {
+            document.querySelector('.slide-track').style.animationPlayState = 'paused';
+        });
+
+        document.querySelector('.slider').addEventListener('mouseout', function () {
+            document.querySelector('.slide-track').style.animationPlayState = 'running';
+        });
+    </script>
+    <!-- end -->
+
+
+
+
+
+
+
+ <!-- get or renew -->
+ <div class="container-fluid team py-3 mt-5">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="0.4s">
+                <div class="section-title text-left mb-5">
+                    <h1 class="mb-4 renew-title">
+                        <span> Get or Renew</span> Your Insurance with Aapka Policywala
+                    </h1>
+                    <p class="mb-4 renew-para">
+                        We are just a call away. Feel free to contact us
+                    </p>
+                    <button class="main-btn"><a href="#">Contact Us </a></button>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="health-img ps-md-5">
+                    <img src="./images/renew.png" class="img-fluid w-100" alt="Image" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- end -->
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start footer-2 text-muted">
+        <!-- Section: Links  -->
+        <div class="p-4">
+            <div class="container-fluid text-center text-md-start">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Motor Insurance</h6>
+                        <p><a href="#!" class="text-reset">Car Insurance</a></p>
+                        <p><a href="#!" class="text-reset">Two Wheeler</a></p>
+                        <p><a href="#!" class="text-reset">Goods Carrying</a></p>
+                        <p><a href="#!" class="text-reset">Passenger Carrying</a></p>
+                        <p><a href="#!" class="text-reset">Misc-D Insurance</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Life Insurance</h6>
+                        <p><a href="#!" class="text-reset">Group Term Insurance</a></p>
+                        <p><a href="#!" class="text-reset">Term Life Insurance</a></p>
+                        <p><a href="#!" class="text-reset">1 Crore Term Insurance</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Resources</h6>
+                        <p><a href="#!" class="text-reset">POSP Partner</a></p>
+                        <p><a href="#!" class="text-reset">Tutorial</a></p>
+                        <p><a href="#!" class="text-reset">Video Tutorial</a></p>
+                        <p><a href="#!" class="text-reset">Article</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">About Us</h6>
+                        <p><a href="#!" class="text-reset">Terms of Service</a></p>
+                        <p><a href="#!" class="text-reset">Privacy Policy</a></p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+
+                <!-- Second row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+
+                        <p>
+                            <i class="fa-solid fa-location-dot pe-2"></i> Booth No. 13, Anaj
+                            Mandi, Bhattu Mandi, Bhattu Kalan, Fatehbad, Haryana - 125053
+                        </p>
+
+                        <p><i class="fa-solid fa-phone-volume pe-2"></i>+91 8390008390</p>
+                        <p>
+                            <i class="fa-solid fa-envelope pe-2"></i> info@aapkapolicywala.com
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Follow us on</h6>
+                        <div class="social-icons">
+                            <a href="#!" class="text-reset"><i class="fab fa-instagram fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-linkedin fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-pinterest fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-youtube fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-facebook-f fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-twitter fa-lg"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Grid column -->
+                </div>
+                <!-- Second row -->
+            </div>
+        </div>
+        <!-- Section: Links -->
+
+        <!-- Copyright -->
+        <div class="text-center description p-4" style="background-color: rgba(0, 0, 0, 0.05)">
+            <p class="description-heading-1 py-2 text-center">
+                Aapka Policywala Insurance
+                <span style="color: #e89e3f">Broking Services</span> Pvt. Ltd.
+            </p>
+            <p class="description-para-1 py-2 text-center">
+                IRDAI Registration Code: IRDAI / DB1058 / 2023 | IRDAI Registration
+                No.: 933| Category: Direct (Life & General) | License Valid:
+                19.01.2024 - 18.01.2027
+            </p>
+            <p class="text-left disclaimer py-5">
+                <b>Disclaimer:</b>Insurance is the subject matter of solicitation.
+                Visitors are hereby informed that their information submitted on the
+                website may be shared with insurers. The product information for
+                comparison displayed on this website is of the insurers with whom our
+                company has an agreement. Product information is authentic and solely
+                based on the information received from the Insurer.
+            </p>
+        </div>
+    </footer>
+
+    <!-- end -->
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz4fnFO9gybBogGz9qQJbXUjXT1ZtAn1Ry5zVSrK7SwppV8xv8Q5XlWJ9Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-pprn3073KE6tl6ERvA6knXKa2QKN8R6bJ5L3VGsBzHrtvPpBfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,1263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apna Policy</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Ribeye&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@100..900&display=swap" rel="stylesheet" />
+
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-none d-lg-flex" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>General Insurance</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>Life Insurance</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>Knowledge Base</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><span>Become a Posp Partner</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><span>Contact us</span></a>
+                    </li>
+                </ul>
+                <button class="main-btn ms-4">Sign up</button>
+            </div>
+            <div class="offcanvas offcanvas-end offcanvas-glass d-lg-none" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <a href="#" class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./images/logo.png"
+                            alt="" /></a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                General Insurance
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Life Insurance
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Knowledge Base
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Become a Posp Partner</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- end navabr -->
+
+    <!-- head -->
+
+    <div class="container-fluid general px-5 my-5">
+       <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6 col-md-6">
+                <div class="section-title text-left mb-5">
+                    <h1 class="renew-title">
+                        Fastest <span>Commercial Vehicle
+                            Insurance </span>Online
+                    </h1>
+                    <p class="">
+                        In today’s bustling world of commerce, safeguarding your cargo isn’t just wise. It’s essential!
+                        Ensure the protection of your valuable assets with comprehensive online commercial vehicle
+                        insurance from Aapka Policywala. Navigate the highways with confidence knowing that your
+                        business is protected against unforeseen risks. The tailored commercial vehicle insurance
+                        solutions listed on our website will offer you peace of mind, shielding your cargo and vehicle
+                        from the unexpected.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="health-img">
+                    <img src="./images/goods-insurance.png" class="img-fluid w-100 py-4" alt="Image" />
+                </div>
+            </div>
+        </div>
+       </div>
+    </div>
+    <!-- end -->
+
+
+
+
+
+
+
+
+    <!--Why Renew Your Commercial Vehicle Insurance Policy? -->
+    <div class="container-fluid group p-5 my-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="section-title text-center mb-5">
+                    <h1 class="mb-4 text-center">
+                        Why Renew Your <span>Commercial Vehicle Insurance</span> Policy?
+                    </h1>
+                    <p>Renewing your commercial vehicle insurance policy isn’t just a formality. It’s a critical aspect of
+                        protecting your logistics business and transportation assets
+                        on the road. Aapka Policywala – India’s fastest growing online insurance buying website – realizes
+                        the significance of timely renewals to ensure uninterrupted
+                        coverage and peace of mind for commercial vehicle owners operating buses, trucks, auto rickshaws,
+                        pickup trucks, and school vans. Here are major reasons
+                        why renewing your commercial vehicle insurance policy online makes sense:</p>
+                </div>
+    
+                <div class="container my-5">
+                    <div class="row g-5 justify-content-center align-items-center">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="content-card card-custom-4" data-wow-delay="0.3s">
+                                <div class="inner-text text-center">
+                                    <img src="./images/group-1.png" class="py-3" alt="">
+                                    <p class="head mb-4 text-center">Continuous Protection</p>
+                                    <p class="para">
+                                        Renewing your policy guarantees
+                                        continuous protection for your
+                                        commercial vehicles against unforeseen
+                                        accidents, theft, and natural disasters. It
+                                        acts as a shield for your business against
+                                        financial losses.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="content-card card-custom-4" data-wow-delay="0.3s">
+                                <div class="inner-text text-center">
+                                    <img src="./images/brand-images/maruti.png" class="py-3" alt="">
+                                    <p class="head mb-4 text-center">Compliance with Legal Requirements</p>
+                                    <p class="para">
+                                        Maintaining valid insurance coverage is
+                                        mandatory by law for commercial
+                                        vehicles. Renewing your policy confirms
+                                        that you are compliant with legal
+                                        regulations. It helps you avoid potential
+                                        fines and penalties.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="content-card card-custom-4" data-wow-delay="0.3s">
+                                <div class="inner-text text-center">
+                                    <img src="./images/brand-images/maruti.png" class="py-3" alt="">
+                                    <p class="head mb-4 text-center">Financial Security</p>
+                                    <p class="para">
+                                        In the event of an accident or damage to
+                                        your commercial vehicle, having an active
+                                        insurance policy provides financial security.
+                                        It can cover repair costs and mitigate
+                                        potential liabilities.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="content-card card-custom-4" data-wow-delay="0.3s">
+                                <div class="inner-text text-center">
+                                    <img src="./images/group-2.png" class="py-3" alt="">
+                                    <p class="head mb-4 text-center">Peace of Mind</p>
+                                    <p class="para">
+                                        Renewing your commercial vehicle policy
+                                        offers peace of mind. Knowing that your
+                                        valuable assets are adequately protected,
+                                        you can easily focus on your business
+                                        operations without worrying about
+                                        unexpected setbacks.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="content-card card-custom-4" data-wow-delay="0.3s">
+                                <div class="inner-text text-center">
+                                    <img src="./images/group-2.png" class="py-3" alt="">
+                                    <p class="head mb-4 text-center">Risk Management</p>
+                                    <p class="para">
+                                         Renewing your commercial vehicle
+                                        insurance policy is a proactive approach to
+                                        risk management. How, you ask? It helps
+                                        mitigate the financial risks associated with
+                                        accidents, theft, and other unforeseen
+                                        events. It assures the continuity of your
+                                        business operations.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+    
+    
+    
+                    </div>
+                </div>
+    
+    
+    
+    
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+
+
+
+
+
+
+    <!--Commercial Vehicle Insurance for All-->
+
+    <div class="container py-3">
+        <div class="row g-3 align-items-center">
+            <div class="section-title ">
+                <h1 class="text-center">
+                    Commercial <span>Vehicle Insurance</span> for All
+
+                </h1>
+
+            </div>
+            <p class="posp-para text-left px-5">They say, “Time is of the essence in Indian commerce.” Aapka Policywala understands the importance of efficiency which is why we offer hassle-free online 
+                renewal options for commercial vehicle insurance. Whether you’re a small business owner or a fleet manager, our platform is designed to streamline the 
+                renewal process. Put simply, you get uninterrupted protection for your vehicles. But the question is who needs online commercial vehicle insurance renewal? 
+                Well, here’s the list:</p>
+
+            <div class="container my-5">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <img src="./images/backpack.png" class="py-2" alt="">
+                                        <h2>Truck Owners</h2>
+                                        <p class="posp-para">From heavy-duty haulage to local 
+                                            deliveries, truck owners rely on their 
+                                            vehicles for livelihood. Aapka 
+                                            Policywala’s online insurance portal 
+                                            ensures that their trucks remain 
+                                            protected against unforeseen risks, 
+                                            allowing them to focus on their 
+                                            operations.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <img src="./images/backpack.png" class="py-2" alt="">
+                                        <h2>Taxi and Cab Operators</h2>
+                                        <p class="posp-para">Taxi and cab operators depend on 
+                                            their vehicles to ferry passengers 
+                                            safely from one destination to 
+                                            another. By using our online renewal 
+                                            option, they can maintain continuous 
+                                            coverage and can safeguard their 
+                                            business and passengers alike.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <img src="./images/backpack.png" class="py-2" alt="">
+                                        <h2>Delivery Services</h2>
+                                        <p class="posp-para"> Whether it's food delivery or 
+                                            international parcel, delivery services 
+                                            lean on their fleet of vehicles to keep 
+                                            operations running smoothly. Our 
+                                            convenient online commercial vehicle
+                                            insurance plans ensure that 
+                                            commercial delivery fleet vehicles are
+                                            always covered, minimizing down
+                                            time and maximizing efficiency.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <img src="./images/backpack.png" class="py-2" alt="">
+                                        <h2>Bus Operators</h2>
+                                        <p class="posp-para">From public transit to private charter 
+                                            services, bus operators play a vital 
+                                            role in transporting passengers 
+                                            across cities and states. With our 
+                                            online purchase and renewal option, 
+                                            they can ensure the safety and 
+                                            security of their passengers while 
+                                            keeping their operations running 
+                                            smoothly.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <img src="./images/backpack.png" class="py-2" alt="">
+                                        <h2>Commercial Vehicle Fleets</h2>
+                                        <p class="posp-para">Businesses with multiple vehicles 
+                                            such as logistics companies and 
+                                            construction firms require 
+                                            comprehensive insurance coverage 
+                                            for their fleet. Thanks to our online 
+                                            insurance website, fleet managers 
+                                            can manage and renew policies for 
+                                            all their vehicles from the comfort of 
+                                            their chairs. </p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                     
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- end -->
+
+
+
+
+    <!--Why Aapka Policywala for Your Misc D Insurance?-->
+
+        <div class="container py-3">
+            <div class="row g-3 align-items-center">
+                <div class="section-title ">
+                    <h1 class=" text-center">
+                        Why Aapka Policywala for <span>Your Misc D Insurance?</span>
+                    </h1>
+                </div>
+                <p class="posp-para">At Aapka Policywala, we understand that every journey comes with its own set of risks. That’s why our online commercial vehicle insurance service offers 
+                    comprehensive coverage! Our goal is to make sure you’re protected against a wide range of potential threats. With us, you can get a policy with confidence, 
+                    knowing that you’re safeguarded against the unexpected.</p>
+            </div>
+
+
+            <div class="container my-5">
+                <div class="table-responsive">
+                    <table class="custom-table">
+                        <thead>
+                            <tr>
+
+                                <th>Features</th>
+                                <th>Use</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td><b>Accidents</b></td>
+                                <td>Damages caused to the commercial vehicle in the event of an accident are covered under our 
+                                    policy. We provide financial relief when you need it most.</td>
+                            </tr>
+                            <tr>
+                                <td><b>Theft</b></td>
+                                <td>Rest easy knowing that loss or damage to your commercial vehicle due to theft is included in our 
+                                    coverage. Aapka Policywala offers peace of mind wherever your business takes you.
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td><b>Fire</b></td>
+
+                                <td> From minor blazes to major infernos, damages caused by fire to your commercial vehicle are also 
+                                    covered by policies available on our website. We are always up and ready to protect you against 
+                                    this common threat.</td>
+                            </tr>
+                            <tr>
+                                <td><b>Personal Accident</b></td>
+                                <td>Your safety is our priority. In the unfortunate event of an accident leading to injury or death of the 
+                                    driver, our listed policies provide financial assistance to you or your loved ones. This is available for 
+                                    trucks, buses, school vans, pickup trucks, or auto rickshaws.</td>
+
+                            </tr>
+                            <tr>
+                                <td><b>Third-Party Losses</b> </td>
+                                <td>Accidents happen but you don’t have to shoulder the burden alone. Aapka Policywala’s insurance 
+                                    policies cover any damages caused by your commercial vehicle to a third party. This makes certain 
+                                    that you're protected against liability claims.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Towing Disabled Vehicles</b></td>
+                                <td>When the unexpected strikes and your vehicle needs towing, rest assured that any damages caused 
+                                    to the vehicle being towed are covered under commercial vehicle insurance policies on our platform.
+                                     They offer comprehensive protection every step of the way.</td>
+                            </tr>
+
+                          
+                        </tbody>
+
+
+
+                    </table>
+                </div>
+            </div>
+        </div>
+ 
+
+
+    <!-- end -->
+
+
+
+ <!-- Optional Endorsements for Online Commercial Vehicle Insurance-->
+ 
+    
+        <div class="container py-3">
+            <div class="row g-2 align-items-center">
+                <div class="section-title text-center ">
+                    <h1 class=" text-left">
+                        Optional Endorsements for Online <span>Commercial Vehicle Insurance</span>
+                    </h1>
+                </div>
+                <p class="posp-para">Every commercial vehicle operator and his needs are unique. Each has its own set of requirements and risks. That’s why Aapka Policywala offers a range of 
+                    optional covers (or endorsements) to tailor your commercial vehicle insurance plan according to your specific goals. From personal accident protection to 
+                    specialized coverage for accessories, our endorsements provide additional peace of mind. They prepare you for any eventuality on the road.</p>
+                <div class="d-flex flex-wrap justify-content-center">
+                    <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                        <div class="inner-text text-left">
+                            <p class="head mb-4 text-left">Personal Accident
+                                Cover</p>
+                            <p class="para">
+                                Confirm the safety of the owner-driver 
+                                with our mandatory personal accident 
+                                cover. We offer financial protection in the 
+                                unfortunate event of bodily injury or death 
+                                resulting from an accident.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                        <div class="inner-text text-left">
+                            <p class="head mb-4 text-left">Customized 
+                                Solutions</p>
+                            <p class="para">
+                                We understand that every individual's 
+                                retirement needs are unique. At Aapka 
+                                Policywala, we offer personalized pension 
+                                insurance solutions tailored to your 
+                                specific financial situation, risk tolerance, 
+                                and retirement aspirations. Our 
+                                customized approach ensures that your 
+                                pension plan aligns perfectly with your 
+                                long-term goals and preferences.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                        <div class="inner-text text-left">
+                            <p class="head mb-4 text-left">Wide Range of 
+                                Options</p>
+                            <p class="para">
+                                Aapka Policywala partners with leading 
+                                pension linked insurance companies in 
+                                India to offer a diverse range of pension 
+                                insurance plans. Whether you prefer 
+                                government-sponsored schemes like the 
+                                National Pension System (NPS) or private 
+                                pension plans from reputed insurers, we 
+                                provide comprehensive coverage options 
+                                to suit your requirements.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                        <div class="inner-text text-left">
+                            <p class="head mb-4 text-left">Transparent and Hassle-
+                                Free Process</p>
+                            <p class="para">
+                                We believe in transparency and integrity 
+                                throughout the insurance planning 
+                                process. Aapka Policywala simplifies the 
+                                pension insurance journey by offering a 
+                                hassle-free, transparent process. Our 
+                                advisors and POSP agents explain policy 
+                                terms, coverage options, and premiums 
+                                in plain language, empowering you to 
+                                make an informed decision.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                        <div class="inner-text text-left">
+                            <p class="head mb-4 text-left">Electrical Accessories 
+                                Cover</p>
+                            <p class="para">
+                                Cover any electrical accessories not 
+                                included in the manufacturer's model with 
+                                Aapka Policywala’s commercial vehicle 
+                                insurance policies. Ensure total protection 
+                                for your vehicle's additional features..
+                            </p>
+                        </div>
+                    </div>
+                    <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                        <div class="inner-text text-left">
+                            <p class="head mb-4 text-left">Non-Electrical 
+                                Accessories Cover</p>
+                            <p class="para">
+                                Extend coverage to non-electrical 
+                                accessories that are not part of the 
+                                original manufacturer's model. We provide 
+                                financial assistance in case of damage or 
+                                loss.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                        <div class="inner-text text-left">
+                            <p class="head mb-4 text-left">Special Exclusions & 
+                                Compulsory Deductibles</p>
+                            <p class="para">
+                                Mitigate your share of loss with 
+                                compulsory deductibles while also 
+                                reducing your premium. This endorsement 
+                                will cover damages to specific 
+                                components like lamps, tires, and 
+                                paintwork. Yes, even in cases of complete 
+                                vehicle damage!
+                            </p>
+                        </div>
+                    </div>
+                  
+
+                </div>
+            </div>
+        </div>
+   
+
+
+<!-- end -->
+
+    <!--What's Not Covered in Commercial Vehicle Insurance-->
+
+    <div class="container py-3">
+        <div class="row g-3 align-items-center">
+            <div class="section-title ">
+                <h1 class="text-center">
+                    What's Not Covered in <span>Commercial Vehicle Insurance</span>
+
+                </h1>
+
+            </div>
+            <p class="posp-para text-left px-5">Being aware of what’s not covered in your commercial vehicle insurance policy is as important as understanding what is covered. It will help avoid surprises 
+                and provide clarity when filing a claim for your damaged or stolen truck, bus, school van, pickup truck, or auto rickshaw. Here are some situations where 
+                coverage may not apply:</p>
+
+            <div class="container my-5">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Own Damages for Third-Party 
+                                            Policy Holder</h2>
+                                        <p class="posp-para">Under a third-party liability only policy, 
+                                            damages to your own vehicle will not 
+                                            be covered. It's essential to consider 
+                                            upgrading your policy for 
+                                            comprehensive coverage.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Drunk Riding or Without 
+                                            a Licence</h2>
+                                        <p class="posp-para">Coverage may be denied if the owner 
+                                            driver is found to be under the 
+                                            influence of alcohol or driving 
+                                            without a valid license. Adhering to 
+                                            Indian traffic regulations is 
+                                            paramount to ensure coverage.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Contributory 
+                                            Negligence</h2>
+                                        <p class="posp-para">Any damage resulting from the 
+                                            driver's contributory negligence such 
+                                            as driving without timely rest or 
+                                            during an undergoing natural 
+                                            calamity may not be covered. 
+                                            Remember, practicing safe driving 
+                                            habits is key to avoiding such 
+                                            situations!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Consequential 
+                                            Damages</h2>
+                                        <p class="posp-para">Consequential losses such as loss of 
+                                            earnings and market value which are 
+                                            not direct results of the accident or 
+                                            natural calamity may not be covered. 
+                                            Make sure to understand the scope 
+                                            of coverage to manage expectations 
+                                            effectively.</p>
+                                    </div>
+                                </div>
+                               
+                                
+                            </div>
+                        </div>
+                     
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- end -->
+
+
+    <!-- Filing a Claim for Your Online Commercial Vehicle Insurance-->
+
+    <div class="container py-3">
+        <div class="section-title">
+            <h1 class="text-center mb-2">
+                Filing a Claim for Your Online <span>Commercial Vehicle Insurance</span>
+            </h1>
+        </div>
+        <p class="posp-para text-left px-3">When it comes to filing a claim with Aapka Policy Wala, we aim to make the process as straightforward as possible. Here’s what you need to know:</p>
+
+
+        <div class="row number-cards g-5">
+
+            <!-- Repeat this block for each card -->
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">1</div>
+                <div class="custom-card-v11">
+
+                    <p class="pt-5"><b>Seek Immediate Medical Attention</b></p>
+                    <p>If there are any bodily injuries, prioritize 
+                        medical care. Your health and safety 
+                        come first.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">2</div>
+                <div class="custom-card-v11">
+                    <p class="pt-5"><b>Gather Information</b></p>
+                    <p>Note down the details of the other 
+                        vehicles involved in the accident and 
+                        collect contact information from any 
+                        witnesses present.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">3</div>
+
+                <div class="custom-card-v11">
+                    <p class="pt-5"><b>Contact Us</b></p>
+                    <p>Reach out to our helpline at 83900 08390, 
+                        99911 31005, or 99966 15103. You can 
+                        also contact us at info@aapkapolicywala.
+                        com to share what happened and get our 
+                        help for filing your insurance claim that 
+                        you bought using our website. Answer a 
+                        few simple questions, and our team will 
+                        guide you through the process.</p>
+                </div>
+            </div>
+            <!-- Continue this pattern to create up to 12 cards -->
+            <!-- Example for the 4th card -->
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">4</div>
+
+                <div class="custom-card-v11">
+                    <p class="pt-5"><b>Natural Disasters</b></p>
+                    <p>Natural calamities are unpredictable but 
+                        we need to be prepared for the 
+                        unpredictable. Online commercial vehicle 
+                        insurance policies on our platform extend 
+                        coverage to damages caused by major 
+                        natural calamities.</p>
+                </div>
+            </div>
+            <!-- Add more cards as needed -->
+            <!-- Example for the 5th card -->
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">5</div>
+
+                <div class="custom-card-v11">
+                    <p class="pt-5"><b>Prepare Preliminary Information</b></p>
+                    <p>Fill out the preliminary claim form to 
+                        streamline your responses before 
+                        contacting us.</p>
+                </div>
+            </div>
+            <!-- Example for the 6th card -->
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">6</div>
+
+                <div class="custom-card-v11">
+                    <p class="pt-5"><b>File a First Information Report (FIR)</b></p>
+                    <p>In cases of theft, bodily injury, or vehicle 
+                        damage, make sure to file an FIR with the 
+                        police within 48 hours. This document 
+                        may be necessary for your claim.</p>
+                </div>
+            </div>
+            <!-- Continue until the 12th card -->
+            
+        </div>
+
+    </div>
+
+    <!-- end -->
+
+
+
+    <!--Why Us for Commercial Vehicle Insurance Online?-->
+    <div class="container p-5 my-5">
+        <div class="row g-2 align-items-center">
+            <div class="section-title text-center ">
+                <h1 class=" text-center">
+                    Why Us for Commercial Vehicle Insurance Online?
+                </h1>
+
+            </div>
+            <p class="posp-para">Convenience and efficiency are paramount in the logistics industry, not only while supplying goods but also in insuring the commercial vehicles that 
+                transport them. Aapka Policywala understands the needs of modern logistics businesses and commercial vehicle owners. That’s why we offer commercial 
+                vehicle insurance online that assures seamless protection for your fleet with just a few clicks.</p>
+
+            <div class="">
+                <p class="posp-para">
+                    <b> Here are some reasons to choose us:</b>
+                </p>
+                <p class="posp-para">
+                  <b>  Effortless Renewals:</b> Say goodbye to paperwork and long queues! With Aapka Policywala, renewing your commercial vehicle insurance is as easy as logging 
+                    in and clicking a button. Stay on the road without the hassle.
+                </p>
+
+                <p class="posp-para">
+                    <b>Competitive Prices:</b> We believe in offering value without compromising on quality. Benefit from competitive policy prices that suit your budget. Protect your 
+                    truck, bus, school van, auto rickshaw or pickup vehicle without paying a big instalment.
+                </p>
+                <p class="posp-para">
+                  <b>  Convenient Online Access:</b> Manage your policies anytime, anywhere. Our user-friendly online platform will give you the freedom to access your 
+                  commercial vehicle insurance details with ease. Be in control of your coverage!
+                </p>
+                <p class="posp-para">
+                   <b> Transparent Comparisons:</b> Make informed decisions with our transparent comparison tool. Our platform allows entrepreneurs to compare different policies
+                   side by side. Benefit? This will empower you to choose the one that best suits your needs and budget.
+                </p>
+                <p class="posp-para">
+                   <b> Expert Guidance:</b> Have questions or need assistance? Don’t worry, our team of insurance experts has your back! From policy recommendations to claims 
+                    assistance, trust in our expertise to guide you through every step of the process.
+                </p>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- end -->
+
+
+
+
+
+
+
+ <!-- testimonil -->
+
+ <div class="container-fluid py-2">
+
+    <div class="row g-2 align-items-center">
+        <div class="section-title text-center ">
+            <h1 class="mb-4 text-center">
+                <span>Health Insurance</span> Renewal Reviews
+            </h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, nihil.</p>
+        </div>
+    </div>
+    <div class="container py-5" id="testimonials">
+        <div class="slider">
+            <div class="slide-track testimonial-container">
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-1.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">SUZANA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-2.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">LÍVIA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-3.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">KÁTIA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-4.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">MATHEUS</p>
+                    </div>
+                </div>
+                <!-- Duplicate the slides to create an infinite loop effect -->
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-1.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">SUZANA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-2.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">LÍVIA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-3.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">KÁTIA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-4.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">MATHEUS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+<script>
+    document.querySelector('.slider').addEventListener('mouseover', function () {
+        document.querySelector('.slide-track').style.animationPlayState = 'paused';
+    });
+
+    document.querySelector('.slider').addEventListener('mouseout', function () {
+        document.querySelector('.slide-track').style.animationPlayState = 'running';
+    });
+</script>
+<!-- end -->
+
+
+    <!-- contact us -->
+
+    <div class="container p-5 my-3">
+        <div class="row g-5 align-items-center">
+            <div class="section-title text-center ">
+                <h1 class=" text-center">
+                    What Customers <span>Say About Us?</span> </h1>
+            </div>
+            <p class="posp-para">Ready to find the perfect group health insurance plan for your business in India? Aapka Policywala is here to help. Contact our team of advisors for a free consultation and personalized quote. We’ll guide you through the process and ensure your employees receive the healthcare coverage they deserve.</p>
+        </div>
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="health-img ps-md-5">
+                    <img src="./images/support image.png" class="img-fluid w-100" alt="Image" />
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="0.4s">
+                <div class="form">
+                    <h2>Get in Touch</h2>
+                    <div class="d-flex justify-content-between">
+                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="Phone Number">
+                    </div>
+                    <input type="email" placeholder="Email">
+                    <textarea placeholder="Message"></textarea>
+                    <button class="main-btn">Submit</button>
+                </div>
+                
+            </div>
+           
+        </div>
+    </div>
+    <!-- end -->
+
+
+
+
+
+ <!-- get or renew -->
+ <div class="container-fluid team py-3 mt-5">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="0.4s">
+                <div class="section-title text-left mb-5">
+                    <h1 class="mb-4 renew-title">
+                        <span> Get or Renew</span> Your Insurance with Aapka Policywala
+                    </h1>
+                    <p class="mb-4 renew-para">
+                        We are just a call away. Feel free to contact us
+                    </p>
+                    <button class="main-btn"><a href="#">Contact Us </a></button>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="health-img ps-md-5">
+                    <img src="./images/renew.png" class="img-fluid w-100" alt="Image" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- end -->
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start footer-2 text-muted">
+        <!-- Section: Links  -->
+        <div class="p-4">
+            <div class="container text-center text-md-start">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Motor Insurance</h6>
+                        <p><a href="#!" class="text-reset">Car Insurance</a></p>
+                        <p><a href="#!" class="text-reset">Two Wheeler</a></p>
+                        <p><a href="#!" class="text-reset">Goods Carrying</a></p>
+                        <p><a href="#!" class="text-reset">Passenger Carrying</a></p>
+                        <p><a href="#!" class="text-reset">Misc-D Insurance</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Life Insurance</h6>
+                        <p><a href="#!" class="text-reset">Group Term Insurance</a></p>
+                        <p><a href="#!" class="text-reset">Term Life Insurance</a></p>
+                        <p><a href="#!" class="text-reset">1 Crore Term Insurance</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Resources</h6>
+                        <p><a href="#!" class="text-reset">POSP Partner</a></p>
+                        <p><a href="#!" class="text-reset">Tutorial</a></p>
+                        <p><a href="#!" class="text-reset">Video Tutorial</a></p>
+                        <p><a href="#!" class="text-reset">Article</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">About Us</h6>
+                        <p><a href="#!" class="text-reset">Terms of Service</a></p>
+                        <p><a href="#!" class="text-reset">Privacy Policy</a></p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+
+                <!-- Second row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+
+                        <p>
+                            <i class="fa-solid fa-location-dot pe-2"></i> Booth No. 13, Anaj
+                            Mandi, Bhattu Mandi, Bhattu Kalan, Fatehbad, Haryana - 125053
+                        </p>
+
+                        <p><i class="fa-solid fa-phone-volume pe-2"></i>+91 8390008390</p>
+                        <p>
+                            <i class="fa-solid fa-envelope pe-2"></i> info@aapkapolicywala.com
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Follow us on</h6>
+                        <div class="social-icons">
+                            <a href="#!" class="text-reset"><i class="fab fa-instagram fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-linkedin fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-pinterest fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-youtube fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-facebook-f fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-twitter fa-lg"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Grid column -->
+                </div>
+                <!-- Second row -->
+            </div>
+        </div>
+        <!-- Section: Links -->
+
+        <!-- Copyright -->
+        <div class="text-center description p-4" style="background-color: rgba(0, 0, 0, 0.05)">
+            <p class="description-heading-1 py-2 text-center">
+                Aapka Policywala Insurance
+                <span style="color: #e89e3f">Broking Services</span> Pvt. Ltd.
+            </p>
+            <p class="description-para-1 py-2 text-center">
+                IRDAI Registration Code: IRDAI / DB1058 / 2023 | IRDAI Registration
+                No.: 933| Category: Direct (Life & General) | License Valid:
+                19.01.2024 - 18.01.2027
+            </p>
+            <p class="text-left disclaimer py-5">
+                <b>Disclaimer:</b>Insurance is the subject matter of solicitation.
+                Visitors are hereby informed that their information submitted on the
+                website may be shared with insurers. The product information for
+                comparison displayed on this website is of the insurers with whom our
+                company has an agreement. Product information is authentic and solely
+                based on the information received from the Insurer.
+            </p>
+        </div>
+    </footer>
+
+    <!-- end -->
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz4fnFO9gybBogGz9qQJbXUjXT1ZtAn1Ry5zVSrK7SwppV8xv8Q5XlWJ9Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-pprn3073KE6tl6ERvA6knXKa2QKN8R6bJ5L3VGsBzHrtvPpBfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

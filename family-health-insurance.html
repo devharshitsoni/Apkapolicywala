@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Apna Policy</title>
+        <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Ribeye&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@100..900&display=swap" rel="stylesheet" />
+    
+        <!-- icon -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+        <!-- bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+    
+        <!-- stylesheet -->
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+<body>
+    
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-none d-lg-flex" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>General Insurance</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>Life Insurance</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>Knowledge Base</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><span>Become a Posp Partner</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><span>Contact us</span></a>
+                    </li>
+                </ul>
+                <button class="main-btn ms-4">Sign up</button>
+            </div>
+            <div class="offcanvas offcanvas-end offcanvas-glass d-lg-none" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <a href="#" class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./images/logo.png"
+                            alt="" /></a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                General Insurance
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Life Insurance
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Knowledge Base
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Become a Posp Partner</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- end navabr -->
+
+    <!-- head -->
+
+    <div class="container-fluid general px-5 my-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 col-md-6">
+                    <div class="section-title text-left mb-5">
+                        <h1 class="renew-title">
+                            Family Health Insurance:
+                          <span>Family Wellness Coverage</span>
+                        </h1>
+                        <p class="renew-para">
+                            Comprehensive health insurance plans tailored to safeguard the well-being of your entire family, offering peace of mind and financial security in times of medical need
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="health-img">
+                        <img src="./images/family-health-insuance.png" class="img-fluid w-100 py-4" alt="Image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+
+
+    <!-- What is Family Health Insurance?-->
+    <div class="container p-5 my-3">
+        <div class="row g-2 align-items-center">
+            <div class="section-title text-center ">
+                <h1 class="text-center">
+                    What is <span> Family Health Insurance?</span>
+                </h1>
+            </div>
+
+            <p class="posp-para">
+                Family Health Insurance is a type of health insurance policy that provides comprehensive medical coverage to all members of a family under a single plan. It is designed to protect the health and well-being of an entire family by offering coverage for various medical expenses and treatments.
+                Under a Family Health Insurance plan, the policyholder (usually the primary earning member) can include their spouse, children, and dependent parents or other family members as beneficiaries. The policy covers hospitalization expenses, pre and post-hospitalization costs, day-care procedures, ambulance charges, and more. It may also provide additional benefits like maternity coverage, newborn baby coverage, and preventive health check-ups.
+                Family Health Insurance offers the convenience of managing all family members’ healthcare needs under one policy, eliminating the need to purchase separate individual plans for each family member. It provides financial protection and ensures that the entire family can access quality healthcare without worrying about the high medical expenses.
+                When choosing a Family Health Insurance policy, it’s essential to consider factors such as coverage limits, waiting periods, network hospitals, and the premium amount. By selecting a suitable plan, families can enjoy the peace of mind of being financially secure during medical emergencies and health-related challenges.
+            </p>
+
+        </div>
+    </div>
+
+    <!-- end -->
+
+
+    <!--Which type of health insurance—family or individual is best for you?-->
+    <div class="container-fluid health p-5 my-5">
+        <div class="container">
+            <div class="row g-2 align-items-center">
+                <div class="section-title text-left mb-5">
+                    <h1 class="mb-4 text-left">
+                        Which type of <span>health insurance—family</span> or individual is best for you?
+                    </h1>
+                </div>
+    
+                <p class="posp-para">
+                    The decision between family health insurance and individual health insurance depends on various factors and personal circumstances. Family health insurance is ideal for individuals with dependents, such as a spouse and children, as it provides comprehensive coverage for the entire family under a single policy. It offers convenience in managing the insurance needs of all family members and may be more cost-effective than purchasing individual policies for each family member. On the other hand, individual health insurance is suitable for those without dependents or who have specific healthcare requirements. It allows for more customization in coverage, tailored to individual needs and budget. Ultimately, the best choice depends on the family size, coverage needs, cost considerations, and preferences for flexibility in policy customization. It is essential to evaluate both options carefully and select the one that best aligns with one’s unique healthcare needs and financial situation.
+    Still not sure which one to pick? Connect with Aapka Policywala – India’s most trusted online insurance company in India – to get personalized advice and insights on health insurance purchases.
+                </p>
+    
+            </div>
+        </div>
+    </div>
+
+    <!-- end -->
+
+
+
+
+
+<!--Why Us Personal Accident Insurance?-->
+
+<div class="container-fluid py-3">
+   <div class="container">
+    <div class="row g-3 align-items-center">
+        <div class="section-title ">
+            <h1 class="text-center">
+                Why Us <span>Personal Accident Insurance?</span>
+
+            </h1>
+
+        </div>
+        <p class="posp-para text-left px-5">Embarking on the journey of selecting critical illness insurance can be daunting. But with Aapka Policywala, the path becomes clearer and benefits are more 
+            Finding the right personal accident insurance policy can feel overwhelming. Aapka Policywala simplifies the process. We offer a seamless experience and a variety of benefits that make us your one-stop shop for securing the perfect coverage.</p>
+
+      <div class="container-fluid my-5">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="custom-card-v15">
+                            <h2>Wide Range of Plans to Choose From</h2>
+                            <p class="posp-para">We understand that one size doesn’t fit all. That’s why we offer a comprehensive selection of individual personal accident insurance plans from various reputable insurance companies. Our user-friendly platform allows you to compare plans side-by-side. We ensure you find the one that aligns perfectly with your needs and budget.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="custom-card-v15">
+                            <h2>Transparency and Unbiased Advice</h2>
+                            <p class="posp-para">  At Aapka Policywala, we believe in transparency. Our team of PSOP agents is dedicated to providing clear, unbiased guidance throughout the selection process. Not only does it explain the intricacies of different plans but also highlights key features and benefits. It even answers any questions you may have to ensure you make an informed decision</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="custom-card-v15">
+                            <h2>Transparent Comparison</h2>
+                            <p class="posp-para">Transparency is paramount at Aapka 
+                                Policywala. Our platform empowers you 
+                                with the tools to compare critical illness
+                                insurance plans side by side. Meaning, you 
+                                will have full idea about cheapest 
+                                premiums, coverage limits, and additional 
+                                benefits. Make confident choices backed 
+                                by clear insights!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="custom-card-v15">
+                            <h2>Maternity Coverage</h2>
+                            <p class="posp-para">Many family health insurance plans offer maternity benefits, covering pre-natal and post-natal care, delivery expenses, and newborn baby coverage.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="custom-card-v15">
+                            <h2>No-Claim Bonus</h2>
+                            <p class="posp-para">Family health insurance policies often come with a no-claim bonus feature, where the sum insured increases for every claim-free year. It acts as an incentive for maintaining good health and avoiding claims.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="custom-card-v15">
+                            <h2>Cashless Hospitalization</h2>
+                            <p class="posp-para">With family health insurance, policyholders can avail cashless hospitalization at network hospitals, eliminating the need for out-of-pocket expenses during emergencies.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="custom-card-v15">
+                            <h2>Lifelong Renewability</h2>
+                            <p class="posp-para">Family health insurance policies generally offer lifelong renewability, ensuring continued coverage for all family members without age restrictions.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="custom-card-v15">
+                            <h2>Tax Benefits</h2>
+                            <p class="posp-para">Premiums paid for family health insurance policies are eligible for tax deductions under Section 80D of the Income Tax Act, providing additional savings.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="custom-card-v15">
+                            <h2>Daycare Procedures</h2>
+                            <p class="posp-para">Family health insurance plans often cover the expenses of daycare treatments and procedures that do not require overnight hospitalization</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="custom-card-v15">
+                            <h2>Additional Riders</h2>
+                            <p class="posp-para">Policyholders can enhance their family health insurance coverage by adding optional riders such as critical illness cover, accidental death cover, and more.</p>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </div>
+   </div>
+</div>
+<!-- end -->
+
+
+
+
+<!-- The Best Family Health Insurance Plan Offered in India as of 2021 -->
+
+<div class="container-fluid Bharat py-5">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="section-title ">
+                <h1 class="text-center">
+                    The Best <span>Family Health Insurance</span> Plan Offered in India as of 2021
+                </h1>
+               
+            </div>
+        
+           
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="custom-card-v10">
+                            <h2>Max Bupa Health Companion Family Floater Plan</h2>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="custom-card-v10">
+                            <h2>ICICI Lombard Complete Health Insurance – iHealth</h2>
+                           
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="custom-card-v10">
+                            <h2>Apollo Munich Optima Restore Family Health Plan</h2>
+                            
+                        </div>
+                    </div>
+      
+                   
+                </div>
+            </div>
+         
+        </div>
+    </div>
+  </div>
+ 
+<!-- end -->
+
+
+
+
+
+
+
+    <!--How Can You Pick Your Family's Best Family Health Plan?-->
+    <div class="container p-5 my-3">
+        <div class="row g-2 align-items-center">
+            <div class="section-title text-center ">
+                <h1 class=" text-center">
+                    How Can You Pick Your Family's Best <span>Family Health Plan?</span>
+                </h1>
+
+            </div>
+            <p class="posp-para">Choosing the best family health plan for your family requires careful consideration and evaluation of various factors. Here are some steps to help you choose the right family health insurance plan:</p>
+
+            <div class="">
+                <p class="posp-para">
+                 <b>   Assess Your Family’s Healthcare Needs:</b> Evaluate your family’s medical history, existing health conditions, and potential healthcare needs. Consider the age of family members, the number of members to be covered, and any specific requirements such as maternity coverage or coverage for pre-existing conditions.
+                </p>
+                <p class="posp-para">
+                    <b>Coverage and Benefits: </b>Look for a health plan that offers comprehensive coverage, including hospitalization expenses, pre and post-hospitalization coverage, ambulance charges, daycare procedures, and maternity benefits. Check for coverage of specific treatments and procedures that may be important for your family.
+                </p>
+
+                <p class="posp-para">
+                    <b>Network Hospitals: </b>Check the list of network hospitals affiliated with the insurance provider. A wide network of hospitals will ensure easy access to quality healthcare services without cash payments in case of emergencies.
+                </p>
+                <p class="posp-para">
+                    <b>Sum Insured:</b> Choose an adequate sum insured that will be sufficient to cover medical expenses for your entire family. Consider inflation and rising medical costs while deciding the coverage amount.
+                </p>
+                <p class="posp-para">
+                    <b>Waiting Periods:</b> Be aware of waiting periods for pre-existing conditions, maternity coverage, and specific treatments. Choose a plan with the least waiting periods for maximum benefits.
+                </p>
+                <p class="posp-para">
+                  <b>  Co-payment and Deductibles:</b> Understand the co-payment and deductible clauses in the policy. Co-payment requires you to pay a percentage of the medical bill, while deductibles require you to pay a fixed amount before the insurance coverage kicks in.Claim Settlement Ratio: Check the claim settlement ratio of the insurance company. Higher claim settlement ratios indicate smoother claim processes and better reliability.
+                </p>
+                <p class="posp-para">
+                  <b>  Exclusions:</b> Thoroughly read the policy’s exclusions to know what medical conditions or treatments are not covered. Be aware of any limitations or restrictions on certain procedures.
+                </p>
+                <p class="posp-para">
+                   <b> Additional Riders:</b> Evaluate additional riders or add-on covers available with the policy, such as critical illness cover, personal accident cover, or daily cash allowance.
+                </p>
+                <p class="posp-para">
+                  <b>  Premium Cost: </b>Compare premiums of different family health plans while considering the coverage and benefits they offer. Choose a plan that provides a balance between affordability and comprehensive coverage.
+                </p>
+                <p class="posp-para">
+                  <b>  Customer Reviews and Ratings:</b> Research customer reviews and ratings of the insurance company to understand their reputation for customer service and claim settlement.
+                </p>
+                <p class="posp-para">
+                   <b> Consult with an Insurance Advisor:</b> If needed, seek advice from an insurance advisor or agent who can help you understand the details of various family health plans and assist in choosing the best option based on your family’s needs and budget.
+                </p>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- end -->
+
+
+
+
+
+  <!-- What is Family Health Insurance?-->
+  <div class="container-fluid p-5 health my-5">
+    <div class="container">
+        <div class="row g-2 align-items-center">
+            <div class="section-title text-center mb-5">
+                <h1 class="mb-4 text-center">
+                    Process of Purchasing a <span>Family Health Insurance</span> Policy
+                </h1>
+            </div>
+    
+            <p class="posp-para">
+                Choosing the best family health insurance plan is crucial to safeguard your family’s well-being. It depends on various factors such as family size, age, health conditions, and budget. Family health insurance offers the convenience of covering all family members under a single policy, providing comprehensive medical coverage. On the other hand, individual health insurance allows more personalized coverage, but premiums may be higher for each family member. If you have a large family or want a more cost-effective option, family health insurance may be the better choice. However, if family members have specific healthcare needs or pre-existing conditions, individual plans could be more suitable. It is essential to compare different policies, assess the benefits, coverage limits, and exclusions to make an informed decision that meets your family’s healthcare requirements. Consult with insurance experts or use online tools to get quotes and find the best family health insurance plan that offers optimal coverage and financial protection for your loved ones.
+                Aapka Policywala has simplified the process of insurance buying and renewal a lot. Other than family health insurance, thousands of people also trust us for personal accident insurance, group health insurance, and cancer insurance in India as well! And the best thing is the purchase process is super simple.
+            </p>
+    
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+    <!-- Process for Resolving Claims Under a Family Health Insurance Policy-->
+
+    <div class="container py-3">
+        <div class="section-title">
+            <h1 class="mb-4 text-center">
+                Who All Are Eligible To Buy Crop Insurance?
+            </h1>
+            <p class="posp-para">The claim settlement process of a family health insurance policy involves several steps to ensure a smooth and hassle-free experience for the policyholder. Here’s a general overview of the process:</p>
+        </div>
+        <div class="row number-cards g-5 py-5">
+            <!-- Repeat this block for each card -->
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">1</div>
+                <div class="custom-card-v11">
+
+                    <h2>Intimation</h2>
+                    <p>In case of hospitalization or medical treatment, the policyholder must inform the insurance company about the claim. This can be done through the insurer’s customer service helpline or online portal. The insurer will guide you on the further steps.</p>
+                </div>
+            </div>
+            <!-- Repeat the above block and increment the number for each card (2, 3, 4, etc.) -->
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">2</div>
+                <div class="custom-card-v11">
+
+                    <h2>Submit Documents</h2>
+                    <p>The policyholder needs to submit the required documents to support the claim. These may include the claim form, hospitalization bills, medical reports, prescriptions, discharge summary, and any other relevant documents.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">3</div>
+
+                <div class="custom-card-v11">
+                    <h2>Verification</h2>
+                    <p>The insurance company will review the submitted documents to verify the claim’s validity and coverage under the policy. They may contact the hospital or medical service provider for additional information if needed.</p>
+                </div>
+            </div>
+            <!-- Continue this pattern to create up to 12 cards -->
+            <!-- Example for the 4th card -->
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">4</div>
+
+                <div class="custom-card-v11">
+                    <h2>Pre-authorization</h2>
+                    <p>For planned hospitalizations, the insurer may provide pre-authorization for cashless treatment at the network hospitals. In emergency cases, pre-authorization may not be possible, and reimbursement can be claimed later.
+                    </p>
+                </div>
+            </div>
+            <!-- Add more cards as needed -->
+            <!-- Example for the 5th card -->
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">5</div>
+
+                <div class="custom-card-v11">
+                    <h2>Claim Settlement</h2>
+                    <p>Once the verification process is complete, and the claim is approved, the insurer will settle the claim. If it is a cashless claim, the insurer will directly settle the medical bills with the hospital. In the case of reimbursement, the insured will receive the payment after submitting all necessary documents.</p>
+                </div>
+            </div>
+            <!-- Example for the 6th card -->
+            <div class="col-lg-4 col-md-6 custom-card-wrapper">
+                <div class="number">6</div>
+
+                <div class="custom-card-v11">
+                    <h2>Dispute Resolution</h2>
+                    <p>If there are any disagreements or disputes regarding the claim settlement, the policyholder can approach the insurance company’s grievance redressal cell or insurance ombudsman for resolution.</p>
+                </div>
+            </div>
+           
+
+        </div>
+    </div>
+
+    <!-- end -->
+
+
+
+
+
+
+
+
+  <!-- get or renew -->
+  <div class="container-fluid team py-3 mt-5">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="0.4s">
+                <div class="section-title text-left mb-5">
+                    <h1 class="mb-4 renew-title">
+                        <span> Get or Renew</span> Your Insurance with Aapka Policywala
+                    </h1>
+                    <p class="mb-4 renew-para">
+                        We are just a call away. Feel free to contact us
+                    </p>
+                    <button class="main-btn"><a href="#">Contact Us </a></button>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="health-img ps-md-5">
+                    <img src="./images/renew.png" class="img-fluid w-100" alt="Image" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- end -->
+
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start footer-2 text-muted">
+        <!-- Section: Links  -->
+        <div class="p-4">
+            <div class="container-fluid text-center text-md-start">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Motor Insurance</h6>
+                        <p><a href="#!" class="text-reset">Car Insurance</a></p>
+                        <p><a href="#!" class="text-reset">Two Wheeler</a></p>
+                        <p><a href="#!" class="text-reset">Goods Carrying</a></p>
+                        <p><a href="#!" class="text-reset">Passenger Carrying</a></p>
+                        <p><a href="#!" class="text-reset">Misc-D Insurance</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Life Insurance</h6>
+                        <p><a href="#!" class="text-reset">Group Term Insurance</a></p>
+                        <p><a href="#!" class="text-reset">Term Life Insurance</a></p>
+                        <p><a href="#!" class="text-reset">1 Crore Term Insurance</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Resources</h6>
+                        <p><a href="#!" class="text-reset">POSP Partner</a></p>
+                        <p><a href="#!" class="text-reset">Tutorial</a></p>
+                        <p><a href="#!" class="text-reset">Video Tutorial</a></p>
+                        <p><a href="#!" class="text-reset">Article</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">About Us</h6>
+                        <p><a href="#!" class="text-reset">Terms of Service</a></p>
+                        <p><a href="#!" class="text-reset">Privacy Policy</a></p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+
+                <!-- Second row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+
+                        <p>
+                            <i class="fa-solid fa-location-dot pe-2"></i> Booth No. 13, Anaj
+                            Mandi, Bhattu Mandi, Bhattu Kalan, Fatehbad, Haryana - 125053
+                        </p>
+
+                        <p><i class="fa-solid fa-phone-volume pe-2"></i>+91 8390008390</p>
+                        <p>
+                            <i class="fa-solid fa-envelope pe-2"></i> info@aapkapolicywala.com
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Follow us on</h6>
+                        <div class="social-icons">
+                            <a href="#!" class="text-reset"><i class="fab fa-instagram fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-linkedin fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-pinterest fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-youtube fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-facebook-f fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-twitter fa-lg"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Grid column -->
+                </div>
+                <!-- Second row -->
+            </div>
+        </div>
+        <!-- Section: Links -->
+
+        <!-- Copyright -->
+        <div class="text-center description p-4" style="background-color: rgba(0, 0, 0, 0.05)">
+            <p class="description-heading-1 py-2 text-center">
+                Aapka Policywala Insurance
+                <span style="color: #e89e3f">Broking Services</span> Pvt. Ltd.
+            </p>
+            <p class="description-para-1 py-2 text-center">
+                IRDAI Registration Code: IRDAI / DB1058 / 2023 | IRDAI Registration
+                No.: 933| Category: Direct (Life & General) | License Valid:
+                19.01.2024 - 18.01.2027
+            </p>
+            <p class="text-left disclaimer py-5">
+                <b>Disclaimer:</b>Insurance is the subject matter of solicitation.
+                Visitors are hereby informed that their information submitted on the
+                website may be shared with insurers. The product information for
+                comparison displayed on this website is of the insurers with whom our
+                company has an agreement. Product information is authentic and solely
+                based on the information received from the Insurer.
+            </p>
+        </div>
+    </footer>
+
+    <!-- end -->
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz4fnFO9gybBogGz9qQJbXUjXT1ZtAn1Ry5zVSrK7SwppV8xv8Q5XlWJ9Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-pprn3073KE6tl6ERvA6knXKa2QKN8R6bJ5L3VGsBzHrtvPpBfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+
+
+
+</body>
+</html>

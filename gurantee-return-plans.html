@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apna Policy</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Ribeye&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@100..900&display=swap" rel="stylesheet" />
+
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-none d-lg-flex" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>General Insurance</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>Life Insurance</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>Knowledge Base</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><span>Become a Posp Partner</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><span>Contact us</span></a>
+                    </li>
+                </ul>
+                <button class="main-btn ms-4">Sign up</button>
+            </div>
+            <div class="offcanvas offcanvas-end offcanvas-glass d-lg-none" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <a href="#" class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./images/logo.png"
+                            alt="" /></a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                General Insurance
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Life Insurance
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Knowledge Base
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Become a Posp Partner</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- end navabr -->
+
+    <!-- head -->
+
+    <div class="container-fluid general px-5 my-5">
+       <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6 col-md-6">
+                <div class="section-title text-left mb-5">
+                    <h1 class="renew-title">
+                        Buy <span>Guaranteed Return Plans</span> Online
+                    </h1>
+                    <p class="">
+                        Guaranteed return plans offer a reliable avenue for wealth
+                        accumulation while providing peace of mind through assured
+                        returns. Whether you’re seeking long term savings, retirement
+                        planning, or wealth preservation, Aapka Policywala offers a
+                        variety of guaranteed return products in India online to secure
+                        your financial future.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="health-img">
+                    <img src="./images/guranted-return-plan.png" class="img-fluid w-100 py-4" alt="Image" />
+                </div>
+            </div>
+        </div>
+       </div>
+    </div>
+    <!-- end -->
+
+    <!--  What is a Guaranteed Return Plan?-->
+    <div class="container p-5 my-2">
+        <div class="row g-2 align-items-center">
+            <div class="section-title text-center ">
+                <h1 class="mb-4 text-center">
+                    What is a <span>Guaranteed Return Plan?</span>
+                </h1>
+            </div>
+
+            <p class="posp-para">
+                A Guaranteed Return Plan, also known as a Guaranteed Savings Plan or
+                Guaranteed Investment Plan, is a type of financial product offered by
+                insurance companies or financial institutions that promises a
+                predetermined rate of return on the invested amount over a specified
+                period. These plans are designed to provide investors with a
+                combination of safety, stability, and guaranteed returnson their
+                investments. While the advantages of guaranteed return plans are many,
+                they will appear only if you buy your policy from one of the
+                top online insurance companies in India. Make an informed decision
+                with your guaranteed return policy purchase by choosing Aapka
+                Policywala!
+            </p>
+        </div>
+    </div>
+
+    <!-- end -->
+
+    <!--What are Benefits of Guaranteed Return Plans? -->
+
+    <div class="container py-3">
+        <div class="row g-3 align-items-center">
+            <div class="section-title">
+                <h1 class="text-center">
+                    What are Benefits of <span>Guaranteed Return Plans?</span>
+                </h1>
+            </div>
+            <p class="posp-para text-left px-5">
+                Guaranteed Return Plans offer a multitude of benefits that make them
+                an attractive option for investors seeking safety, stability, and
+                assured returns on their investments. Here are some key benefits of
+                choosing Guaranteed Return Plans offered by Aapka Policywala online:
+            </p>
+
+            <div class="container my-5">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Assured Returns</h2>
+                                        <p class="posp-para">
+                                            One of the primary benefits of Guaranteed Return Plans
+                                            is the assurance of a fixed rate of return on the
+                                            invested amount. Unlike market-linked investment options
+                                            where returns are subject to market fluctuations,
+                                            Guaranteed Return Plans provide investors with certainty
+                                            and predictability regarding the growth of their
+                                            investment. This assurance of guaranteed returns offers
+                                            peace of mind to investors, especially those with a low
+                                            risk tolerance or seeking capital preservation.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Capital Preservation</h2>
+                                        <p class="posp-para">
+                                            Guaranteed Return Plans prioritize the preservation of
+                                            invested capital by offering assured returns along with
+                                            the principal amount at maturity. This feature makes
+                                            them an ideal investment option for individuals,
+                                            couples, and families looking to safeguard their capital
+                                            while earning a steady and predictable return on their
+                                            investments. The guaranteed returns ensure that
+                                            investors' capital remains intact, even during periods
+                                            of market volatility or economic uncertainty.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Financial Security</h2>
+                                        <p class="posp-para">
+                                             Guaranteed Return Plans provide investors with a sense
+                                            of financial security and stability by offering a
+                                            reliable source of income or lump sum payout at
+                                            maturity. This financial security is particularly
+                                            valuable for individuals with long-term goals such as
+                                            retirement, education expenses, and wealth preservation.
+                                            The assured returns and capital preservation features of
+                                            Guaranteed Return Plans help people achieve their
+                                            financial objectives with confidence.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Rising Medical Costs</h2>
+                                        <p class="posp-para">
+                                            Cancer treatment can be a marathon, not a sprint.
+                                            Hospitalization, surgery, chemotherapy, and radiation
+                                            are just some of the expenses you might face. These
+                                            costs can quickly spiral upwards. They can deplete your
+                                            savings and jeopardize your financial stability.Buying
+                                            the best cancer insurance online will offer a lump sum
+                                            payout upon diagnosis. Meaning, you can focus on getting
+                                            better without the added stress of mounting bills.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Coverage Beyond Traditional Health Insurance:</h2>
+                                        <p class="posp-para">
+                                            While health insurance is crucial, it may not cover all
+                                            aspects of cancer treatment. Certain procedures,
+                                            medications, or post-treatment care might fall outside
+                                            the scope of your existing plan. Cancer insurance
+                                            specifically bridges this gap. It offers comprehensive
+                                            coverage for a wide range of cancer-related expenses.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Financial Security for Your Family:</h2>
+                                        <p class="posp-para">
+                                            A cancer diagnosis can have a ripple effect on your
+                                            loved ones. With the added burden of medical bills, the
+                                            ability to manage household expenses, childcare, or even
+                                            maintain employment can become challenging. A cancer
+                                            insurance policy will act as a financial safety net. It
+                                            will make sure your family's well-being is not
+                                            compromised during this difficult time.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Rising Medical Costs</h2>
+                                        <p class="posp-para">
+                                            Cancer treatment can be a marathon, not a sprint.
+                                            Hospitalization, surgery, chemotherapy, and radiation
+                                            are just some of the expenses you might face. These
+                                            costs can quickly spiral upwards. They can deplete your
+                                            savings and jeopardize your financial stability.Buying
+                                            the best cancer insurance online will offer a lump sum
+                                            payout upon diagnosis. Meaning, you can focus on getting
+                                            better without the added stress of mounting bills.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Coverage Beyond Traditional Health Insurance:</h2>
+                                        <p class="posp-para">
+                                            While health insurance is crucial, it may not cover all
+                                            aspects of cancer treatment. Certain procedures,
+                                            medications, or post-treatment care might fall outside
+                                            the scope of your existing plan. Cancer insurance
+                                            specifically bridges this gap. It offers comprehensive
+                                            coverage for a wide range of cancer-related expenses.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Financial Security for Your Family:</h2>
+                                        <p class="posp-para">
+                                            A cancer diagnosis can have a ripple effect on your
+                                            loved ones. With the added burden of medical bills, the
+                                            ability to manage household expenses, childcare, or even
+                                            maintain employment can become challenging. A cancer
+                                            insurance policy will act as a financial safety net. It
+                                            will make sure your family's well-being is not
+                                            compromised during this difficult time.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+
+    <!--What are the Requirements for a Guaranteed Return Plan? -->
+
+    <div class="container py-2">
+        
+            <div class="row g-5 align-items-center">
+                <div class="section-title mb-">
+                    <h1 class="mb-4 text-left">
+                        What are the
+                        <span> Requirements for a Guaranteed Return Plan?</span>
+                    </h1>
+                    <p class="posp-para text-left">
+                        Guaranteed Return Plans offer a straightforward and accessible
+                        investment option for individuals seeking assured returns and
+                        capital preservation. To participate in a Guaranteed Return Plan,
+                        you typically need to fulfill certain requirements, which may vary
+                        depending on the specific plan and the insurance company in
+                        question. Here are the common requirements for a Guaranteed Return
+                        Plan:
+                    </p>
+                </div>
+            </div>
+
+            <div class="container my-2">
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered custom-table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Documents</th>
+                                <th scope="col">Requirement</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><b>Minimum Age Requirement</b></td>
+                                <td>
+                                    Most Guaranteed Return Plans have a minimum age requirement
+                                    for investors to participate in the plan. The minimum age
+                                    can vary depending on the insurance company and the specific
+                                    plan, but it typically ranges from 18 to 65 years. This
+                                    requirement ensures that investors are of legal age to enter
+                                    into a financial contract and make informed decisions about
+                                    their investments
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Premium Payment</b></td>
+                                <td>
+                                    Investors are required to make premium payments towards the Guaranteed Return Plan as per the terms and conditions of the plan. The premium amount and payment frequency (e.g., monthly, quarterly, annually) are determined at the time of policy issuance and may vary based on factors such as the investor's age, coverage amount, and chosen plan options.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Policy Tenure</b></td>
+                                <td>
+                                    Guaranteed Return Plans have a fixed policy tenure during which investors are required to maintain the policy and make regular premium payments. The policy tenure can vary depending on the specific plan, but it typically ranges from 5 to 30 years. Investors must adhere to the policy tenure to receive the assured returns and maturity benefits at the end of the policy term.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Medical Underwriting</b></td>
+                                <td>
+                                    Depending on the sum assured or coverage amount chosen by the investor, some Guaranteed Return Plans may require medical underwriting. Medical underwriting involves assessing the investor's health and medical history to determine the insurability and premium rates. This requirement ensures that the insurance provider accurately assesses the risk associated with insuring the investor and sets appropriate premium rates..
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Risk Appetite Assessment</b></td>
+                                <td>
+                                    Investors are encouraged to assess their risk appetite and investment objectives before investing in ULIPs. Since ULIPs invest in market linked investment funds, investors should understand the associated risks and potential returns. Insurance providers typically offer multiple investment funds with varying risk profiles (e.g., equity funds, debt funds), allowing investors to choose funds that align with their risk tolerance and investment goals.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Nomination</b></td>
+                                <td>
+                                    Investors are required to nominate a beneficiary or beneficiaries who will receive the maturity benefit or death benefit in the event of the investor's demise during the policy term. This requirement ensures that investors' loved ones are financially protected and receive the benefits of the Guaranteed Return Plan as per their wishes.
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+           
+        
+    </div>
+
+    <!-- end -->
+
+
+
+
+
+
+    <!-- Why Us for a Guaranteed Return Plan?-->
+ 
+        <div class="container py-3">
+            <div class="container py-5">
+                <div class="row g-2 align-items-center">
+                    <div class="section-title text-center ">
+                        <h1 class="mb-4 text-center">
+                            Why Us for a <span>Guaranteed Return Plan?</span>
+                        </h1>
+                    </div>
+                    <p class="posp-para">Choosing Aapka Policywala for your Guaranteed Return Plan offers a range of advantages and benefits tailored to meet your financial goals and provide peace of mind. Here’s why Aapka Policywala is the ideal partner for your Guaranteed Return Plan needs:</p>
+                    <div class="d-flex flex-wrap justify-content-center">
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+                                <p class="head mb-4 text-left">Expertise and Experience</p>
+                                <p class="para">
+                                    Aapka Policywala boasts a team of seasoned insurance professionals and POSPs with extensive experience. Our advisors possess in-depth knowledge of popular guaranteed return schemes offered by leading insurance companies, ensuring that you get personalized guidance tailored to your unique financial situation and goals.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+                                <p class="head mb-4 text-left">Customized Solutions</p>
+                                <p class="para">
+                                    We understand that every individual's financial needs and goals are unique. At Aapka Policywala, we offer personalized Guaranteed Return Plan solutions online designed to meet your specific requirements and objectives. Whether you're looking for a plan with a higher guaranteed rate of return, flexible premium payment options, or additional riders for enhanced coverage, we have the expertise to tailor a solution that aligns perfectly with your needs
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+                                <p class="head mb-4 text-left">Comprehensive Coverage Options</p>
+                                <p class="para">
+                                    Aapka Policywala partners with leading insurance providers in India to offer a diverse range of guaranteed return plans. Whether you're interested in traditional endowment plans, unit-linked schemes, or combination plans that offer both insurance coverage and investment growth, we have it all.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+                                <p class="head mb-4 text-left">Transparent and Hassle-Free Process</p>
+                                <p class="para">
+                                    We believe in transparency and integrity throughout the insurance planning process. Aapka Policywala simplifies the insurance buying journey by offering a hassle-free, transparent process. Our advisors provide clear explanations of plan terms, coverage options, and premiums, empowering you to make informed decisions.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+                                <p class="head mb-4 text-left">Continuous Support</p>
+                                <p class="para">
+                                    At Aapka Policywala, our commitment to your financial wellbeing extends beyond policy enrollment. We provide ongoing support and assistance throughout the life of your Guaranteed Return Plan. Our team remains accessible to address any queries, update your coverage as needed, and ensure that your plan evolves with your changing needs over time
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+                                <p class="head mb-4 text-left">Customer Satisfaction</p>
+                                <p class="para">
+                                    Customer satisfaction is at the heart of everything we do at Aapka Policywala. We prioritize your needs and preferences, striving to deliver exceptional service and satisfaction at every interaction.
+                                </p>
+                            </div>
+                        </div>
+                      
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <!-- end -->
+
+
+
+
+ <!-- testimonil -->
+
+ <div class="container-fluid py-2">
+
+    <div class="row g-2 align-items-center">
+        <div class="section-title text-center ">
+            <h1 class="mb-4 text-center">
+                <span>Health Insurance</span> Renewal Reviews
+            </h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, nihil.</p>
+        </div>
+    </div>
+    <div class="container py-5" id="testimonials">
+        <div class="slider">
+            <div class="slide-track testimonial-container">
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-1.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">SUZANA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-2.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">LÍVIA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-3.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">KÁTIA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-4.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">MATHEUS</p>
+                    </div>
+                </div>
+                <!-- Duplicate the slides to create an infinite loop effect -->
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-1.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">SUZANA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-2.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">LÍVIA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-3.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">KÁTIA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-4.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">MATHEUS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+<script>
+    document.querySelector('.slider').addEventListener('mouseover', function () {
+        document.querySelector('.slide-track').style.animationPlayState = 'paused';
+    });
+
+    document.querySelector('.slider').addEventListener('mouseout', function () {
+        document.querySelector('.slide-track').style.animationPlayState = 'running';
+    });
+</script>
+<!-- end -->
+
+  
+ <!-- get or renew -->
+ <div class="container-fluid team py-3 mt-5">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="0.4s">
+                <div class="section-title text-left mb-5">
+                    <h1 class="mb-4 renew-title">
+                        <span> Get or Renew</span> Your Insurance with Aapka Policywala
+                    </h1>
+                    <p class="mb-4 renew-para">
+                        We are just a call away. Feel free to contact us
+                    </p>
+                    <button class="main-btn"><a href="#">Contact Us </a></button>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="health-img ps-md-5">
+                    <img src="./images/renew.png" class="img-fluid w-100" alt="Image" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- end -->
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start footer-2 text-muted">
+        <!-- Section: Links  -->
+        <div class="p-4">
+            <div class="container text-center text-md-start">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Motor Insurance</h6>
+                        <p><a href="#!" class="text-reset">Car Insurance</a></p>
+                        <p><a href="#!" class="text-reset">Two Wheeler</a></p>
+                        <p><a href="#!" class="text-reset">Goods Carrying</a></p>
+                        <p><a href="#!" class="text-reset">Passenger Carrying</a></p>
+                        <p><a href="#!" class="text-reset">Misc-D Insurance</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Life Insurance</h6>
+                        <p><a href="#!" class="text-reset">Group Term Insurance</a></p>
+                        <p><a href="#!" class="text-reset">Term Life Insurance</a></p>
+                        <p><a href="#!" class="text-reset">1 Crore Term Insurance</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Resources</h6>
+                        <p><a href="#!" class="text-reset">POSP Partner</a></p>
+                        <p><a href="#!" class="text-reset">Tutorial</a></p>
+                        <p><a href="#!" class="text-reset">Video Tutorial</a></p>
+                        <p><a href="#!" class="text-reset">Article</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">About Us</h6>
+                        <p><a href="#!" class="text-reset">Terms of Service</a></p>
+                        <p><a href="#!" class="text-reset">Privacy Policy</a></p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+
+                <!-- Second row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+
+                        <p>
+                            <i class="fa-solid fa-location-dot pe-2"></i> Booth No. 13, Anaj
+                            Mandi, Bhattu Mandi, Bhattu Kalan, Fatehbad, Haryana - 125053
+                        </p>
+
+                        <p><i class="fa-solid fa-phone-volume pe-2"></i>+91 8390008390</p>
+                        <p>
+                            <i class="fa-solid fa-envelope pe-2"></i> info@aapkapolicywala.com
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Follow us on</h6>
+                        <div class="social-icons">
+                            <a href="#!" class="text-reset"><i class="fab fa-instagram fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-linkedin fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-pinterest fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-youtube fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-facebook-f fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-twitter fa-lg"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Grid column -->
+                </div>
+                <!-- Second row -->
+            </div>
+        </div>
+        <!-- Section: Links -->
+
+        <!-- Copyright -->
+        <div class="text-center description p-4" style="background-color: rgba(0, 0, 0, 0.05)">
+            <p class="description-heading-1 py-2 text-center">
+                Aapka Policywala Insurance
+                <span style="color: #e89e3f">Broking Services</span> Pvt. Ltd.
+            </p>
+            <p class="description-para-1 py-2 text-center">
+                IRDAI Registration Code: IRDAI / DB1058 / 2023 | IRDAI Registration
+                No.: 933| Category: Direct (Life & General) | License Valid:
+                19.01.2024 - 18.01.2027
+            </p>
+            <p class="text-left disclaimer py-5">
+                <b>Disclaimer:</b>Insurance is the subject matter of solicitation.
+                Visitors are hereby informed that their information submitted on the
+                website may be shared with insurers. The product information for
+                comparison displayed on this website is of the insurers with whom our
+                company has an agreement. Product information is authentic and solely
+                based on the information received from the Insurer.
+            </p>
+        </div>
+    </footer>
+
+    <!-- end -->
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz4fnFO9gybBogGz9qQJbXUjXT1ZtAn1Ry5zVSrK7SwppV8xv8Q5XlWJ9Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-pprn3073KE6tl6ERvA6knXKa2QKN8R6bJ5L3VGsBzHrtvPpBfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

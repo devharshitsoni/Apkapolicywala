@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apna Policy</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Ribeye&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@100..900&display=swap" rel="stylesheet" />
+
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-none d-lg-flex" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>General Insurance</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>Life Insurance</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>Knowledge Base</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><span>Become a Posp Partner</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><span>Contact us</span></a>
+                    </li>
+                </ul>
+                <button class="main-btn ms-4">Sign up</button>
+            </div>
+            <div class="offcanvas offcanvas-end offcanvas-glass d-lg-none" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <a href="#" class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./images/logo.png"
+                            alt="" /></a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                General Insurance
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Life Insurance
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Knowledge Base
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Become a Posp Partner</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- end navabr -->
+
+    <!-- head -->
+    <div class="container-fluid general px-5 my-5">
+       <div class="container">
+        <div class="row  align-items-center">
+            <div class="col-lg-6 col-md-6">
+                <div class="section-title text-left mb-5">
+                    <h1 class="renew-title">
+                        Buy <span>ULIP Insurance </span>
+                        Policy Online
+                    </h1>
+                    <p class="">
+                        ULIPs offer a unique blend of insurance coverage and investment opportunities,
+                        allowing individuals to secure their financial future while participating in the
+                        capital markets. Explore the features, benefits, and considerations of ULIP
+                        insurance policies, empowering you to make informed decisions tailored to
+                        your financial goals and risk appetite.
+                        from the unexpected.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 ">
+                <div class="health-img">
+                    <img src="./images/ulip.png" class="img-fluid w-100 py-4" alt="Image" />
+                </div>
+            </div>
+        </div>
+       </div>
+    </div>
+    <!-- end -->
+
+
+
+    <!--What is a ULIP Insurance Plan?-->
+    <div class="container p-5 my-2">
+        <div class="row g-3 align-items-center">
+            <div class="section-title text-center ">
+                <h1 class="mb-4 text-center">
+                    What is a <span>ULIP Insurance</span> Plan?
+                </h1>
+            </div>
+
+            <p class="posp-para">
+                A Unit Linked Insurance Plan (ULIP) is a unique financial scheme that combines the benefits of insurance
+                coverage and investment opportunities into a
+                single integrated plan. Introduced in India, ULIPs offer policyholders the flexibility to invest in a
+                variety of investment funds while providing life insurance
+                coverage simultaneously. These plans are structured to provide individuals with a holistic financial
+                solution that caters to their long-term goals and risk
+                tolerance.
+
+                While the advantages of ULIP plans are many, they will appear only if you buy your ULIP insurance policy
+                from one of the top online insurance companies
+                in India. Make an informed decision with your ULIP!
+            </p>
+        </div>
+    </div>
+
+    <!-- end -->
+
+
+
+
+
+    <!--What are the Benefits of ULIP Insurance Plan? -->
+
+    <div class="container py-3">
+        <div class="row g-1 align-items-center">
+            <div class="section-title">
+                <h1 class="text-center px-2">
+                    What are <span>the Benefits</span> of ULIP Insurance Plan?
+                </h1>
+            </div>
+            <p class="posp-para text-left px-4">
+                Unit Linked Insurance Plans (ULIPs) offer a range of benefits that make them a popular choice for
+                individuals seeking both insurance coverage and investment
+                opportunities. Here are some key benefits of ULIP insurance plans bought online or offline:
+            </p>
+
+            <div class="container my-5">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Dual Benefits of Insurance and Investmen</h2>
+                                        <p class="posp-para">
+                                            ULIPs provide policyholders with the dual
+                                            benefits of insurance coverage and i
+                                            nvestment growth. A portion of the
+                                            premium paid towards ULIPs is allocated
+                                            towards providing life insurance coverage,
+                                            ensuring financial protection for the
+                                            policyholder’s loved ones in the event of
+                                            the policyholder’s demise. Simultaneously,
+                                            the remaining portion of the premium is
+                                            invested in a variety of investment funds,
+                                            allowing policyholders to participate in
+                                            the capital markets and potentially earn
+                                            higher returns over the long term.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Flexibility in Investment Options</h2>
+                                        <p class="posp-para">
+                                            ULIPs offer policyholders flexibility in
+                                            choosing their investment options.
+                                            Policyholders can select from a range
+                                            of investment funds based on their risk
+                                            appetite and investment goals. These
+                                            funds typically include equity funds, debt
+                                            funds, and balanced funds, allowing
+                                            policyholders to diversify their
+                                            investments and tailor their portfolio to
+                                            their individual preferences.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Potential for Higher Returns</h2>
+                                        <p class="posp-para">
+                                            ULIPs bring the opportunity of earning
+                                            higher returns compared to traditional
+                                            insurance products. Since ULIPs invest in
+                                            market linked investment funds,
+                                            policyholders have the potential to benefit
+                                            from the growth of the capital markets
+                                            over the long term. By investing in equity-
+                                            oriented funds online or offline,
+                                            policyholders can capitalize on the growth
+                                            potential of the stock market, albeit with
+                                            higher market-related risks.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Flexibility in Premium Payments</h2>
+                                        <p class="posp-para">
+                                            ULIPs offer flexibility in premium payments,
+                                            allowing policyholders to choose the
+                                            premium payment frequency that suits
+                                            their financial situation. Policyholders can
+                                            opt for monthly, quarterly, semi-annual, or
+                                            annual premium payments based on their
+                                            cash flow and budgetary constraints. This
+                                            flexibility enables policyholders to manage
+                                            their premiums effectively and ensure
+                                            continuity of coverage.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Transparency and Visibility</h2>
+                                        <p class="posp-para">
+                                            ULIPs offer transparency and visibility in
+                                            terms of charges and fees associated
+                                            with the plan. Policyholders receive regular
+                                            statements detailing their fund value,
+                                            investment performance, and charges
+                                            deducted from the policy. This
+                                            transparency enables policyholders to
+                                            track the growth of their investments and
+                                            make informed decisions regarding their
+                                            ULIPs.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Tax Benefits</h2>
+                                        <p class="posp-para">
+                                            ULIP plans offer tax benefits under the
+                                            prevailing tax laws in India. Premiums
+                                            paid towards ULIPs are eligible for tax
+                                            deductions under Section 80C of the
+                                            Income Tax Act, subject to certain
+                                            conditions. Additionally, the maturity
+                                            proceeds and death benefit received from
+                                            ULIPs are tax-exempt under Section
+                                            10(10D) of the Income Tax Act, making
+                                            ULIPs a tax-efficient investment option.
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- end -->
+
+
+
+    <!-- What is the Requirement for Investing in ULIP Insurance Policy? -->
+
+    <div class="container py-2">
+       
+            <div class="row g-5 align-items-center">
+                <div class="section-title mb-">
+                    <h1 class="mb-4 text-left">
+                        What is <span> the Requirement</span> for Investing in ULIP Insurance Policy?
+                    </h1>
+                    <p class="posp-para text-left">
+                        Investing in a Unit Linked Insurance Plan (ULIP) requires individuals to fulfill certain
+                        requirements to initiate and maintain their policy effectively. These
+                        requirements ensure that investors understand the nature of ULIPs and make informed decisions
+                        aligned with their financial goals. Here are the key
+                        requirements for investing in a ULIP insurance policy:
+                    </p>
+                </div>
+            </div>
+
+            <div class="container my-2">
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered custom-table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Documents</th>
+                                <th scope="col">Requirement</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><b>Minimum Age Requirement</b></td>
+                                <td>
+                                    Most insurance providers have a minimum age requirement for investing in ULIPs,
+                                    typically ranging
+                                    from 18 to 65 years. This requirement ensures that investors are of legal age to
+                                    enter into a financial
+                                    contract and make decisions regarding their investments.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Know Your Customer (KYC) Compliance</b></td>
+                                <td>
+                                    Investors are required to fulfill the Know Your Customer (KYC) requirements mandated
+                                    by regulatory
+                                    authorities and insurance providers. This involves providing identity proof, address
+                                    proof, and other
+                                    relevant documents to verify the investor's identity and address. KYC compliance
+                                    ensures the legitimacy
+                                    of investors and helps prevent financial fraud.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Premium Payment</b></td>
+                                <td>
+                                    Investors are required to make premium payments towards their ULIP insurance policy
+                                    as per the terms
+                                    and conditions specified by the insurance company. The premium amount and payment
+                                    frequency
+                                    (e.g., monthly, quarterly, annually) are determined at the time of policy issuance
+                                    and may vary based on
+                                    factors such as the investor's age, coverage amount, and chosen plan options.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Policy Tenure</b></td>
+                                <td>
+                                    ULIPs have a fixed policy tenure during which investors are required to maintain the
+                                    policy and make
+                                    regular premium payments. The policy tenure can vary depending on the specific plan
+                                    chosen by the
+                                    investor, but it typically ranges from 5 to 30 years. Investors must adhere to the
+                                    policy tenure to
+                                    maximize the benefits of their ULIP investment.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Risk Appetite Assessment</b></td>
+                                <td>
+                                    Investors are encouraged to assess their risk appetite and investment objectives
+                                    before investing in
+                                    ULIPs. Since ULIPs invest in market linked investment funds, investors should
+                                    understand the
+                                    associated risks and potential returns. Insurance providers typically offer multiple
+                                    investment funds
+                                    with varying risk profiles (e.g., equity funds, debt funds), allowing investors to
+                                    choose funds that align
+                                    with their risk tolerance and investment goals.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Nomination</b></td>
+                                <td>
+                                    Investors are required to nominate a beneficiary or beneficiaries who will receive
+                                    the death benefit in
+                                    the event of the investor's demise during the policy term. This requirement ensures
+                                    that investors'
+                                    loved ones are financially protected and receive the benefits of the ULIP insurance
+                                    policy as per their
+                                    wishes.
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+      
+    </div>
+
+    <!-- end -->
+
+
+
+
+
+
+    <!--Why Us for ULIP Insurance Policy?-->
+    
+        <div class="container py-3">
+            <div class="container py-5">
+                <div class="row g-2 align-items-center">
+                    <div class="section-title text-center mb-2">
+                        <h1 class="mb-4 text-center">
+                            Why Us for <span>ULIP Insurance</span> Policy?
+                        </h1>
+                    </div>
+                    <p class="posp-para">Choosing Aapka Policywala for your Unit Linked Insurance Plan (ULIP) brings numerous advantages and benefits tailored to meet your financial goals. Here are
+                        some compelling reasons to choose Aapka Policywala for your ULIP insurance policy:</p>
+                    <div class="d-flex flex-wrap justify-content-center">
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+                                <p class="head mb-4 text-left">Expertise and Experience</p>
+                                <p class="para">
+                                    Aapka Policywala boasts a team of 
+                                    seasoned insurance professionals and 
+                                    POSP agents with extensive expertise in 
+                                    the ULIP sector. Our advisors possess in-
+                                    depth knowledge of various ULIP 
+                                    products offered by leading insurance 
+                                    companies, ensuring they can provide 
+                                    personalized  guidance tailored to your 
+                                    unique financial situation and goals.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+                                <p class="head mb-4 text-left">Customized Solutions</p>
+                                <p class="para">
+                                    We understand that every individual’s 
+                                    financial needs and goals are unique. At 
+                                    Aapka Policywala, we offer personalized 
+                                    ULIP solutions designed to meet your 
+                                    specific requirements and objectives. 
+                                    Whether you’re looking for a plan with a 
+                                    higher equity exposure, flexible premium 
+                                    payment options, or additional riders for 
+                                    enhanced coverage, we have the 
+                                    expertise to tailor a solution that aligns 
+                                    perfectly with your needs.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+                                <p class="head mb-4 text-left">Comprehensive Coverage Options</p>
+                                <p class="para">
+                                    Aapka Policywala partners with leading
+                                    insurance companies in India to offer a 
+                                    diverse range of ULIP products. Whether
+                                    you’re interested in equity-oriented ULIPs, 
+                                    debt-oriented ULIPs, or balanced ULIPs
+                                    that offer a mix of both, we provide 
+                                    comprehensive coverage options to suit 
+                                    your risk tolerance and investment goals.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+                                <p class="head mb-4 text-left">Transparent and Hassle-Free Process</p>
+                                <p class="para">
+                                    We believe in transparency and integrity
+                                    throughout the insurance planning 
+                                    process.Aapka Policywala simplifies the 
+                                    ULIP buying journey online by offering a 
+                                    hassle-free, transparent process from 
+                                    plan selection to enrollment. Our 
+                                    advisors provide clear explanations of 
+                                    plan features, charges, and benefits, 
+                                    empowering you to make well-informed 
+                                    decisions with
+                                    confidence.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                            <div class="inner-text text-left">
+                                <p class="head mb-4 text-left">Continuous Support</p>
+                                <p class="para">
+                                    At Aapka Policywala, our commitment to 
+                                    your financial well being extends beyond 
+                                    policy enrollment. We provide ongoing 
+                                    support and assistance throughout the 
+                                    life of your ULIP insurance policy. Our 
+                                    team of insurance experts and POSP 
+                                    agents remains accessible to address 
+                                    any queries, monitor your investment 
+                                    performance, and ensure that your ULIP 
+                                    evolves with your changing financial 
+                                    needs over time.
+                                </p>
+                            </div>
+                        </div>
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+   
+
+    <!-- end -->
+
+
+
+
+ <!-- testimonil -->
+
+ <div class="container-fluid py-2">
+
+    <div class="row g-2 align-items-center">
+        <div class="section-title text-center ">
+            <h1 class="mb-4 text-center">
+                <span>Health Insurance</span> Renewal Reviews
+            </h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, nihil.</p>
+        </div>
+    </div>
+    <div class="container py-5" id="testimonials">
+        <div class="slider">
+            <div class="slide-track testimonial-container">
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-1.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">SUZANA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-2.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">LÍVIA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-3.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">KÁTIA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-4.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">MATHEUS</p>
+                    </div>
+                </div>
+                <!-- Duplicate the slides to create an infinite loop effect -->
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-1.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">SUZANA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-2.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">LÍVIA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-3.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">KÁTIA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-4.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">MATHEUS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+<script>
+    document.querySelector('.slider').addEventListener('mouseover', function () {
+        document.querySelector('.slide-track').style.animationPlayState = 'paused';
+    });
+
+    document.querySelector('.slider').addEventListener('mouseout', function () {
+        document.querySelector('.slide-track').style.animationPlayState = 'running';
+    });
+</script>
+<!-- end -->
+
+  
+ <!-- get or renew -->
+ <div class="container-fluid team py-3 mt-5">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="0.4s">
+                <div class="section-title text-left mb-5">
+                    <h1 class="mb-4 renew-title">
+                        <span> Get or Renew</span> Your Insurance with Aapka Policywala
+                    </h1>
+                    <p class="mb-4 renew-para">
+                        We are just a call away. Feel free to contact us
+                    </p>
+                    <button class="main-btn"><a href="#">Contact Us </a></button>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="health-img ps-md-5">
+                    <img src="./images/renew.png" class="img-fluid w-100" alt="Image" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- end -->
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start footer-2 text-muted">
+        <!-- Section: Links  -->
+        <div class="p-4">
+            <div class="container text-center text-md-start">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Motor Insurance</h6>
+                        <p><a href="#!" class="text-reset">Car Insurance</a></p>
+                        <p><a href="#!" class="text-reset">Two Wheeler</a></p>
+                        <p><a href="#!" class="text-reset">Goods Carrying</a></p>
+                        <p><a href="#!" class="text-reset">Passenger Carrying</a></p>
+                        <p><a href="#!" class="text-reset">Misc-D Insurance</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Life Insurance</h6>
+                        <p><a href="#!" class="text-reset">Group Term Insurance</a></p>
+                        <p><a href="#!" class="text-reset">Term Life Insurance</a></p>
+                        <p><a href="#!" class="text-reset">1 Crore Term Insurance</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Resources</h6>
+                        <p><a href="#!" class="text-reset">POSP Partner</a></p>
+                        <p><a href="#!" class="text-reset">Tutorial</a></p>
+                        <p><a href="#!" class="text-reset">Video Tutorial</a></p>
+                        <p><a href="#!" class="text-reset">Article</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">About Us</h6>
+                        <p><a href="#!" class="text-reset">Terms of Service</a></p>
+                        <p><a href="#!" class="text-reset">Privacy Policy</a></p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+
+                <!-- Second row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+
+                        <p>
+                            <i class="fa-solid fa-location-dot pe-2"></i> Booth No. 13, Anaj
+                            Mandi, Bhattu Mandi, Bhattu Kalan, Fatehbad, Haryana - 125053
+                        </p>
+
+                        <p><i class="fa-solid fa-phone-volume pe-2"></i>+91 8390008390</p>
+                        <p>
+                            <i class="fa-solid fa-envelope pe-2"></i> info@aapkapolicywala.com
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Follow us on</h6>
+                        <div class="social-icons">
+                            <a href="#!" class="text-reset"><i class="fab fa-instagram fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-linkedin fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-pinterest fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-youtube fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-facebook-f fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-twitter fa-lg"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Grid column -->
+                </div>
+                <!-- Second row -->
+            </div>
+        </div>
+        <!-- Section: Links -->
+
+        <!-- Copyright -->
+        <div class="text-center description p-4" style="background-color: rgba(0, 0, 0, 0.05)">
+            <p class="description-heading-1 py-2 text-center">
+                Aapka Policywala Insurance
+                <span style="color: #e89e3f">Broking Services</span> Pvt. Ltd.
+            </p>
+            <p class="description-para-1 py-2 text-center">
+                IRDAI Registration Code: IRDAI / DB1058 / 2023 | IRDAI Registration
+                No.: 933| Category: Direct (Life & General) | License Valid:
+                19.01.2024 - 18.01.2027
+            </p>
+            <p class="text-left disclaimer py-5">
+                <b>Disclaimer:</b>Insurance is the subject matter of solicitation.
+                Visitors are hereby informed that their information submitted on the
+                website may be shared with insurers. The product information for
+                comparison displayed on this website is of the insurers with whom our
+                company has an agreement. Product information is authentic and solely
+                based on the information received from the Insurer.
+            </p>
+        </div>
+    </footer>
+
+    <!-- end -->
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz4fnFO9gybBogGz9qQJbXUjXT1ZtAn1Ry5zVSrK7SwppV8xv8Q5XlWJ9Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-pprn3073KE6tl6ERvA6knXKa2QKN8R6bJ5L3VGsBzHrtvPpBfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

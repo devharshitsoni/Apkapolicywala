@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apna Policy</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Ribeye&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@100..900&display=swap" rel="stylesheet">
+
+
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+
+
+
+</head>
+
+<body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-none d-lg-flex" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>General Insurance</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>Life Insurance</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>Knowledge Base</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><span>Become a Posp Partner</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><span>Contact us</span></a>
+                    </li>
+                </ul>
+                <button class="main-btn ms-4">Sign up</button>
+            </div>
+            <div class="offcanvas offcanvas-end offcanvas-glass d-lg-none" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <a href="#" class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./images/logo.png"
+                            alt="" /></a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                General Insurance
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Life Insurance
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Knowledge Base
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Become a Posp Partner</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- end navabr -->
+
+    <!-- head -->
+
+    <div class="container-fluid general px-5 ">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 col-md-6">
+                    <div class="section-title text-left mb-5">
+                        <h1 class="renew-title">
+                            Buy Bharat <br> <span> Laghu Udyam
+                                Suraksha </span>Insurance
+                        </h1>
+                        <p class="">
+                            A thriving business deserves robust protection, and there can be nothing better than a policy
+                            backed by the government. Aapka Policywala brings Bharat Laghu Udyam Suraksha insurance, which
+                            is designed specifically for mid-sized enterprises. With the help of this government-backed
+                            scheme, you will have financial security against unforeseen events. Buy Bharat Laghu Udyam
+                            Suraksha insurance today and make sure your business operations continue uninterrupted and your
+                            investments are safeguarded! 
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="health-img">
+                        <img src="./images/bharat-laghu-udyam.png" class="img-fluid w-100 " alt="Image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+
+
+
+
+
+
+
+    <!--Understanding Bharat Laghu Udyam Suraksha Policy -->
+    <div class="container p-5 ">
+        <div class="row g-3 align-items-center">
+            <div class="section-title text-center ">
+                <h1 class=" text-center">
+                    Understanding <span>Bharat Laghu Udyam Suraksha</span> Policy 
+                </h1>
+            </div>
+
+            <p class="posp-para  text-center">
+                Imagine your business as a growing skyscraper. You’ve poured your heart and soul into its construction.
+                Each floor represents a milestone on your journey to success. But then an unforeseen event poses a
+                threat to your towering structure. Bharat Laghu Udyam Suraksha insurance policy will act as the
+                fortified foundation for your commercial high-rise!  This government-backed scheme is designed
+                specifically for the diverse needs of small and midsized businesses. Whether you run a bustling office,
+                a welcoming hotel, a vibrant shop, or a humming industrial unit, Bharat Laghu Udyam Suraksha policy will
+                provide comprehensive coverage. Its protective shield will cover not just your physical space but also
+                the equipment that keeps you running. Even essential utilities located outside your main premises,
+                storage facilities; even storage tanks or gas holders – all come under the watchful eye of this
+                insurance plan. Think of Bharat Laghu Udyam Suraksha as a financial safety net, catching you in case of
+                unexpected events like fire, theft, or natural disasters.This insurance policy will allow you to focus
+                on what matters most – Growing your business with confidence and reaching new heights of success, one
+                floor at a time! 
+            </p>
+        </div>
+    </div>
+
+    <!-- end -->
+
+
+
+
+
+
+
+
+
+
+    <!-- Bharat Laghu Udyam Suraksha: Major Highlights -->
+
+    <div class="container ">
+        <div class="row g-3 align-items-center">
+            <div class="section-title ">
+                <h1 class="text-center">
+                    <span> Bharat Laghu Udyam Suraksha:</span> Major Highlights
+                </h1>
+
+            </div>
+            <p class="posp-para text-left px-5">Understanding the intricacies of an insurance policy can feel
+                overwhelming. But fret not, Aapka Policywala has prepared a list of key features of Bharat Laghu Udyam
+                Suraksha. Here, this breakdown will make it easier for you to grasp its protective power:</p>
+
+            <div class="container-fluid my-5">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Policy Duration</h2>
+                                        <p class="posp-para">This insurance provides coverage for a period of up to
+                                            12months, ensuring your business remains shielded for a full year.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Sum Insured</h2>
+                                        <p class="posp-para">The policy caters to businesses with a total value of
+                                            assets exceeding Rs 5 crore but not surpassing Rs 50 crore. By defining the
+                                            sum insured beforehand, you can make sure you receive the
+                                            appropriatefinancial compensation in case of a covered incident.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>In-Built Covers</h2>
+                                        <p class="posp-para">Bharat Laghu Udyam Suraksha goes beyond the standard fire
+                                            and special perils (SFSP) coverage. It will offer additional protection
+                                            against unforeseen events. Basically, providing you with a big safety net
+                                            for your business.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Standard Add-Ons</h2>
+                                        <p class="posp-para">This policy listed on Aapka Policywala’s platform also offers the flexibility to add on valuable features like a floater for stocks and declaration policies to further customize your coverage and ensure specificneeds are addressed.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Basis of Sum Insured</h2>
+                                        <p class="posp-para">In the unfortunate event of property damage, this policy will reimburse you based on the reinstatement value on a new for old basis. Meaning, you’ll receive the cost required to rebuild your property or replace damaged equipment with new ones.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Underinsurance Waiver (up to 15%)</h2>
+                                        <p class="posp-para">Bharat Laghu Suraksha insurance policy acts as a buffer. It will protect you from a situation where the insured value is slightly lower than the actual value of your assets. Up to a 15% discrepancy won’t affect your claim
+                                            payout. (Note: This waiver does not apply to specifically covered items like money,important documents, etc.)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Excess</h2>
+                                        <p class="posp-para">A small excess amount of 5% of the claim amount (minimum Rs.10,000) will be applicable for each claim. This amount is borne by you before the insurance company settles the remaining claim amount. Make sure you buy one from a trusted online insurance site in India to get all the benefits of this government business insurance plan.</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end -->
+
+
+
+    <!-- Why Us for Bharat Lagu Suraksha Insurance? -->
+
+  
+        <div class="container py-3">
+            <div class="row g-3 align-items-center">
+                <div class="section-title mb-">
+                    <h1 class="mb-4 text-center">
+                        Why Us for <span> Bharat Lagu Suraksha Insurance?</span>
+                    </h1>
+                </div>
+                <p class="posp-para text-left px-5">As a business flourishes, securing its future becomes paramount.
+                    Bharat Laghu Udyam Suraksha insurance offers a powerful shield against unforeseen events. But you
+                    know what? Choosing the right platform to navigate the process is also crucial! 
+                    Here’s why Aapka Policywala stands out as your ideal partner for Bharat Laghu Udyam Suraksha
+                    insurance: </p>
+
+                    
+                        <div class="row justify-content-center">
+                            <div class="col-md-4 mb-4">
+                                <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                                    <div class="inner-text text-left">
+                                        <p class="head mb-4 text-left">Simplified Process and Expert Guidance</p>
+                                        <p class="para">
+                                            We understand that insurance can be complex. That’s why we offer a user-friendly online platform and dedicated team of insurance professionals to simplify the process. We will not only explain the Bharat Laghu Udyam Suraksha options clearly but also answer your questions and guide you in selecting the perfect plan that aligns with your specific business needs!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                                    <div class="inner-text text-left">
+                                        <p class="head mb-4 text-left">Streamlined Claims Assistance</p>
+                                        <p class="para">
+                                            In the event of a covered incident, Aapka Policywala is here to support you every step of the way. We'll guide you through the claims process, assist with necessary documentation, and advocate on your behalf to ensure a smooth and efficient claim settlement. Result? Minimum disruption to your business operations. This literally allows you to focus on getting back on track quickly.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                                    <div class="inner-text text-left">
+                                        <p class="head mb-4 text-left">Unmatched Customer Service</p>
+                                        <p class="para">
+                                            At Aapka Policywala, customer satisfaction is our top priority. That’s why we offer exceptional customer service throughout your Bharat Laghu Udyam Suraksha insurance journey. Our team is readily available to address your concerns, answer your questions, and provide ongoing support whenever you need it.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                  
+                    
+            </div>
+        </div>
+ 
+
+    <!-- end -->
+
+
+
+
+    <!--  Coverage and Exclusions of Laghu Udyam Insurance-->
+    <div class="container p-3 ">
+        <div class="row g-3 align-items-center">
+            <div class="section-title text-center ">
+                <h1 class=" text-center">
+                    Coverage and Exclusions of <span>Laghu Udyam Insurance</span>
+                </h1>
+            </div>
+            <p class="posp-para">Okay, we believe that a transparent approach to insurance is key. Here’s a breakdown of
+                what’s included and excluded in the Bharat Laghu Udyam Suraksha (BLUS) policy offered by Aapka
+                Policywala:</p>
+
+            <div class="">
+                <p class="posp-para">
+                    <b> Building and Structures:</b> This encompasses your business premises, including basements,
+                    essential fixtures and fittings, garages, towers, security sheds, internal roadways, elevators, air
+                    conditioning systems, security systems, electrical installations, fire sprinkler systems, and any
+                    other permanent structures within the insured location.
+                </p>
+                <p class="posp-para">
+                    <b> Inventory and Stock: </b>Bharat Laghu Udyam Suraksha policy will also help you safeguard your
+                    finished goods, semi-finished goods, stock in progress, raw materials, packaging materials, and
+                    other types of commodities or merchandise that are essential for your business operations.
+                </p>
+
+                <p class="posp-para">
+                    <b>Machinery and Equipment:</b> This insurance policy covers furniture, office equipment (including
+                    electronics), canteen and kitchen equipment, computers, and other valuable assets that keep your
+                    business running smoothly.
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- end -->
+
+
+
+
+    <!--  What's Not Covered Under Bharat Griha Raksha Insurance?-->
+    <div class="container p-5 my-3">
+        <div class="row g-3 align-items-center">
+            <div class="section-title text-center ">
+                <h1 class=" text-center">
+                    What's Not Covered Under <span> Bharat Griha Raksha Insurance?
+                    </span> </h1>
+            </div>
+
+
+            <div class="">
+                <p class="posp-para">
+                    <b> Intentional Acts:</b> The policy doesn’t cover losses or damages arising from deliberate
+                    actions, willful negligence, or intentional misconduct on your part.
+                </p>
+                <p class="posp-para">
+                    Missing or Mislaid Property: Bharat Laghu Udyam Suraksha policy doesn’t compensate for property that
+                    goes missing without a clear explanation or has been simply misplaced.
+                </p>
+
+                <p class="posp-para">
+                    <b> Indirect Losses:</b> The policy excludes coverage for consequential or indirect losses that may
+                    stem from a covered event. For example, if a fire damages your equipment and diminishes your
+                    business opportunities, that wouldn’t be covered.
+                </p>
+
+                <p class="posp-para">
+                    <b> Temperature-Related Losses:</b> The policy excludes coverage for consequential or indirect
+                    losses that may stem from a covered event. For example, if a fire damages your equipment and
+                    diminishes your business opportunities, that wouldn’t be covered.
+                </p>
+
+                <p class="posp-para">
+                    <b> Unoccupied Property: </b>If your insured premises remain unoccupied for more than 30 consecutive
+                    days, the property may be considered abandoned and coverage may cease to apply.
+                </p>
+                <p class="posp-para">
+                    <b> Specific Valuables:</b> Unless explicitly mentioned in an add-on cover, Bharat Laghu Udyam
+                    Suraksha insurance policy doesn’t cover bullion, unset precious stones, oddities, or works of art.
+                    These valuable items may require separate insurance coverage.
+                </p>
+                <p class="posp-para">
+                    <b> Electrical/Electronic Machinery Breakdown:</b> Standard Bharat Laghu Udyam Suraksha coverage
+                    doesn’t extend to damage caused by the breakdown of electrical or electronic machinery due to wear
+                    and tear or inherent malfunctions.
+
+            </div>
+        </div>
+    </div>
+
+    <!-- end -->
+
+
+
+    <!-- Filing a Laghu Udyam Suraksha Insurance Claim -->
+ 
+            <div class="container py-3">
+                <div class="row g-3 align-items-center">
+                    <div class="section-title text-center ">
+                        <h1 class=" text-center">
+                            Filing a <span>Laghu Udyam Suraksha Insurance</span> Claim
+                        </h1>
+                    </div>
+                    <p class="posp-para text-center">Experiencing a loss at your business can be stressful. Aapka Policywala is here
+                        to guide you through the claims process of your Bharat Laghu Udyam Suraksha insurance to ensure
+                        a smooth and swift resolution. Here’s what you need to do:</p>
+                        
+                            <div class="row justify-content-center">
+                                <div class="col-md-4 mb-4">
+                                    <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                                        <div class="inner-text text-left">
+                                            <p class="head mb-4 ">Notify Us Immediately</p>
+                                            <p class="para">
+                                                Contact Aapka Policywala as soon as possible after a covered incident occurs. The sooner we are informed, the faster we can begin assisting you with the claims process.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                                        <div class="inner-text ">
+                                            <p class="head mb-4 ">Report to Authorities</p>
+                                            <p class="para">
+                                                It’s important to file reports with the relevant authorities such as the police or fire department (depending on the nature of the incident). This documentation will be essential for your claim. 
+                                                Minimise Further Damage: Take all reasonable steps to prevent further damage to your property after the initial incident. This might involve securing the premises, boarding broken windows, and taking steps to prevent water damage from spreading.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                                        <div class="inner-text ">
+                                            <p class="head mb-4 ">Document the Damage</p>
+                                            <p class="para">
+                                                Take clear photographs and videos of the damaged property and surrounding areas. This visual evidence will be crucial in supporting your claim of Bharat Laghu Udyam Suraksha insurance policy!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                                        <div class="inner-text ">
+                                            <p class="head mb-4 ">Gather Necessary Documents</p>
+                                            <p class="para">
+                                                Start collecting any relevant documents related to the incident such as police reports, repair estimates, and receipts for any temporary repairs undertaken.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                                        <div class="inner-text ">
+                                            <p class="head mb-4 ">Submit a Claim Form Support</p>
+                                            <p class="para">
+                                                Aapka Policywala or its POSP agent will provide you with a claim form. Fill it out accurately and completely. Include all details about the incident and the extent of the damage.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                                        <div class="inner-text ">
+                                            <p class="head mb-4 ">Cooperate with Us</p>
+                                            <p class="para">
+                                                We understand this can be a challenging time. But hey, your cooperation is essential for us! Provide us with all requested information, documents, and access to the damaged property (if necessary) to facilitate a smooth claims investigation.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <div class="content-card card-custom-2" data-wow-delay="0.3s">
+                                        <div class="inner-text ">
+                                            <p class="head mb-4 ">Timely Action is Key</p>
+                                            <p class="para">
+                                                It’s important to submit your completed claim form within 30 days of noticing the loss or damage. This ensures your claim is processed efficiently and avoids any delays.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                       
+                        
+                </div>
+            </div>
+       
+
+    <!-- end -->
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!--=============================== testimonials ====================================-->
+
+  <div class="container align-items-center mt-3 px-5">
+    <div class="row">
+      <div class="section-title text-center ">
+        <img src="./main-page-img/slider-top.svg" class="testimonial-top-img pb-2" alt="" />
+        <h1 class="mb-1">Client love us & we love them</h1>
+        <p>Trusted by over 4,000 clients worldwide</p>
+      </div>
+    </div>
+  </div>
+  <div class="testimonial-container mb-5 overflow-hidden">
+    <div class="swiper-box"></div>
+    <div class="swiper-container mySwiper2 pb-5">
+      <div class="swiper-wrapper my-2 my-md-0">
+        <div class="swiper-slide">
+          <div class="d-flex align-items-center text-start swiper-slide-content ">
+            <img class="quote-image me-3" src="./main-page-img/slider-image.png" alt="Nathalie Grossman" />
+            <div class="content-div">
+              <img class="slider-mark" src="./main-page-img/slider-mark.png" alt="" />
+              <p class="mt-3">
+                We help our clients succeed by creating brand identities,
+                digital experiences, material that communicate clearly,
+                achieve marketing goals!
+              </p>
+              <div class="testimonial-author">Nathalie Grossman</div>
+              <div class="testimonial-role">CEO of Advisor Fue</div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="d-flex align-items-center text-start swiper-slide-content ">
+            <img class="quote-image me-3" src="./main-page-img/slider-image-1.png" alt="Nathalie Grossman" />
+            <div class="content-div">
+              <img class="slider-mark" src="./main-page-img/slider-mark.png" alt="" />
+              <p class="mt-3">
+                We help our clients succeed by creating brand identities,
+                digital experiences, material that communicate clearly,
+                achieve marketing goals!
+              </p>
+              <div class="testimonial-author">Nathalie Grossman</div>
+              <div class="testimonial-role">CEO of Advisor Fue</div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="d-flex align-items-center text-start swiper-slide-content ">
+            <img class="quote-image me-3" src="./main-page-img/slider-image.png" alt="Nathalie Grossman" />
+            <div class="content-div">
+              <img class="slider-mark" src="./main-page-img/slider-mark.png" alt="" />
+              <p class="mt-3">
+                We help our clients succeed by creating brand identities,
+                digital experiences, material that communicate clearly,
+                achieve marketing goals!
+              </p>
+              <div class="testimonial-author">Nathalie Grossman</div>
+              <div class="testimonial-role">CEO of Advisor Fue</div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="d-flex align-items-center text-start swiper-slide-content ">
+            <img class="quote-image me-3" src="./main-page-img/slider-image-1.png" alt="Nathalie Grossman" />
+            <div class="content-div">
+              <img class="slider-mark" src="./main-page-img/slider-mark.png" alt="" />
+              <p class="mt-3">
+                We help our clients succeed by creating brand identities,
+                digital experiences, material that communicate clearly,
+                achieve marketing goals!
+              </p>
+              <div class="testimonial-author">Nathalie Grossman</div>
+              <div class="testimonial-role">CEO of Advisor Fue</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Repeat similar blocks for other slides -->
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+      <!-- Add Navigation -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </div>
+
+  <!-- end -->
+
+    <!-- contact us -->
+
+    <div class="container p-5 my-3">
+        <div class="row g-3 align-items-center">
+            <div class="section-title text-center ">
+                <h1 class=" text-center">
+                    Contact Aapka Policywala </h1>
+            </div>
+            <p class="posp-para">Ready to find the perfect group health insurance plan for your business in India? Aapka Policywala is here to help. Contact our team of advisors for a free consultation and personalized quote. We’ll guide you through the process and ensure your employees receive the healthcare coverage they deserve.</p>
+        </div>
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="health-img ps-md-5">
+                    <img src="./images/support image.png" class="img-fluid w-100" alt="Image" />
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="0.4s">
+                <div class="form">
+                    <h2>Get in Touch</h2>
+                    <div class="d-flex justify-content-between">
+                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="Phone Number">
+                    </div>
+                    <input type="email" placeholder="Email">
+                    <textarea placeholder="Message"></textarea>
+                    <button class="main-btn">Submit</button>
+                </div>
+                
+            </div>
+           
+        </div>
+    </div>
+    <!-- end -->
+
+
+
+
+
+    <!-- get or renew -->
+    <div class="container-fluid team py-3 mt-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="0.4s">
+                    <div class="section-title text-left mb-5">
+                        <h1 class="mb-4 renew-title">
+                            <span> Get or Renew</span> Your Insurance with Aapka Policywala
+                        </h1>
+                        <p class="mb-4 renew-para">
+                            We are just a call away. Feel free to contact us
+                        </p>
+                        <button class="main-btn"><a href="#">Contact Us </a></button>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="health-img ps-md-5">
+                        <img src="./images/renew.png" class="img-fluid w-100" alt="Image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end -->
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start footer-2 text-muted">
+        <!-- Section: Links  -->
+        <div class="p-4">
+            <div class="container-fluid text-center text-md-start">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Motor Insurance</h6>
+                        <p><a href="#!" class="text-reset">Car Insurance</a></p>
+                        <p><a href="#!" class="text-reset">Two Wheeler</a></p>
+                        <p><a href="#!" class="text-reset">Goods Carrying</a></p>
+                        <p><a href="#!" class="text-reset">Passenger Carrying</a></p>
+                        <p><a href="#!" class="text-reset">Misc-D Insurance</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Life Insurance</h6>
+                        <p><a href="#!" class="text-reset">Group Term Insurance</a></p>
+                        <p><a href="#!" class="text-reset">Term Life Insurance</a></p>
+                        <p><a href="#!" class="text-reset">1 Crore Term Insurance</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Resources</h6>
+                        <p><a href="#!" class="text-reset">POSP Partner</a></p>
+                        <p><a href="#!" class="text-reset">Tutorial</a></p>
+                        <p><a href="#!" class="text-reset">Video Tutorial</a></p>
+                        <p><a href="#!" class="text-reset">Article</a></p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">About Us</h6>
+                        <p><a href="#!" class="text-reset">Terms of Service</a></p>
+                        <p><a href="#!" class="text-reset">Privacy Policy</a></p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+
+                <!-- Second row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+
+                        <p>
+                            <i class="fa-solid fa-location-dot pe-2"></i> Booth No. 13, Anaj
+                            Mandi, Bhattu Mandi, Bhattu Kalan, Fatehbad, Haryana - 125053
+                        </p>
+
+                        <p><i class="fa-solid fa-phone-volume pe-2"></i>+91 8390008390</p>
+                        <p>
+                            <i class="fa-solid fa-envelope pe-2"></i> info@aapkapolicywala.com
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Follow us on</h6>
+                        <div class="social-icons">
+                            <a href="#!" class="text-reset"><i class="fab fa-instagram fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-linkedin fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-pinterest fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-youtube fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-facebook-f fa-lg"></i></a>
+                            <a href="#!" class="text-reset"><i class="fab fa-twitter fa-lg"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Grid column -->
+                </div>
+                <!-- Second row -->
+            </div>
+        </div>
+        <!-- Section: Links -->
+
+        <!-- Copyright -->
+        <div class="text-center description p-4" style="background-color: rgba(0, 0, 0, 0.05)">
+            <p class="description-heading-1 py-2 text-center">
+                Aapka Policywala Insurance
+                <span style="color: #e89e3f">Broking Services</span> Pvt. Ltd.
+            </p>
+            <p class="description-para-1 py-2 text-center">
+                IRDAI Registration Code: IRDAI / DB1058 / 2023 | IRDAI Registration
+                No.: 933| Category: Direct (Life & General) | License Valid:
+                19.01.2024 - 18.01.2027
+            </p>
+            <p class="text-left disclaimer py-5">
+                <b>Disclaimer:</b>Insurance is the subject matter of solicitation.
+                Visitors are hereby informed that their information submitted on the
+                website may be shared with insurers. The product information for
+                comparison displayed on this website is of the insurers with whom our
+                company has an agreement. Product information is authentic and solely
+                based on the information received from the Insurer.
+            </p>
+        </div>
+    </footer>
+
+    <!-- end -->
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz4fnFO9gybBogGz9qQJbXUjXT1ZtAn1Ry5zVSrK7SwppV8xv8Q5XlWJ9Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-pprn3073KE6tl6ERvA6knXKa2QKN8R6bJ5L3VGsBzHrtvPpBfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

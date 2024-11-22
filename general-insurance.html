@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apna Policy</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Ribeye&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@100..900&display=swap" rel="stylesheet" />
+  
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./style.css" />
+  
+  
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="./images/logo.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-none d-lg-flex" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <span>General Insurance</span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <span>Life Insurance</span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <span>Knowledge Base</span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                ><span>Become a Posp Partner</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                ><span>Contact us</span></a
+              >
+            </li>
+          </ul>
+          <button class="main-btn ms-4">Sign up</button>
+        </div>
+        <div
+          class="offcanvas offcanvas-end offcanvas-glass d-lg-none"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <a href="#" class="offcanvas-title" id="offcanvasNavbarLabel"
+              ><img src="./images/logo.png" alt=""
+            /></a>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  General Insurance
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Life Insurance
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Knowledge Base
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Become a Posp Partner</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Contact us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- end navabr -->
+
+    <!-- head -->
+
+    <div class="container-fluid general px-5  ">
+    <div class="container">
+      <div class="row g-5 align-items-center">
+        <div class="col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="0.4s">
+          <div class="section-title text-left mb-5">
+            <h1 class=" renew-title">
+              Essential Coverage: <br>
+              <span>General Insurance </span>
+              Solution
+            </h1>
+            <p class=" ">
+              Gain peace of mind with versatile protection. General insurance
+              safeguards your assets and liabilities, covering a wide range of
+              risks from property damage to legal liabilities, ensuring you’re
+              prepared for life’s uncertainties.
+            </p>
+            <button class="main-btn"><a href="#">Contact Us </a></button>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+          <div class="health-img ">
+            <img
+              src="./images/General Insurance.svg"
+              class="img-fluid w-100"
+              alt="Image"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- end -->
+
+ <!-- second section -->
+ 
+    <div class="container-fluid slider py-2">
+        <div class="container-fluid  py-5">
+            <div class="row g-2 align-items-center">
+
+                <div class="section-title text-center mb-5">
+                    <h1 class="mb-4 text-center">What would you like to <span>Insure?</span>
+                    </h1>
+                    <p class="mb-4">Choose from our varieties of insurance packages to get the coverage you need</p>
+                </div>
+
+                <div class="">
+                    <div class="swiper swiperCarousel">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="card-v7">
+                                    <img class="avatar" src="./images/general-insurance/motor.png" />
+                                    <div class="quote-container">
+                                        <p class="quote">
+                                           Motor Insurance
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-v7">
+                                    <img class="avatar" src="./images/general-insurance/health.png" />
+                                    <div class="quote-container">
+                                        <p class="quote">
+                                            Health Insurance
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-v7">
+                                    <img class="avatar" src="./images/general-insurance/travel.png" />
+                                    <div class="quote-container">
+                                        <p class="quote">
+                                        Travel Insurance
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-v7">
+                                    <img class="avatar" src="./images/general-insurance/motor.png" />
+                                    <div class="quote-container">
+                                        <p class="quote">
+                                           Motor Insurance
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-v7">
+                                    <img class="avatar" src="./images/general-insurance/health.png" />
+                                    <div class="quote-container">
+                                        <p class="quote">
+                                            Health Insurance
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card-v7">
+                                    <img class="avatar" src="./images/general-insurance/travel.png" />
+                                    <div class="quote-container">
+                                        <p class="quote">
+                                        Travel Insurance
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                            
+                            
+                            
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <!-- get or renew -->
+ <!-- contact us section -->
+
+ <div class="container-fluid contact-us px-2 mt-2 mb-0">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="d-flex justify-content-center align-items-center">
+        <div class="bg-contact ">
+          <div class="d-flex">
+            <div class="help-heading">
+              <p class="head text-left">Got questions? We'd love to Answer</p>
+              <p class="para text-left">
+                With access to offerings from over 25 insurance providers in
+                India, finding the most cost-effective insurance plans has
+                With access to ........
+              </p>
+
+              <div class="pt-2">
+                <a href="tel:+91123456789" class="d-flex call-bg  ">
+                  <img src="./main-page-img/call.png" alt="" />
+                  <p>+91 123456789</p>
+                </a>
+                <a href="mailto:Mail@aapkapolicywala.com" class="d-flex call-bg ">
+                  <img src="./main-page-img/mail.png" alt="" />
+                  <p>Mail@aapkapolicywala.com</p>
+                </a>
+              </div>
+            </div>
+            <div class="d-none d-lg-block help-pc">
+              <img src="./main-page-img/help-pic.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- end -->
+
+<!-- end -->
+
+<!-- =====================information Strip======================== -->
+
+<div class="container-fluid information-strip">
+  <div class="container">
+    <div class="row justify-content-center my-auto sm-g-0 information-strip-inner text-center">
+      <div class="col-lg col-6 col-md-4 text-center mb-3 mb-md-0"> <!-- Added margin bottom for spacing -->
+        <p class="strip-head">24</p>
+        <p class="strip-para">YEARS</p>
+      </div>
+      <div class="col-lg col-6 col-md-4 text-center mb-3 mb-md-0">
+        <p class="strip-head">30Lakh+</p>
+        <p class="strip-para">CUSTOMERS</p>
+      </div>
+      <div class="col-lg col-6 col-md-4 text-center mb-3 mb-md-0">
+        <p class="strip-head">1100+</p>
+        <p class="strip-para">Cities</p>
+      </div>
+      <div class="col-lg col-6 col-md-4 text-center mb-3 mb-md-0">
+        <p class="strip-head">4200+</p>
+        <p class="strip-para">Outlets</p>
+      </div>
+      <div class="col-lg col-6 col-md-4 text-center mb-0 mb-md-0">
+        <p class="strip-head">3,27,301Cr+</p>
+        <p class="strip-para">CUSTOMER ASSETS</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <!-- Footer -->
+
+ <footer class="footer-st">
+  <!-- Disclaimer Section -->
+  <div class="footer-top-outer-st">
+    <div class="disclaimer-st">
+      <p class="disclaimer-text">
+        <b>Disclaimer:</b> Insurance is the subject matter of solicitation. Visitors are hereby informed
+        that their information submitted on the website may be shared with insurers. The product information
+        for comparison displayed on this website is of the insurers with whom our company has an agreement.
+        Product information is authentic and solely based on the information received from the Insurer.
+      </p>
+    </div>
+
+    <!-- Footer Top Section -->
+    <div class="footer-top">
+      <div class="footer-container-st">
+        <!-- Contact Info -->
+        <div class="footer-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <p>Booth No. 13, Anaj Mandi, <br> Bhattu Mandi, Bhattu Kalan, <br> Fatehbad, Haryana - 125053</p>
+        </div>
+        <div class="divider"></div>
+        <div class="footer-item">
+          <i class="fas fa-phone"></i>
+          <p>+91 8390008390</p>
+        </div>
+        <div class="divider"></div>
+        <div class="footer-item">
+          <i class="fas fa-envelope"></i>
+          <p>info@aapkapolicywala.com</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Link Section -->
+  <div class="container ">
+    <div class="row footer-menu-st">
+      <!-- Motor Insurance -->
+      <div class="column">
+        <h6 class="title-st">Motor Insurance</h6>
+        <p><a href="#">Car Insurance</a></p>
+        <p><a href="#">Two Wheeler</a></p>
+        <p><a href="#">Goods Carrying</a></p>
+        <p><a href="#">Passenger Carrying</a></p>
+        <p><a href="#">Misc-D Insurance</a></p>
+      </div>
+
+      <!-- Life Insurance -->
+      <div class="column">
+        <h6 class="title-st">Life Insurance</h6>
+        <p><a href="#">Group Term Insurance</a></p>
+        <p><a href="#">Term Life Insurance</a></p>
+        <p><a href="#">1 Crore Term Insurance</a></p>
+      </div>
+
+      <!-- Resources -->
+      <div class="column">
+        <h6 class="title-st">Resources</h6>
+        <p><a href="#">POSP Partner</a></p>
+        <p><a href="#">Tutorial</a></p>
+        <p><a href="#">Video Tutorial</a></p>
+        <p><a href="#">Article</a></p>
+      </div>
+
+      <!-- About Us -->
+      <div class="column">
+        <h6 class="title-st">About Us</h6>
+        <p><a href="#">Terms of Service</a></p>
+        <p><a href="#">Privacy Policy</a></p>
+        <p><a href="#">Solicitation Process</a></p>
+        <p><a href="#">Our History</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Social Icons -->
+  <div class="social-section">
+    <img src="./images/logo-dark.png" alt="Logo">
+    <div class="social-icons-st">
+      <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+      <a href="#"><i class="fab fa-linkedin fa-lg"></i></a>
+      <a href="#"><i class="fab fa-pinterest fa-lg"></i></a>
+      <a href="#"><i class="fab fa-youtube fa-lg"></i></a>
+      <a href="#"><i class="fab fa-facebook-f fa-lg"></i></a>
+      <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+    </div>
+  </div>
+
+  <!-- Copyright -->
+  <div class="copyright">
+    <p class="head">
+      Aapka Policywala Insurance <span class="highlight">Broking Services</span> Pvt. Ltd.
+    </p>
+    <p>
+      IRDAI Registration Code: IRDAI / DB1058 / 2023 | IRDAI Registration No.: 933 | Category: Direct (Life &
+      General) | License Valid: 19.01.2024 - 18.01.2027 <br>
+      Principal Officer: Pardeep Kumar | Registered Office : BOOTH NO. 13, ANAJ MANDI, BHATTU MANDI, BHATTU
+      KALAN, FATEHABAD, HR, IN, 125053 | <br>
+      Corporate Address : DSS-121-G-Floor Commercial UE-ll - Hisar - Haryana Pin Code- 125005 | Email Us:
+      info@aapkapolicywala.com | Call Us: +91 8390008390
+    </p>
+    <p>
+      @Copyright 2024 Aapkapolicywala Insurance Broking Services Pvt. Ltd.
+    </p>
+  </div>
+</footer>
+
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+ integrity="sha384-oBqDVmMz4fnFO9gybBogGz9qQJbXUjXT1ZtAn1Ry5zVSrK7SwppV8xv8Q5XlWJ9Q"
+ crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+ integrity="sha384-pprn3073KE6tl6ERvA6knXKa2QKN8R6bJ5L3VGsBzHrtvPpBfRvH+8abtTE1Pi6jizo"
+ crossorigin="anonymous"></script>
+<script type="text/javascript" src="./js.js"></script>
+<!-- =================================javascript text animation link ===================== -->
+<!--==================================== Swiper JS =====================================-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+<script src="./swiper.js"></script>
+  </body>
+</html>

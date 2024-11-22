@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apna Policy</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Ribeye&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@100..900&display=swap" rel="stylesheet" />
+
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-none d-lg-flex" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>General Insurance</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>Life Insurance</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>Knowledge Base</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><span>Become a Posp Partner</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><span>Contact us</span></a>
+                    </li>
+                </ul>
+                <button class="main-btn ms-4">Sign up</button>
+            </div>
+            <div class="offcanvas offcanvas-end offcanvas-glass d-lg-none" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <a href="#" class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./images/logo.png"
+                            alt="" /></a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                General Insurance
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Life Insurance
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Knowledge Base
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Become a Posp Partner</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- end navabr -->
+
+    <!-- head -->
+
+    <div class="container-fluid general px-5 my-5">
+       <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6 col-md-6">
+                <div class="section-title text-left mb-5">
+                    <h1 class="renew-title">
+                        Buy or Renew Best 1
+                        <span>Crore Term Insurance</span>
+                    </h1>
+                    <p class="">
+                        Secure your family’s financial well-being with our comprehensive 1 crore term insurance
+                        plan! Designed to provide peace of mind, our life insurance policies will help you make
+                        certain that your loved ones are protected against life’s uncertainties. Focusing on
+                        simplicity and reliability, Aapka Policywala offers the best 1 crore term insurance plans.
+                        Provide financial security that covers inflation and market fluctuations!
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="health-img">
+                    <img src="./images/crore-term.png" class="img-fluid w-100 py-4" alt="Image" />
+                </div>
+            </div>
+        </div>
+       </div>
+    </div>
+    <!-- end -->
+
+    <!--   Why Buy Premium 1 Crore Term Insurance?-->
+    <div class="container p-5 my-3">
+        <div class="row g-2 align-items-center">
+            <div class="section-title text-center ">
+                <h1 class="mb-4 text-center">
+                    Why Buy Premium <span>1 Crore Term Insurance?</span>
+                </h1>
+            </div>
+
+            <p class="posp-para">
+                Discover the ease and convenience of acquiring 1 Crore Term Insurance through Aapka Policywala. Imagine
+                a strong financial safety net that will protect your
+                family after you from the whirlwind of inflation. That’s what 1 crore term insurance policy is about.
+                <br> <br>
+                Buying 1 crore term insurance from one of the top term insurance companies in India gives strong
+                financial protection to your family. In the unfortunate event of
+                an insured’s demise during the policy term, beneficiaries or nominees receive the full 1 crore term
+                insurance payout. This will provide them required financial
+                support during challenging times.
+                <br> <br>
+                Make the smart choice for your family’s financial security. Trust Aapka Policywala’s platform to buy 1
+                crore term insurance today!
+            </p>
+
+        </div>
+    </div>
+
+    <!-- end -->
+
+
+
+
+
+
+
+    <!--Get 1 Crore Term Insurance Online with Aapka Policywala-->
+
+    <div class="container py-3">
+        <div class="row g-3 align-items-center">
+            <div class="section-title ">
+                <h1 class="text-center">
+                    <span>Get</span> 1 Crore Term <span>Insurance Online</span> with Aapka Policywala
+
+                </h1>
+
+            </div>
+            <p class="posp-para text-left px-5">At Aapka Policywala, we believe in empowering you to make informed
+                decisions about your financial future. With our platform, you gain access to a wide
+                range of term insurance options from leading insurance providers. This will help you find the perfect
+                fit for your 1 crore insurance needs. Here’s how you can
+                easily purchase 1 crore term insurance through Aapka Policywala:</p>
+
+            <div class="container my-5">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Browse and Compare</h2>
+                                        <p class="posp-para">Explore our user-friendly platform to
+                                            browse through a diverse selection of 1
+                                            crore term insurance plans from leading
+                                            insurers. Compare key features, premiums,
+                                            and benefits to find the policy that aligns
+                                            best with your requirements..</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Select Your Preferred Plan</h2>
+                                        <p class="posp-para">Done identifying a suitable plan? Simply
+                                            click on it to access detailed information.
+                                            Review the coverage amount, premium
+                                            rates, and policy terms to ensure that it
+                                            meets your expectations..</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Customize Your Coverage</h2>
+                                        <p class="posp-para">Many of our listed plans offer the flexibility
+                                            to customize your coverage based on your
+                                            specific needs. Adjust the sum assured to
+                                            achieve the desired level of financial
+                                            protection for your loved ones.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Calculate Your Premium</h2>
+                                        <p class="posp-para">Utilize our intuitive tools to calculate the
+                                            premium amount for your chosen 1
+                                            crore term insurance plan. Factor in
+                                            variables such as age, lifestyle, and
+                                            medical history to get an accurate
+                                            estimation of your monthly or annual
+                                            premium payments.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Fill Out the Application</h2>
+                                        <p class="posp-para">Once you're satisfied with your selection,
+                                            proceed to fill out the online application
+                                            form. Provide accurate personal and
+                                            contact information to initiate the
+                                            purchasing process seamlessly.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Review and Confirm</h2>
+                                        <p class="posp-para">Before finalizing your purchase, take a
+                                            moment to review all the details provided.
+                                            Make sure that the sum assured in your
+                                            term plan calculation aligns with your
+                                            financial goals and aspirations.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Complete the Transaction</h2>
+                                        <p class="posp-para">Once you've confirmed the accuracy of
+                                            the information provided, proceed to
+                                            complete the transaction securely
+                                            through our platform. Rest assured that
+                                            your data is protected and your purchase
+                                            is handled with the utmost
+                                            confidentiality!</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="custom-card-v10">
+                                        <h2>Receive Confirmation</h2>
+                                        <p class="posp-para">Upon successful completion of the
+                                            transaction, you'll receive quick
+                                            confirmation of your 1 crore term
+                                            insurance purchase. Your policy
+                                            documents will be issued promptly.
+                                            Congratulations, now you can relax on
+                                            your sofa knowing that your loved ones
+                                            are safeguarded.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- end -->
+
+
+
+
+
+
+    <!--Why a 1 Crore Term Policy? Inflation is the Answer-->
+    <div class="container p-5 my-3">
+        <div class="row g-2 align-items-center">
+            <div class="section-title text-center ">
+                <h1 class=" text-center">
+                    Why a 1 Crore Term Policy? <span>Inflation is the Answer</span>
+                </h1>
+
+            </div>
+            <p class="posp-para">Choosing a 1 crore term policy is like getting a shield for your family’s future amidst
+                the ever-changing winds of inflation. Here’s why it’s a smart move:</p>
+
+            <div class="">
+                <p class="posp-para">
+                    <b> Understanding Inflation:</b> Imagine your money's value shrinking over time like a balloon
+                    losing air. That's what inflation does! It makes everything costlier as
+                    time goes on. So, while 1 crore might seem like a hefty sum now, it might not stretch as far in the
+                    future.
+                </p>
+                <p class="posp-para">
+                    <b>Planning for Tomorrow: </b>Buying a 1 crore term insurance policy from Aapka Policywala isn't
+                    just about today. It's about protecting your family's tomorrow too!
+                    Think of it as a safety net that cushions them against life's uncertainties. It will help maintain
+                    their lifestyle, pay off debts, and fulfil dreams like education in
+                    premier colleges.
+                </p>
+
+                <p class="posp-para">
+                    <b>Future-Proofing Financial Security:</b> By opting for a 1 crore term policy online, you're
+                    essentially future-proofing your family's financial well-being. It
+                    anticipates the rise in living costs and ensures that the coverage remains robust enough to handle
+                    whatever life throws their way.
+                </p>
+                <p class="posp-para">
+                    <b>Comprehensive Coverage:</b> This isn't just any policy. It's a wide shield against the
+                    unpredictable. It's about more than just numbers. About peace of mind. With
+                    a 1 crore term policy from Aapka Policywala, you're not just protecting your family's present but
+                    safeguarding their future too.
+                </p>
+                <p class="posp-para">
+                    In essence, a 1 crore term policy isn’t just about numbers on a page. It’s about the security and
+                    stability it brings to your loved ones’ lives. It makes sure that no
+                    matter what tomorrow holds, your family will always have a solid foundation to stand on!
+                </p>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- end -->
+
+
+
+    <!--How’s Sum Assured Calculated in a Term Plan? -->
+    <div class="container-fluid group p-5 my-5">
+       <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="section-title text-center mb-5">
+                <h1 class="mb-4 text-center">
+                    How’s Sum Assured <span>Calculated</span> in a Term Plan?
+                </h1>
+                <p class="posp-para">Understanding how your sum assured is calculated in a 1 crore term insurance plan online can feel like piecing together a puzzle. But it’s not that difficult. Sum 
+                    assured basically means the cost of coverage or financial protection that your family (inheritors) will receive after your death during policy term.Put simply, 
+                    it’s the core benefit of a term insurance policy. Also, one of the primary aspects that define the policy’s premium. Here’s a breakdown:</p>
+            </div>
+
+            <div class="container my-5">
+                <div class="row g-5 justify-content-center align-items-center">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content-card card-custom-4" data-wow-delay="0.3s">
+                            <div class="inner-text text-center">
+                                <img src="./images/group-1.png" class="py-3" alt="">
+                                <p class="head mb-4 text-center">Income</p>
+                                <p class="para">
+                                    Think of your annual income as the
+                                    cornerstone. Typically, your sum assured
+                                    is pegged at 10 to 20 times your annual
+                                    earnings. It's like building a house that
+                                    matches your financial foundation.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content-card card-custom-4" data-wow-delay="0.3s">
+                            <div class="inner-text text-center">
+                                <img src="./images/brand-images/maruti.png" class="py-3" alt="">
+                                <p class="head mb-4 text-center">Financial Responsibilities</p>
+                                <p class="para">
+                                    Consider your outstanding debts and
+                                    future commitments. Whether it's
+                                    clearing loans or funding your children's
+                                    dreams, your sum assured should buffer
+                                    these financial obligations.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content-card card-custom-4" data-wow-delay="0.3s">
+                            <div class="inner-text text-center">
+                                <img src="./images/brand-images/maruti.png" class="py-3" alt="">
+                                <p class="head mb-4 text-center">Lifestyle & Livelihood</p>
+                                <p class="para">
+                                    Factor in your family's day-to-day needs
+                                    and aspirations. Your sum assured
+                                    should be a lifeline that sustains their
+                                    lifestyle. It should make sure they don't
+                                    miss a beat if you're no longer there to
+                                    provide.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content-card card-custom-4" data-wow-delay="0.3s">
+                            <div class="inner-text text-center">
+                                <img src="./images/group-2.png" class="py-3" alt="">
+                                <p class="head mb-4 text-center">Age & Health</p>
+                                <p class="para">
+                                    Your vitality matters. Younger, healthier
+                                    individuals often qualify for more
+                                    coverage at lower costs. Secure
+                                    maximum protection while you're in your
+                                    prime and get a 1 crore term insurance
+                                    cover from Aapka Policywala!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content-card card-custom-4" data-wow-delay="0.3s">
+                            <div class="inner-text text-center">
+                                <img src="./images/group-2.png" class="py-3" alt="">
+                                <p class="head mb-4 text-center">Inflation's Impact</p>
+                                <p class="para">
+                                    Okay, picture growing expenses over time.
+                                    Your sum assured should be a safeguard
+                                    against the eroding power of inflation.
+                                    Basically, ensuring it remains relevant in
+                                    the face of evolving financial landscapes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content-card card-custom-4" data-wow-delay="0.3s">
+                            <div class="inner-text text-center">
+                                <img src="./images/group-2.png" class="py-3" alt="">
+                                <p class="head mb-4 text-center">Existing Coverage</p>
+                                <p class="para">
+                                    If you're already covered elsewhere,
+                                    adjust accordingly. Your sum assured
+                                    should complement but not duplicate
+                                    existing insurance provisions and also
+                                    monthly/yearly premium expenses. This
+                                    is especially true because 1 crore
+                                    insurance has a decent premium.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+       </div>
+    </div>
+<!-- end -->
+
+    <!-- Calculating Premiums for a 1 Crore Term Insurance -->
+
+    <div class="container py-2">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="section-title mb-">
+                    <h1 class="mb-4 text-left">
+                        <span> Calculating Premiums</span> for a 1 Crore Term Insurance
+                    </h1>
+                    <p class="posp-para text-left">
+                        Calculating numbers for your 1 crore term insurance premium is simpler than it seems. All you
+                        need to do is to consider these aspects before buying or
+                        renewing the insurance online:
+                    </p>
+                </div>
+            </div>
+
+            <div class="container my-2">
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered custom-table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Documents</th>
+                                <th scope="col">Requirement</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><b>Age Factor</b></td>
+                                <td>
+                                    Yes, you read it right! Youth has its perks. Younger policyholders typically enjoy
+                                    lower premiums,
+                                    thanks to their lower perceived risk. It's like getting a discount for being on the
+                                    sunny side of life.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Sum Assured</b></td>
+                                <td>
+                                    Size does matter. Your 1 crore coverage directly influences your premium. The bigger
+                                    the sum assured,
+                                    the bigger the premium. It’s the price you have to pay for robust protection.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Payment Frequency</b></td>
+                                <td>
+                                    Like we said before, timing is everything. Opting for annual payments often unlocks
+                                    savings compared
+                                    to more frequent intervals. It's like buying in bulk. Less hassle but more value.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Riders and Benefits</b></td>
+                                <td>
+                                    Add-ons come at a cost. Any additional riders or benefits you tack onto your base
+                                    policy will bump up
+                                    your premium. Therefore, consider them like optional extras.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Tools at Your Fingertips</b></td>
+                                <td>
+                                    Leverage technology. Aapka Policywala and its partners offers an online premium
+                                    calculator that will
+                                    help you estimate costs based on your specifics. It's like having a financial
+                                    advisor in your pocket.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><b>Seek Expert Guidance</b></td>
+                                <td>
+                                    When in doubt, consult us. Our insurance experts will navigate the complexities.
+                                    They will make sure
+                                    you find the best one crore insurance policy and premium that fits your needs and
+                                    budget.
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- end -->
+
+  <!-- insurance partner slider -->
+
+  <div class="container-fluid  term py-5">
+
+    <div class="container ">
+        <div class="section-title text-center py-1 mb-2">
+            <h1 class="mb-4">
+                Our Partner 1 Crore Term <span>Insurance Providers</span>
+            </h1>
+<p class="pops-para">Discover a wealth of choices for your 1 crore term insurance needs. All conveniently listed on Aapka Policywala! With a diverse selection of insurance 
+    providers on our platform, finding the perfect 1 Cr policy to safeguard youfamily’s future has never been easier.
+    <br> <br>
+    From trusted names in the Indian insurance industry to innovative newcomers, our online insurance buying and renewal website offers a complete lineup 
+    of insurance providers. We ensure you can compare and choose the ideal 1 crore term insurance plan that suits your preferences and budget.</p>
+        </div>
+
+        <!-- slider -->
+        <div class="container my-5">
+            <div class="row justify-content-evenly">
+                <div class="col-lg-10">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-6 mb-4">
+                                        <div class="card-v4">
+                                            <img class="card-img-top"
+                                                src="./images/Bajaj-Allianz-General-Insurance.png"
+                                                alt="First slide">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 mb-4">
+                                        <div class="card-v4">
+                                            <img class="card-img-top" src="./images/Care-Health-Insurance.png"
+                                                alt="Second slide">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 mb-4">
+                                        <div class="card-v4">
+                                            <img class="card-img-top" src="./images/digit_insurance.png"
+                                                alt="Third slide">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 mb-4">
+                                        <div class="card-v4">
+                                            <img class="card-img-top" src="./images/Hdfc-Life-Insurance.png"
+                                                alt="Fourth slide">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-6 mb-4">
+                                        <div class="card-v4">
+                                            <img class="card-img-top"
+                                                src="./images/Iffco-Tokio-General-Insurance.png" alt="Fifth slide">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 mb-4">
+                                        <div class="card-v4">
+                                            <img class="card-img-top" src="./images/Kotak_general_insurance-1.png"
+                                                alt="Sixth slide">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 mb-4">
+                                        <div class="card-v4">
+                                            <img class="card-img-top" src="./images/Liberty-General-Insurance.png"
+                                                alt="Seventh slide">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 mb-4">
+                                        <div class="card-v4">
+                                            <img class="card-img-top" src="./images/Reliance-General-Insurance.png"
+                                                alt="Eighth slide">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-6 mb-4">
+                                        <div class="card-v4">
+                                            <img class="card-img-top" src="./images/TATA-Aig-Insurance.png"
+                                                alt="Ninth slide">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 mb-4">
+                                        <div class="card-v4">
+                                            <img class="card-img-top" src="./images/sbi-general.png"
+                                                alt="Tenth slide">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 mb-4">
+                                        <div class="card-v4">
+                                            <img class="card-img-top"
+                                                src="./images/ICICI-Lombard-General-Insurance.png"
+                                                alt="Eleventh slide">
+                                        </div>
+                                    </div>
+                                    <!-- Add more cards if needed -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- end -->
+
+<!-- testimonil -->
+
+<div class="container-fluid py-2">
+
+    <div class="row g-2 align-items-center">
+        <div class="section-title text-center ">
+            <h1 class="mb-4 text-center">
+                <span>Health Insurance</span> Renewal Reviews
+            </h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, nihil.</p>
+        </div>
+    </div>
+    <div class="container py-5" id="testimonials">
+        <div class="slider">
+            <div class="slide-track testimonial-container">
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-1.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">SUZANA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-2.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">LÍVIA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-3.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">KÁTIA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-4.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">MATHEUS</p>
+                    </div>
+                </div>
+                <!-- Duplicate the slides to create an infinite loop effect -->
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-1.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">SUZANA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-2.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">LÍVIA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-3.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">KÁTIA</p>
+                    </div>
+                </div>
+                <div class="slide testimonial">
+                    <div class="text">
+                        <div class="quote">&#8220;</div>
+                        <p class="review">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, esse
+                            quos error beatae dolores, dicta maxime libero optio voluptatem
+                            culpa, obcaecati omnis!
+                        </p>
+                    </div>
+                    <div class="info">
+                        <div class="pfp">
+                            <img src="./images/test-4.png" alt="Den Kerdian" />
+                        </div>
+                        <p class="text">MATHEUS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+<script>
+    document.querySelector('.slider').addEventListener('mouseover', function () {
+        document.querySelector('.slide-track').style.animationPlayState = 'paused';
+    });
+
+    document.querySelector('.slider').addEventListener('mouseout', function () {
+        document.querySelector('.slide-track').style.animationPlayState = 'running';
+    });
+</script>
+<!-- end -->
+
+  
+ <!-- get or renew -->
+ <div class="container-fluid team py-3 mt-5">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="0.4s">
+                <div class="section-title text-left mb-5">
+                    <h1 class="mb-4 renew-title">
+                        <span> Get or Renew</span> Your Insurance with Aapka Policywala
+                    </h1>
+                    <p class="mb-4 renew-para">
+                        We are just a call away. Feel free to contact us
+                    </p>
+                    <button class="main-btn"><a href="#">Contact Us </a></button>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="health-img ps-md-5">
+                    <img src="./images/renew.png" class="img-fluid w-100" alt="Image" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- end -->
+ -->
+
+<!-- Footer -->
+<footer class="text-center text-lg-start footer-2 text-muted">
+    <!-- Section: Links  -->
+    <div class="p-4">
+        <div class="container text-center text-md-start">
+            <!-- Grid row -->
+            <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">Motor Insurance</h6>
+                    <p><a href="#!" class="text-reset">Car Insurance</a></p>
+                    <p><a href="#!" class="text-reset">Two Wheeler</a></p>
+                    <p><a href="#!" class="text-reset">Goods Carrying</a></p>
+                    <p><a href="#!" class="text-reset">Passenger Carrying</a></p>
+                    <p><a href="#!" class="text-reset">Misc-D Insurance</a></p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">Life Insurance</h6>
+                    <p><a href="#!" class="text-reset">Group Term Insurance</a></p>
+                    <p><a href="#!" class="text-reset">Term Life Insurance</a></p>
+                    <p><a href="#!" class="text-reset">1 Crore Term Insurance</a></p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">Resources</h6>
+                    <p><a href="#!" class="text-reset">POSP Partner</a></p>
+                    <p><a href="#!" class="text-reset">Tutorial</a></p>
+                    <p><a href="#!" class="text-reset">Video Tutorial</a></p>
+                    <p><a href="#!" class="text-reset">Article</a></p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">About Us</h6>
+                    <p><a href="#!" class="text-reset">Terms of Service</a></p>
+                    <p><a href="#!" class="text-reset">Privacy Policy</a></p>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+
+            <!-- Second row -->
+            <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+
+                    <p>
+                        <i class="fa-solid fa-location-dot pe-2"></i> Booth No. 13, Anaj
+                        Mandi, Bhattu Mandi, Bhattu Kalan, Fatehbad, Haryana - 125053
+                    </p>
+
+                    <p><i class="fa-solid fa-phone-volume pe-2"></i>+91 8390008390</p>
+                    <p>
+                        <i class="fa-solid fa-envelope pe-2"></i> info@aapkapolicywala.com
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4">Follow us on</h6>
+                    <div class="social-icons">
+                        <a href="#!" class="text-reset"><i class="fab fa-instagram fa-lg"></i></a>
+                        <a href="#!" class="text-reset"><i class="fab fa-linkedin fa-lg"></i></a>
+                        <a href="#!" class="text-reset"><i class="fab fa-pinterest fa-lg"></i></a>
+                        <a href="#!" class="text-reset"><i class="fab fa-youtube fa-lg"></i></a>
+                        <a href="#!" class="text-reset"><i class="fab fa-facebook-f fa-lg"></i></a>
+                        <a href="#!" class="text-reset"><i class="fab fa-twitter fa-lg"></i></a>
+                    </div>
+                </div>
+
+                <!-- Grid column -->
+            </div>
+            <!-- Second row -->
+        </div>
+    </div>
+    <!-- Section: Links -->
+
+    <!-- Copyright -->
+    <div class="text-center description p-4" style="background-color: rgba(0, 0, 0, 0.05)">
+        <p class="description-heading-1 py-2 text-center">
+            Aapka Policywala Insurance
+            <span style="color: #e89e3f">Broking Services</span> Pvt. Ltd.
+        </p>
+        <p class="description-para-1 py-2 text-center">
+            IRDAI Registration Code: IRDAI / DB1058 / 2023 | IRDAI Registration
+            No.: 933| Category: Direct (Life & General) | License Valid:
+            19.01.2024 - 18.01.2027
+        </p>
+        <p class="text-left disclaimer py-5">
+            <b>Disclaimer:</b>Insurance is the subject matter of solicitation.
+            Visitors are hereby informed that their information submitted on the
+            website may be shared with insurers. The product information for
+            comparison displayed on this website is of the insurers with whom our
+            company has an agreement. Product information is authentic and solely
+            based on the information received from the Insurer.
+        </p>
+    </div>
+</footer>
+
+<!-- end -->
+
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="./js.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz4fnFO9gybBogGz9qQJbXUjXT1ZtAn1Ry5zVSrK7SwppV8xv8Q5XlWJ9Q"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+    integrity="sha384-pprn3073KE6tl6ERvA6knXKa2QKN8R6bJ5L3VGsBzHrtvPpBfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+
+
+
+
+</body>
+
+</html>
